@@ -121,7 +121,8 @@
 </template>
 
 <script>
-import axios from "axios";
+// import axios from "axios";
+import db from "./assets/db.json";
 import "./style/style.css";
 import BasDePage from "./components/BasDePage.vue";
 import Tri from "./components/Tri.vue";
@@ -134,20 +135,20 @@ export default {
   name: "App",
   data() {
     return {
-      projets: [],
+      projets: db,
       QuiSuisJeVisible: false,
       imgLogoBlanc: "./assets/logoBlanc.png",
       imgLogoOrange: "./assets/logoOrange.png",
     };
   },
-  async created() {
-    try {
-      const resProjets = await axios.get("http://localhost:3000/projets");
-      this.projets = resProjets.data;
-    } catch (e) {
-      console.error(e);
-    }
-  },
+  // async created() {
+  //   try {
+  //     const resProjets = await axios.get("http://localhost:3000/projets");
+  //     this.projets = resProjets.data;
+  //   } catch (e) {
+  //     console.error(e);
+  //   }
+  // },
   methods: {
     toggleQuiSuisJe() {
       this.QuiSuisJeVisible = true;
