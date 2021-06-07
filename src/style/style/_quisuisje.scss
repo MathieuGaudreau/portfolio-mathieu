@@ -1,0 +1,114 @@
+#moi {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 50px auto;
+    z-index: 1000;
+    animation: animSection 0.5s ease;
+
+    #moiImg {
+        z-index: 1000;
+        width: 25%;
+        margin-right: 10px;
+
+        @include breakpoint(tablet){
+            width: 40%;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    }
+    #moiTxt {
+        width: 30%;
+        color: $colorTxt;
+        margin-left: 10px;
+        z-index: 1000;
+
+        @include breakpoint(tablet){
+            width: 40%;
+        }
+
+        h2 {
+            font-family: $rightous;
+            margin-top: 0;
+            letter-spacing: 2px;
+            color: $highlight2;
+        }
+        p {
+            font-family: $nunito;
+        }
+
+        div {
+            h1 {
+                font-family: $rightous;
+                color: $highlight2;
+            }
+
+            ul {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                list-style-type: none;
+                z-index: 1000;
+
+                li {
+                    margin-right: 50px;
+
+                    a {
+                        font-family: $rightous;
+                        margin: 0;
+                        display: flex;
+                        align-items: center;
+                        color: $colorTxt;
+                        font-weight: lighter;
+                        position: relative;
+                        font-size: 1.2em;
+                        font-weight: 800;
+                        color: $colorTxt;
+                        overflow: hidden;
+                        background: linear-gradient(to right, $highlight2, $highlight2 50%, $highlight1 50%);
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        background-size: 200% 100%;
+                        background-position: 100%;
+                        transition: background-position 275ms ease;
+                        text-decoration: none; // text decorations are clipped in WebKit browsers
+
+                        i {
+                            margin: 0 0.5em;
+                            position: relative;
+                            display: inline-block;
+                            font-size: 1em;
+                            font-weight: 800;
+                            color: $colorTxt;
+                            overflow: hidden;
+                            background: linear-gradient(to right, $highlight2, $highlight2 50%, $highlight1 50%);
+                            background-clip: text;
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            background-size: 200% 100%;
+                            background-position: 100%;
+                            transition: background-position 275ms ease;
+                            text-decoration: none;
+                        }
+
+                        &:hover {
+                            color: $highlight1;
+                            background-position: 0 100%;
+                            cursor: pointer;
+                            i {
+                                color: $highlight1;
+                                animation: animLiens 0.5s ease infinite alternate-reverse;
+                                background-position: 0 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

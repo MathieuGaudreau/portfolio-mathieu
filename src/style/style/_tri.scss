@@ -1,0 +1,99 @@
+#tri {
+    z-index: 1000;
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+    margin-bottom: 30px;
+    font-family: $nunito;
+    color: $highlight1;
+    margin-left: 5px;
+    @include breakpoint(tablet) {
+        width: 100%;
+    }
+    @include breakpoint(mobile) {
+        width: 100%;
+    }
+    .border {
+        height: 5px;
+        width: 30%;
+        border-radius: 10px;
+        background: $highlight2;
+        margin-top: 5px;
+
+        @include breakpoint(tablet) {
+            width: 100%;
+        }
+
+        @include breakpoint(mobile) {
+            width: 100%;
+        }
+    }
+
+    ul {
+        margin: 0;
+        list-style-type: none;
+        display: flex;
+        flex-flow: row;
+        width: 30%;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 0;
+
+        @include breakpoint(tablet) {
+            width: 100%;
+        }
+        @include breakpoint(mobile) {
+            width: 100%;
+        }
+
+        li {
+            font-size: 1em;
+            font-weight: 800;
+            @include breakpoint(laptop) {
+                position: relative;
+                display: inline-block;
+
+                color: $colorTxt;
+                overflow: hidden;
+                background: linear-gradient(to right, $highlight2, $highlight2 50%, $highlight1 50%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-size: 200% 100%;
+                background-position: 100%;
+                transition: background-position 275ms ease;
+                text-decoration: none; // text decorations are clipped in WebKit browsers
+
+                &:hover {
+                    color: $highlight1;
+                    background-position: 0 100%;
+                    cursor: pointer;
+                }
+            }
+        }
+        .active {
+            color: $highlight2;
+            font-size: 1em;
+            font-weight: 800;
+            @include breakpoint(laptop) {
+                position: relative;
+                display: inline-block;
+
+                color: $highlight1;
+                overflow: hidden;
+                background: linear-gradient(to right, $highlight1, $highlight1 50%, $highlight2 50%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-size: 200% 100%;
+                background-position: -100%;
+                transition: background-position 275ms ease;
+                text-decoration: none; // text decorations are clipped in WebKit browsers
+                &:hover {
+                    background-position: 0 100%;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

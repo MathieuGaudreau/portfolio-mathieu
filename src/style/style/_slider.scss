@@ -1,0 +1,140 @@
+.sliders {
+    width: 65%;
+
+    @include breakpoint(tablet) {
+        width: 100%;
+    }
+    @include breakpoint(mobile) {
+        width: 100%;
+    }
+
+    .hooper {
+        height: 100%;
+        margin-top: 100px;
+        display: flex;
+
+        .hooper-slide {
+            display: flex;
+
+            @include breakpoint(tablet) {
+                width: 100%;
+            }
+            @include breakpoint(mobile) {
+                width: 100%;
+                flex-flow: column;
+            }
+
+            img {
+                max-width: 50%;
+                border-radius: 10px;
+                max-height: 20vw;
+
+                @include breakpoint(tablet) {
+                    max-height: max-content;
+                }
+                @include breakpoint(mobile) {
+                    max-width: 100%;
+                    max-height: max-content;
+                }
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+            .detailImg {
+                display: flex;
+                width: 50%;
+                flex-direction: column;
+                color: $colorTxt;
+                margin-left: 15px;
+
+                @include breakpoint(mobile) {
+                    width: 100%;
+                    margin-left: 0;
+                }
+                h3 {
+                    margin: 0;
+                    font-family: $rightous;
+                    letter-spacing: 2px;
+                }
+                p {
+                    margin-top: 10%;
+                    font-family: $nunito;
+                }
+            }
+        }
+    }
+
+    .hooper1Container {
+        .hooper-pagination {
+            width: 50%;
+            transform: translateX(0px);
+            justify-content: center;
+            bottom: -25px;
+
+            @include breakpoint(mobile) {
+                width: 100%;
+                transform: translatex(50%);
+            }
+            .hooper-indicator {
+                height: 12px;
+                width: 12px;
+                border-radius: 10px;
+                background: $highlight1;
+
+                &:hover {
+                    background: $highlight2;
+                }
+            }
+            .is-active {
+                background: $highlight2;
+            }
+        }
+    }
+
+    .hooper2Container {
+        .hooper2 {
+            flex-flow: row-reverse;
+
+            @include breakpoint(mobile) {
+                flex-flow: column;
+            }
+
+            .detailImg {
+                align-items: flex-end;
+                margin-right: 15px;
+
+                @include breakpoint(mobile) {
+                    align-items: flex-start;
+                    margin-right: 0;
+                }
+            }
+        }
+        .hooper-pagination {
+            width: 50%;
+            transform: translateX(0px);
+            justify-content: center;
+            left: 50%;
+            bottom: -25px;
+            @include breakpoint(mobile) {
+                width: 100%;
+
+                left: 0;
+            }
+            .hooper-indicator {
+                height: 12px;
+                width: 12px;
+                border-radius: 10px;
+                background: $highlight1;
+
+                &:hover {
+                    background: $highlight2;
+                }
+            }
+            .is-active {
+                background: $highlight2;
+            }
+        }
+    }
+}

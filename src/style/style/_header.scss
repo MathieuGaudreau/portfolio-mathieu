@@ -1,0 +1,94 @@
+header {
+    display: flex;
+    width: 80%;
+    margin: 40px auto;
+    justify-content: space-between;
+    z-index: 1000;
+    .logoHead {
+        margin-top: 0;
+        width: 50px;
+        z-index: 1000;
+        background-image: url(../assets/logoGris.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition: background-image 0.5s ease;
+        &:hover {
+            cursor: pointer;
+            background-image: url(../assets/logoRose.png);
+        }
+    }
+
+    #menuHead {
+        z-index: 1000;
+
+        @include breakpoint(tablet) {
+            display: none;
+        }
+
+        @include breakpoint(mobile){
+            display: none;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            list-style-type: none;
+            width: fit-content;
+            justify-content: space-between;
+            font-family: $rightous;
+            z-index: 1000;
+
+            li {
+                margin: 0 10px;
+            }
+            a {
+                position: relative;
+                display: inline-block;
+                font-size: 1.5em;
+                font-weight: 800;
+                overflow: hidden;
+                background: linear-gradient(to right, $highlight2, $highlight2 50%, $highlight1 50%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-size: 200% 100%;
+                background-position: 100%;
+                transition: background-position 275ms ease;
+                text-decoration: none; // text decorations are clipped in WebKit browsers
+                &:hover {
+                    background-position: 0 100%;
+                    cursor: pointer;
+                }
+            }
+
+            .active {
+                position: relative;
+                display: inline-block;
+                font-size: 1.5em;
+                font-weight: 800;
+                color: $highlight1;
+                overflow: hidden;
+                background: linear-gradient(to right, $highlight1, $highlight1 50%, $highlight2 50%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-size: 200% 100%;
+                background-position: -100%;
+                transition: background-position 275ms ease;
+                text-decoration: none; // text decorations are clipped in WebKit browsers
+                &:hover {
+                    background-position: 0 100%;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .border {
+            height: 5px;
+            width: 100%;
+            border-radius: 10px;
+            background: $highlight2;
+        }
+    }
+}

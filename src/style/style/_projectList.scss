@@ -1,0 +1,392 @@
+main {
+    display: flex;
+    height: 100%;
+    flex-flow: column;
+    align-items: center;
+    width: 80%;
+    margin: 100px auto;
+    margin-bottom: 50px;
+    animation: animSection 0.5s ease;
+
+    .projets {
+        width: 40%;
+
+        @include breakpoint(tablet) {
+            width: 100%;
+        }
+
+        @include breakpoint(mobile) {
+            width: 100%;
+        }
+
+        article {
+            display: flex;
+            flex-flow: column-reverse;
+            border-radius: 10px;
+            background-position: center;
+            background-size: cover;
+            min-height: 20vw;
+            margin: 10px 5px 0px 5px;
+            transition: filter 0.5s ease;
+
+            @include breakpoint(tablet) {
+                height: 50vw;
+            }
+
+            @include breakpoint(mobile) {
+                height: 50vw;
+            }
+
+            &:hover {
+                cursor: pointer;
+                filter: grayscale(0.7);
+            }
+        }
+    }
+
+    .projetNotActive {
+        display: none;
+    }
+
+    #listeProjets {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .detailsProjets {
+        animation: animDetails 0.5s ease;
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        z-index: 100;
+        align-items: center;
+        padding-top: 100px;
+
+        .headProjets {
+            width: 65%;
+            height: 35vw;
+            border-radius: 10px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+            @include breakpoint(tablet) {
+                width: 100%;
+                height: 50vw;
+            }
+
+            @include breakpoint(mobile) {
+                width: 100%;
+                height: 50vw;
+            }
+
+            .retour {
+                transform: translateY(-50px);
+                color: $colorTxt;
+                font-family: $nunito;
+                font-weight: lighter;
+                width: fit-content;
+                position: relative;
+                display: flex;
+                align-items: center;
+                font-size: 1em;
+                font-weight: 800;
+                color: $colorTxt;
+                overflow: hidden;
+                background: linear-gradient(to right, $highlight2, $highlight2 50%, $highlight1 50%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-size: 200% 100%;
+                background-position: 100%;
+                transition: background-position 275ms ease;
+                text-decoration: none; // text decorations are clipped in WebKit browsers
+                &:hover {
+                    color: $highlight1;
+                    background-position: 0 100%;
+                    cursor: pointer;
+
+                    i {
+                        animation: animFleche 0.5s ease infinite alternate-reverse;
+                        color: $highlight1;
+                        background-position: 0 100%;
+                    }
+                }
+                i {
+                    margin: 0 1em;
+                    position: relative;
+                    display: inline-block;
+                    font-size: 1em;
+                    font-weight: 800;
+                    color: $colorTxt;
+                    overflow: hidden;
+                    background: linear-gradient(to right, $highlight2, $highlight2 50%, $highlight1 50%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-size: 200% 100%;
+                    background-position: 100%;
+                    transition: background-position 275ms ease;
+                    text-decoration: none; // text decorations are clipped in WebKit browsers
+                }
+            }
+        }
+
+        .nomProjet {
+            display: flex;
+            flex-flow: column;
+            width: 65%;
+            margin-top: 10px;
+            font-family: $rightous;
+            color: $highlight2;
+
+            @include breakpoint(tablet) {
+                width: 100%;
+            }
+
+            @include breakpoint(mobile) {
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 3em;
+                margin: 0;
+            }
+            h4 {
+                font-size: 1.5em;
+                margin: 0;
+            }
+        }
+        .description {
+            display: flex;
+            width: 65%;
+            justify-content: space-between;
+            color: $colorTxt;
+            margin-top: 75px;
+
+            @include breakpoint(tablet) {
+                width: 100%;
+            }
+
+            @include breakpoint(mobile) {
+                width: 100%;
+                flex-flow: column;
+                align-items: center;
+            }
+
+            .txtDescription {
+                width: 50%;
+                justify-self: right;
+                font-family: $nunito;
+
+                @include breakpoint(mobile) {
+                    width: 100%;
+                }
+            }
+
+            h4 {
+                font-family: $rightous;
+                font-size: 1.5em;
+                letter-spacing: 1px;
+                margin: 0;
+                width: 70%;
+                color: $highlight2;
+
+                @include breakpoint(tablet) {
+                    font-size: 1.3em;
+                    width: 50%;
+                }
+            }
+
+            .descHalf {
+                width: 50%;
+                @include breakpoint(mobile) {
+                    width: 100%;
+                }
+                .rolesLogi {
+                    display: flex;
+                    width: 100%;
+                    margin-bottom: 50px;
+                    justify-content: space-between;
+
+                    ul {
+                        margin: 0;
+                        list-style-type: none;
+                        font-family: $nunito;
+                        padding: 0;
+                        width: 70%;
+
+                        @include breakpoint(tablet) {
+                            width: 50%;
+                        }
+
+                        li {
+                            @include breakpoint(mobile) {
+                                text-align: right;
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .divider {
+            width: 40%;
+            margin: 50px auto 30px auto;
+            height: 10px;
+            background: $highlight2;
+            border-radius: 10px;
+
+            @include breakpoint(tablet) {
+                width: 75%;
+            }
+
+            @include breakpoint(mobile) {
+                width: 75%;
+            }
+        }
+
+        .liensProjets {
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            color: $colorTxt;
+            font-family: $rightous;
+            letter-spacing: 2px;
+
+            @include breakpoint(tablet) {
+                justify-content: space-between;
+            }
+
+            @include breakpoint(mobile) {
+                justify-content: space-between;
+                flex-flow: column;
+                align-items: center;
+            }
+
+            a {
+                position: relative;
+                display: flex;
+                align-items: center;
+                font-size: 1em;
+                font-weight: 800;
+                color: $colorTxt;
+                overflow: hidden;
+                background: linear-gradient(to right, $highlight2, $highlight2 50%, $highlight1 50%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-size: 200% 100%;
+                background-position: 100%;
+                transition: background-position 275ms ease;
+                text-decoration: none; // text decorations are clipped in WebKit browsers
+
+                &:hover {
+                    color: $highlight1;
+                    background-position: 0 100%;
+                    cursor: pointer;
+                    i {
+                        color: $highlight1;
+                        animation: animLiens 0.5s ease infinite alternate-reverse;
+                        background-position: 0 100%;
+                    }
+                }
+
+                i {
+                    margin-left: 10px;
+                    position: relative;
+                    display: inline-block;
+                    font-size: 1em;
+                    font-weight: 800;
+                    color: $colorTxt;
+                    overflow: hidden;
+                    background: linear-gradient(to right, $highlight2, $highlight2 50%, $highlight1 50%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-size: 200% 100%;
+                    background-position: 100%;
+                    transition: background-position 275ms ease;
+                    text-decoration: none; // text decorations are clipped in WebKit browsers
+                }
+            }
+        }
+        .retourProjets {
+            margin-top: 100px;
+            h1 {
+                margin: 0;
+                display: flex;
+                align-items: center;
+                color: $colorTxt;
+                font-family: $nunito;
+                font-weight: lighter;
+                position: relative;
+                font-size: 1em;
+                font-weight: 800;
+                color: $colorTxt;
+                overflow: hidden;
+                background: linear-gradient(to right, $highlight2, $highlight2 50%, $highlight1 50%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-size: 200% 100%;
+                background-position: 100%;
+                transition: background-position 275ms ease;
+                text-decoration: none; // text decorations are clipped in WebKit browsers
+
+                i {
+                    margin: 0 1em;
+                    position: relative;
+                    display: inline-block;
+                    font-size: 1em;
+                    font-weight: 800;
+                    color: $colorTxt;
+                    overflow: hidden;
+                    background: linear-gradient(to right, $highlight2, $highlight2 50%, $highlight1 50%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-size: 200% 100%;
+                    background-position: 100%;
+                    transition: background-position 275ms ease;
+                    text-decoration: none;
+                }
+
+                &:hover {
+                    color: $highlight1;
+                    background-position: 0 100%;
+                    cursor: pointer;
+                    i {
+                        color: $highlight1;
+                        animation: animFleche 0.5s ease infinite alternate-reverse;
+                        background-position: 0 100%;
+                    }
+                }
+            }
+        }
+        .youtube {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-flow: column;
+            iframe {
+                border-radius: 10px;
+                width: 65%;
+                height: 40vw;
+
+                @include breakpoint(tablet) {
+                    width: 100%;
+                    height: 50vw;
+                }
+                @include breakpoint(mobile) {
+                    width: 100%;
+                    height: 50vw;
+                }
+            }
+        }
+    }
+}

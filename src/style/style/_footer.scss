@@ -1,0 +1,61 @@
+footer {
+
+    @include breakpoint(tablet) {
+        height: 75px;
+    }
+    display: flex;
+    background: black;
+    color: $fond;
+    flex-flow: column;
+    position: relative;
+    height: fit-content;
+    bottom: 0;
+    width: 100%;
+    height: 275px;
+    align-items: center;
+    justify-content: center;
+    z-index: 250;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: -4px;
+        background: $highlight2;
+        height: 8px;
+        border-radius: 10px;
+        width: 75%;
+    }
+
+    ul {
+        @include breakpoint(tablet) {
+            display: none;
+        }
+        padding: 0;
+        list-style: none;
+        display: flex;
+        width: 75%;
+        justify-content: space-around;
+        i {
+            color: $highlight2;
+            font-size: 4em;
+
+            &:hover {
+                color: #fff;
+                animation: animLiens 0.5s ease infinite alternate-reverse;
+            }
+        }
+    }
+
+    section {
+        text-align: center;
+        font-family: $rightous;
+        font-size: 0.7em;
+        h3 {
+            margin-bottom: 0;
+        }
+        h4 {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+}

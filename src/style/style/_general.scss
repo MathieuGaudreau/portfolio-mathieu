@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Righteous&display=swap");
+
+$fond: #f7f7f7;
+$highlight1: #7da2a9;
+$highlight2: #d48166;
+$colorTxt: black;
+
+$rightous: "Righteous", cursive;
+$nunito: "Nunito", sans-serif;
+
+@mixin breakpoint($taille) {
+    @if $taille == mobile {
+        @media (max-width: 767px) {
+            @content;
+        }
+    }
+    @if $taille == tablet {
+        @media (min-width: 768px) and (max-width: 1023px) {
+            @content;
+        }
+    }
+    @if $taille == laptop {
+        @media (min-width: 1024px) {
+            @content;
+        }
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: $fond;
+    margin: 0;
+
+    &::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+    }
+    &::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: $highlight1;
+        border-radius: 10px;
+    }
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+}
