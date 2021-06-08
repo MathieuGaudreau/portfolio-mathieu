@@ -43,11 +43,9 @@
         "date": "2020",
         "txt": [
             "Last Spark est un jeu d'action / aventure rogue-like où règne une constante présence sinistre. Le joueur doit réussir à survivre le plus longtemps possible et doit trouver les multiples mini boss pour ensuite vaincre le boss final.",
-            "Ce projet a été créé en équipe de 3 personnes sur l’étendue d’une session de cégep. Last Spark est un jeu développé avec Unity.",
-            "Dans ce projet, mon rôle était d'être chargé de projet, concepteur sonore, programmeur et intégrateur. J'ai aussi grandement participé à la conceptualisation du design du jeu (personnage, ennemi, environnent et gameplay)",
-            "Ce projet est le site web de mon jeu vidéo Last Spark et il s'agit de la plateforme sur laquelle le jeu est disponible pour téléchargement.",
-            "Nous devions donner une esthétique similaire à celle du jeu au site. Nous avons donc décidé de choisir des couleurs qui se contrastent très bien pour donner un effet sombre et mystérieux. Nous avons aussi mis un effet de particules et des images subtiles des ennemis du jeu pour rappeler les éléments que le joueur peut retrouver en jouant.",
-            "Le site web a été créé en équipe de 2 avec l’utilisation de HTML, CSS et JavaScript."
+            "Ce projet a été créé en équipe de 3 personnes sur l’étendue d’une session de cégep.",
+            "Nous avons aussi créé un site web pour le jeu qui sert de plateforme sur laquelle le jeu est disponible pour téléchargement.",
+            "Nous devions donner une esthétique similaire à celle du jeu sur le site. Nous avons donc décidé de choisir des couleurs qui se contrastent très bien pour donner un effet sombre et mystérieux. Nous avons aussi mis un effet de particules et des images subtiles des ennemis du jeu pour rappeler les éléments que le joueur peut retrouver en jouant."
         ],
         "LienProjet": "https://lastspark.netlify.app/",
         "LienYT": "https://www.youtube.com/embed/5FMPfM0h2wI",
@@ -71,7 +69,7 @@
             "Des écrans d'aides vont apparaitre lors du jeu pour expliquer au joueur les différentes méchaniques."
         ],
         "txtPhotos2": [
-            "Le feu de camp sert de safezone pour le joueur et il peut intéragir avec le feu pour se soigner et crafter.",
+            "Le feu de camp sert de safezone pour le joueur et il peut interagir avec le feu pour se soigner et crafter.",
             "Le joueur peut retrouver des ruines dans le jeu qui donne accès à des améliorations, des armes et un sort.",
             "Exemple de combat contre un boss. Les boss et les ennemies ont plus en plus de vies au fil que le jeu avance."
         ],
@@ -103,9 +101,8 @@
         "type": "web",
         "date": "2020",
         "txt": [
-            "Ce projet est un concept de site web pour le département de Techniques d’intégration multimédia du cégep de Maisonneuve qui a été développé en équipe de 5 </b> sur l’étendue d’une session de cégep.",
-            "Nous avons décidé de donner un nouveau look au site web beaucoup plus au gout du jour très inspiré du style et des couleurs cyberpunks.",
-            "Mon rôle dans ce projet était la création des maquettes graphiques et l'intégration web de la page des évènements."
+            "Ce projet est un concept de site web pour le département de Techniques d’intégration multimédia du cégep de Maisonneuve qui a été développé en équipe de 5 sur l’étendue d’une session de cégep.",
+            "Nous avons décidé de donner un nouveau look au site web beaucoup plus au goût du jour, très inspiré du style et des couleurs cyberpunks."
         ],
         "LienProjet": "https://techniques-integration-multimedia.netlify.app/",
         "GH": "https://github.com/MathieuGaudreau/TIM2020",
@@ -164,7 +161,7 @@
             "Ce jeu est le premier jeu que j'ai développé en 3D avec Unity et il a été créé en équipe de 2."
         ],
         "LienProjet": "https://mathieugaudreau.itch.io/the-strange-case-of-hollow-manor",
-        "canva":[
+        "canva": [
             "https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEXFFUQhjg&#x2F;view?embed"
         ],
         "GH": "https://github.com/MathieuGaudreau/HollowManor",
@@ -207,7 +204,7 @@
         "type": "creation",
         "date": "2019",
         "txt": [
-            "Ce projet avec comme but de créer différents objets et un sprite d'animation avec Illustrator pour être utiliser dans un jeu vidéo."
+            "Ce projet avec comme but de créer différents objets et un sprite d'animation pour être utilisé dans un jeu vidéo."
         ],
         "images1": [
             "https://i.ibb.co/ryVwVk3/Gaudreau-Cl-2.webp",
@@ -250,7 +247,7 @@
         "date": "2019",
         "txt": [
             "Ce projet avec comme but de créer une vidéo comprenant plusieures angles différents et un contenu avec une cohérance artistique.",
-            "Le film a été monté et éditer avec Premiere Pro"
+            "Le projet est inspiré d’émissions et de vidéos de cuisine comme Chef’s Table."
         ],
         "LienYT": "https://www.youtube.com/embed/nt1fpiuzrJo",
         "cover": "https://i.ibb.co/CwMJ24p/rovesciato-Cover.png",
@@ -269,7 +266,7 @@
         "type": "jeu",
         "date": "2019",
         "txt": [
-            "Nimh est un jeu qui a été développé avec la librairie Phaser et est un petit jeu de plateforme dans lequel le joueur doit réussir à sauter de plateforme en plateforme le plus longtemps possible."
+            "Nimh est un petit jeu de plateforme dans lequel le joueur doit réussir à sauter de plateforme en plateforme sans tomber dans le vide le plus longtemps possible."
         ],
         "LienProjet": "https://nimh.netlify.app/",
         "GH": "https://github.com/MathieuGaudreau/Nimh",
@@ -307,8 +304,9 @@
         "type": "jeu",
         "date": "2019",
         "txt": [
-            "Assassine est un concept de jeu qui a été développé en équipe de 4 dans le cadre d’un projet donné par le comité environnemental du cégep de Maisonneuve pour la journée de la terre 2019. Notre projet a reçu le prix du choix du comité environnemental du cégep.",
-            "Assassine est un RPG dans lequel le joueur est de reprendre contrôle de l’environnement de la terre en éliminant les CEO des compagnies qui polluent la planète pour ensuite les transformer en compagnies écologiques."
+            "Assassine est un concept de jeu qui a été développé en équipe de 4 dans le cadre d’un projet donné par le comité environnemental du cégep de Maisonneuve pour la journée de la terre 2019.",
+            "Assassine est un RPG dans lequel le joueur est de reprendre contrôle de l’environnement de la terre en éliminant les CEO des compagnies qui polluent la planète pour ensuite les transformer en compagnies écologiques.",
+            "Notre projet a reçu le prix du choix du comité environnemental du cégep."
         ],
         "LienProjet": "https://assasine.netlify.app/",
         "images1": [
@@ -354,8 +352,8 @@
         "type": "jeu",
         "date": "2019",
         "txt": [
-            "Bloodville est un jeu de plateforme en 2D dans lequel le joueur doit réussir à battre les boss pour finir le jeu.",
-            "J'ai décidé de donner au jeu un style graphique 8 bits pour rappeler les jeux de plateforme plus rétro, car c'est un style très à la mode. J'ai aussi choisi des couleurs dans les palettes de rouge et de mauve pour donner une ambiance un peu plus sombre et macabre pour aller avec l'univers très fantasy et médiéval du jeu.",
+            "Bloodville est un jeu de plateforme en 2D dans lequel le joueur s'aventure dans un village morbide et c’est alentour afin de détruire les créatures qui terrorisent ses habitants.",
+            "J'ai décidé de donner au jeu un style graphique 8 bits pour rappeler les jeux de plateforme plus rétro, car c'est un style très à la mode. J'ai aussi choisi des couleurs dans les palettes de rouge et de mauve pour donner une ambiance un peu plus sombre et macabre pour aller avec l'univers très fantastique et médiéval du jeu.",
             "Ce jeu est le premier jeu que j'ai développé avec Unity."
         ],
         "LienProjet": "https://assasine.netlify.app/",
@@ -399,9 +397,8 @@
         "type": "web",
         "date": "2019",
         "txt": [
-            "Ce projet est le concept du nouveau site web du restaurant Resto Vieux Four Manago situé à Saint-Sauveur.",
-            "Mon mandat pour ce projet était de faire revivre un site web qui n'était pas au gout du jour. J'ai donc donné un style beaucoup plus moderne et épuré avec des couleurs plus sobres. J'ai aussi simplifié la navigation en rendant le site en one pager.",
-            "Le site a été développé avec HTML</b> , CSS</b> et JavaScript"
+            "Ce projet est un concept pour la refonte du site web du restaurant Le Vieux Four Manago situé à Saint-Sauveur.",
+            "Mon mandat pour ce projet était de faire revivre un site web qui n'était pas au goût du jour. J'ai donc donné un style beaucoup plus moderne et épuré avec des couleurs plus sobres. J'ai aussi simplifié la navigation en rendant le site en one pager."
         ],
         "LienProjet": "https://vieux-four-manago-gaudreau.netlify.app",
         "GH": "https://github.com/MathieuGaudreau/Manago",
@@ -442,7 +439,7 @@
         "type": "creation",
         "date": "2019",
         "txt": [
-            "Création d'un véhicule sous-marin inspiré des pieuvres magnapinnas. Le projet a été créé avec Maya et le rendu avec Arnold."
+            "Création d'un véhicule sous-marin inspiré des pieuvres magnapinnas ( pieuvre qui se retrouve dans les mers profondes )."
         ],
         "LienYT": "https://www.youtube.com/embed/rfliD0X_8Y0",
         "cover": "https://i.ibb.co/9HTyRnn/sousmarin-Cover.png",
@@ -456,7 +453,8 @@
             "Concepteur"
         ],
         "technos": [
-            "Maya"
+            "Maya",
+            "Arnold"
         ]
     },
     {
@@ -465,7 +463,8 @@
         "type": "creation",
         "date": "2019",
         "txt": [
-            "Création d'un obélisque en 3D avec le logiciel Maya et avec un rendu avec Arnold."
+            "Cet obélisque est ma première création en 3D avec le logiciel Maya et le moteur de rendu Arnold.",
+            "Le style graphique très inspiré du monde de Lovecraft et de elder runes."
         ],
         "LienYT": "https://www.youtube.com/embed/Xbbpt0oPZFY",
         "images1": [
@@ -485,7 +484,8 @@
             "Concepteur"
         ],
         "technos": [
-            "Maya"
+            "Maya",
+            "Arnold"
         ]
     },
     {
@@ -522,7 +522,8 @@
         "type": "creation",
         "date": "2018",
         "txt": [
-            "Ce projet avait comme but de créer une publicité en incorporant une compagnie moderne dans une Creation et une peinture d’une autre époque . Donc ici une publicité de McDonald's avec une peinture du 17e siècle."
+            "Ce projet avait comme but de créer une publicité en incorporant une compagnie ou objet moderne dans une peinture ou photographie d’une autre époque.",
+            "Donc ici un Big Mac de chez McDonald incorporé dans une peinture du 17e siècle."
         ],
         "images1": [
             "https://i.ibb.co/stCX4TY/MCDO.webp"
@@ -544,8 +545,7 @@
         "type": "creation",
         "date": "2018",
         "txt": [
-            "Court métrage réalisé en 5e secondaire dans le cadre d'un cours de multimédia.",
-            "Le film est édité et monté avec Premiere Pro."
+            "Court métrage réalisé en équipe de 3 lors d’un cours de multimédia en 5e année du secondaire"
         ],
         "LienYT": "https://www.youtube.com/embed/jvS9JraJkvU",
         "images1": [

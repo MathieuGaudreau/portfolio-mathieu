@@ -27,7 +27,7 @@
       <section class="description">
         <div class="descHalf">
           <div class="rolesLogi" data-aos="fade-right">
-            <h4>Roles :</h4>
+            <h4>Rôles :</h4>
             <ul>
               <li v-for="(role, index) in roles" :key="index">
                 {{ roles[index] }}
