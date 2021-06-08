@@ -121,7 +121,6 @@
 </template>
 
 <script>
-// import axios from "axios";
 import db from "./assets/db.json";
 import "./style/style.css";
 import BasDePage from "./components/BasDePage.vue";
@@ -141,14 +140,6 @@ export default {
       imgLogoOrange: "./assets/logoOrange.png",
     };
   },
-  // async created() {
-  //   try {
-  //     const resProjets = await axios.get("http://localhost:3000/projets");
-  //     this.projets = resProjets.data;
-  //   } catch (e) {
-  //     console.error(e);
-  //   }
-  // },
   methods: {
     toggleQuiSuisJe() {
       this.QuiSuisJeVisible = true;

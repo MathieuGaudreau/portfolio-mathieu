@@ -78,6 +78,16 @@
         <div v-if="images1" class="divider"></div>
       </section>
 
+      <section class="canvas">
+        <div>
+          <iframe
+            loading="lazy"
+            src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEXFFUQhjg&#x2F;view?embed"
+          >
+          </iframe>
+        </div>
+      </section>
+
       <section v-if="images1" class="sliders">
         <hooper class="hooper1Container" data-aos="fade-right">
           <slide v-for="(image, index) in images1" :key="index">

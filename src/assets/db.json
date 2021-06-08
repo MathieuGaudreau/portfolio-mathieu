@@ -1,12 +1,12 @@
 [
     {
         "id": "JKM",
-        "name": "John Mortensen",
+        "name": "Animation John Kenn Mortensen",
         "type": "creation",
         "date": "2021",
         "txt": [
-            "Animation réalisée avec After Effects dans le cadre d'un travail pratique à thème libre. Le but de ce travail était d'expérimenter avec les effets de marionnettes, de bruits fractals, de particules et de 3D.",
-            "Dans ce projet, j'ai animé les illustrations de l'artiste John Kenn Mortensen dont je suis très grand fan."
+            "Animation réalisée dans le cadre d'un travail pratique à thème libre. Le but de ce travail était d'expérimenter avec les effets de marionnettes, de bruits fractals, de particules et de 3D.",
+            "L'animation a été créée avec les dessins de l'artiste danois John Kenn Mortensen."
         ],
         "LienYT": "https://www.youtube.com/embed/00sdrKHIxJ4",
         "cover": "https://i.ibb.co/w4J4tDQ/johnkenn-Cover.png",
@@ -14,7 +14,8 @@
             "Designer"
         ],
         "technos": [
-            "After Effects"
+            "After Effects",
+            "Photoshop"
         ]
     },
     {
@@ -23,7 +24,7 @@
         "type": "creation",
         "date": "2021",
         "txt": [
-            "Animation réalisée avec After Effects dans le cadre d'un travail pratique à thème libre. Le but de ce travail était d'expérimenter avec les masques et les différents effets.",
+            "Animation réalisée dans le cadre d'un travail pratique à thème libre. Le but de ce travail était d'expérimenter avec les masques et les différents effets.",
             "Ici beaucoup d'effets de glow, de camera tracking, de lumière et d'un plugin qui se nomme Thicc Stroke."
         ],
         "LienYT": "https://www.youtube.com/embed/SMKQ7CC4Mh4",
