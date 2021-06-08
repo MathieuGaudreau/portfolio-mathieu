@@ -35,7 +35,7 @@
             </ul>
           </div>
           <div class="rolesLogi" data-aos="fade-right">
-            <h4>Technologies :</h4>
+            <h4>Fait avec :</h4>
             <ul>
               <li v-for="(techno, index) in technos" :key="index">
                 {{ technos[index] }}
@@ -66,6 +66,8 @@
         </h2>
       </section>
 
+      <div v-if="LienProjet" class="divider"></div>
+
       <section v-if="LienYT" class="youtube" data-aos="fade-up">
         <iframe
           id="player"
@@ -75,18 +77,20 @@
           showinfo="0"
         ></iframe>
 
-        <div v-if="images1" class="divider"></div>
+        <div class="divider" v-if="canva || images1"></div>
       </section>
 
-      <section class="canvas">
-        <div>
+      <section class="canvas" v-if="canva" >
+        <div v-for="(canvas, index) in canva" :key="index" data-aos="fade-up">
           <iframe
             loading="lazy"
-            src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEXFFUQhjg&#x2F;view?embed"
+            :src="canva[index]"
           >
           </iframe>
         </div>
       </section>
+
+      <div v-if="canva" class="divider"></div>
 
       <section v-if="images1" class="sliders">
         <hooper class="hooper1Container" data-aos="fade-right">
@@ -200,6 +204,10 @@ export default {
     LienYT: {
       type: String,
       required: false,
+    },
+    canva:{
+      type:Array,
+      required :false,
     },
     GH: {
       type: String,

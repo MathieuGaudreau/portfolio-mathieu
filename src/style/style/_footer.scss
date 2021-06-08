@@ -3,6 +3,10 @@ footer {
     @include breakpoint(tablet) {
         height: 75px;
     }
+
+    @include breakpoint(mobile) {
+        height: 75px;
+    }
     display: flex;
     background: black;
     color: $fond;
@@ -28,6 +32,10 @@ footer {
 
     ul {
         @include breakpoint(tablet) {
+            display: none;
+        }
+
+        @include breakpoint(mobile) {
             display: none;
         }
         padding: 0;

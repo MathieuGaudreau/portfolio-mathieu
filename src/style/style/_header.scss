@@ -20,7 +20,10 @@ header {
 
     #menuHead {
         z-index: 1000;
-
+        width: fit-content;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
         @include breakpoint(tablet) {
             display: none;
         }
@@ -34,13 +37,13 @@ header {
             padding: 0;
             display: flex;
             list-style-type: none;
-            width: fit-content;
+            width: 100%;
             justify-content: space-between;
             font-family: $rightous;
             z-index: 1000;
 
             li {
-                margin: 0 10px;
+                margin: 0 20px;
             }
             a {
                 position: relative;
@@ -86,7 +89,7 @@ header {
 
         .border {
             height: 5px;
-            width: 100%;
+            width: 95%;
             border-radius: 10px;
             background: $highlight2;
         }

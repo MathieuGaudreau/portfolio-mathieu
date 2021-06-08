@@ -110,6 +110,7 @@
             :LienYT="projet.LienYT"
             :txtPhotos1="projet.txtPhotos1"
             :txtPhotos2="projet.txtPhotos2"
+            :canva="projet.canva"
           ></projets>
         </section>
       </main>

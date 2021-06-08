@@ -51,6 +51,10 @@
         ],
         "LienProjet": "https://lastspark.netlify.app/",
         "LienYT": "https://www.youtube.com/embed/5FMPfM0h2wI",
+        "canva": [
+            "https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEXKXS_0fM&#x2F;view?embed",
+            "https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEH9Ur3gbM&#x2F;view?embed"
+        ],
         "GH": "https://github.com/MathieuGaudreau/LastSpark",
         "images1": [
             "https://i.ibb.co/VSc3k7Z/accueil.webp",
@@ -160,6 +164,9 @@
             "Ce jeu est le premier jeu que j'ai développé en 3D avec Unity et il a été créé en équipe de 2."
         ],
         "LienProjet": "https://mathieugaudreau.itch.io/the-strange-case-of-hollow-manor",
+        "canva":[
+            "https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEXFFUQhjg&#x2F;view?embed"
+        ],
         "GH": "https://github.com/MathieuGaudreau/HollowManor",
         "images1": [
             "https://i.ibb.co/MgyDFkS/Menu-Intro-Assemblage-Jeu.webp",
@@ -352,6 +359,9 @@
             "Ce jeu est le premier jeu que j'ai développé avec Unity."
         ],
         "LienProjet": "https://assasine.netlify.app/",
+        "canva": [
+            "https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEXYBfMwGA&#x2F;view?embed"
+        ],
         "images1": [
             "https://i.ibb.co/t2W8F92/Gaudreau-Affiche.webp",
             "https://i.ibb.co/f4x4FQt/Gaudreau-Menu.webp",

@@ -154,6 +154,13 @@ main {
             h1 {
                 font-size: 3em;
                 margin: 0;
+
+                @include breakpoint(tablet) {
+                    font-size: 2em;
+                }
+                @include breakpoint(mobile) {
+                    font-size: 2em;
+                }
             }
             h4 {
                 font-size: 1.5em;
@@ -236,7 +243,7 @@ main {
 
         .divider {
             width: 40%;
-            margin: 50px auto 30px auto;
+            margin: 50px auto 50px auto;
             height: 10px;
             background: $highlight2;
             border-radius: 10px;
@@ -259,7 +266,7 @@ main {
             letter-spacing: 2px;
 
             @include breakpoint(tablet) {
-                justify-content: space-between;
+                justify-content: space-evenly;
             }
 
             @include breakpoint(mobile) {
