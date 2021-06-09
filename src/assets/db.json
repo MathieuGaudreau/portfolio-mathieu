@@ -1,5 +1,49 @@
 [
     {
+        "id": "projetRecherche",
+        "name": "Projet de recherche",
+        "type": "jeu",
+        "date": "2021",
+        "txt": [
+            "Ce projet est un petit jeu d’horreur / ambiance dans lequel le joueur doit explorer l’environnement pour trouver des clés qui lui permettent d’avancer dans la carte et des statuettes de singes pour compléter l’objectif du jeu.",
+            "Ce jeu est ma première expérimentation avec Unreal Engine dont j’ai appris l’utilisation par moi-même lors de mon cours de projet final sur l’étendue de 8 semaines."
+        ],
+        "images1": [
+            "https://i.ibb.co/f2bPC1Z/mainMenu.png",
+            "https://i.ibb.co/D7WpFPy/options-Menu.png",
+            "https://i.ibb.co/h9TGJyn/hud-Exemple.png",
+            "https://i.ibb.co/Lvz5Lfh/death-Screen.png",
+            "https://i.ibb.co/6JXJsSP/InGame.png",
+            "https://i.ibb.co/ZNtFhLn/Cabanon.png",
+            "https://i.ibb.co/y02YM55/Maison-Exterieur.png",
+            "https://i.ibb.co/k1Vg4rf/Maison-Interieur.png",
+            "https://i.ibb.co/FXrsHj4/Maison-Interieur2.png"
+        ],
+        "txtPhotos1": [
+            "Menu principal du jeu.",
+            "Écran d'options du jeu.",
+            "HUD du jeu, on retrouve le niveau de stress ( rouge ), le niveau de stamina ( vert ), état de la batterie ( jaune ), l'objectif et l'inventaire.",
+            "Écran de fin du jeu si le joueur meurt.",
+            "Début du jeu.",
+            "Première zone à explorer.",
+            "Zone principale du jeu ( extérieur ).",
+            "Zone principale du jeu ( premier étage ).",
+            "Zone principale du jeu ( deuxième étage )."
+        ],
+        "cover": "https://i.ibb.co/9www7QH/projet-Recherche-Cover.png",
+        "roles": [
+            "Concepteur Sonore",
+            "Programmeur",
+            "Intégrateur",
+            "Designer"
+        ],
+        "technos": [
+            "Unreal Engine",
+            "Blueprint",
+            "Photoshop"
+        ]
+    },
+    {
         "id": "JKM",
         "name": "John Kenn Mortensen",
         "type": "creation",

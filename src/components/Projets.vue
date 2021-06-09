@@ -94,7 +94,7 @@
 
       <section v-if="images1" class="sliders">
         <hooper class="hooper1Container" data-aos="fade-right">
-          <slide v-for="(image, index) in images1" :key="index">
+          <slide :class="{onlyOneSlider: !images2}" v-for="(image, index) in images1" :key="index">
             <img :src="images1[index]" alt="" @click="() => showImg(index)" />
             <div class="detailImg">
               <h3>Dans cette image :</h3>
@@ -102,7 +102,7 @@
             </div>
           </slide>
 
-          <hooper-pagination slot="hooper-addons"></hooper-pagination>
+          <hooper-pagination :class="{oneSlider: !images2}" slot="hooper-addons"></hooper-pagination>
         </hooper>
 
         <hooper class="hooper2Container" v-if="images2" data-aos="fade-left">
