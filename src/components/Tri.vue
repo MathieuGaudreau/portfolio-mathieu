@@ -28,7 +28,7 @@ export default {
 
       const creation = document.querySelectorAll(".creation");
       for (let i = 0; i < creation.length; i++) {
-        if (window.screen.width <= 768) {
+        if (window.screen.width < 1024) {
           creation[i].style.width="100%";
         }
         else{
@@ -68,7 +68,7 @@ export default {
       const jeu = document.querySelectorAll(".jeu");
       for (let i = 0; i < jeu.length; i++) {
         
-        if (window.screen.width <= 768) {
+        if (window.screen.width < 1024) {
           jeu[i].style.width="100%";
         }
         else{
@@ -107,7 +107,7 @@ export default {
 
       const web = document.querySelectorAll(".web");
       for (let i = 0; i < web.length; i++) {
-        if (window.screen.width <= 768) {
+        if (window.screen.width < 1024) {
           web[i].style.width="100%";
         }
         else{
@@ -131,7 +131,7 @@ export default {
 
       const creation = document.querySelectorAll(".creation");
       for (let i = 0; i < creation.length; i++) {
-        if (window.screen.width <= 768) {
+        if (window.screen.width < 1024) {
           creation[i].style.width="100%";
         }
         else{
@@ -141,7 +141,7 @@ export default {
 
       const jeu = document.querySelectorAll(".jeu");
       for (let i = 0; i < jeu.length; i++) {
-        if (window.screen.width <= 768) {
+        if (window.screen.width < 1024) {
           jeu[i].style.width="100%";
         }
         else{
@@ -151,7 +151,7 @@ export default {
 
       const web = document.querySelectorAll(".web");
       for (let i = 0; i < web.length; i++) {
-        if (window.screen.width <= 768) {
+        if (window.screen.width < 1024) {
           web[i].style.width="100%";
         }
         else{

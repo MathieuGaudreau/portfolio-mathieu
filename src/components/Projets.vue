@@ -254,7 +254,7 @@ export default {
       const ListProjets = document.querySelectorAll(".projets");
 
       for (let i = 0; i < ListProjets.length; i++) {
-        if (window.screen.width <= 768) {
+        if (window.screen.width < 1024) {
           ListProjets[i].style.width = "100%";
         } else {
           ListProjets[i].style.width = "40%";

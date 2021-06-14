@@ -18,6 +18,12 @@
 
         .detailImg{
             width: 100% !important;
+            margin-left: 0 !important;
+            margin-top: 10px;
+
+            p{
+            margin-top: 5px !important;    
+            }
         }
     }
 
@@ -70,6 +76,7 @@
                     margin: 0;
                     font-family: $rightous;
                     letter-spacing: 2px;
+                    color: $highlight2;
                 }
                 p {
                     margin-top: 10%;
