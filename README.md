@@ -23,6 +23,3 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-
-### Start JSON server and update
-json-server --watch db.json# portfolio-mathieu-gaudreau-vue
