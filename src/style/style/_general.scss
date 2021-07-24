@@ -8,6 +8,12 @@ $colorTxt: black;
 $rightous: "Righteous", cursive;
 $nunito: "Nunito", sans-serif;
 
+[data-theme="darkMode"] {
+body{
+    background: black;
+}
+}
+
 @mixin breakpoint($taille) {
     @if $taille == mobile {
         @media (max-width: 767px) {

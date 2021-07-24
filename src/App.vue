@@ -31,6 +31,23 @@
                 >Contact</a
               >
             </li>
+
+            <!-- Bouton Lang Switch -->
+            <!-- <li>
+              <button @click="switchLang"></button>
+            </li> -->
+
+            <!-- Bouton Dark Theme -->
+            <!-- <li>
+              <h1 @click="toggleTheme" aria-label="Toggle themes">
+                <span v-if="this.theme == 'darkMode'"
+                  ><i class="far fa-sun"></i
+                ></span>
+                <span v-else><i class="far fa-moon"></i></span>
+              </h1>
+            </li> -->
+
+
           </ul>
           <div class="border"></div>
         </section>
@@ -38,20 +55,26 @@
         <i id="boutonMobile" @click="openNav" class="fas fa-bars icon"></i>
 
         <section id="navigationMobile" class="sidenav">
-          <i @click="closeNav"  class="fas fa-arrow-circle-left"></i>
+          <i @click="closeNav" class="fas fa-arrow-circle-left"></i>
           <ul>
             <li>
               <a
                 :class="!QuiSuisJeVisible ? 'active' : 'notActive'"
-                @click="retourProjets(); closeNav();"
+                @click="
+                  retourProjets();
+                  closeNav();
+                "
                 title="Voir la page projet !"
-                >Projets</a
+                >  Projets</a
               >
             </li>
             <li>
               <a
                 :class="QuiSuisJeVisible ? 'active' : 'notActive'"
-                @click="toggleQuiSuisJe(); closeNav();"
+                @click="
+                  toggleQuiSuisJe();
+                  closeNav();
+                "
                 title="Voir la page Qui Suis-Je !"
                 >Qui suis-je</a
               >
@@ -111,6 +134,7 @@
             :txtPhotos1="projet.txtPhotos1"
             :txtPhotos2="projet.txtPhotos2"
             :canva="projet.canva"
+            :mots="projet.mots"
           ></projets>
         </section>
       </main>
@@ -122,7 +146,8 @@
 </template>
 
 <script>
-import db from "./assets/db.json";
+import dbFR from "./assets/dbFR.json";
+import dbEN from "./assets/dbEN.json";
 import "./style/style.css";
 import BasDePage from "./components/BasDePage.vue";
 import Tri from "./components/Tri.vue";
@@ -135,13 +160,29 @@ export default {
   name: "App",
   data() {
     return {
-      projets: db,
+      projets: dbFR,
+      projetsFR: dbFR,
+      projetsEN: dbEN,
       QuiSuisJeVisible: false,
       imgLogoBlanc: "./assets/logoBlanc.png",
       imgLogoOrange: "./assets/logoOrange.png",
+      theme: "",
     };
   },
   methods: {
+    switchLang() {
+      if (this.$lang == "fr") {
+        this.$lang = "en";
+        this.projets = this.projetsEN;
+      } else {
+        this.$lang = "fr";
+        this.projets = this.projetsFR;
+      }
+
+      console.log(this.$lang);
+
+
+    },
     toggleQuiSuisJe() {
       this.QuiSuisJeVisible = true;
     },
@@ -163,6 +204,11 @@ export default {
     closeNav() {
       document.getElementById("navigationMobile").style.width = "0";
       document.getElementById("boutonMobile").style.transform = "rotate(0deg)";
+    },
+    toggleTheme() {
+      this.theme = this.theme == "darkMode" ? "" : "darkMode"; //toggles theme value
+      document.documentElement.setAttribute("data-theme", this.theme); // sets the data-theme attribute
+      localStorage.setItem("theme", this.theme); // stores theme value on local storage
     },
   },
 };

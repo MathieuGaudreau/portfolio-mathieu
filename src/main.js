@@ -14,7 +14,7 @@ Vue.component('tri', Tri);
 Vue.component('projets', Projets);
 Vue.component('basdepage', BasDePage);
 
-Vue.config.productionTip = false
+Vue.prototype.$lang = "fr"
 
 
 new Vue({

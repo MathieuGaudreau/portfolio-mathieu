@@ -7,7 +7,9 @@
         toggleDetails();
       "
       :style="{ backgroundImage: 'url(' + cover + ')' }"
-    ></article>
+    >
+
+    </article>
 
     <section id="details" v-if="detailsAreVisible" class="detailsProjets">
       <section
@@ -15,7 +17,7 @@
         :style="{ backgroundImage: 'url(' + cover + ')' }"
       >
         <h3 class="retour" @click="closeDetails">
-          <i class="fas fa-arrow-circle-left"></i>Retour à la liste des projets
+          <i class="fas fa-arrow-circle-left"></i>{{mots[0]}}
         </h3>
       </section>
 
@@ -27,7 +29,7 @@
       <section class="description">
         <div class="descHalf">
           <div class="rolesLogi" data-aos="fade-right">
-            <h4>Rôles :</h4>
+            <h4>{{mots[1]}}</h4>
             <ul>
               <li v-for="(role, index) in roles" :key="index">
                 {{ roles[index] }}
@@ -35,7 +37,7 @@
             </ul>
           </div>
           <div class="rolesLogi" data-aos="fade-right">
-            <h4>Fait avec :</h4>
+            <h4>{{mots[2]}}</h4>
             <ul>
               <li v-for="(techno, index) in technos" :key="index">
                 {{ technos[index] }}
@@ -44,7 +46,7 @@
           </div>
         </div>
         <div class="txtDescription" data-aos="fade-left">
-          <h4>Le projet</h4>
+          <h4>{{mots[3]}}</h4>
 
           <p v-for="(text, index) in txt" :key="index">{{ txt[index] }}</p>
         </div>
@@ -55,13 +57,13 @@
       <section v-if="LienProjet" class="liensProjets">
         <h2>
           <a :href="LienProjet" target="_blank"
-            >Voir le projet<i class="fas fa-external-link-square-alt"></i
+            >{{mots[4]}}<i class="fas fa-external-link-square-alt"></i
           ></a>
         </h2>
 
         <h2 v-if="GH">
           <a :href="GH" target="_blank"
-            >Voir le GitHub<i class="fab fa-github-square"></i
+            >{{mots[5]}}<i class="fab fa-github-square"></i
           ></a>
         </h2>
       </section>
@@ -80,7 +82,7 @@
         <div class="divider" v-if="canva || images1"></div>
       </section>
 
-      <section class="canvas" v-if="canva" >
+      <!-- <section class="canvas" v-if="canva" >
         <div v-for="(canvas, index) in canva" :key="index" data-aos="fade-up">
           <iframe
             loading="lazy"
@@ -90,14 +92,14 @@
         </div>
       </section>
 
-      <div v-if="canva" class="divider"></div>
+      <div v-if="canva" class="divider"></div> -->
 
       <section v-if="images1" class="sliders">
         <hooper class="hooper1Container" data-aos="fade-right">
           <slide :class="{onlyOneSlider: !images2}" v-for="(image, index) in images1" :key="index">
             <img :src="images1[index]" alt="" @click="() => showImg(index)" />
             <div class="detailImg">
-              <h3>Dans cette image :</h3>
+              <h3>{{mots[6]}}</h3>
               <p>{{ txtPhotos1[index] }}</p>
             </div>
           </slide>
@@ -109,7 +111,7 @@
           <slide class="hooper2" v-for="(image, index) in images2" :key="index">
             <img :src="images2[index]" alt="" @click="() => showImg2(index)" />
             <div class="detailImg">
-              <h3>Dans cette image :</h3>
+              <h3>{{mots[6]}}</h3>
               <p>{{ txtPhotos2[index] }}</p>
             </div>
           </slide>
@@ -134,7 +136,7 @@
 
       <section class="retourProjets" @click="closeDetails">
         <h1>
-          <i class="fas fa-arrow-circle-left"></i>Retour à la liste des projets
+          <i class="fas fa-arrow-circle-left"></i>{{mots[0]}}
         </h1>
       </section>
     </section>
@@ -213,6 +215,11 @@ export default {
       type: String,
       required: false,
     },
+
+    mots: {
+      type: Array,
+      required: true
+    }
   },
   data() {
     return {
@@ -221,6 +228,7 @@ export default {
       index2: 0,
       visible: false,
       visible2: false,
+      lang: this.$lang
     };
   },
   methods: {
@@ -293,5 +301,10 @@ export default {
       this.visible2 = false;
     },
   },
+ watch:{
+   lang : (oldLang, newLang)=>{
+     console.log(("Title changed from " + oldLang + " to " + newLang))
+   }
+ }
 };
 </script>

@@ -28,6 +28,8 @@ main {
             min-height: 20vw;
             margin: 10px 5px 0px 5px;
             transition: filter 0.5s ease;
+            align-items: center;
+            justify-content: center;
 
             @include breakpoint(tablet) {
                 height: 50vw;

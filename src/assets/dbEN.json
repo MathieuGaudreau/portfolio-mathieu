@@ -1,0 +1,760 @@
+[
+    {
+        "id": "projetRecherche",
+        "name": "Research Project",
+        "type": "jeu",
+        "date": "2021",
+        "txt": [
+            "This project is a small horror/ambient game in which the player has to explore the environment to find keys that help him moving forwards on the map and monkey effigies to finish the primary objective.",
+            "This game is my first experiment with Unreal engine which I learned by myself in the span of 8 weeks."
+        ],
+        "images1": [
+            "https://i.ibb.co/f2bPC1Z/mainMenu.png",
+            "https://i.ibb.co/D7WpFPy/options-Menu.png",
+            "https://i.ibb.co/h9TGJyn/hud-Exemple.png",
+            "https://i.ibb.co/Lvz5Lfh/death-Screen.png",
+            "https://i.ibb.co/6JXJsSP/InGame.png",
+            "https://i.ibb.co/ZNtFhLn/Cabanon.png",
+            "https://i.ibb.co/y02YM55/Maison-Exterieur.png",
+            "https://i.ibb.co/k1Vg4rf/Maison-Interieur.png",
+            "https://i.ibb.co/FXrsHj4/Maison-Interieur2.png"
+        ],
+        "txtPhotos1": [
+            "Home Screen",
+            "Option screen",
+            "Game HUD, we find the stress level (red), the stamina level (green), battery status (yellow), the objective and the inventory.",
+            "End of game screen if the player dies.",
+            "Start of the game",
+            "First area",
+            "Main game area ( exterior ).",
+            "Main game area ( first floor ).",
+            "Main game area ( second floor )."
+        ],
+        "cover": "https://i.ibb.co/9www7QH/projet-Recherche-Cover.png",
+        "roles": [
+            "Sound designer",
+            "Programmer",
+            "Integrator",
+            "Designer"
+        ],
+        "technos": [
+            "Unreal Engine",
+            "Blueprint",
+            "Photoshop"
+        ],
+        "mots":[
+            "Back to the project list",
+            "Roles :",
+            "Made with :",
+            "The project",
+            "See the project",
+            "See the GitHub",
+            "In this image :"
+        ]
+    },
+    {
+        "id": "JKM",
+        "name": "John Kenn Mortensen",
+        "type": "creation",
+        "date": "2021",
+        "txt": [
+            "The animation was carried out as part of a project with a free theme. The aim of this work was to experiment with the effects of puppets, fractal noise, particles, and 3D.",
+            "The animation was created with the designs of Danish artist John Kenn Mortensen."
+        ],
+        "LienYT": "https://www.youtube.com/embed/00sdrKHIxJ4",
+        "cover": "https://i.ibb.co/w4J4tDQ/johnkenn-Cover.png",
+        "roles": [
+            "Designer"
+        ],
+        "technos": [
+            "After Effects",
+            "Photoshop"
+        ]
+    },
+    {
+        "id": "TOKYO",
+        "name": "Tokyo",
+        "type": "creation",
+        "date": "2021",
+        "txt": [
+            "The animation was carried out as part of a project with a free theme. The aim of this work was to experiment with the masks and the different effects.",
+            "Here are a lot of glow effects, camera tracking, light, and a plugin called Thicc Stroke."
+        ],
+        "LienYT": "https://www.youtube.com/embed/SMKQ7CC4Mh4",
+        "cover": "https://i.ibb.co/0Mp4Q4j/tokyo-Cover.png",
+        "roles": [
+            "Designer"
+        ],
+        "technos": [
+            "After Effects"
+        ],
+        "mots":[
+            "Back to the project list",
+            "Roles :",
+            "Made with :",
+            "The project",
+            "See the project",
+            "See the GitHub",
+            "In this image :"
+        ]
+    },
+    {
+        "id": "LASTSPARK",
+        "name": "Last Spark",
+        "type": "jeu",
+        "date": "2020",
+        "txt": [
+            "Last Spark is a rogue-like action/adventure game with a constant ominous presence. The player must manage to survive as long as possible and must find multiple mini-bosses to then defeat the final boss.",
+            "This project was created by a team of 3 people over the span of a CEGEP session.",
+            "We have also created a website for the game that serves as a platform on which the game is available for download.",
+            "We had to give an aesthetic similar to that of the game on the site. So we decided to choose colors that contrast very well to give a dark and mysterious effect. We have also put a particle effect and subtle images of the enemies of the game to remind the elements that the player can find while playing."
+        ],
+        "LienProjet": "https://lastspark.netlify.app/",
+        "LienYT": "https://www.youtube.com/embed/5FMPfM0h2wI",
+        "canva": [
+            "https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEXKXS_0fM&#x2F;view?embed",
+            "https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEH9Ur3gbM&#x2F;view?embed"
+        ],
+        "GH": "https://github.com/MathieuGaudreau/LastSpark",
+        "images1": [
+            "https://i.ibb.co/VSc3k7Z/accueil.webp",
+            "https://i.ibb.co/FsMPfVT/menu.webp",
+            "https://i.ibb.co/6txcX3p/pause.webp",
+            "https://i.ibb.co/353y9MF/inventaire.webp",
+            "https://i.ibb.co/K7BZ9Ff/aide.webp"
+        ],
+        "txtPhotos1": [
+            "Game poster",
+            "Main screen of the game, here the player can start playing, see the instructions and exit the game.",
+            "The menu allows you to exit to the main menu or to quit the game.",
+            "The inventory system allows you to equip weapons and powers and organize the items obtained during the game.",
+            "Help screens will appear during the game to explain the different mechanics to the player."
+        ],
+        "txtPhotos2": [
+            "The campfire acts as a player's safezone and can interact with the fire to heal and craft.",
+            "The player can find ruins in the game which gives access to upgrades, weapons and a spell.",
+            "Example of a boss fight. Bosses and enemies have more and more lives as the game progresses."
+        ],
+        "images2": [
+            "https://i.ibb.co/yPykPpD/debut.webp",
+            "https://i.ibb.co/qntnzG9/ruine.webp",
+            "https://i.ibb.co/7nZ1vS5/boss.webp"
+        ],
+        "cover": "https://i.ibb.co/yP4mz3P/lastspark-Cover.png",
+        "roles": [
+            "Project manager",
+            "Sound Designer",
+            "Programmer",
+            "Integrator",
+            "Designer"
+        ],
+        "technos": [
+            "Unity",
+            "C#",
+            "Photoshop",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "mots":[
+            "Back to the project list",
+            "Roles :",
+            "Made with :",
+            "The project",
+            "See the project",
+            "See the GitHub",
+            "In this image :"
+        ]
+    },
+    {
+        "id": "TIM2020",
+        "name": "TIM 2020",
+        "type": "web",
+        "date": "2020",
+        "txt": [
+            "This project is a website concept for the Department of Multimedia Integration at Cégep de Maisonneuve which was developed in a team of 5 over the span of a Cégep session.",
+            "We decided to give the website a new look, much more up-to-date, very inspired by cyberpunk’s style and colors."
+        ],
+        "LienProjet": "https://techniques-integration-multimedia.netlify.app/",
+        "GH": "https://github.com/MathieuGaudreau/TIM2020",
+        "images1": [
+            "https://i.ibb.co/jrMFbgN/accueil-tim.webp",
+            "https://i.ibb.co/4s6cNGz/accueil-Mobile1.webp",
+            "https://i.ibb.co/tpKgP2M/accueil-Mobile2.webp",
+            "https://i.ibb.co/kyWXj9y/cours.webp",
+            "https://i.ibb.co/PcTJqVF/cours-Mobile.webp",
+            "https://i.ibb.co/rHF2n6S/cours-Mobile2.webp"
+        ],
+        "images2": [
+            "https://i.ibb.co/tQfJhM9/equipe.webp",
+            "https://i.ibb.co/c8NfRht/equipe-Mobile.webp",
+            "https://i.ibb.co/mDnQyxM/event.webp",
+            "https://i.ibb.co/9ZdCNMH/events-Mobile.webp",
+            "https://i.ibb.co/FHrWYJw/guide-style.webp",
+            "https://i.ibb.co/KhffnQd/Moodboard-Tim.webp"
+        ],
+        "txtPhotos1": [
+            "Large screen version of the site's home page.",
+            "Mobile version of the site's home page.",
+            "Site navigation mobile version.",
+            "Large screen version of the site's current page.",
+            "Mobile version of the site's current page.",
+            "Mobile version of the site's current page."
+        ],
+        "txtPhotos2": [
+            "Large screen version of the site's team page.",
+            "Mobile version of the site's team page.",
+            "Large screen version of the site's event page.",
+            "Mobile version of the site's event page.",
+            "Site style guide.",
+            "Moodboard of the site."
+        ],
+        "cover": "https://i.ibb.co/g4GQNHL/tim2020-Cover.png",
+        "roles": [
+            "Designer",
+            "Front-End Dev"
+        ],
+        "technos": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Photoshop"
+        ],
+        "mots":[
+            "Back to the project list",
+            "Roles :",
+            "Made with :",
+            "The project",
+            "See the project",
+            "See the GitHub",
+            "In this image :"
+        ]
+    },
+    {
+        "id": "MANOR",
+        "name": "HOLLOW MANOR",
+        "type": "jeu",
+        "date": "2020",
+        "txt": [
+            "Hollow Manor is an exploration game in which the player has to explore a maze and escape the monsters. The player must succeed in finding clues and keys in order to escape the labyrinth.",
+            "We decided to follow a very dark graphic style, inspired by the Victorian era and the stories of HP Lovecraft for the creation of the universe.",
+            "This is the first game I developed in 3D with Unity and it was created in a team of 2."
+        ],
+        "LienProjet": "https://mathieugaudreau.itch.io/the-strange-case-of-hollow-manor",
+        "canva": [
+            "https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEXFFUQhjg&#x2F;view?embed"
+        ],
+        "GH": "https://github.com/MathieuGaudreau/HollowManor",
+        "images1": [
+            "https://i.ibb.co/MgyDFkS/Menu-Intro-Assemblage-Jeu.webp",
+            "https://i.ibb.co/7XgR7zX/Choix1.webp",
+            "https://i.ibb.co/Sd7MKQH/Choix2.webp"
+        ],
+        "images2": [
+            "https://i.ibb.co/5MxdqHQ/gameplay1.webp",
+            "https://i.ibb.co/tLhpgsM/gameplay2.webp",
+            "https://i.ibb.co/92mJmbZ/gameplay3.webp",
+            "https://i.ibb.co/p4B1RP0/village.webp"
+        ],
+        "txtPhotos1": [
+            "Game poster",
+            "Victor, first of the 2 playable characters.",
+            "Victoria, second playable character."
+        ],
+        "txtPhotos2": [
+            "The player begins his adventure in a small dark hut.",
+            "The game has several different areas, here the garden.",
+            "The main area of ​​the game to explore is the maze.",
+            "The player can decide which area of ​​the game they want to explore first."
+        ],
+        "cover": "https://i.ibb.co/68YPQWQ/hollowmanor-Cover.png",
+        "roles": [
+            "Designer",
+            "Sound Designer",
+            "Programmer"
+        ],
+        "technos": [
+            "Unity",
+            "C#"
+        ],
+        "mots":[
+            "Back to the project list",
+            "Roles :",
+            "Made with :",
+            "The project",
+            "See the project",
+            "See the GitHub",
+            "In this image :"
+        ]
+    },
+    {
+        "id": "OBJETS",
+        "name": "Objets",
+        "type": "creation",
+        "date": "2019",
+        "txt": [
+            "This project aimed to create different objects and an animation sprite to be used in a video game."
+        ],
+        "images1": [
+            "https://i.ibb.co/ryVwVk3/Gaudreau-Cl-2.webp",
+            "https://i.ibb.co/LJSgD4D/Gaudreau-Potion.webp",
+            "https://i.ibb.co/2cFzyYy/Gaudreau-Power-up.webp",
+            "https://i.ibb.co/F3LnxrQ/Gaudreau-Points.webp",
+            "https://i.ibb.co/GR46BBW/Gaudreau-Key-Card.webp"
+        ],
+        "images2": [
+            "https://i.ibb.co/23WKrfs/Gaudreau-Gem.webp",
+            "https://i.ibb.co/PNpJnMj/Gaudreau-Coffre-coffre-ferme.webp",
+            "https://i.ibb.co/SN4sX76/Gaudreau-Coffre-coffre-ouvert-1.webp",
+            "https://i.ibb.co/0YmYVtj/Gaudreau-Coffre-coffre-ouvert-2.webp"
+        ],
+        "txtPhotos1": [
+            "Key",
+            "Potion",
+            "Power up",
+            "Gold coin",
+            "Keycard"
+        ],
+        "txtPhotos2": [
+            "Crystal",
+            "Chest sprite #1",
+            "Chest sprite #2",
+            "Chest sprite #3"
+        ],
+        "cover": "https://i.ibb.co/V9B3MXt/objets-Cover.png",
+        "roles": [
+            "Designer"
+        ],
+        "technos": [
+            "Illustrator"
+        ],
+        "mots":[
+            "Back to the project list",
+            "Roles :",
+            "Made with :",
+            "The project",
+            "See the project",
+            "See the GitHub",
+            "In this image :"
+        ]
+    },
+    {
+        "id": "ROVE",
+        "name": "Rovesciato",
+        "type": "creation",
+        "date": "2019",
+        "txt": [
+            "This project aims to create a video comprising different angles and content with artistic coherence.",
+            "The project is inspired by cooking shows and videos like Chef's Table."
+        ],
+        "LienYT": "https://www.youtube.com/embed/nt1fpiuzrJo",
+        "cover": "https://i.ibb.co/CwMJ24p/rovesciato-Cover.png",
+        "roles": [
+            "Cameraman",
+            "Scenarist",
+            "Video editor"
+        ],
+        "technos": [
+            "Premiere Pro"
+        ],
+        "mots":[
+            "Back to the project list",
+            "Roles :",
+            "Made with :",
+            "The project",
+            "See the project",
+            "See the GitHub",
+            "In this image :"
+        ]
+    },
+    {
+        "id": "NIMH",
+        "name": "Nimh",
+        "type": "jeu",
+        "date": "2019",
+        "txt": [
+            "Nimh is a small platform game in which the player must succeed in jumping from platform to platform without falling into the void for as long as possible."
+        ],
+        "LienProjet": "https://nimh.netlify.app/",
+        "GH": "https://github.com/MathieuGaudreau/Nimh",
+        "images1": [
+            "https://i.ibb.co/y4MKf7P/accueil.webp",
+            "https://i.ibb.co/wB8b7hq/instructionm.webp"
+        ],
+        "images2": [
+            "https://i.ibb.co/K0RF0Td/jeu.webp",
+            "https://i.ibb.co/dkKbLHx/mort.webp"
+        ],
+        "txtPhotos1": [
+            "Game home screen",
+            "How to play screen"
+        ],
+        "txtPhotos2": [
+            "Gameplay exemple",
+            "The end screen shows the player's last score and their best score."
+        ],
+        "cover": "https://i.ibb.co/D8YNbPG/nimh-Cover.png",
+        "roles": [
+            "Designer",
+            "Programmer"
+        ],
+        "technos": [
+            "PHASER",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "mots":[
+            "Back to the project list",
+            "Roles :",
+            "Made with :",
+            "The project",
+            "See the project",
+            "See the GitHub",
+            "In this image :"
+        ]
+    },
+    {
+        "id": "ASSASINE",
+        "name": "Assasine",
+        "type": "jeu",
+        "date": "2019",
+        "txt": [
+            "Assassine is a game concept that was developed by a team of 4 as part of a project given by the environmental committee of Cégep de Maisonneuve for Earth Day 2019.",
+            "Assassine is an RPG in which the player takes back control of the earth's environment by eliminating the CEOs of companies that pollute the planet and then transforming them into green companies.",
+            "Our project received the choice award from the CEGEP environmental committee."
+        ],
+        "LienProjet": "https://assasine.netlify.app/",
+        "images1": [
+            "https://i.ibb.co/Pz17xXX/cover.webp",
+            "https://i.ibb.co/k1THBTt/Mathieu-Ville.webp",
+            "https://i.ibb.co/12F2JyZ/Map-Asasine.webp",
+            "https://i.ibb.co/fq0YzcM/personnage.webp",
+            "https://i.ibb.co/dtY2VkR/principale.webp"
+        ],
+        "images2": [
+            "https://i.ibb.co/GFwKRgK/ennemi2.webp",
+            "https://i.ibb.co/5T9pJh3/ennemi3.webp",
+            "https://i.ibb.co/W5CDKtD/ennemi4.webp",
+            "https://i.ibb.co/nQKG4n4/ennemi5.webp"
+        ],
+        "txtPhotos1": [
+            "Game logo",
+            "Concept of the city, the main area of ​​the game is a very futuristic and very illuminated city where only the rich can live.",
+            "The card indicates the different objectives that the player must accomplish.",
+            "Boss hierarchy, the player must eliminate the bosses in order of hierarchy to arrive at the final boss.",
+            "Heroine concept"
+        ],
+        "txtPhotos2": [
+            "Boss concept #1",
+            "Boss concept #2",
+            "Boss concept #3",
+            "Boss concept #4"
+        ],
+        "cover": "https://i.ibb.co/p2nGP1y/assasine-Cover.png",
+        "roles": [
+            "Designer",
+            "Programmer"
+        ],
+        "technos": [
+            "Illustrator",
+            "HTML",
+            "CSS"
+        ],
+        "mots":[
+            "Back to the project list",
+            "Roles :",
+            "Made with :",
+            "The project",
+            "See the project",
+            "See the GitHub",
+            "In this image :"
+        ]
+    },
+    {
+        "id": "BLOOD",
+        "name": "Bloodville",
+        "type": "jeu",
+        "date": "2019",
+        "txt": [
+            "Bloodville is a 2D platform game in which the player ventures into and around a morbid village in order to destroy the creatures that terrorize its inhabitants.",
+            "I decided to give the game an 8-bit graphical style to remind you of more retro platform games because it is a very fashionable style. I also chose colors in the palettes of red and purple to give a slightly darker and macabre vibe to go with the very fantasy and medieval universe of the game.",
+            "This game is the first game I developed with Unity."
+        ],
+        "LienProjet": "https://assasine.netlify.app/",
+        "canva": [
+            "https://www.canva.com/design/DAEXYBfMwGA/view"
+        ],
+        "images1": [
+            "https://i.ibb.co/t2W8F92/Gaudreau-Affiche.webp",
+            "https://i.ibb.co/f4x4FQt/Gaudreau-Menu.webp",
+            "https://i.ibb.co/XsQgcFW/Gaudreau-Instructions.webp"
+        ],
+        "images2": [
+            "https://i.ibb.co/XzDX0Fw/Gaudreau-Gameplay.webp",
+            "https://i.ibb.co/DtTbktR/Gaudreau-Victoire.webp",
+            "https://i.ibb.co/mhdtMtn/Gaudreau-Gameover.webp"
+        ],
+        "txtPhotos1": [
+            "Game poster",
+            "Main menu",
+            "How to play screen"
+        ],
+        "txtPhotos2": [
+            "Example of gameplay, the player is confronted with several small areas of platforming during the game.",
+            "Victory screen",
+            "Death screen"
+        ],
+        "cover": "https://i.ibb.co/6Jt6rQD/bloodvillle-Cover.png",
+        "roles": [
+            "Designer",
+            "Programmer"
+        ],
+        "technos": [
+            "Unity",
+            "C#",
+            "Illustrator"
+        ],
+        "mots":[
+            "Back to the project list",
+            "Roles :",
+            "Made with :",
+            "The project",
+            "See the project",
+            "See the GitHub",
+            "In this image :"
+        ]
+    },
+    {
+        "id": "VFM",
+        "name": "Manago",
+        "type": "web",
+        "date": "2019",
+        "txt": [
+            "This project is a concept for the website of the restaurant Le Vieux Four Manago located in Saint-Sauveur.",
+            "My mandate for this project was to revive a website that was not up to date. So I gave a much more modern and refined style with more sober colors. I also simplified the navigation by making the site in one-pager."
+        ],
+        "LienProjet": "https://vieux-four-manago-gaudreau.netlify.app",
+        "GH": "https://github.com/MathieuGaudreau/Manago",
+        "images1": [
+            "https://i.ibb.co/ssnthCH/accueil.webp",
+            "https://i.ibb.co/Bq7Vqpp/background.webp",
+            "https://i.ibb.co/RSCMXp6/histoire.webp"
+        ],
+        "images2": [
+            "https://i.ibb.co/BwwqTmL/gallerie.webp",
+            "https://i.ibb.co/tB38tZ2/menu.webp",
+            "https://i.ibb.co/qyy9fHH/reservation.webp"
+        ],
+        "txtPhotos1": [
+            "Large screen version of the site's home page.",
+            "Mobile version of the site's home page.",
+            "History page of the site."
+        ],
+        "txtPhotos2": [
+            "Site gallery page.",
+            "Site menu page",
+            "Site reservation page"
+        ],
+        "cover": "https://i.ibb.co/2qcrLD8/manago-Cover.png",
+        "roles": [
+            "Designer",
+            "Programmer"
+        ],
+        "technos": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "mots":[
+            "Back to the project list",
+            "Roles :",
+            "Made with :",
+            "The project",
+            "See the project",
+            "See the GitHub",
+            "In this image :"
+        ]
+    },
+    {
+        "id": "SM",
+        "name": "Sous-Marin",
+        "type": "creation",
+        "date": "2019",
+        "txt": [
+            "Creation of an underwater vehicle inspired by magnapinnas octopuses (octopus found in deep seas)."
+        ],
+        "LienYT": "https://www.youtube.com/embed/rfliD0X_8Y0",
+        "cover": "https://i.ibb.co/9HTyRnn/sousmarin-Cover.png",
+        "images1": [
+            "https://i.ibb.co/9HTyRnn/sousmarin-Cover.png"
+        ],
+        "txtPhotos1": [
+            "Submarine model."
+        ],
+        "roles": [
+            "3D artist"
+        ],
+        "technos": [
+            "Maya",
+            "Arnold"
+        ],
+        "mots":[
+            "Back to the project list",
+            "Roles :",
+            "Made with :",
+            "The project",
+            "See the project",
+            "See the GitHub",
+            "In this image :"
+        ]
+    },
+    {
+        "id": "OBE",
+        "name": "Obelisk",
+        "type": "creation",
+        "date": "2019",
+        "txt": [
+            "This obelisk is my first 3D creation with Maya software and Arnold renderer.",
+            "The graphic style is very inspired by the world of Lovecraft and elder runes."
+        ],
+        "LienYT": "https://www.youtube.com/embed/Xbbpt0oPZFY",
+        "images1": [
+            "https://i.ibb.co/VNg6Gcq/TP1-Gaudreau-2-0060.webp",
+            "https://i.ibb.co/ygwH4Nd/TP1-Gaudreau-1-0001.webp",
+            "https://i.ibb.co/12THgfJ/TP1-Gaudreau-2-0200.webp",
+            "https://i.ibb.co/rQZWJ37/TP1-Gaudreau-2-0158.webp"
+        ],
+        "txtPhotos1": [
+            "Render of the obelisk",
+            "Render of the obelisk",
+            "Render of the obelisk",
+            "Render of the obelisk"
+        ],
+        "cover": "https://i.ibb.co/syvsqKB/obelisque-Cover.png",
+        "roles": [
+            "3D artist"
+        ],
+        "technos": [
+            "Maya",
+            "Arnold"
+        ],
+        "mots":[
+            "Back to the project list",
+            "Roles :",
+            "Made with :",
+            "The project",
+            "See the project",
+            "See the GitHub",
+            "In this image :"
+        ]
+    },
+    {
+        "id": "TUTO",
+        "name": "Galaxy",
+        "type": "creation",
+        "date": "2018",
+        "txt": [
+            "This project with the goal of creating a poster of a famous character or personality by following a Creationshop tutorial and putting it our way."
+        ],
+        "images1": [
+            "https://i.ibb.co/NLKBSKN/tuto1.webp"
+        ],
+        "images2": [
+            "https://i.ibb.co/Lxn2Xhf/mob.webp"
+        ],
+        "txtPhotos1": [
+            "Vladimir Putin"
+        ],
+        "txtPhotos2": [
+            "Shigeo Kageyama from Mob Psycho 100."
+        ],
+        "cover": "https://i.ibb.co/s5fB3vR/galaxie-Cover.png",
+        "roles": [
+            "Designer"
+        ],
+        "technos": [
+            "Photoshop"
+        ],
+        "mots":[
+            "Back to the project list",
+            "Roles :",
+            "Made with :",
+            "The project",
+            "See the project",
+            "See the GitHub",
+            "In this image :"
+        ]
+    },
+    {
+        "id": "MCDO",
+        "name": "Anachronisme",
+        "type": "creation",
+        "date": "2018",
+        "txt": [
+            "The goal of this project was to create an advertisement by incorporating a modern company or object into a painting or photograph from another era.",
+            "So here is a McDonald's Big Mac incorporated into a 17th-century painting."
+        ],
+        "images1": [
+            "https://i.ibb.co/stCX4TY/MCDO.webp"
+        ],
+        "txtPhotos1": [
+            "Final render of the project"
+        ],
+        "cover": "https://i.ibb.co/XzDTBdn/anachronisme-Cover.png",
+        "roles": [
+            "Designer"
+        ],
+        "technos": [
+            "Photoshop"
+        ],
+        "mots":[
+            "Back to the project list",
+            "Roles :",
+            "Made with :",
+            "The project",
+            "See the project",
+            "See the GitHub",
+            "In this image :"
+        ]
+    },
+    {
+        "id": "TF",
+        "name": "Tempus Fugit",
+        "type": "creation",
+        "date": "2018",
+        "txt": [
+            "Short film produced in a team of 3 during a multimedia course in 5th year of high school"
+        ],
+        "LienYT": "https://www.youtube.com/embed/jvS9JraJkvU",
+        "images1": [
+            "https://i.ibb.co/bvpNLnf/Tempus-Fugit.webp",
+            "https://i.ibb.co/TBZ9Qjk/Tempus-Fugit2.webp",
+            "https://i.ibb.co/1qwb1My/Tempus-Fugi3.webp"
+        ],
+        "txtPhotos1": [
+            "First poster of the film",
+            "Second poster of the film",
+            "Third poster of the film"
+        ],
+        "cover": "https://i.ibb.co/frJJ7Cp/tempusfugit-Cover.png",
+        "roles": [
+            "Scenarist",
+            "Actor",
+            "Designer"
+        ],
+        "technos": [
+            "Premiere Pro",
+            "Photoshop"
+        ],
+        "mots":[
+            "Back to the project list",
+            "Roles :",
+            "Made with :",
+            "The project",
+            "See the project",
+            "See the GitHub",
+            "In this image :"
+        ]
+    }
+]
