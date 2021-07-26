@@ -28,7 +28,7 @@ header {
             display: none;
         }
 
-        @include breakpoint(mobile){
+        @include breakpoint(mobile) {
             display: none;
         }
 
@@ -65,7 +65,7 @@ header {
                 }
             }
 
-            h1{
+            h1 {
                 color: red;
                 margin: 0;
             }
@@ -88,6 +88,15 @@ header {
                 &:hover {
                     background-position: 0 100%;
                     cursor: pointer;
+                }
+            }
+
+            .lang {
+                a {
+                    &::before {
+                        content: "\2022";
+                        margin-right: 5px;
+                    }
                 }
             }
         }

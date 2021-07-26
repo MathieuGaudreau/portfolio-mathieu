@@ -12,18 +12,36 @@
           <ul>
             <li>
               <a
+                v-if="this.lang === 'fr'"
                 :class="!QuiSuisJeVisible ? 'active' : 'notActive'"
                 @click="retourProjets"
                 title="Voir la page projet !"
                 >Projets</a
               >
+
+              <a
+                v-if="this.lang === 'en'"
+                :class="!QuiSuisJeVisible ? 'active' : 'notActive'"
+                @click="retourProjets"
+                title="Voir la page projet !"
+                >Projects</a
+              >
             </li>
             <li>
               <a
+                v-if="this.lang === 'fr'"
                 :class="QuiSuisJeVisible ? 'active' : 'notActive'"
                 @click="toggleQuiSuisJe"
                 title="Voir la page Qui Suis-Je !"
                 >Qui suis-je</a
+              >
+
+              <a
+                v-if="this.lang === 'en'"
+                :class="QuiSuisJeVisible ? 'active' : 'notActive'"
+                @click="toggleQuiSuisJe"
+                title="Voir la page Qui Suis-Je !"
+                >Who am I</a
               >
             </li>
             <li>
@@ -33,9 +51,11 @@
             </li>
 
             <!-- Bouton Lang Switch -->
-            <!-- <li>
-              <button @click="switchLang"></button>
-            </li> -->
+            <li class="lang">
+              <a class="active" v-if="lang==='fr'" @click="switchLang">En</a>
+
+              <a class="active" v-if="lang==='en'" @click="switchLang">Fr</a>
+            </li>
 
             <!-- Bouton Dark Theme -->
             <!-- <li>
@@ -46,8 +66,6 @@
                 <span v-else><i class="far fa-moon"></i></span>
               </h1>
             </li> -->
-
-
           </ul>
           <div class="border"></div>
         </section>
@@ -59,17 +77,32 @@
           <ul>
             <li>
               <a
+                v-if="this.lang === 'fr'"
                 :class="!QuiSuisJeVisible ? 'active' : 'notActive'"
                 @click="
                   retourProjets();
                   closeNav();
                 "
                 title="Voir la page projet !"
-                >  Projets</a
+              >
+                Projets</a
+              >
+
+              <a
+                v-if="this.lang === 'en'"
+                :class="!QuiSuisJeVisible ? 'active' : 'notActive'"
+                @click="
+                  retourProjets();
+                  closeNav();
+                "
+                title="Voir la page projet !"
+              >
+                Projects</a
               >
             </li>
             <li>
               <a
+                v-if="this.lang === 'fr'"
                 :class="QuiSuisJeVisible ? 'active' : 'notActive'"
                 @click="
                   toggleQuiSuisJe();
@@ -78,6 +111,23 @@
                 title="Voir la page Qui Suis-Je !"
                 >Qui suis-je</a
               >
+
+              <a
+                v-if="this.lang === 'en'"
+                :class="QuiSuisJeVisible ? 'active' : 'notActive'"
+                @click="
+                  toggleQuiSuisJe();
+                  closeNav();
+                "
+                title="Voir la page Qui Suis-Je !"
+                >Who am I</a
+              >
+            </li>
+
+            <li class="lang">
+              <a class="active" v-if="lang==='fr'" @click="switchLang">En</a>
+
+              <a class="active" v-if="lang==='en'" @click="switchLang">Fr</a>
             </li>
           </ul>
 
@@ -110,10 +160,10 @@
         </section>
       </header>
 
-      <qui-suis-je v-if="QuiSuisJeVisible"></qui-suis-je>
+      <qui-suis-je :lang="lang" v-if="QuiSuisJeVisible"></qui-suis-je>
 
       <main v-if="!QuiSuisJeVisible">
-        <tri></tri>
+        <tri :lang="lang" ></tri>
         <section id="listeProjets">
           <projets
             v-for="projet in projets"
@@ -134,7 +184,7 @@
             :txtPhotos1="projet.txtPhotos1"
             :txtPhotos2="projet.txtPhotos2"
             :canva="projet.canva"
-            :mots="projet.mots"
+            :lang="lang"
           ></projets>
         </section>
       </main>
@@ -160,6 +210,7 @@ export default {
   name: "App",
   data() {
     return {
+      lang: "fr",
       projets: dbFR,
       projetsFR: dbFR,
       projetsEN: dbEN,
@@ -171,17 +222,13 @@ export default {
   },
   methods: {
     switchLang() {
-      if (this.$lang == "fr") {
-        this.$lang = "en";
+      if (this.lang == "fr") {
+        this.lang = "en";
         this.projets = this.projetsEN;
       } else {
-        this.$lang = "fr";
+        this.lang = "fr";
         this.projets = this.projetsFR;
       }
-
-      console.log(this.$lang);
-
-
     },
     toggleQuiSuisJe() {
       this.QuiSuisJeVisible = true;

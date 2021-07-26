@@ -1,10 +1,14 @@
 <template>
   <section id="tri">
     <ul>
-      <li title="Voir tous les projets !" class="active" id="tous" @click="triTous">Tous</li>
-      <li title="Voir les projets création !" id="creation" @click="triCreation">Créations</li>
-      <li title="Voir les projets de jeux !" id="jeux" @click="triJeu">Jeux</li>
+      <li v-if="lang==='fr'" title="Voir tous les projets !" class="active" id="tous" @click="triTous">Tous</li>
+      <li v-if="lang==='en'" title="Voir tous les projets !" class="active" id="tous" @click="triTous">All</li>
+      <li v-if="lang==='fr'" title="Voir les projets création !" id="creation" @click="triCreation">Créations</li>
+      <li v-if="lang==='en'" title="Voir les projets création !" id="creation" @click="triCreation">Creations</li>
+      <li v-if="lang==='fr'" title="Voir les projets de jeux !" id="jeux" @click="triJeu">Jeux</li>
+      <li v-if="lang==='en'" title="Voir les projets de jeux !" id="jeux" @click="triJeu">Games</li>
       <li title="Voir les projets web !" id="web" @click="triWeb">Web</li>
+      
     </ul>
     <div class="border"></div>
   </section>
@@ -160,5 +164,8 @@ export default {
       }
     },
   },
+  props:{
+    lang:{}
+  }
 };
 </script>

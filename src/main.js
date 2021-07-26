@@ -14,8 +14,6 @@ Vue.component('tri', Tri);
 Vue.component('projets', Projets);
 Vue.component('basdepage', BasDePage);
 
-Vue.prototype.$lang = "fr"
-
 
 new Vue({
   created() {
