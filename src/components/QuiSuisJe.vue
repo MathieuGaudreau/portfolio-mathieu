@@ -1,7 +1,7 @@
 <template>
   <section id="moi">
     <div id="moiImg">
-      <img src="../assets/baroque.jpg" alt="" />
+      <img src="../assets/moi.jpg" alt="" />
     </div>
     <div id="moiTxt">
       <h2 v-if="lang === 'fr'">Salut la !</h2>
