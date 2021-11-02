@@ -1,5 +1,55 @@
 [
     {
+        "id": "nightwell",
+        "name": "Escape the Nightwell Keep",
+        "type": "jeu",
+        "date": "2021",
+        "txt": [
+            "Ce projet est un petit jeu de plateforme dans lequel le joueur doit explorer l’environnement pour réussir à s'échapper du château en évitant les multiples pièges et ennemis qui errent à l’intérieur.",
+            "Ce jeu est inspiré du style dark fantasy et de jeux comme Dead Cells et Blasphemous."
+        ],
+        "LienProjet": "https://mathieugaudreau.itch.io/escape-the-nightwell-keep",
+        "images1": [
+            "https://i.ibb.co/BwnvGPm/Start.png",
+            "https://i.ibb.co/DDHfrKk/Area1.png",
+            "https://i.ibb.co/pZwCVGn/Area2.png",
+            "https://i.ibb.co/7nRFt18/Area3.png",
+            "https://i.ibb.co/VBSwrqT/Area4.png",
+            "https://i.ibb.co/5rZbnBq/Secret-Area.png"
+        ],
+        "txtPhotos1": [
+            "Emplacement de départ du joueur",
+            "Espace du niveau 1",
+            "Espace du niveau 2",
+            "Espace du niveau 3",
+            "Espace du niveau 4",
+            "Exemple d'espace secret"
+        ],
+        "images2": [
+            "https://i.ibb.co/cyxCzCy/Menu.png",
+            "https://i.ibb.co/Ky6gN09/Instructions.png",
+            "https://i.ibb.co/cw2f2wk/Death-Screen.png",
+            "https://i.ibb.co/PmZM0Tw/End-Screen.png"
+        ],
+        "txtPhotos2": [
+            "Menu principal du jeu.",
+            "Écran d'instruction du jeu.",
+            "Écran de mort, le joueur peut quitter ou recommencer le jeu du dernier checkpoint.",
+            "Écran de fin du jeu, elle indique le nombre de point ramassé par le joueur et lui permet de rejouer ou quitter le jeu."
+        ],
+        "cover": "https://i.ibb.co/ypck3S5/nightwell.png",
+        "roles": [
+            "Concepteur Sonore",
+            "Programmeur",
+            "Intégrateur",
+            "Designer"
+        ],
+        "technos": [
+            "Unity",
+            "C#"
+        ]
+    },
+    {
         "id": "projetRecherche",
         "name": "Projet de recherche",
         "type": "jeu",
@@ -614,4 +664,3 @@
         ]
     }
 ]
-
