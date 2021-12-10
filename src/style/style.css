@@ -1080,13 +1080,13 @@ main .detailsProjets .youtube iframe {
 }
 
 .svg:nth-child(1) {
-  left: 2%;
-  -webkit-animation: raise1 20s linear infinite;
-          animation: raise1 20s linear infinite;
-  -webkit-animation-delay: -4s;
-          animation-delay: -4s;
-  -webkit-transform: scale(-0.3) rotate(185deg);
-          transform: scale(-0.3) rotate(185deg);
+  left: 67%;
+  -webkit-animation: raise1 9s linear infinite;
+          animation: raise1 9s linear infinite;
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+  -webkit-transform: scale(-0.3) rotate(183deg);
+          transform: scale(-0.3) rotate(183deg);
   z-index: 0;
   -webkit-filter: blur(-5px);
           filter: blur(-5px);
@@ -1095,27 +1095,27 @@ main .detailsProjets .youtube iframe {
 @-webkit-keyframes raise1 {
   to {
     bottom: 150vh;
-    -webkit-transform: scale(-0.3) rotate(253deg);
-            transform: scale(-0.3) rotate(253deg);
+    -webkit-transform: scale(-0.3) rotate(355deg);
+            transform: scale(-0.3) rotate(355deg);
   }
 }
 
 @keyframes raise1 {
   to {
     bottom: 150vh;
-    -webkit-transform: scale(-0.3) rotate(253deg);
-            transform: scale(-0.3) rotate(253deg);
+    -webkit-transform: scale(-0.3) rotate(355deg);
+            transform: scale(-0.3) rotate(355deg);
   }
 }
 
 .svg:nth-child(2) {
-  left: 91%;
-  -webkit-animation: raise2 12s linear infinite;
-          animation: raise2 12s linear infinite;
-  -webkit-animation-delay: -3s;
-          animation-delay: -3s;
-  -webkit-transform: scale(0) rotate(232deg);
-          transform: scale(0) rotate(232deg);
+  left: 32%;
+  -webkit-animation: raise2 7s linear infinite;
+          animation: raise2 7s linear infinite;
+  -webkit-animation-delay: -4s;
+          animation-delay: -4s;
+  -webkit-transform: scale(0) rotate(53deg);
+          transform: scale(0) rotate(53deg);
   z-index: 0;
   -webkit-filter: blur(-4px);
           filter: blur(-4px);
@@ -1124,27 +1124,27 @@ main .detailsProjets .youtube iframe {
 @-webkit-keyframes raise2 {
   to {
     bottom: 150vh;
-    -webkit-transform: scale(0) rotate(131deg);
-            transform: scale(0) rotate(131deg);
+    -webkit-transform: scale(0) rotate(146deg);
+            transform: scale(0) rotate(146deg);
   }
 }
 
 @keyframes raise2 {
   to {
     bottom: 150vh;
-    -webkit-transform: scale(0) rotate(131deg);
-            transform: scale(0) rotate(131deg);
+    -webkit-transform: scale(0) rotate(146deg);
+            transform: scale(0) rotate(146deg);
   }
 }
 
 .svg:nth-child(3) {
-  left: 59%;
-  -webkit-animation: raise3 14s linear infinite;
-          animation: raise3 14s linear infinite;
-  -webkit-animation-delay: -4s;
-          animation-delay: -4s;
-  -webkit-transform: scale(0.3) rotate(234deg);
-          transform: scale(0.3) rotate(234deg);
+  left: 38%;
+  -webkit-animation: raise3 18s linear infinite;
+          animation: raise3 18s linear infinite;
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+  -webkit-transform: scale(0.3) rotate(248deg);
+          transform: scale(0.3) rotate(248deg);
   z-index: 0;
   -webkit-filter: blur(-3px);
           filter: blur(-3px);
@@ -1153,27 +1153,27 @@ main .detailsProjets .youtube iframe {
 @-webkit-keyframes raise3 {
   to {
     bottom: 150vh;
-    -webkit-transform: scale(0.3) rotate(142deg);
-            transform: scale(0.3) rotate(142deg);
+    -webkit-transform: scale(0.3) rotate(227deg);
+            transform: scale(0.3) rotate(227deg);
   }
 }
 
 @keyframes raise3 {
   to {
     bottom: 150vh;
-    -webkit-transform: scale(0.3) rotate(142deg);
-            transform: scale(0.3) rotate(142deg);
+    -webkit-transform: scale(0.3) rotate(227deg);
+            transform: scale(0.3) rotate(227deg);
   }
 }
 
 .svg:nth-child(4) {
-  left: 33%;
-  -webkit-animation: raise4 8s linear infinite;
-          animation: raise4 8s linear infinite;
-  -webkit-animation-delay: -4s;
-          animation-delay: -4s;
-  -webkit-transform: scale(0.6) rotate(20deg);
-          transform: scale(0.6) rotate(20deg);
+  left: 5%;
+  -webkit-animation: raise4 21s linear infinite;
+          animation: raise4 21s linear infinite;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-transform: scale(0.6) rotate(318deg);
+          transform: scale(0.6) rotate(318deg);
   z-index: 0;
   -webkit-filter: blur(-2px);
           filter: blur(-2px);
@@ -1182,27 +1182,27 @@ main .detailsProjets .youtube iframe {
 @-webkit-keyframes raise4 {
   to {
     bottom: 150vh;
-    -webkit-transform: scale(0.6) rotate(55deg);
-            transform: scale(0.6) rotate(55deg);
+    -webkit-transform: scale(0.6) rotate(74deg);
+            transform: scale(0.6) rotate(74deg);
   }
 }
 
 @keyframes raise4 {
   to {
     bottom: 150vh;
-    -webkit-transform: scale(0.6) rotate(55deg);
-            transform: scale(0.6) rotate(55deg);
+    -webkit-transform: scale(0.6) rotate(74deg);
+            transform: scale(0.6) rotate(74deg);
   }
 }
 
 .svg:nth-child(5) {
-  left: 24%;
-  -webkit-animation: raise5 8s linear infinite;
-          animation: raise5 8s linear infinite;
-  -webkit-animation-delay: -2s;
-          animation-delay: -2s;
-  -webkit-transform: scale(0.9) rotate(322deg);
-          transform: scale(0.9) rotate(322deg);
+  left: 2%;
+  -webkit-animation: raise5 10s linear infinite;
+          animation: raise5 10s linear infinite;
+  -webkit-animation-delay: -3s;
+          animation-delay: -3s;
+  -webkit-transform: scale(0.9) rotate(279deg);
+          transform: scale(0.9) rotate(279deg);
   z-index: 0;
   -webkit-filter: blur(-1px);
           filter: blur(-1px);
@@ -1211,27 +1211,27 @@ main .detailsProjets .youtube iframe {
 @-webkit-keyframes raise5 {
   to {
     bottom: 150vh;
-    -webkit-transform: scale(0.9) rotate(29deg);
-            transform: scale(0.9) rotate(29deg);
+    -webkit-transform: scale(0.9) rotate(359deg);
+            transform: scale(0.9) rotate(359deg);
   }
 }
 
 @keyframes raise5 {
   to {
     bottom: 150vh;
-    -webkit-transform: scale(0.9) rotate(29deg);
-            transform: scale(0.9) rotate(29deg);
+    -webkit-transform: scale(0.9) rotate(359deg);
+            transform: scale(0.9) rotate(359deg);
   }
 }
 
 .svg:nth-child(6) {
-  left: 29%;
-  -webkit-animation: raise6 18s linear infinite;
-          animation: raise6 18s linear infinite;
+  left: 16%;
+  -webkit-animation: raise6 12s linear infinite;
+          animation: raise6 12s linear infinite;
   -webkit-animation-delay: -2s;
           animation-delay: -2s;
-  -webkit-transform: scale(1.2) rotate(135deg);
-          transform: scale(1.2) rotate(135deg);
+  -webkit-transform: scale(1.2) rotate(148deg);
+          transform: scale(1.2) rotate(148deg);
   z-index: 0;
   -webkit-filter: blur(0px);
           filter: blur(0px);
@@ -1240,27 +1240,27 @@ main .detailsProjets .youtube iframe {
 @-webkit-keyframes raise6 {
   to {
     bottom: 150vh;
-    -webkit-transform: scale(1.2) rotate(50deg);
-            transform: scale(1.2) rotate(50deg);
+    -webkit-transform: scale(1.2) rotate(272deg);
+            transform: scale(1.2) rotate(272deg);
   }
 }
 
 @keyframes raise6 {
   to {
     bottom: 150vh;
-    -webkit-transform: scale(1.2) rotate(50deg);
-            transform: scale(1.2) rotate(50deg);
+    -webkit-transform: scale(1.2) rotate(272deg);
+            transform: scale(1.2) rotate(272deg);
   }
 }
 
 .svg:nth-child(7) {
-  left: 49%;
-  -webkit-animation: raise7 7s linear infinite;
-          animation: raise7 7s linear infinite;
-  -webkit-animation-delay: -4s;
-          animation-delay: -4s;
-  -webkit-transform: scale(1.5) rotate(231deg);
-          transform: scale(1.5) rotate(231deg);
+  left: -2%;
+  -webkit-animation: raise7 20s linear infinite;
+          animation: raise7 20s linear infinite;
+  -webkit-animation-delay: -3s;
+          animation-delay: -3s;
+  -webkit-transform: scale(1.5) rotate(343deg);
+          transform: scale(1.5) rotate(343deg);
   z-index: 0;
   -webkit-filter: blur(1px);
           filter: blur(1px);
@@ -1269,27 +1269,27 @@ main .detailsProjets .youtube iframe {
 @-webkit-keyframes raise7 {
   to {
     bottom: 150vh;
-    -webkit-transform: scale(1.5) rotate(245deg);
-            transform: scale(1.5) rotate(245deg);
+    -webkit-transform: scale(1.5) rotate(10deg);
+            transform: scale(1.5) rotate(10deg);
   }
 }
 
 @keyframes raise7 {
   to {
     bottom: 150vh;
-    -webkit-transform: scale(1.5) rotate(245deg);
-            transform: scale(1.5) rotate(245deg);
+    -webkit-transform: scale(1.5) rotate(10deg);
+            transform: scale(1.5) rotate(10deg);
   }
 }
 
 .svg:nth-child(8) {
-  left: -1%;
-  -webkit-animation: raise8 21s linear infinite;
-          animation: raise8 21s linear infinite;
-  -webkit-animation-delay: -1s;
-          animation-delay: -1s;
-  -webkit-transform: scale(1.8) rotate(239deg);
-          transform: scale(1.8) rotate(239deg);
+  left: 54%;
+  -webkit-animation: raise8 20s linear infinite;
+          animation: raise8 20s linear infinite;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-transform: scale(1.8) rotate(169deg);
+          transform: scale(1.8) rotate(169deg);
   z-index: 0;
   -webkit-filter: blur(2px);
           filter: blur(2px);
@@ -1298,27 +1298,27 @@ main .detailsProjets .youtube iframe {
 @-webkit-keyframes raise8 {
   to {
     bottom: 150vh;
-    -webkit-transform: scale(1.8) rotate(138deg);
-            transform: scale(1.8) rotate(138deg);
+    -webkit-transform: scale(1.8) rotate(134deg);
+            transform: scale(1.8) rotate(134deg);
   }
 }
 
 @keyframes raise8 {
   to {
     bottom: 150vh;
-    -webkit-transform: scale(1.8) rotate(138deg);
-            transform: scale(1.8) rotate(138deg);
+    -webkit-transform: scale(1.8) rotate(134deg);
+            transform: scale(1.8) rotate(134deg);
   }
 }
 
 .svg:nth-child(9) {
-  left: 69%;
+  left: -17%;
   -webkit-animation: raise9 14s linear infinite;
           animation: raise9 14s linear infinite;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-transform: scale(2.1) rotate(157deg);
-          transform: scale(2.1) rotate(157deg);
+  -webkit-animation-delay: -3s;
+          animation-delay: -3s;
+  -webkit-transform: scale(2.1) rotate(162deg);
+          transform: scale(2.1) rotate(162deg);
   z-index: 0;
   -webkit-filter: blur(3px);
           filter: blur(3px);
@@ -1327,27 +1327,27 @@ main .detailsProjets .youtube iframe {
 @-webkit-keyframes raise9 {
   to {
     bottom: 150vh;
-    -webkit-transform: scale(2.1) rotate(166deg);
-            transform: scale(2.1) rotate(166deg);
+    -webkit-transform: scale(2.1) rotate(287deg);
+            transform: scale(2.1) rotate(287deg);
   }
 }
 
 @keyframes raise9 {
   to {
     bottom: 150vh;
-    -webkit-transform: scale(2.1) rotate(166deg);
-            transform: scale(2.1) rotate(166deg);
+    -webkit-transform: scale(2.1) rotate(287deg);
+            transform: scale(2.1) rotate(287deg);
   }
 }
 
 .svg:nth-child(10) {
-  left: 14%;
-  -webkit-animation: raise10 13s linear infinite;
-          animation: raise10 13s linear infinite;
-  -webkit-animation-delay: -2s;
-          animation-delay: -2s;
-  -webkit-transform: scale(2.4) rotate(337deg);
-          transform: scale(2.4) rotate(337deg);
+  left: 91%;
+  -webkit-animation: raise10 9s linear infinite;
+          animation: raise10 9s linear infinite;
+  -webkit-animation-delay: -3s;
+          animation-delay: -3s;
+  -webkit-transform: scale(2.4) rotate(152deg);
+          transform: scale(2.4) rotate(152deg);
   z-index: 0;
   -webkit-filter: blur(4px);
           filter: blur(4px);
@@ -1356,16 +1356,16 @@ main .detailsProjets .youtube iframe {
 @-webkit-keyframes raise10 {
   to {
     bottom: 150vh;
-    -webkit-transform: scale(2.4) rotate(210deg);
-            transform: scale(2.4) rotate(210deg);
+    -webkit-transform: scale(2.4) rotate(345deg);
+            transform: scale(2.4) rotate(345deg);
   }
 }
 
 @keyframes raise10 {
   to {
     bottom: 150vh;
-    -webkit-transform: scale(2.4) rotate(210deg);
-            transform: scale(2.4) rotate(210deg);
+    -webkit-transform: scale(2.4) rotate(345deg);
+            transform: scale(2.4) rotate(345deg);
   }
 }
 
@@ -1495,6 +1495,7 @@ main .detailsProjets .youtube iframe {
   z-index: 1000;
   -webkit-animation: animSection 0.5s ease;
           animation: animSection 0.5s ease;
+  padding: 10%;
 }
 
 @media (max-width: 767px) {
@@ -1509,46 +1510,9 @@ main .detailsProjets .youtube iframe {
   }
 }
 
-#moi #moiImg {
-  z-index: 1000;
-  width: 25%;
-  margin-right: 10px;
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  #moi #moiImg {
-    width: 40%;
-  }
-}
-
-@media (max-width: 767px) {
-  #moi #moiImg {
-    width: 80%;
-  }
-}
-
-#moi #moiImg img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-@media (max-width: 767px) {
-  #moi #moiImg img {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-}
-
 #moi #moiTxt {
-  width: 30%;
+  width: 50%;
   color: black;
-  margin-left: 10px;
   z-index: 1000;
 }
 
@@ -1685,7 +1649,7 @@ main .detailsProjets .youtube iframe {
 
 #tri .border {
   height: 5px;
-  width: 30%;
+  width: 40%;
   border-radius: 10px;
   background: #d48166;
   margin-top: 5px;
@@ -1713,7 +1677,7 @@ main .detailsProjets .youtube iframe {
   -webkit-box-direction: normal;
       -ms-flex-flow: row;
           flex-flow: row;
-  width: 30%;
+  width: 40%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

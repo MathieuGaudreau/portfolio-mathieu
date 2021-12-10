@@ -1,5 +1,113 @@
 [
     {
+        "id": "RM",
+        "name": "Règne de Malheurs",
+        "type": "jeuTable",
+        "date": "2021",
+        "txt": [
+            "To say that the Baron Van Der Brayne is unlucky is a hell of an understatement! Hit by a birth curse, his brain is perpetually in the grip of an influx of emotions that affect his decision-making.",
+            "Embody one of his 5 emotions: (Fear, Anger, Sadness, Euphoria, or Disgust) and control their reactions to events, each more traumatic than the next ! Your goal is simple, be the dominant emotion and crush your opponents !",
+            "Take control of the Baron's brain and rule his lands ! But beware, he does do not intend to let you take control so easily..."
+        ],
+        "LienProjet": "https://drive.google.com/file/d/1LOndUHi0UJ2lmWc_KCTaCrrw-GTVFoWw/view?usp=sharing",
+        "images1": [
+            "https://i.ibb.co/vvq3SCs/Presentation3-D.png",
+            "https://i.ibb.co/WH8WVMY/TopBoite.png",
+            "https://i.ibb.co/1ZZMWrv/Sell-Sheets.png",
+            "https://i.ibb.co/P47cdSK/Board.png",
+            "https://i.ibb.co/L5Z6pqP/Planchettes-De-Jeu.png",
+            "https://i.ibb.co/M7wyX31/Cartes-Perso.png",
+            "https://i.ibb.co/jv3FddK/Cartes-Event.png",
+            "https://i.ibb.co/HC1kNQz/AideJeu.png",
+            "https://i.ibb.co/frgP9SD/Pions-Perso.png",
+            "https://i.ibb.co/8PQh5RZ/PionsJeu.png",
+            "https://i.ibb.co/ZLC3Bqp/Crest-Curse.png"
+        ],
+        "txtPhotos1": [
+            "Box content",
+            "Top of the box",
+            "Sell sheet",
+            "Board",
+            "Turn order board (3 , 4 , 5 players)",
+            "Character cards",
+            "Event card examples",
+            "Game help",
+            "Character pawns",
+            "Game pawns",
+            "Curse and turn counter pawns"
+        ],
+        "cover": "https://i.ibb.co/0ZRcFzT/RM.png",
+        "roles": [
+            "Designer",
+            "Illustrator"
+        ],
+        "technos": [
+            "Photoshop"
+        ]
+    },
+    {
+        "id": "repairndespair",
+        "name": "Repair 'n' Despair",
+        "type": "jeuTable",
+        "date": "2021",
+        "txt": [
+            "An alarm is ringing as you emerge from your cryostasis ... You come to your senses and understand with horror that your ship has been stormed by an alien !",
+            "It's starting to destroy your ship, and you're going to have to stop him and toss him into the void before he blows everything up!",
+            "You take a look at your oxygen reserves ...",
+            "You only have 20 minutes left before you perish from suffocation!",
+            "Repair ‘n’ Despair is a co-op game for 4 players.",
+            "You must repair the destroyed areas in order to restart the system and eliminate the monster before the oxygen reserves are depleted for good."
+        ],
+        "LienProjet": "https://drive.google.com/file/d/1srl9wsagx6Sn8OWyMaRtMf1Io8M4ul2L/view?usp=sharing",
+        "images1": [
+            "https://i.ibb.co/WK9tkzp/boite-Front.jpg",
+            "https://i.ibb.co/wCBShrw/boite-Back.jpg",
+            "https://i.ibb.co/NL2GdrT/contenu.jpg",
+            "https://i.ibb.co/fGMQjZ7/cartes.jpg",
+            "https://i.ibb.co/wdNJY0V/pions.jpg",
+            "https://i.ibb.co/Kr96BRL/de.jpg",
+            "https://i.ibb.co/kBDkrcL/layout.jpg",
+            "https://i.ibb.co/sgL9zs1/carte-Perso.png",
+            "https://i.ibb.co/D433XGj/carte-Equipage.png",
+            "https://i.ibb.co/tHtcR89/cover-back.png"
+        ],
+        "txtPhotos1": [
+            "Top of the box",
+            "Sell Sheet",
+            "Box content",
+            "Game cards and tiles",
+            "Pawns",
+            "Dices",
+            "Tile placement",
+            "Character cards",
+            "Crew cards",
+            "Top and bottom of the box"
+        ],
+        "images2": [
+            "https://i.ibb.co/YjxBQVB/exemple-Game2.jpg",
+            "https://i.ibb.co/GH3tsqZ/exemple-Game.jpg",
+            "https://i.ibb.co/6tjFWTk/app.jpg",
+            "https://i.ibb.co/8cfCVNK/app-Screen1.png",
+            "https://i.ibb.co/DWgtmJF/app-Screen2.png"
+        ],
+        "txtPhotos2": [
+            "Game example",
+            "Game example",
+            "Game App",
+            "App home page , instructions & starting zone",
+            "App endscreen"
+        ],
+        "cover": "https://i.ibb.co/Tc0rzdd/repair-Ndespair.png",
+        "roles": [
+            "Designer",
+            "Programmer"
+        ],
+        "technos": [
+            "Unity",
+            "Photoshop"
+        ]
+    },
+    {
         "id": "nightwell",
         "name": "Escape the Nightwell Keep",
         "type": "jeu",
@@ -187,61 +295,6 @@
             "HTML",
             "CSS",
             "JavaScript"
-        ]
-    },
-    {
-        "id": "TIM2020",
-        "name": "TIM 2020",
-        "type": "web",
-        "date": "2020",
-        "txt": [
-            "This project is a website concept for the Department of Multimedia Integration at Cégep de Maisonneuve which was developed in a team of 5 over the span of a Cégep session.",
-            "We decided to give the website a new look, much more up-to-date, very inspired by cyberpunk’s style and colors."
-        ],
-        "LienProjet": "https://techniques-integration-multimedia.netlify.app/",
-        "GH": "https://github.com/MathieuGaudreau/TIM2020",
-        "images1": [
-            "https://i.ibb.co/jrMFbgN/accueil-tim.webp",
-            "https://i.ibb.co/4s6cNGz/accueil-Mobile1.webp",
-            "https://i.ibb.co/tpKgP2M/accueil-Mobile2.webp",
-            "https://i.ibb.co/kyWXj9y/cours.webp",
-            "https://i.ibb.co/PcTJqVF/cours-Mobile.webp",
-            "https://i.ibb.co/rHF2n6S/cours-Mobile2.webp"
-        ],
-        "images2": [
-            "https://i.ibb.co/tQfJhM9/equipe.webp",
-            "https://i.ibb.co/c8NfRht/equipe-Mobile.webp",
-            "https://i.ibb.co/mDnQyxM/event.webp",
-            "https://i.ibb.co/9ZdCNMH/events-Mobile.webp",
-            "https://i.ibb.co/FHrWYJw/guide-style.webp",
-            "https://i.ibb.co/KhffnQd/Moodboard-Tim.webp"
-        ],
-        "txtPhotos1": [
-            "Large screen version of the site's home page.",
-            "Mobile version of the site's home page.",
-            "Site navigation mobile version.",
-            "Large screen version of the site's current page.",
-            "Mobile version of the site's current page.",
-            "Mobile version of the site's current page."
-        ],
-        "txtPhotos2": [
-            "Large screen version of the site's team page.",
-            "Mobile version of the site's team page.",
-            "Large screen version of the site's event page.",
-            "Mobile version of the site's event page.",
-            "Site style guide.",
-            "Moodboard of the site."
-        ],
-        "cover": "https://i.ibb.co/g4GQNHL/tim2020-Cover.png",
-        "roles": [
-            "Designer",
-            "Front-End Dev"
-        ],
-        "technos": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Photoshop"
         ]
     },
     {
@@ -438,148 +491,6 @@
             "Illustrator",
             "HTML",
             "CSS"
-        ]
-    },
-    {
-        "id": "BLOOD",
-        "name": "Bloodville",
-        "type": "jeu",
-        "date": "2019",
-        "txt": [
-            "Bloodville is a 2D platform game in which the player ventures into and around a morbid village in order to destroy the creatures that terrorize its inhabitants.",
-            "I decided to give the game an 8-bit graphical style to remind you of more retro platform games because it is a very fashionable style. I also chose colors in the palettes of red and purple to give a slightly darker and macabre vibe to go with the very fantasy and medieval universe of the game.",
-            "This game is the first game I developed with Unity."
-        ],
-        "LienProjet": "https://assasine.netlify.app/",
-        "canva": [
-            "https://www.canva.com/design/DAEXYBfMwGA/view"
-        ],
-        "images1": [
-            "https://i.ibb.co/t2W8F92/Gaudreau-Affiche.webp",
-            "https://i.ibb.co/f4x4FQt/Gaudreau-Menu.webp",
-            "https://i.ibb.co/XsQgcFW/Gaudreau-Instructions.webp"
-        ],
-        "images2": [
-            "https://i.ibb.co/XzDX0Fw/Gaudreau-Gameplay.webp",
-            "https://i.ibb.co/DtTbktR/Gaudreau-Victoire.webp",
-            "https://i.ibb.co/mhdtMtn/Gaudreau-Gameover.webp"
-        ],
-        "txtPhotos1": [
-            "Game poster",
-            "Main menu",
-            "How to play screen"
-        ],
-        "txtPhotos2": [
-            "Example of gameplay, the player is confronted with several small areas of platforming during the game.",
-            "Victory screen",
-            "Death screen"
-        ],
-        "cover": "https://i.ibb.co/6Jt6rQD/bloodvillle-Cover.png",
-        "roles": [
-            "Designer",
-            "Programmer"
-        ],
-        "technos": [
-            "Unity",
-            "C#",
-            "Illustrator"
-        ]
-    },
-    {
-        "id": "VFM",
-        "name": "Manago",
-        "type": "web",
-        "date": "2019",
-        "txt": [
-            "This project is a concept for the website of the restaurant Le Vieux Four Manago located in Saint-Sauveur.",
-            "My mandate for this project was to revive a website that was not up to date. So I gave a much more modern and refined style with more sober colors. I also simplified the navigation by making the site in one-pager."
-        ],
-        "LienProjet": "https://vieux-four-manago-gaudreau.netlify.app",
-        "GH": "https://github.com/MathieuGaudreau/Manago",
-        "images1": [
-            "https://i.ibb.co/ssnthCH/accueil.webp",
-            "https://i.ibb.co/Bq7Vqpp/background.webp",
-            "https://i.ibb.co/RSCMXp6/histoire.webp"
-        ],
-        "images2": [
-            "https://i.ibb.co/BwwqTmL/gallerie.webp",
-            "https://i.ibb.co/tB38tZ2/menu.webp",
-            "https://i.ibb.co/qyy9fHH/reservation.webp"
-        ],
-        "txtPhotos1": [
-            "Large screen version of the site's home page.",
-            "Mobile version of the site's home page.",
-            "History page of the site."
-        ],
-        "txtPhotos2": [
-            "Site gallery page.",
-            "Site menu page",
-            "Site reservation page"
-        ],
-        "cover": "https://i.ibb.co/2qcrLD8/manago-Cover.png",
-        "roles": [
-            "Designer",
-            "Programmer"
-        ],
-        "technos": [
-            "HTML",
-            "CSS",
-            "JavaScript"
-        ]
-    },
-    {
-        "id": "SM",
-        "name": "Sous-Marin",
-        "type": "creation",
-        "date": "2019",
-        "txt": [
-            "Creation of an underwater vehicle inspired by magnapinnas octopuses (octopus found in deep seas)."
-        ],
-        "LienYT": "https://www.youtube.com/embed/rfliD0X_8Y0",
-        "cover": "https://i.ibb.co/9HTyRnn/sousmarin-Cover.png",
-        "images1": [
-            "https://i.ibb.co/9HTyRnn/sousmarin-Cover.png"
-        ],
-        "txtPhotos1": [
-            "Submarine model."
-        ],
-        "roles": [
-            "3D artist"
-        ],
-        "technos": [
-            "Maya",
-            "Arnold"
-        ]
-    },
-    {
-        "id": "OBE",
-        "name": "Obelisk",
-        "type": "creation",
-        "date": "2019",
-        "txt": [
-            "This obelisk is my first 3D creation with Maya software and Arnold renderer.",
-            "The graphic style is very inspired by the world of Lovecraft and elder runes."
-        ],
-        "LienYT": "https://www.youtube.com/embed/Xbbpt0oPZFY",
-        "images1": [
-            "https://i.ibb.co/VNg6Gcq/TP1-Gaudreau-2-0060.webp",
-            "https://i.ibb.co/ygwH4Nd/TP1-Gaudreau-1-0001.webp",
-            "https://i.ibb.co/12THgfJ/TP1-Gaudreau-2-0200.webp",
-            "https://i.ibb.co/rQZWJ37/TP1-Gaudreau-2-0158.webp"
-        ],
-        "txtPhotos1": [
-            "Render of the obelisk",
-            "Render of the obelisk",
-            "Render of the obelisk",
-            "Render of the obelisk"
-        ],
-        "cover": "https://i.ibb.co/syvsqKB/obelisque-Cover.png",
-        "roles": [
-            "3D artist"
-        ],
-        "technos": [
-            "Maya",
-            "Arnold"
         ]
     },
     {

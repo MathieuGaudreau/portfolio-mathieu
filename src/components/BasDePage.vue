@@ -12,7 +12,7 @@
         ></a>
       </li>
       <li>
-        <a href="https://github.com/MathieuGaudreau" target="_blank" title="Voir mon GitHub !"
+        <a href="https://github.com/MathieuGaudreau" target="_blank" v-if="lang == en" title="Voir mon GitHub !"
           ><i class="fab fa-github-square"></i
         ></a>
       </li>
