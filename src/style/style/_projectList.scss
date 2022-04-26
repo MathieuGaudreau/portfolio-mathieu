@@ -27,7 +27,7 @@ main {
             background-size: cover;
             min-height: 20vw;
             margin: 10px 5px 0px 5px;
-            transition: filter 0.5s ease;
+            transition: filter 0.3s ease , border 0.3s ease;
             align-items: center;
             justify-content: center;
 
@@ -41,7 +41,8 @@ main {
 
             &:hover {
                 cursor: pointer;
-                filter: grayscale(0.7);
+                filter: sepia(50%);
+                border: 7px $highlight2 solid;
             }
         }
     }

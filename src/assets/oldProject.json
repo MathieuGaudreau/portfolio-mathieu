@@ -192,8 +192,7 @@
             "CSS",
             "JavaScript"
         ]
-    }, 
-    
+    },
     {
         "id": "OBE",
         "name": "Obélisque",
@@ -391,6 +390,90 @@
         "technos": [
             "Unity",
             "C#",
+            "Illustrator"
+        ]
+    },
+    {
+        "id": "OBJETS",
+        "name": "Objets",
+        "type": "creation",
+        "date": "2019",
+        "txt": [
+            "Ce projet avec comme but de créer différents objets et un sprite d'animation pour être utilisé dans un jeu vidéo."
+        ],
+        "images1": [
+            "https://i.ibb.co/ryVwVk3/Gaudreau-Cl-2.webp",
+            "https://i.ibb.co/LJSgD4D/Gaudreau-Potion.webp",
+            "https://i.ibb.co/2cFzyYy/Gaudreau-Power-up.webp",
+            "https://i.ibb.co/F3LnxrQ/Gaudreau-Points.webp",
+            "https://i.ibb.co/GR46BBW/Gaudreau-Key-Card.webp"
+        ],
+        "images2": [
+            "https://i.ibb.co/23WKrfs/Gaudreau-Gem.webp",
+            "https://i.ibb.co/PNpJnMj/Gaudreau-Coffre-coffre-ferme.webp",
+            "https://i.ibb.co/SN4sX76/Gaudreau-Coffre-coffre-ouvert-1.webp",
+            "https://i.ibb.co/0YmYVtj/Gaudreau-Coffre-coffre-ouvert-2.webp"
+        ],
+        "txtPhotos1": [
+            "Clé",
+            "Potion",
+            "Power up",
+            "Pièce d'or",
+            "Carte d'accès"
+        ],
+        "txtPhotos2": [
+            "Cristal",
+            "Sprite de coffre 1",
+            "Sprite de coffre 2",
+            "Sprite de coffre 3"
+        ],
+        "cover": "https://i.ibb.co/V9B3MXt/objets-Cover.png",
+        "roles": [
+            "Designer"
+        ],
+        "technos": [
+            "Illustrator"
+        ]
+    },
+    {
+        "id": "OBJETS",
+        "name": "Objets",
+        "type": "creation",
+        "date": "2019",
+        "txt": [
+            "This project aimed to create different objects and an animation sprite to be used in a video game."
+        ],
+        "images1": [
+            "https://i.ibb.co/ryVwVk3/Gaudreau-Cl-2.webp",
+            "https://i.ibb.co/LJSgD4D/Gaudreau-Potion.webp",
+            "https://i.ibb.co/2cFzyYy/Gaudreau-Power-up.webp",
+            "https://i.ibb.co/F3LnxrQ/Gaudreau-Points.webp",
+            "https://i.ibb.co/GR46BBW/Gaudreau-Key-Card.webp"
+        ],
+        "images2": [
+            "https://i.ibb.co/23WKrfs/Gaudreau-Gem.webp",
+            "https://i.ibb.co/PNpJnMj/Gaudreau-Coffre-coffre-ferme.webp",
+            "https://i.ibb.co/SN4sX76/Gaudreau-Coffre-coffre-ouvert-1.webp",
+            "https://i.ibb.co/0YmYVtj/Gaudreau-Coffre-coffre-ouvert-2.webp"
+        ],
+        "txtPhotos1": [
+            "Key",
+            "Potion",
+            "Power up",
+            "Gold coin",
+            "Keycard"
+        ],
+        "txtPhotos2": [
+            "Crystal",
+            "Chest sprite #1",
+            "Chest sprite #2",
+            "Chest sprite #3"
+        ],
+        "cover": "https://i.ibb.co/V9B3MXt/objets-Cover.png",
+        "roles": [
+            "Designer"
+        ],
+        "technos": [
             "Illustrator"
         ]
     }

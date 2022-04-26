@@ -9,7 +9,6 @@
             "Embody one of his 5 emotions: (Fear, Anger, Sadness, Euphoria, or Disgust) and control their reactions to events, each more traumatic than the next ! Your goal is simple, be the dominant emotion and crush your opponents !",
             "Take control of the Baron's brain and rule his lands ! But beware, he does do not intend to let you take control so easily..."
         ],
-        "LienProjet": "https://drive.google.com/file/d/1LOndUHi0UJ2lmWc_KCTaCrrw-GTVFoWw/view?usp=sharing",
         "images1": [
             "https://i.ibb.co/vvq3SCs/Presentation3-D.png",
             "https://i.ibb.co/WH8WVMY/TopBoite.png",
@@ -43,6 +42,9 @@
         ],
         "technos": [
             "Photoshop"
+        ],
+        "canva":[
+            "https://drive.google.com/file/d/1LOndUHi0UJ2lmWc_KCTaCrrw-GTVFoWw/preview"
         ]
     },
     {
@@ -58,7 +60,6 @@
             "Repair ‘n’ Despair is a co-op game for 4 players.",
             "You must repair the destroyed areas in order to restart the system and eliminate the monster before the oxygen reserves are depleted for good."
         ],
-        "LienProjet": "https://drive.google.com/file/d/1srl9wsagx6Sn8OWyMaRtMf1Io8M4ul2L/view?usp=sharing",
         "images1": [
             "https://i.ibb.co/WK9tkzp/boite-Front.jpg",
             "https://i.ibb.co/wCBShrw/boite-Back.jpg",
@@ -105,6 +106,9 @@
         "technos": [
             "Unity",
             "Photoshop"
+        ],
+        "canva":[
+            "https://drive.google.com/file/d/1srl9wsagx6Sn8OWyMaRtMf1Io8M4ul2L/preview"
         ]
     },
     {
@@ -252,8 +256,8 @@
         "LienProjet": "https://lastspark.netlify.app/",
         "LienYT": "https://www.youtube.com/embed/5FMPfM0h2wI",
         "canva": [
-            "https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEXKXS_0fM&#x2F;view?embed",
-            "https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEH9Ur3gbM&#x2F;view?embed"
+            "https://drive.google.com/file/d/1oq-eduBk8chdUY3K3PrFkLPofq6eKeCx/preview",
+            "https://drive.google.com/file/d/1ahRtIMVLA-P4gkrcs1im5HEyR3BY8XC8/preview"
         ],
         "GH": "https://github.com/MathieuGaudreau/LastSpark",
         "images1": [
@@ -309,7 +313,7 @@
         ],
         "LienProjet": "https://mathieugaudreau.itch.io/the-strange-case-of-hollow-manor",
         "canva": [
-            "https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEXFFUQhjg&#x2F;view?embed"
+            "https://drive.google.com/file/d/1SNUD92HY7b5uoc9hDsTD0IprHl2I1pj9/preview"
         ],
         "GH": "https://github.com/MathieuGaudreau/HollowManor",
         "images1": [
@@ -345,48 +349,7 @@
             "C#"
         ]
     },
-    {
-        "id": "OBJETS",
-        "name": "Objets",
-        "type": "creation",
-        "date": "2019",
-        "txt": [
-            "This project aimed to create different objects and an animation sprite to be used in a video game."
-        ],
-        "images1": [
-            "https://i.ibb.co/ryVwVk3/Gaudreau-Cl-2.webp",
-            "https://i.ibb.co/LJSgD4D/Gaudreau-Potion.webp",
-            "https://i.ibb.co/2cFzyYy/Gaudreau-Power-up.webp",
-            "https://i.ibb.co/F3LnxrQ/Gaudreau-Points.webp",
-            "https://i.ibb.co/GR46BBW/Gaudreau-Key-Card.webp"
-        ],
-        "images2": [
-            "https://i.ibb.co/23WKrfs/Gaudreau-Gem.webp",
-            "https://i.ibb.co/PNpJnMj/Gaudreau-Coffre-coffre-ferme.webp",
-            "https://i.ibb.co/SN4sX76/Gaudreau-Coffre-coffre-ouvert-1.webp",
-            "https://i.ibb.co/0YmYVtj/Gaudreau-Coffre-coffre-ouvert-2.webp"
-        ],
-        "txtPhotos1": [
-            "Key",
-            "Potion",
-            "Power up",
-            "Gold coin",
-            "Keycard"
-        ],
-        "txtPhotos2": [
-            "Crystal",
-            "Chest sprite #1",
-            "Chest sprite #2",
-            "Chest sprite #3"
-        ],
-        "cover": "https://i.ibb.co/V9B3MXt/objets-Cover.png",
-        "roles": [
-            "Designer"
-        ],
-        "technos": [
-            "Illustrator"
-        ]
-    },
+   
     {
         "id": "ROVE",
         "name": "Rovesciato",
@@ -491,6 +454,9 @@
             "Illustrator",
             "HTML",
             "CSS"
+        ],
+        "canva":[
+            "https://drive.google.com/file/d/1lCHDP9gibUGtUpWY6psiHLn3j7daPLHz/preview"
         ]
     },
     {
