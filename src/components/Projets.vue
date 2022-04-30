@@ -21,7 +21,7 @@
 
         <h3 v-if="lang === 'en'" class="retour" @click="closeDetails">
           <i class="fas fa-arrow-circle-left"></i>
-          Back to project
+          Back to project list
         </h3>
       </section>
 
@@ -97,20 +97,7 @@
         <div class="divider" v-if="canva || images1"></div>
       </section>
 
-      <section class="canvas" v-if="canva" >
-        <div v-for="(canvas, index) in canva" :key="index" data-aos="fade-up">
-          <iframe
-            loading="lazy"
-            :src="canva[index]"
-            allow="autoplay"
-            allowfullscreen="true"
-          >
-          </iframe>
-        </div> 
 
-      </section>
-
-      <div v-if="canva" class="divider"></div>
 
       <section v-if="images1" class="sliders">
         <hooper class="hooper1Container" data-aos="fade-right">
@@ -119,7 +106,8 @@
             v-for="(image, index) in images1"
             :key="index"
           >
-            <img :src="images1[index]" alt="" @click="() => showImg(index)" />
+            <img :src="images1[index]" v-if="lang === 'fr'" title="Cliquez pour agrandir l'image" alt="" @click="() => showImg2(index)" />
+            <img :src="images1[index]" v-if="lang === 'en'" title="Click to enlarge image" alt="" @click="() => showImg2(index)" />
             <div class="detailImg">
               <h3 v-if="lang === 'fr'">Dans cette image :</h3>
               <h3 v-if="lang === 'en'">In this image :</h3>
@@ -135,7 +123,8 @@
 
         <hooper class="hooper2Container" v-if="images2" data-aos="fade-left">
           <slide class="hooper2" v-for="(image, index) in images2" :key="index">
-            <img :src="images2[index]" alt="" @click="() => showImg2(index)" />
+            <img :src="images2[index]" v-if="lang === 'fr'" title="Cliquez pour agrandir l'image" alt="" @click="() => showImg2(index)" />
+            <img :src="images2[index]" v-if="lang === 'en'" title="Click to enlarge image" alt="" @click="() => showImg2(index)" />
             <div class="detailImg">
               <h3 v-if="lang === 'fr'">Dans cette image :</h3>
               <h3 v-if="lang === 'en'">In this image :</h3>
@@ -159,6 +148,21 @@
           :index="index2"
           @hide="handleHide2"
         ></vue-easy-lightbox>
+
+      <div class="divider" v-if="canva"></div>
+      </section>
+
+            <section class="canvas" v-if="canva" >
+        <div v-for="(canvas, index) in canva" :key="index" data-aos="fade-up">
+          <iframe
+            loading="lazy"
+            :src="canva[index]"
+            allow="autoplay"
+            allowfullscreen="true"
+          >
+          </iframe>
+        </div> 
+
       </section>
 
       <section class="retourProjets" @click="closeDetails">
@@ -167,7 +171,7 @@
         </h1>
 
         <h1 v-if="lang === 'en'">
-          <i class="fas fa-arrow-circle-left"></i>Back to the project list
+          <i class="fas fa-arrow-circle-left"></i>Back to project list
         </h1>
       </section>
     </section>
@@ -279,6 +283,9 @@ export default {
     },
 
     closeDetails() {
+
+document.documentElement.scrollTop = 0;
+
       this.detailsAreVisible = false;
 
       const projets = document.querySelectorAll(".projetThumb");

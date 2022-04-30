@@ -1,7 +1,9 @@
 <template>
       <slide>
           <img 
-          :src="image[index]" alt="">
+          :src="image[index]" alt=""
+          
+          >
           <div class="detailImg">
               <h3>Salut</h3>
               <p>afsdgdfgdfg</p>

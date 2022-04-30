@@ -35,6 +35,28 @@
             "Game pawns",
             "Curse and turn counter pawns"
         ],
+        "images2":[
+            "https://i.ibb.co/hVrwgY0/Contenu-Boite1.png",
+            "https://i.ibb.co/x2S5dMJ/Contenu-Boite2.png",
+            "https://i.ibb.co/Kzmf87Q/Boite.png",
+            "https://i.ibb.co/V3ThWfW/Board-Photo.png",
+            "https://i.ibb.co/5xY6gMX/Cartes-Perso-Photo.png",
+            "https://i.ibb.co/pRcB767/Cartes-Events.png",
+            "https://i.ibb.co/SxNVGSv/Aide-Jeu-Photo.png",
+            "https://i.ibb.co/K2Dgcf8/Carton-Tours.png",
+            "https://i.ibb.co/3ftS137/Pions.png"
+        ],
+        "txtPhotos2":[
+            "Full content of the box",
+            "Game accessories",
+            "Game's box",
+            "Board",
+            "Character cards",
+            "Event cards",
+            "Game help card",
+            "Turn order board",
+            "Game pawns"
+        ],
         "cover": "https://i.ibb.co/0ZRcFzT/RM.png",
         "roles": [
             "Designer",

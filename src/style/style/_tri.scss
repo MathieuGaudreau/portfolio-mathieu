@@ -44,6 +44,8 @@
         }
         @include breakpoint(mobile) {
             width: 100%;
+            flex-flow: column;
+           align-items: flex-start;
         }
 
         li {
@@ -70,6 +72,11 @@
                     cursor: pointer;
                 }
             }
+
+            @include breakpoint(mobile){
+                padding-bottom: 5%;
+                font-size: 1.2em;
+            }
         }
         .active {
             color: $highlight2;
@@ -93,6 +100,10 @@
                     background-position: 0 100%;
                     cursor: pointer;
                 }
+            }
+            @include breakpoint(mobile){
+                padding-bottom: 5%;
+                font-size: 1.2em;
             }
         }
     }
