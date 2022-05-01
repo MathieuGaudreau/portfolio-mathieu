@@ -92,6 +92,7 @@
           :src="LienYT"
           frameborder="0"
           showinfo="0"
+          allowfullscreen="allowfullscreen"
         ></iframe>
 
         <div class="divider" v-if="canva || images1"></div>
