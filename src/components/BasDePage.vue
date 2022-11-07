@@ -11,11 +11,11 @@
           ><i class="fab fa-linkedin"></i
         ></a>
       </li>
-      <li>
+      <!-- <li>
         <a href="https://github.com/MathieuGaudreau" target="_blank" title="GitHub"
           ><i class="fab fa-github-square"></i
         ></a>
-      </li>
+      </li> -->
     </ul>
 
     <section>

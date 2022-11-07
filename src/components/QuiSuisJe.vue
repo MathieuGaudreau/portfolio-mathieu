@@ -29,25 +29,17 @@
       <p v-if="lang === 'fr'">Pour un projet,</p>
       <p v-if="lang === 'en'">For a project,</p>
       <div>
-        <h1 v-if="lang === 'fr'">Retrouvez moi sur :</h1>
+        <h1 v-if="lang === 'fr'">Pour me contacter :</h1>
         <h1 v-if="lang === 'en'">Find me on :</h1>
         <ul>
           <li>
-            <a
-              href="https://www.linkedin.com/in/mathieu-gaudreau-8243a318a"
-              target="_blank"
-              title="Voir mon LinkedIn"
-              >LinkedIn<i class="fab fa-linkedin"></i
-            ></a>
+            <a href="https://www.linkedin.com/in/mathieu-gaudreau-8243a318a" target="_blank"
+              title="Voir mon LinkedIn">LinkedIn<i class="fab fa-linkedin"></i></a>
           </li>
 
           <li>
-            <a
-              href="https://github.com/MathieuGaudreau"
-              target="_blank"
-              title="Voir mon GitHub !"
-              >GitHub<i class="fab fa-github-square"></i
-            ></a>
+            <a href="mailto:matgaudreau13@gmail.com" target="_blank" title="Email">Email<i
+                class="fas fa-envelope-square"></i></a>
           </li>
         </ul>
       </div>
