@@ -27,7 +27,7 @@
                 >Projects</a
               >
             </li>
-            <li>
+            <!-- <li>
               <a
                 v-if="this.lang === 'fr'"
                 :class="QuiSuisJeVisible ? 'active' : 'notActive'"
@@ -43,7 +43,7 @@
                 title="Voir la page Qui Suis-Je !"
                 >Who am I</a
               >
-            </li>
+            </li> -->
             <li>
               <a @click="scrollBottom" title="Voir la section contact !"
                 >Contact</a
@@ -100,7 +100,7 @@
                 Projects</a
               >
             </li>
-            <li>
+            <!-- <li>
               <a
                 v-if="this.lang === 'fr'"
                 :class="QuiSuisJeVisible ? 'active' : 'notActive'"
@@ -122,7 +122,7 @@
                 title="Voir la page Qui Suis-Je !"
                 >Who am I</a
               >
-            </li>
+            </li> -->
 
             <li class="lang">
               <a class="active" v-if="lang==='fr'" @click="switchLang">En</a>
@@ -181,6 +181,7 @@
             :roles="projet.roles"
             :technos="projet.technos"
             :LienYT="projet.LienYT"
+            :LienBuild="projet.LienBuild"
             :txtPhotos1="projet.txtPhotos1"
             :txtPhotos2="projet.txtPhotos2"
             :canva="projet.canva"

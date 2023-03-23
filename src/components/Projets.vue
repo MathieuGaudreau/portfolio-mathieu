@@ -85,6 +85,19 @@
 
       <div v-if="LienProjet" class="divider"></div>
 
+      <section v-if="LienBuild" class="build" data-aos="fade-up">
+        <iframe
+          id="player"
+          type="text/html"
+          :src="LienBuild"
+          frameborder="0"
+          showinfo="0"
+          allowfullscreen="allowfullscreen"
+        ></iframe>
+
+        <div class="divider" v-if="canva || images1"></div>
+      </section>
+
       <section v-if="LienYT" class="youtube" data-aos="fade-up">
         <iframe
           id="player"
@@ -98,8 +111,6 @@
         <div class="divider" v-if="canva || images1"></div>
       </section>
 
-
-
       <section v-if="images1" class="sliders">
         <hooper class="hooper1Container" data-aos="fade-right">
           <slide
@@ -107,8 +118,8 @@
             v-for="(image, index) in images1"
             :key="index"
           >
-            <img :src="images1[index]" v-if="lang === 'fr'" title="Cliquez pour agrandir l'image" alt="" @click="() => showImg2(index)" />
-            <img :src="images1[index]" v-if="lang === 'en'" title="Click to enlarge image" alt="" @click="() => showImg2(index)" />
+            <img :src="images1[index]" v-if="lang === 'fr'" title="Cliquez pour agrandir l'image" alt="" @click="() => showImg(index)" />
+            <img :src="images1[index]" v-if="lang === 'en'" title="Click to enlarge image" alt="" @click="() => showImg(index)" />
             <div class="detailImg">
               <h3 v-if="lang === 'fr'">Dans cette image :</h3>
               <h3 v-if="lang === 'en'">In this image :</h3>
@@ -241,6 +252,10 @@ export default {
       required: false,
     },
     LienYT: {
+      type: String,
+      required: false,
+    },
+    LienBuild: {
       type: String,
       required: false,
     },

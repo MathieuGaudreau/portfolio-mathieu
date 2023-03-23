@@ -1,5 +1,22 @@
 [
     {
+        "id": "FC",
+        "name": "Folie Contagieuse",
+        "type": "jeu",
+        "date": "2022",
+        "txt": [
+            ""
+        ],
+        "cover": "https://i.ibb.co/pfpyzqV/Folie-Contagieuse.png",
+        "roles": [
+            "Designer narratif"
+        ],
+        "technos": [
+            "Twine"
+        ],
+        "LienBuild": "https://folie-contagieuse.netlify.app/"
+    },
+    {
         "id": "TIM2020",
         "name": "TIM 2020",
         "type": "web",
@@ -475,6 +492,570 @@
         ],
         "technos": [
             "Illustrator"
+        ]
+    },
+    {
+        "id": "projetRecherche",
+        "name": "Projet de recherche",
+        "type": "jeu",
+        "date": "2021",
+        "txt": [
+            "Ce projet est un petit jeu d’horreur / ambiance dans lequel le joueur doit explorer l’environnement pour trouver des clés qui lui permettent d’avancer dans la carte et des statuettes de singes pour compléter l’objectif du jeu.",
+            "Ce jeu est ma première expérimentation avec Unreal Engine dont j’ai appris l’utilisation par moi-même lors de mon cours de projet final sur l’étendue de 8 semaines."
+        ],
+        "images1": [
+            "https://i.ibb.co/f2bPC1Z/mainMenu.png",
+            "https://i.ibb.co/D7WpFPy/options-Menu.png",
+            "https://i.ibb.co/h9TGJyn/hud-Exemple.png",
+            "https://i.ibb.co/Lvz5Lfh/death-Screen.png",
+            "https://i.ibb.co/6JXJsSP/InGame.png",
+            "https://i.ibb.co/ZNtFhLn/Cabanon.png",
+            "https://i.ibb.co/y02YM55/Maison-Exterieur.png",
+            "https://i.ibb.co/k1Vg4rf/Maison-Interieur.png",
+            "https://i.ibb.co/FXrsHj4/Maison-Interieur2.png"
+        ],
+        "txtPhotos1": [
+            "Menu principal du jeu.",
+            "Écran d'options du jeu.",
+            "HUD du jeu, on retrouve le niveau de stress ( rouge ), le niveau de stamina ( vert ), état de la batterie ( jaune ), l'objectif et l'inventaire.",
+            "Écran de fin du jeu si le joueur meurt.",
+            "Début du jeu.",
+            "Première zone à explorer.",
+            "Zone principale du jeu ( extérieur ).",
+            "Zone principale du jeu ( premier étage ).",
+            "Zone principale du jeu ( deuxième étage )."
+        ],
+        "cover": "https://i.ibb.co/9www7QH/projet-Recherche-Cover.png",
+        "roles": [
+            "Concepteur Sonore",
+            "Programmeur",
+            "Intégrateur",
+            "Designer"
+        ],
+        "technos": [
+            "Unreal Engine",
+            "Blueprint",
+            "Photoshop"
+        ]
+    },
+    {
+        "id": "MANOR",
+        "name": "HOLLOW MANOR",
+        "type": "jeu",
+        "date": "2020",
+        "txt": [
+            "Hollow Manor est un jeu d'exploration dans lequel le joueur doit explorer un labyrinthe et échapper aux monstres. Le joueur doit réussir à trouver des indices et des clés pour pouvoir s'échapper du labyrinthe.",
+            "Nous avons décidé de suivre un style graphique très sombre, inspiré de l'époque victorienne et des histoires de HP Lovecraft pour la création de l'univers.",
+            "Ce jeu est le premier jeu que j'ai développé en 3D avec Unity et il a été créé en équipe de 2."
+        ],
+        "LienProjet": "https://mathieugaudreau.itch.io/the-strange-case-of-hollow-manor",
+        "canva": [
+            "https://drive.google.com/file/d/1SNUD92HY7b5uoc9hDsTD0IprHl2I1pj9/preview"
+        ],
+        "GH": "https://github.com/MathieuGaudreau/HollowManor",
+        "images1": [
+            "https://i.ibb.co/MgyDFkS/Menu-Intro-Assemblage-Jeu.webp",
+            "https://i.ibb.co/7XgR7zX/Choix1.webp",
+            "https://i.ibb.co/Sd7MKQH/Choix2.webp"
+        ],
+        "images2": [
+            "https://i.ibb.co/5MxdqHQ/gameplay1.webp",
+            "https://i.ibb.co/tLhpgsM/gameplay2.webp",
+            "https://i.ibb.co/92mJmbZ/gameplay3.webp",
+            "https://i.ibb.co/p4B1RP0/village.webp"
+        ],
+        "txtPhotos1": [
+            "Affiche du jeu",
+            "Victor, premier des 2 personnages jouables.",
+            "Victoria, deuxième personnage jouable."
+        ],
+        "txtPhotos2": [
+            "Le joueur commence son aventure dans une petite cabane sombre.",
+            "Le jeu comporte plusieurs zones différentes, ici le jardin.",
+            "La zone principale du jeu à explorer est le labyrinthe.",
+            "Le joueur peut décider de choisir quelle zone du jeu il veut explorer en premier."
+        ],
+        "cover": "https://i.ibb.co/68YPQWQ/hollowmanor-Cover.png",
+        "roles": [
+            "Designer",
+            "Concepteur Sonore",
+            "Programmeur"
+        ],
+        "technos": [
+            "Unity",
+            "C#"
+        ]
+    },
+    {
+        "id": "ROVE",
+        "name": "Rovesciato",
+        "type": "creation",
+        "date": "2019",
+        "txt": [
+            "Ce projet avec comme but de créer une vidéo comprenant plusieures angles différents et un contenu avec une cohérance artistique.",
+            "Le projet est inspiré d’émissions et de vidéos de cuisine comme Chef’s Table."
+        ],
+        "LienYT": "https://www.youtube.com/embed/nt1fpiuzrJo",
+        "cover": "https://i.ibb.co/CwMJ24p/rovesciato-Cover.png",
+        "roles": [
+            "Cameraman",
+            "Scénariste",
+            "Monteur"
+        ],
+        "technos": [
+            "Premiere Pro"
+        ]
+    },
+    {
+        "id": "NIMH",
+        "name": "Nimh",
+        "type": "jeu",
+        "date": "2019",
+        "txt": [
+            "Nimh est un petit jeu de plateforme dans lequel le joueur doit réussir à sauter de plateforme en plateforme sans tomber dans le vide le plus longtemps possible."
+        ],
+        "LienProjet": "https://nimh.netlify.app/",
+        "GH": "https://github.com/MathieuGaudreau/Nimh",
+        "images1": [
+            "https://i.ibb.co/y4MKf7P/accueil.webp",
+            "https://i.ibb.co/wB8b7hq/instructionm.webp"
+        ],
+        "images2": [
+            "https://i.ibb.co/K0RF0Td/jeu.webp",
+            "https://i.ibb.co/dkKbLHx/mort.webp"
+        ],
+        "txtPhotos1": [
+            "Accueil du jeu",
+            "Écran d'instructions du jeu"
+        ],
+        "txtPhotos2": [
+            "Exemple de gameplay du jeu",
+            "Le menu de fin indique le dernier score du joueur et son meilleur score."
+        ],
+        "cover": "https://i.ibb.co/D8YNbPG/nimh-Cover.png",
+        "roles": [
+            "Designer",
+            "Programmeur"
+        ],
+        "technos": [
+            "PHASER",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": "ASSASINE",
+        "name": "Assasine",
+        "type": "jeu",
+        "date": "2019",
+        "txt": [
+            "Assassine est un concept de jeu qui a été développé en équipe de 4 dans le cadre d’un projet donné par le comité environnemental du cégep de Maisonneuve pour la journée de la terre 2019.",
+            "Assassine est un RPG dans lequel le joueur est de reprendre contrôle de l’environnement de la terre en éliminant les CEO des compagnies qui polluent la planète pour ensuite les transformer en compagnies écologiques.",
+            "Notre projet a reçu le prix du choix du comité environnemental du cégep."
+        ],
+        "LienProjet": "https://assasine.netlify.app/",
+        "images1": [
+            "https://i.ibb.co/Pz17xXX/cover.webp",
+            "https://i.ibb.co/k1THBTt/Mathieu-Ville.webp",
+            "https://i.ibb.co/12F2JyZ/Map-Asasine.webp",
+            "https://i.ibb.co/fq0YzcM/personnage.webp",
+            "https://i.ibb.co/dtY2VkR/principale.webp"
+        ],
+        "images2": [
+            "https://i.ibb.co/GFwKRgK/ennemi2.webp",
+            "https://i.ibb.co/5T9pJh3/ennemi3.webp",
+            "https://i.ibb.co/W5CDKtD/ennemi4.webp",
+            "https://i.ibb.co/nQKG4n4/ennemi5.webp"
+        ],
+        "txtPhotos1": [
+            "Logo du jeu",
+            "Concept de la ville, la zone principale du jeu est une ville très futuriste et très illuminée oû seulement les riches peuvent habiter. ",
+            "La carte indique les différents objectifs que le joueur doit accomplir.",
+            "Hiérarchie des boss, le joueur doit éliminer les boss en ordre de hiérarchie pour arriver au boss final. ",
+            "Concept de l'héroine"
+        ],
+        "txtPhotos2": [
+            "Concept du 1er boss",
+            "Concept du 2e boss",
+            "Concept du 3e boss",
+            "Concept du 4e boss"
+        ],
+        "cover": "https://i.ibb.co/p2nGP1y/assasine-Cover.png",
+        "roles": [
+            "Designer",
+            "Programmeur"
+        ],
+        "technos": [
+            "Illustrator",
+            "HTML",
+            "CSS"
+        ],
+        "canva": [
+            "https://drive.google.com/file/d/1lCHDP9gibUGtUpWY6psiHLn3j7daPLHz/preview"
+        ]
+    },
+    {
+        "id": "TUTO",
+        "name": "Galaxies",
+        "type": "creation",
+        "date": "2018",
+        "txt": [
+            "Ce projet avec comme but de créer une affiche d’un personnage ou d’une personnalité connue en suivant un tutoriel Creationshop et de le mettre à notre manière."
+        ],
+        "images1": [
+            "https://i.ibb.co/NLKBSKN/tuto1.webp"
+        ],
+        "images2": [
+            "https://i.ibb.co/Lxn2Xhf/mob.webp"
+        ],
+        "txtPhotos1": [
+            "Vladimir Putin"
+        ],
+        "txtPhotos2": [
+            "Shigeo Kageyama de Mob Psycho 100."
+        ],
+        "cover": "https://i.ibb.co/s5fB3vR/galaxie-Cover.png",
+        "roles": [
+            "Designer"
+        ],
+        "technos": [
+            "Photoshop"
+        ]
+    },
+    {
+        "id": "MCDO",
+        "name": "Anachronisme",
+        "type": "creation",
+        "date": "2018",
+        "txt": [
+            "Ce projet avait comme but de créer une publicité en incorporant une compagnie ou objet moderne dans une peinture ou photographie d’une autre époque.",
+            "Donc ici un Big Mac de chez McDonald incorporé dans une peinture du 17e siècle."
+        ],
+        "images1": [
+            "https://i.ibb.co/stCX4TY/MCDO.webp"
+        ],
+        "txtPhotos1": [
+            "Rendu final du projet."
+        ],
+        "cover": "https://i.ibb.co/XzDTBdn/anachronisme-Cover.png",
+        "roles": [
+            "Designer"
+        ],
+        "technos": [
+            "Photoshop"
+        ]
+    },
+    {
+        "id": "TF",
+        "name": "Tempus Fugit",
+        "type": "creation",
+        "date": "2018",
+        "txt": [
+            "Court métrage réalisé en équipe de 3 lors d’un cours de multimédia en 5e année du secondaire"
+        ],
+        "LienYT": "https://www.youtube.com/embed/jvS9JraJkvU",
+        "images1": [
+            "https://i.ibb.co/bvpNLnf/Tempus-Fugit.webp",
+            "https://i.ibb.co/TBZ9Qjk/Tempus-Fugit2.webp",
+            "https://i.ibb.co/1qwb1My/Tempus-Fugi3.webp"
+        ],
+        "txtPhotos1": [
+            "Première affiche du court métrage.",
+            "Deuxième affiche du court métrage.",
+            "Troisième affiche du court métrage."
+        ],
+        "cover": "https://i.ibb.co/frJJ7Cp/tempusfugit-Cover.png",
+        "roles": [
+            "Scénariste",
+            "Acteur",
+            "Designer"
+        ],
+        "technos": [
+            "Premiere Pro",
+            "Photoshop"
+        ]
+    },
+    {
+        "id": "projetRecherche",
+        "name": "Research Project",
+        "type": "jeu",
+        "date": "2021",
+        "txt": [
+            "This project is a short horror/ambient game in which the player has to explore the environment to find keys that help him move forwards on the map and monkey effigies to finish the primary objective.",
+            "This game is my first experiment with the Unreal engine which I learned by myself in the span of 8 weeks."
+        ],
+        "images1": [
+            "https://i.ibb.co/f2bPC1Z/mainMenu.png",
+            "https://i.ibb.co/D7WpFPy/options-Menu.png",
+            "https://i.ibb.co/h9TGJyn/hud-Exemple.png",
+            "https://i.ibb.co/Lvz5Lfh/death-Screen.png",
+            "https://i.ibb.co/6JXJsSP/InGame.png",
+            "https://i.ibb.co/ZNtFhLn/Cabanon.png",
+            "https://i.ibb.co/y02YM55/Maison-Exterieur.png",
+            "https://i.ibb.co/k1Vg4rf/Maison-Interieur.png",
+            "https://i.ibb.co/FXrsHj4/Maison-Interieur2.png"
+        ],
+        "txtPhotos1": [
+            "Home Screen",
+            "Option screen",
+            "Game HUD, we find the stress level (red), the stamina level (green), battery status (yellow), the objective and the inventory.",
+            "End of game screen if the player dies.",
+            "Start of the game",
+            "First area",
+            "Main game area ( exterior ).",
+            "Main game area ( first floor ).",
+            "Main game area ( second floor )."
+        ],
+        "cover": "https://i.ibb.co/9www7QH/projet-Recherche-Cover.png",
+        "roles": [
+            "Sound designer",
+            "Programmer",
+            "Integrator",
+            "Designer"
+        ],
+        "technos": [
+            "Unreal Engine",
+            "Blueprint",
+            "Photoshop"
+        ]
+    },
+    {
+        "id": "MANOR",
+        "name": "HOLLOW MANOR",
+        "type": "jeu",
+        "date": "2020",
+        "txt": [
+            "Hollow Manor is an exploration game in which the player has to explore a maze and escape the monsters. The player must succeed in finding clues and keys in order to escape the labyrinth.",
+            "We decided to follow a very dark graphic style, inspired by the Victorian era and the stories of HP Lovecraft for the creation of the universe.",
+            "This is the first game I developed in 3D with Unity and it was created in a team of 2."
+        ],
+        "LienProjet": "https://mathieugaudreau.itch.io/the-strange-case-of-hollow-manor",
+        "canva": [
+            "https://drive.google.com/file/d/1SNUD92HY7b5uoc9hDsTD0IprHl2I1pj9/preview"
+        ],
+        "GH": "https://github.com/MathieuGaudreau/HollowManor",
+        "images1": [
+            "https://i.ibb.co/MgyDFkS/Menu-Intro-Assemblage-Jeu.webp",
+            "https://i.ibb.co/7XgR7zX/Choix1.webp",
+            "https://i.ibb.co/Sd7MKQH/Choix2.webp"
+        ],
+        "images2": [
+            "https://i.ibb.co/5MxdqHQ/gameplay1.webp",
+            "https://i.ibb.co/tLhpgsM/gameplay2.webp",
+            "https://i.ibb.co/92mJmbZ/gameplay3.webp",
+            "https://i.ibb.co/p4B1RP0/village.webp"
+        ],
+        "txtPhotos1": [
+            "Game poster",
+            "Victor, first of the 2 playable characters.",
+            "Victoria, second playable character."
+        ],
+        "txtPhotos2": [
+            "The player begins his adventure in a small dark hut.",
+            "The game has several different areas, here the garden.",
+            "The main area of ​​the game to explore is the maze.",
+            "The player can decide which area of ​​the game they want to explore first."
+        ],
+        "cover": "https://i.ibb.co/68YPQWQ/hollowmanor-Cover.png",
+        "roles": [
+            "Designer",
+            "Sound Designer",
+            "Programmer"
+        ],
+        "technos": [
+            "Unity",
+            "C#"
+        ]
+    },
+    {
+        "id": "ROVE",
+        "name": "Rovesciato",
+        "type": "creation",
+        "date": "2019",
+        "txt": [
+            "This project aims to create a video comprising different angles and content with artistic coherence.",
+            "The project is inspired by cooking shows and videos like Chef's Table."
+        ],
+        "LienYT": "https://www.youtube.com/embed/nt1fpiuzrJo",
+        "cover": "https://i.ibb.co/CwMJ24p/rovesciato-Cover.png",
+        "roles": [
+            "Cameraman",
+            "Scenarist",
+            "Video editor"
+        ],
+        "technos": [
+            "Premiere Pro"
+        ]
+    },
+    {
+        "id": "NIMH",
+        "name": "Nimh",
+        "type": "jeu",
+        "date": "2019",
+        "txt": [
+            "Nimh is a small platform game in which the player must succeed in jumping from platform to platform without falling into the void for as long as possible."
+        ],
+        "LienProjet": "https://nimh.netlify.app/",
+        "GH": "https://github.com/MathieuGaudreau/Nimh",
+        "images1": [
+            "https://i.ibb.co/y4MKf7P/accueil.webp",
+            "https://i.ibb.co/wB8b7hq/instructionm.webp"
+        ],
+        "images2": [
+            "https://i.ibb.co/K0RF0Td/jeu.webp",
+            "https://i.ibb.co/dkKbLHx/mort.webp"
+        ],
+        "txtPhotos1": [
+            "Game home screen",
+            "How to play screen"
+        ],
+        "txtPhotos2": [
+            "Gameplay exemple",
+            "The end screen shows the player's last score and their best score."
+        ],
+        "cover": "https://i.ibb.co/D8YNbPG/nimh-Cover.png",
+        "roles": [
+            "Designer",
+            "Programmer"
+        ],
+        "technos": [
+            "PHASER",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": "ASSASINE",
+        "name": "Assasine",
+        "type": "jeu",
+        "date": "2019",
+        "txt": [
+            "Assassine is a game concept that was developed by a team of 4 as part of a project given by the environmental committee of Cégep de Maisonneuve for Earth Day 2019.",
+            "Assassine is an RPG in which the player takes back control of the earth's environment by eliminating the CEOs of companies that pollute the planet and then transforming them into green companies.",
+            "Our project received the choice award from the CEGEP environmental committee."
+        ],
+        "LienProjet": "https://assasine.netlify.app/",
+        "images1": [
+            "https://i.ibb.co/Pz17xXX/cover.webp",
+            "https://i.ibb.co/k1THBTt/Mathieu-Ville.webp",
+            "https://i.ibb.co/12F2JyZ/Map-Asasine.webp",
+            "https://i.ibb.co/fq0YzcM/personnage.webp",
+            "https://i.ibb.co/dtY2VkR/principale.webp"
+        ],
+        "images2": [
+            "https://i.ibb.co/GFwKRgK/ennemi2.webp",
+            "https://i.ibb.co/5T9pJh3/ennemi3.webp",
+            "https://i.ibb.co/W5CDKtD/ennemi4.webp",
+            "https://i.ibb.co/nQKG4n4/ennemi5.webp"
+        ],
+        "txtPhotos1": [
+            "Game logo",
+            "Concept of the city, the main area of ​​the game is a very futuristic and very illuminated city where only the rich can live.",
+            "The card indicates the different objectives that the player must accomplish.",
+            "Boss hierarchy, the player must eliminate the bosses in order of hierarchy to arrive at the final boss.",
+            "Heroine concept"
+        ],
+        "txtPhotos2": [
+            "Boss concept #1",
+            "Boss concept #2",
+            "Boss concept #3",
+            "Boss concept #4"
+        ],
+        "cover": "https://i.ibb.co/p2nGP1y/assasine-Cover.png",
+        "roles": [
+            "Designer",
+            "Programmer"
+        ],
+        "technos": [
+            "Illustrator",
+            "HTML",
+            "CSS"
+        ],
+        "canva": [
+            "https://drive.google.com/file/d/1lCHDP9gibUGtUpWY6psiHLn3j7daPLHz/preview"
+        ]
+    },
+    {
+        "id": "TUTO",
+        "name": "Galaxy",
+        "type": "creation",
+        "date": "2018",
+        "txt": [
+            "This project with the goal of creating a poster of a famous character or personality by following a Creationshop tutorial and putting it our way."
+        ],
+        "images1": [
+            "https://i.ibb.co/NLKBSKN/tuto1.webp"
+        ],
+        "images2": [
+            "https://i.ibb.co/Lxn2Xhf/mob.webp"
+        ],
+        "txtPhotos1": [
+            "Vladimir Putin"
+        ],
+        "txtPhotos2": [
+            "Shigeo Kageyama from Mob Psycho 100."
+        ],
+        "cover": "https://i.ibb.co/s5fB3vR/galaxie-Cover.png",
+        "roles": [
+            "Designer"
+        ],
+        "technos": [
+            "Photoshop"
+        ]
+    },
+    {
+        "id": "MCDO",
+        "name": "Anachronisme",
+        "type": "creation",
+        "date": "2018",
+        "txt": [
+            "The goal of this project was to create an advertisement by incorporating a modern company or object into a painting or photograph from another era.",
+            "So here is a McDonald's Big Mac incorporated into a 17th-century painting."
+        ],
+        "images1": [
+            "https://i.ibb.co/stCX4TY/MCDO.webp"
+        ],
+        "txtPhotos1": [
+            "Final render of the project"
+        ],
+        "cover": "https://i.ibb.co/XzDTBdn/anachronisme-Cover.png",
+        "roles": [
+            "Designer"
+        ],
+        "technos": [
+            "Photoshop"
+        ]
+    },
+    {
+        "id": "TF",
+        "name": "Tempus Fugit",
+        "type": "creation",
+        "date": "2018",
+        "txt": [
+            "Short film produced in a team of 3 during a multimedia course in 5th year of high school"
+        ],
+        "LienYT": "https://www.youtube.com/embed/jvS9JraJkvU",
+        "images1": [
+            "https://i.ibb.co/bvpNLnf/Tempus-Fugit.webp",
+            "https://i.ibb.co/TBZ9Qjk/Tempus-Fugit2.webp",
+            "https://i.ibb.co/1qwb1My/Tempus-Fugi3.webp"
+        ],
+        "txtPhotos1": [
+            "First poster of the film",
+            "Second poster of the film",
+            "Third poster of the film"
+        ],
+        "cover": "https://i.ibb.co/frJJ7Cp/tempusfugit-Cover.png",
+        "roles": [
+            "Scenarist",
+            "Actor",
+            "Designer"
+        ],
+        "technos": [
+            "Premiere Pro",
+            "Photoshop"
         ]
     }
 ]

@@ -1,14 +1,99 @@
 [
     {
+    "id": "SS",
+    "name": "Space Scoundrel",
+    "type": "jeu",
+    "date": "2022",
+    "txt": [
+        "Space Scoundrel is a third-person shooting game of the 'Action Roguelike' style, in which the player takes on the role of a space pirate whose goal is to board a ship and take all its loot. The player will be able to explore a procedurally generated ship, where they will encounter different types of enemies and weapons to defend themselves.",
+        "The player's goal will be to navigate their way through the ship and survive until they reach the control room to be able to take control of the ship and complete the game. If the player dies, they will have to start over from the beginning in a new procedurally generated dungeon.",
+        "My main roles in this project were to be the systems designer and programmer for the dungeon generation system, weapons, character, and enemies. I therefore created a dungeon generation system that takes room prefabs and creates a path on a grid based on the desired size. I also created a weapons system that all have different statistics, providing varied gameplay for the player depending on the weapon they choose to use. The biggest challenge of this project was definitely the enemy system, as I had little experience with state machines, so I had to do a lot of research on the subject to understand how they work. This part of the project took the most time, but I think I got a good result for a first experience.",
+        "I am very proud of the outcome of this project, it has become the most extensive project I have done to date.",
+        "This project was developed by a team of 2 people and took 6 weeks."
+    ],
+    "LienBuild": "https://itch.io/embed-upload/7151988?color=7da2a9",
+    "images1": [
+        "https://i.ibb.co/D9GMyrs/SS-Spawn.png",
+        "https://i.ibb.co/1bWwn5j/SS-Caf.png",
+        "https://i.ibb.co/GHSb8VR/SS-Storage.png",
+        "https://i.ibb.co/1ffRHb5/SS-Plants.png",
+        "https://i.ibb.co/NKVFsF4/SS-Offices.png",
+        "https://i.ibb.co/nmmwXjh/SS-Meeting-Room.png",
+        "https://i.ibb.co/ZcN74tr/SS-Lab.png",
+        "https://i.ibb.co/wds3jKN/SS-Generator.png",
+        "https://i.ibb.co/P6FjRv0/SS-Fire-Fight2.png"
+    ],
+    "txtPhotos1": [
+        "Starting room where the player begins their boarding of the ship",
+        "Cafeteria found on the ship",
+        "Storage room found on the ship",
+        "Greenhouse found on the ship",
+        "Administrative offices of the ship",
+        "Meeting room of the ship",
+        "Laboratory of the ship",
+        "Generator of the ship",
+        "Example of enemies found on the ship"
+    ],
+    "images2": [
+        "https://i.ibb.co/HVL09wr/Vaisseau-1.png",
+        "https://i.ibb.co/5hPcZd0/Vaisseau-2.png",
+        "https://i.ibb.co/WV0XJ3c/Vaisseau-3.png",
+        "https://i.ibb.co/HxKFV5h/SS-Menu.png",
+        "https://i.ibb.co/jbKQMBH/SS-Controls.png",
+        "https://i.ibb.co/T2P9RJb/SS-Gun-Desc.png",
+        "https://i.ibb.co/dkLY7dR/SS-Gun-Comp.png",
+        "https://i.ibb.co/pZnZ7Yy/SS-Floating-UI.png",
+        "https://i.ibb.co/J7HzNkZ/SS-Final-Room.png"
+    ],
+    "txtPhotos2": [
+        "Example of a ship layout",
+        "Example of a ship layout",
+        "Example of a ship layout",
+        "Main menu of the game.",
+        "Game controls screen",
+        "UI description of weapons",
+        "UI comparison of equipped weapon and one found",
+        "Floating UI for description of a found weapon",
+        "End game UI"
+    ],
+    "cover": "https://i.ibb.co/9sFqxLr/space-Scoundrel-Cover.png",
+    "roles": [
+        "Designer de systèmes",
+        "Programmeur"
+    ],
+    "technos": [
+        "Unity",
+        "C#"
+    ]
+    },
+    {
         "id": "PH",
         "name": "Petit Héros",
         "type": "jeu",
         "date": "2021",
         "txt": [
-            "Petit Héros is a puzzle-adventure game where you will have to use your imagination to explore two worlds, defeat enemies and beat bosses on your way!"
+            "Petit Héros is an action-adventure style game greatly inspired by the EarthBound game series for its graphic and adventure styles. In this game, the player takes on the role of a child who must save the world from the Black Lady, a demonic entity that wants to take control of the earth. This child also has the power to enter a fantastic world to complete their quest, and all elements of the real world are transformed.",
+            "This project was developed by a team of 6 people over a period of about 6 weeks. My main responsibilities were to draw all the tiles used to build the levels, draw the enemies and their animations, and draw various decorative elements. I also served as a level designer in this project, and my goal was to build the different levels so that they were interesting in both the normal and imaginary worlds.",
+            "This was the biggest challenge for me during this project because the imaginary world is much more attractive and interesting to explore. The challenge was to make the normal world just as attractive by placing different interactions, NPCs, and objects in the world that have a different outcome depending on the world we are in."
         ],
         "LienYT": "https://www.youtube.com/embed/4GJr4MK-xMg",
-        "images1": [
+        "images1":[
+            "https://i.ibb.co/2tz59B4/Blocking-Monde-1-2.png",
+            "https://i.ibb.co/Q8Bdjny/Blocking-Monde-1-1.png",
+            "https://i.ibb.co/1qhqGPj/Blocking-Monde-2-1.png",
+            "https://i.ibb.co/mThGYkb/Blocking-Monde-2-2.png",
+            "https://i.ibb.co/9TTHCDK/Blocking-Monde-3-1.png",
+            "https://i.ibb.co/GJhpSTv/Blocking-Monde-3-2.png"
+        ],
+        "txtPhotos1" :[
+            "Level 1 layout (Real World)",
+            "Level 1 layout (Imaginary World)",
+            "Level 2 layout (Real World)",
+            "Level 2 layout (Imaginary World)",
+            "Level 3 layout (Real World)",
+            "Level 3 layout (Imaginary World)"
+        ],
+        "images2": [
             "https://i.ibb.co/kgrsFFY/Main-tuiles.png",
             "https://i.ibb.co/0DFMRNN/Golf-Tuiles.png",
             "https://i.ibb.co/znsL8nC/Fences-Tuiles.png",
@@ -27,7 +112,7 @@
             "https://i.ibb.co/Xpmb9qM/Animaux.png",
             "https://i.ibb.co/X4D2xCq/NPC.png"
         ],
-        "txtPhotos1": [
+        "txtPhotos2": [
             "Level 1 & 2 tileset",
             "Level 3 tileset",
             "Fences tileset",
@@ -54,6 +139,118 @@
         "technos": [
             "Aseprite",
             "Unity"
+        ]
+    },
+    {
+        "id": "LASTSPARK",
+        "name": "Last Spark",
+        "type": "jeu",
+        "date": "2020",
+        "txt": [
+            "Last Spark is a rogue-like action/adventure game with a constant ominous presence. The player must manage to survive as long as possible and must find multiple mini-bosses to then defeat the final boss.",
+            "This project was created by a team of 3 people over the span of a CEGEP session.",
+            "We have also created a website for the game that serves as a platform on which the game is available for download.",
+            "We had to give an aesthetic similar to that of the game on the site. So we decided to choose colors that contrast very well to give a dark and mysterious effect. We have also put a particle effect and subtle images of the enemies of the game to remind the elements that the player can find while playing."
+        ],
+        "LienProjet": "https://lastspark.netlify.app/",
+        "LienYT": "https://www.youtube.com/embed/5FMPfM0h2wI",
+        "canva": [
+            "https://drive.google.com/file/d/1oq-eduBk8chdUY3K3PrFkLPofq6eKeCx/preview",
+            "https://drive.google.com/file/d/1ahRtIMVLA-P4gkrcs1im5HEyR3BY8XC8/preview"
+        ],
+        "GH": "https://github.com/MathieuGaudreau/LastSpark",
+        "images1": [
+            "https://i.ibb.co/VSc3k7Z/accueil.webp",
+            "https://i.ibb.co/FsMPfVT/menu.webp",
+            "https://i.ibb.co/6txcX3p/pause.webp",
+            "https://i.ibb.co/353y9MF/inventaire.webp",
+            "https://i.ibb.co/K7BZ9Ff/aide.webp"
+        ],
+        "txtPhotos1": [
+            "Game poster",
+            "Main screen of the game, here the player can start playing, see the instructions and exit the game.",
+            "The menu allows you to exit to the main menu or to quit the game.",
+            "The inventory system allows you to equip weapons and powers and organize the items obtained during the game.",
+            "Help screens will appear during the game to explain the different mechanics to the player."
+        ],
+        "txtPhotos2": [
+            "The campfire acts as a player's safezone and can interact with the fire to heal and craft.",
+            "The player can find ruins in the game which gives access to upgrades, weapons and a spell.",
+            "Example of a boss fight. Bosses and enemies have more and more lives as the game progresses."
+        ],
+        "images2": [
+            "https://i.ibb.co/yPykPpD/debut.webp",
+            "https://i.ibb.co/qntnzG9/ruine.webp",
+            "https://i.ibb.co/7nZ1vS5/boss.webp"
+        ],
+        "cover": "https://i.ibb.co/yP4mz3P/lastspark-Cover.png",
+        "roles": [
+            "Project manager",
+            "Sound Designer",
+            "Programmer",
+            "Integrator",
+            "Designer"
+        ],
+        "technos": [
+            "Unity",
+            "C#",
+            "Photoshop",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": "nightwell",
+        "name": "Escape the Nightwell Keep",
+        "type": "jeu",
+        "date": "2021",
+        "txt": [
+            "This project is a short platformer game in which the player has to explore the environment to find the castle’s exit while trying to dodge the multiple traps and enemies who are roaming inside.",
+            "This game is heavily inspired by the dark fantasy theme and games like Dead cells and Blasphemous."
+        ],
+        "LienProjet": "https://mathieugaudreau.itch.io/escape-the-nightwell-keep",
+        "images1": [
+            "https://i.ibb.co/GFqmzRw/Blocking-Donjon.png",
+            "https://i.ibb.co/BwnvGPm/Start.png",
+            "https://i.ibb.co/DDHfrKk/Area1.png",
+            "https://i.ibb.co/pZwCVGn/Area2.png",
+            "https://i.ibb.co/7nRFt18/Area3.png",
+            "https://i.ibb.co/VBSwrqT/Area4.png",
+            "https://i.ibb.co/5rZbnBq/Secret-Area.png"
+        ],
+        "txtPhotos1": [
+            "Dunjon layout",
+            "Player's starting location.",
+            "Game area 1",
+            "Game area 2",
+            "Game area 3",
+            "Game area 4",
+            "Exemple of a secret area."
+        ],
+        "images2": [
+            "https://i.ibb.co/cyxCzCy/Menu.png",
+            "https://i.ibb.co/Ky6gN09/Instructions.png",
+            "https://i.ibb.co/cw2f2wk/Death-Screen.png",
+            "https://i.ibb.co/PmZM0Tw/End-Screen.png"
+        ],
+        "txtPhotos2": [
+            "Title screen.",
+            "How to play screen",
+            "Death screen, the player can quit the game or restart from the last checkpoint.",
+            "End game screen, gives the player the total of points he got and gives him the choice to quit the game or to replay it."
+        ],
+        "cover": "https://i.ibb.co/ypck3S5/nightwell.png",
+        "roles": [
+            "Level designer",
+            "System designer",
+            "Programmer",
+            "Integrator",
+            "Sound designer"
+        ],
+        "technos": [
+            "Unity",
+            "C#"
         ]
     },
     {
@@ -92,7 +289,7 @@
             "Game pawns",
             "Curse and turn counter pawns"
         ],
-        "images2":[
+        "images2": [
             "https://i.ibb.co/hVrwgY0/Contenu-Boite1.png",
             "https://i.ibb.co/x2S5dMJ/Contenu-Boite2.png",
             "https://i.ibb.co/Kzmf87Q/Boite.png",
@@ -103,7 +300,7 @@
             "https://i.ibb.co/K2Dgcf8/Carton-Tours.png",
             "https://i.ibb.co/3ftS137/Pions.png"
         ],
-        "txtPhotos2":[
+        "txtPhotos2": [
             "Full content of the box",
             "Game accessories",
             "Game's box",
@@ -122,7 +319,7 @@
         "technos": [
             "Photoshop"
         ],
-        "canva":[
+        "canva": [
             "https://drive.google.com/file/d/1LOndUHi0UJ2lmWc_KCTaCrrw-GTVFoWw/preview"
         ]
     },
@@ -186,104 +383,11 @@
             "Unity",
             "Photoshop"
         ],
-        "canva":[
+        "canva": [
             "https://drive.google.com/file/d/1srl9wsagx6Sn8OWyMaRtMf1Io8M4ul2L/preview"
         ]
     },
-    {
-        "id": "nightwell",
-        "name": "Escape the Nightwell Keep",
-        "type": "jeu",
-        "date": "2021",
-        "txt": [
-            "This project is a short platformer game in which the player has to explore the environment to find the castle’s exit while trying to dodge the multiple traps and enemies who are roaming inside.",
-            "This game is heavily inspired by the dark fantasy theme and games like Dead cells and Blasphemous."
-        ],
-        "LienProjet": "https://mathieugaudreau.itch.io/escape-the-nightwell-keep",
-        "images1": [
-            "https://i.ibb.co/BwnvGPm/Start.png",
-            "https://i.ibb.co/DDHfrKk/Area1.png",
-            "https://i.ibb.co/pZwCVGn/Area2.png",
-            "https://i.ibb.co/7nRFt18/Area3.png",
-            "https://i.ibb.co/VBSwrqT/Area4.png",
-            "https://i.ibb.co/5rZbnBq/Secret-Area.png"
-        ],
-        "txtPhotos1": [
-            "Player's starting location.",
-            "Game area 1",
-            "Game area 2",
-            "Game area 3",
-            "Game area 4",
-            "Exemple of a secret area."
-        ],
-        "images2": [
-            "https://i.ibb.co/cyxCzCy/Menu.png",
-            "https://i.ibb.co/Ky6gN09/Instructions.png",
-            "https://i.ibb.co/cw2f2wk/Death-Screen.png",
-            "https://i.ibb.co/PmZM0Tw/End-Screen.png"
-        ],
-        "txtPhotos2": [
-            "Title screen.",
-            "How to play screen",
-            "Death screen, the player can quit the game or restart from the last checkpoint.",
-            "End game screen, gives the player the total of points he got and gives him the choice to quit the game or to replay it."
-        ],
-        "cover": "https://i.ibb.co/ypck3S5/nightwell.png",
-        "roles": [
-            "Sound designer",
-            "Programmer",
-            "Integrator",
-            "Designer"
-        ],
-        "technos": [
-            "Unity",
-            "C#"
-        ]
-    },
-    {
-        "id": "projetRecherche",
-        "name": "Research Project",
-        "type": "jeu",
-        "date": "2021",
-        "txt": [
-            "This project is a short horror/ambient game in which the player has to explore the environment to find keys that help him move forwards on the map and monkey effigies to finish the primary objective.",
-            "This game is my first experiment with the Unreal engine which I learned by myself in the span of 8 weeks."
-        ],
-        "images1": [
-            "https://i.ibb.co/f2bPC1Z/mainMenu.png",
-            "https://i.ibb.co/D7WpFPy/options-Menu.png",
-            "https://i.ibb.co/h9TGJyn/hud-Exemple.png",
-            "https://i.ibb.co/Lvz5Lfh/death-Screen.png",
-            "https://i.ibb.co/6JXJsSP/InGame.png",
-            "https://i.ibb.co/ZNtFhLn/Cabanon.png",
-            "https://i.ibb.co/y02YM55/Maison-Exterieur.png",
-            "https://i.ibb.co/k1Vg4rf/Maison-Interieur.png",
-            "https://i.ibb.co/FXrsHj4/Maison-Interieur2.png"
-        ],
-        "txtPhotos1": [
-            "Home Screen",
-            "Option screen",
-            "Game HUD, we find the stress level (red), the stamina level (green), battery status (yellow), the objective and the inventory.",
-            "End of game screen if the player dies.",
-            "Start of the game",
-            "First area",
-            "Main game area ( exterior ).",
-            "Main game area ( first floor ).",
-            "Main game area ( second floor )."
-        ],
-        "cover": "https://i.ibb.co/9www7QH/projet-Recherche-Cover.png",
-        "roles": [
-            "Sound designer",
-            "Programmer",
-            "Integrator",
-            "Designer"
-        ],
-        "technos": [
-            "Unreal Engine",
-            "Blueprint",
-            "Photoshop"
-        ]
-    },
+    
     {
         "id": "JKM",
         "name": "John Kenn Mortensen",
@@ -319,304 +423,6 @@
         ],
         "technos": [
             "After Effects"
-        ]
-    },
-    {
-        "id": "LASTSPARK",
-        "name": "Last Spark",
-        "type": "jeu",
-        "date": "2020",
-        "txt": [
-            "Last Spark is a rogue-like action/adventure game with a constant ominous presence. The player must manage to survive as long as possible and must find multiple mini-bosses to then defeat the final boss.",
-            "This project was created by a team of 3 people over the span of a CEGEP session.",
-            "We have also created a website for the game that serves as a platform on which the game is available for download.",
-            "We had to give an aesthetic similar to that of the game on the site. So we decided to choose colors that contrast very well to give a dark and mysterious effect. We have also put a particle effect and subtle images of the enemies of the game to remind the elements that the player can find while playing."
-        ],
-        "LienProjet": "https://lastspark.netlify.app/",
-        "LienYT": "https://www.youtube.com/embed/5FMPfM0h2wI",
-        "canva": [
-            "https://drive.google.com/file/d/1oq-eduBk8chdUY3K3PrFkLPofq6eKeCx/preview",
-            "https://drive.google.com/file/d/1ahRtIMVLA-P4gkrcs1im5HEyR3BY8XC8/preview"
-        ],
-        "GH": "https://github.com/MathieuGaudreau/LastSpark",
-        "images1": [
-            "https://i.ibb.co/VSc3k7Z/accueil.webp",
-            "https://i.ibb.co/FsMPfVT/menu.webp",
-            "https://i.ibb.co/6txcX3p/pause.webp",
-            "https://i.ibb.co/353y9MF/inventaire.webp",
-            "https://i.ibb.co/K7BZ9Ff/aide.webp"
-        ],
-        "txtPhotos1": [
-            "Game poster",
-            "Main screen of the game, here the player can start playing, see the instructions and exit the game.",
-            "The menu allows you to exit to the main menu or to quit the game.",
-            "The inventory system allows you to equip weapons and powers and organize the items obtained during the game.",
-            "Help screens will appear during the game to explain the different mechanics to the player."
-        ],
-        "txtPhotos2": [
-            "The campfire acts as a player's safezone and can interact with the fire to heal and craft.",
-            "The player can find ruins in the game which gives access to upgrades, weapons and a spell.",
-            "Example of a boss fight. Bosses and enemies have more and more lives as the game progresses."
-        ],
-        "images2": [
-            "https://i.ibb.co/yPykPpD/debut.webp",
-            "https://i.ibb.co/qntnzG9/ruine.webp",
-            "https://i.ibb.co/7nZ1vS5/boss.webp"
-        ],
-        "cover": "https://i.ibb.co/yP4mz3P/lastspark-Cover.png",
-        "roles": [
-            "Project manager",
-            "Sound Designer",
-            "Programmer",
-            "Integrator",
-            "Designer"
-        ],
-        "technos": [
-            "Unity",
-            "C#",
-            "Photoshop",
-            "HTML",
-            "CSS",
-            "JavaScript"
-        ]
-    },
-    {
-        "id": "MANOR",
-        "name": "HOLLOW MANOR",
-        "type": "jeu",
-        "date": "2020",
-        "txt": [
-            "Hollow Manor is an exploration game in which the player has to explore a maze and escape the monsters. The player must succeed in finding clues and keys in order to escape the labyrinth.",
-            "We decided to follow a very dark graphic style, inspired by the Victorian era and the stories of HP Lovecraft for the creation of the universe.",
-            "This is the first game I developed in 3D with Unity and it was created in a team of 2."
-        ],
-        "LienProjet": "https://mathieugaudreau.itch.io/the-strange-case-of-hollow-manor",
-        "canva": [
-            "https://drive.google.com/file/d/1SNUD92HY7b5uoc9hDsTD0IprHl2I1pj9/preview"
-        ],
-        "GH": "https://github.com/MathieuGaudreau/HollowManor",
-        "images1": [
-            "https://i.ibb.co/MgyDFkS/Menu-Intro-Assemblage-Jeu.webp",
-            "https://i.ibb.co/7XgR7zX/Choix1.webp",
-            "https://i.ibb.co/Sd7MKQH/Choix2.webp"
-        ],
-        "images2": [
-            "https://i.ibb.co/5MxdqHQ/gameplay1.webp",
-            "https://i.ibb.co/tLhpgsM/gameplay2.webp",
-            "https://i.ibb.co/92mJmbZ/gameplay3.webp",
-            "https://i.ibb.co/p4B1RP0/village.webp"
-        ],
-        "txtPhotos1": [
-            "Game poster",
-            "Victor, first of the 2 playable characters.",
-            "Victoria, second playable character."
-        ],
-        "txtPhotos2": [
-            "The player begins his adventure in a small dark hut.",
-            "The game has several different areas, here the garden.",
-            "The main area of ​​the game to explore is the maze.",
-            "The player can decide which area of ​​the game they want to explore first."
-        ],
-        "cover": "https://i.ibb.co/68YPQWQ/hollowmanor-Cover.png",
-        "roles": [
-            "Designer",
-            "Sound Designer",
-            "Programmer"
-        ],
-        "technos": [
-            "Unity",
-            "C#"
-        ]
-    },
-   
-    {
-        "id": "ROVE",
-        "name": "Rovesciato",
-        "type": "creation",
-        "date": "2019",
-        "txt": [
-            "This project aims to create a video comprising different angles and content with artistic coherence.",
-            "The project is inspired by cooking shows and videos like Chef's Table."
-        ],
-        "LienYT": "https://www.youtube.com/embed/nt1fpiuzrJo",
-        "cover": "https://i.ibb.co/CwMJ24p/rovesciato-Cover.png",
-        "roles": [
-            "Cameraman",
-            "Scenarist",
-            "Video editor"
-        ],
-        "technos": [
-            "Premiere Pro"
-        ]
-    },
-    {
-        "id": "NIMH",
-        "name": "Nimh",
-        "type": "jeu",
-        "date": "2019",
-        "txt": [
-            "Nimh is a small platform game in which the player must succeed in jumping from platform to platform without falling into the void for as long as possible."
-        ],
-        "LienProjet": "https://nimh.netlify.app/",
-        "GH": "https://github.com/MathieuGaudreau/Nimh",
-        "images1": [
-            "https://i.ibb.co/y4MKf7P/accueil.webp",
-            "https://i.ibb.co/wB8b7hq/instructionm.webp"
-        ],
-        "images2": [
-            "https://i.ibb.co/K0RF0Td/jeu.webp",
-            "https://i.ibb.co/dkKbLHx/mort.webp"
-        ],
-        "txtPhotos1": [
-            "Game home screen",
-            "How to play screen"
-        ],
-        "txtPhotos2": [
-            "Gameplay exemple",
-            "The end screen shows the player's last score and their best score."
-        ],
-        "cover": "https://i.ibb.co/D8YNbPG/nimh-Cover.png",
-        "roles": [
-            "Designer",
-            "Programmer"
-        ],
-        "technos": [
-            "PHASER",
-            "HTML",
-            "CSS",
-            "JavaScript"
-        ]
-    },
-    {
-        "id": "ASSASINE",
-        "name": "Assasine",
-        "type": "jeu",
-        "date": "2019",
-        "txt": [
-            "Assassine is a game concept that was developed by a team of 4 as part of a project given by the environmental committee of Cégep de Maisonneuve for Earth Day 2019.",
-            "Assassine is an RPG in which the player takes back control of the earth's environment by eliminating the CEOs of companies that pollute the planet and then transforming them into green companies.",
-            "Our project received the choice award from the CEGEP environmental committee."
-        ],
-        "LienProjet": "https://assasine.netlify.app/",
-        "images1": [
-            "https://i.ibb.co/Pz17xXX/cover.webp",
-            "https://i.ibb.co/k1THBTt/Mathieu-Ville.webp",
-            "https://i.ibb.co/12F2JyZ/Map-Asasine.webp",
-            "https://i.ibb.co/fq0YzcM/personnage.webp",
-            "https://i.ibb.co/dtY2VkR/principale.webp"
-        ],
-        "images2": [
-            "https://i.ibb.co/GFwKRgK/ennemi2.webp",
-            "https://i.ibb.co/5T9pJh3/ennemi3.webp",
-            "https://i.ibb.co/W5CDKtD/ennemi4.webp",
-            "https://i.ibb.co/nQKG4n4/ennemi5.webp"
-        ],
-        "txtPhotos1": [
-            "Game logo",
-            "Concept of the city, the main area of ​​the game is a very futuristic and very illuminated city where only the rich can live.",
-            "The card indicates the different objectives that the player must accomplish.",
-            "Boss hierarchy, the player must eliminate the bosses in order of hierarchy to arrive at the final boss.",
-            "Heroine concept"
-        ],
-        "txtPhotos2": [
-            "Boss concept #1",
-            "Boss concept #2",
-            "Boss concept #3",
-            "Boss concept #4"
-        ],
-        "cover": "https://i.ibb.co/p2nGP1y/assasine-Cover.png",
-        "roles": [
-            "Designer",
-            "Programmer"
-        ],
-        "technos": [
-            "Illustrator",
-            "HTML",
-            "CSS"
-        ],
-        "canva":[
-            "https://drive.google.com/file/d/1lCHDP9gibUGtUpWY6psiHLn3j7daPLHz/preview"
-        ]
-    },
-    {
-        "id": "TUTO",
-        "name": "Galaxy",
-        "type": "creation",
-        "date": "2018",
-        "txt": [
-            "This project with the goal of creating a poster of a famous character or personality by following a Creationshop tutorial and putting it our way."
-        ],
-        "images1": [
-            "https://i.ibb.co/NLKBSKN/tuto1.webp"
-        ],
-        "images2": [
-            "https://i.ibb.co/Lxn2Xhf/mob.webp"
-        ],
-        "txtPhotos1": [
-            "Vladimir Putin"
-        ],
-        "txtPhotos2": [
-            "Shigeo Kageyama from Mob Psycho 100."
-        ],
-        "cover": "https://i.ibb.co/s5fB3vR/galaxie-Cover.png",
-        "roles": [
-            "Designer"
-        ],
-        "technos": [
-            "Photoshop"
-        ]
-    },
-    {
-        "id": "MCDO",
-        "name": "Anachronisme",
-        "type": "creation",
-        "date": "2018",
-        "txt": [
-            "The goal of this project was to create an advertisement by incorporating a modern company or object into a painting or photograph from another era.",
-            "So here is a McDonald's Big Mac incorporated into a 17th-century painting."
-        ],
-        "images1": [
-            "https://i.ibb.co/stCX4TY/MCDO.webp"
-        ],
-        "txtPhotos1": [
-            "Final render of the project"
-        ],
-        "cover": "https://i.ibb.co/XzDTBdn/anachronisme-Cover.png",
-        "roles": [
-            "Designer"
-        ],
-        "technos": [
-            "Photoshop"
-        ]
-    },
-    {
-        "id": "TF",
-        "name": "Tempus Fugit",
-        "type": "creation",
-        "date": "2018",
-        "txt": [
-            "Short film produced in a team of 3 during a multimedia course in 5th year of high school"
-        ],
-        "LienYT": "https://www.youtube.com/embed/jvS9JraJkvU",
-        "images1": [
-            "https://i.ibb.co/bvpNLnf/Tempus-Fugit.webp",
-            "https://i.ibb.co/TBZ9Qjk/Tempus-Fugit2.webp",
-            "https://i.ibb.co/1qwb1My/Tempus-Fugi3.webp"
-        ],
-        "txtPhotos1": [
-            "First poster of the film",
-            "Second poster of the film",
-            "Third poster of the film"
-        ],
-        "cover": "https://i.ibb.co/frJJ7Cp/tempusfugit-Cover.png",
-        "roles": [
-            "Scenarist",
-            "Actor",
-            "Designer"
-        ],
-        "technos": [
-            "Premiere Pro",
-            "Photoshop"
         ]
     }
 ]
