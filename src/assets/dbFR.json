@@ -175,11 +175,13 @@
             "Des écrans d'aides vont apparaitre lors du jeu pour expliquer au joueur les différentes méchaniques."
         ],
         "txtPhotos2": [
+            "Exemple de disposition de la carte",
             "Le feu de camp sert de safezone pour le joueur et il peut interagir avec le feu pour se soigner et crafter.",
             "Le joueur peut retrouver des ruines dans le jeu qui donne accès à des améliorations, des armes et un sort.",
             "Exemple de combat contre un boss. Les boss et les ennemies ont plus en plus de vies au fil que le jeu avance."
         ],
         "images2": [
+            "https://i.ibb.co/D1HMDV5/Exemple-Map-Last-Spark.png",
             "https://i.ibb.co/yPykPpD/debut.webp",
             "https://i.ibb.co/qntnzG9/ruine.webp",
             "https://i.ibb.co/7nZ1vS5/boss.webp"

@@ -174,11 +174,13 @@
             "Help screens will appear during the game to explain the different mechanics to the player."
         ],
         "txtPhotos2": [
+            "Example of a map layout",
             "The campfire acts as a player's safezone and can interact with the fire to heal and craft.",
             "The player can find ruins in the game which gives access to upgrades, weapons and a spell.",
             "Example of a boss fight. Bosses and enemies have more and more lives as the game progresses."
         ],
         "images2": [
+            "https://i.ibb.co/D1HMDV5/Exemple-Map-Last-Spark.png",
             "https://i.ibb.co/yPykPpD/debut.webp",
             "https://i.ibb.co/qntnzG9/ruine.webp",
             "https://i.ibb.co/7nZ1vS5/boss.webp"
