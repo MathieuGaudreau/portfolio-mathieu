@@ -168,7 +168,7 @@
           <projets
             v-for="projet in projets"
             :key="projet.id"
-            :id="projet.id"
+            :id="projet.id" 
             :name="projet.name"
             :type="projet.type"
             :images1="projet.images1"
