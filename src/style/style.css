@@ -403,6 +403,7 @@ main .detailsProjets .description .txtDescription {
   width: 50%;
   justify-self: right;
   font-family: "Nunito", sans-serif;
+  font-size: 1.2em;
 }
 @media (max-width: 767px) {
   main .detailsProjets .description .txtDescription {
@@ -441,8 +442,9 @@ main .detailsProjets .description .descHalf .rolesLogi ul {
   margin: 0;
   list-style-type: none;
   font-family: "Nunito", sans-serif;
+  font-size: 1.2em;
   padding: 0;
-  width: 70%;
+  width: 100%;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   main .detailsProjets .description .descHalf .rolesLogi ul {
@@ -457,8 +459,8 @@ main .detailsProjets .description .descHalf .rolesLogi ul {
 }
 main .detailsProjets .divider {
   width: 40%;
-  margin: 50px auto 50px auto;
-  height: 10px;
+  margin: 1rem auto 1rem auto;
+  height: 5px;
   background: #d48166;
   border-radius: 10px;
 }
@@ -634,6 +636,51 @@ main .detailsProjets .build iframe {
     height: 50vw;
   }
 }
+main .detailsProjets .nomCat {
+  display: flex;
+  flex-flow: column;
+  width: 65%;
+  margin-bottom: 1rem;
+  font-family: "Righteous", cursive;
+  color: #d48166;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  main .detailsProjets .nomCat {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  main .detailsProjets .nomCat {
+    width: 100%;
+  }
+}
+main .detailsProjets .nomCat h1 {
+  font-size: 1.5em;
+  margin: 0;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  main .detailsProjets .nomCat h1 {
+    font-size: 2em;
+  }
+}
+@media (max-width: 767px) {
+  main .detailsProjets .nomCat h1 {
+    font-size: 2em;
+  }
+}
+main .detailsProjets .nomCat h4 {
+  font-size: 1.5em;
+  margin: 0;
+}
+main .detailsProjets .largeTxt {
+  width: 65%;
+}
+main .detailsProjets .largeTxt p {
+  font-family: "Nunito", sans-serif;
+  width: 100%;
+  font-size: 1.2em;
+  margin: 1rem 0 1rem 0;
+}
 
 .sliders {
   width: 65%;
@@ -665,11 +712,11 @@ main .detailsProjets .build iframe {
 }
 .sliders .hooper {
   height: 100%;
-  margin-top: 100px;
   display: flex;
 }
 .sliders .hooper .hooper-slide {
   display: flex;
+  flex-flow: column;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .sliders .hooper .hooper-slide {
@@ -683,9 +730,9 @@ main .detailsProjets .build iframe {
   }
 }
 .sliders .hooper .hooper-slide img {
-  max-width: 50%;
+  max-width: 100%;
   border-radius: 10px;
-  max-height: 20vw;
+  max-height: 100%;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .sliders .hooper .hooper-slide img {
@@ -705,10 +752,10 @@ main .detailsProjets .build iframe {
 }
 .sliders .hooper .hooper-slide .detailImg {
   display: flex;
-  width: 50%;
+  width: 100%;
   flex-direction: column;
   color: black;
-  margin-left: 15px;
+  margin-top: 0.5em;
 }
 @media (max-width: 767px) {
   .sliders .hooper .hooper-slide .detailImg {
@@ -721,19 +768,22 @@ main .detailsProjets .build iframe {
   font-family: "Righteous", cursive;
   letter-spacing: 2px;
   color: #d48166;
+  font-size: 1.5em;
 }
 .sliders .hooper .hooper-slide .detailImg p {
-  margin-top: 10%;
+  margin-top: 0.1em;
   font-family: "Nunito", sans-serif;
+  font-size: 1.2em;
 }
 .sliders .hooper1Container .oneSlider {
   transform: translateX(50%) !important;
 }
 .sliders .hooper1Container .hooper-pagination {
-  width: 50%;
+  width: 100%;
   transform: translateX(0px);
   justify-content: center;
   bottom: -25px;
+  position: inherit;
 }
 @media (max-width: 767px) {
   .sliders .hooper1Container .hooper-pagination {
@@ -751,49 +801,6 @@ main .detailsProjets .build iframe {
   background: #d48166;
 }
 .sliders .hooper1Container .hooper-pagination .is-active {
-  background: #d48166;
-}
-.sliders .hooper2Container .hooper2 {
-  flex-flow: row-reverse;
-}
-@media (max-width: 767px) {
-  .sliders .hooper2Container .hooper2 {
-    flex-flow: column;
-  }
-}
-.sliders .hooper2Container .hooper2 .detailImg {
-  align-items: flex-end;
-  margin-right: 15px;
-}
-@media (max-width: 767px) {
-  .sliders .hooper2Container .hooper2 .detailImg {
-    align-items: flex-start;
-    margin-right: 0;
-  }
-}
-.sliders .hooper2Container .hooper-pagination {
-  width: 50%;
-  transform: translateX(0px);
-  justify-content: center;
-  left: 50%;
-  bottom: -25px;
-}
-@media (max-width: 767px) {
-  .sliders .hooper2Container .hooper-pagination {
-    width: 100%;
-    left: 0;
-  }
-}
-.sliders .hooper2Container .hooper-pagination .hooper-indicator {
-  height: 12px;
-  width: 12px;
-  border-radius: 10px;
-  background: #7da2a9;
-}
-.sliders .hooper2Container .hooper-pagination .hooper-indicator:hover {
-  background: #d48166;
-}
-.sliders .hooper2Container .hooper-pagination .is-active {
   background: #d48166;
 }
 
@@ -818,152 +825,152 @@ main .detailsProjets .build iframe {
 }
 
 .svg:nth-child(1) {
-  left: 48%;
-  animation: raise1 15s linear infinite;
+  left: 31%;
+  animation: raise1 13s linear infinite;
   animation-delay: -1s;
-  transform: scale(-0.3) rotate(216deg);
+  transform: scale(-0.3) rotate(307deg);
   z-index: 0;
   filter: blur(-5px);
 }
 @keyframes raise1 {
   to {
     bottom: 150vh;
-    transform: scale(-0.3) rotate(225deg);
+    transform: scale(-0.3) rotate(69deg);
   }
 }
 
 .svg:nth-child(2) {
-  left: 29%;
-  animation: raise2 11s linear infinite;
-  animation-delay: -2s;
-  transform: scale(0) rotate(152deg);
+  left: 3%;
+  animation: raise2 19s linear infinite;
+  animation-delay: -3s;
+  transform: scale(0) rotate(268deg);
   z-index: 0;
   filter: blur(-4px);
 }
 @keyframes raise2 {
   to {
     bottom: 150vh;
-    transform: scale(0) rotate(13deg);
+    transform: scale(0) rotate(295deg);
   }
 }
 
 .svg:nth-child(3) {
-  left: -9%;
-  animation: raise3 19s linear infinite;
-  animation-delay: 0s;
-  transform: scale(0.3) rotate(194deg);
+  left: 55%;
+  animation: raise3 12s linear infinite;
+  animation-delay: -2s;
+  transform: scale(0.3) rotate(317deg);
   z-index: 0;
   filter: blur(-3px);
 }
 @keyframes raise3 {
   to {
     bottom: 150vh;
-    transform: scale(0.3) rotate(111deg);
+    transform: scale(0.3) rotate(197deg);
   }
 }
 
 .svg:nth-child(4) {
-  left: 87%;
-  animation: raise4 10s linear infinite;
-  animation-delay: -4s;
-  transform: scale(0.6) rotate(205deg);
+  left: 18%;
+  animation: raise4 20s linear infinite;
+  animation-delay: 0s;
+  transform: scale(0.6) rotate(69deg);
   z-index: 0;
   filter: blur(-2px);
 }
 @keyframes raise4 {
   to {
     bottom: 150vh;
-    transform: scale(0.6) rotate(12deg);
+    transform: scale(0.6) rotate(247deg);
   }
 }
 
 .svg:nth-child(5) {
-  left: 12%;
-  animation: raise5 17s linear infinite;
-  animation-delay: 0s;
-  transform: scale(0.9) rotate(53deg);
+  left: 41%;
+  animation: raise5 19s linear infinite;
+  animation-delay: -4s;
+  transform: scale(0.9) rotate(348deg);
   z-index: 0;
   filter: blur(-1px);
 }
 @keyframes raise5 {
   to {
     bottom: 150vh;
-    transform: scale(0.9) rotate(157deg);
+    transform: scale(0.9) rotate(160deg);
   }
 }
 
 .svg:nth-child(6) {
-  left: 67%;
+  left: -5%;
   animation: raise6 17s linear infinite;
-  animation-delay: -3s;
-  transform: scale(1.2) rotate(9deg);
+  animation-delay: -4s;
+  transform: scale(1.2) rotate(114deg);
   z-index: 0;
   filter: blur(0px);
 }
 @keyframes raise6 {
   to {
     bottom: 150vh;
-    transform: scale(1.2) rotate(53deg);
+    transform: scale(1.2) rotate(298deg);
   }
 }
 
 .svg:nth-child(7) {
-  left: 0%;
-  animation: raise7 7s linear infinite;
+  left: 13%;
+  animation: raise7 20s linear infinite;
   animation-delay: -1s;
-  transform: scale(1.5) rotate(280deg);
+  transform: scale(1.5) rotate(238deg);
   z-index: 0;
   filter: blur(1px);
 }
 @keyframes raise7 {
   to {
     bottom: 150vh;
-    transform: scale(1.5) rotate(318deg);
+    transform: scale(1.5) rotate(267deg);
   }
 }
 
 .svg:nth-child(8) {
-  left: 11%;
-  animation: raise8 11s linear infinite;
-  animation-delay: -2s;
-  transform: scale(1.8) rotate(213deg);
+  left: -13%;
+  animation: raise8 9s linear infinite;
+  animation-delay: -3s;
+  transform: scale(1.8) rotate(3deg);
   z-index: 0;
   filter: blur(2px);
 }
 @keyframes raise8 {
   to {
     bottom: 150vh;
-    transform: scale(1.8) rotate(179deg);
+    transform: scale(1.8) rotate(47deg);
   }
 }
 
 .svg:nth-child(9) {
-  left: -19%;
-  animation: raise9 12s linear infinite;
-  animation-delay: -2s;
-  transform: scale(2.1) rotate(63deg);
+  left: 97%;
+  animation: raise9 11s linear infinite;
+  animation-delay: 0s;
+  transform: scale(2.1) rotate(36deg);
   z-index: 0;
   filter: blur(3px);
 }
 @keyframes raise9 {
   to {
     bottom: 150vh;
-    transform: scale(2.1) rotate(340deg);
+    transform: scale(2.1) rotate(76deg);
   }
 }
 
 .svg:nth-child(10) {
-  left: 14%;
+  left: 26%;
   animation: raise10 15s linear infinite;
-  animation-delay: -2s;
-  transform: scale(2.4) rotate(194deg);
+  animation-delay: -3s;
+  transform: scale(2.4) rotate(33deg);
   z-index: 0;
   filter: blur(4px);
 }
 @keyframes raise10 {
   to {
     bottom: 150vh;
-    transform: scale(2.4) rotate(264deg);
+    transform: scale(2.4) rotate(286deg);
   }
 }
 
@@ -1337,7 +1344,6 @@ main .detailsProjets .build iframe {
   padding-top: 35%;
   padding-bottom: 25%;
   box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
-  margin-top: 1.6em;
   margin-bottom: 0.9em;
   overflow: hidden;
   border-radius: 8px;

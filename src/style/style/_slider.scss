@@ -29,11 +29,11 @@
 
     .hooper {
         height: 100%;
-        margin-top: 100px;
         display: flex;
 
         .hooper-slide {
             display: flex;
+            flex-flow: column;
 
             @include breakpoint(tablet) {
                 width: 100%;
@@ -44,9 +44,9 @@
             }
 
             img {
-                max-width: 50%;
+                max-width: 100%;
                 border-radius: 10px;
-                max-height: 20vw;
+                max-height: 100%;
 
                 @include breakpoint(tablet) {
                     max-height: max-content;
@@ -63,10 +63,10 @@
 
             .detailImg {
                 display: flex;
-                width: 50%;
+                width: 100%;
                 flex-direction: column;
                 color: $colorTxt;
-                margin-left: 15px;
+                margin-top: 0.5em;
 
                 @include breakpoint(mobile) {
                     width: 100%;
@@ -77,10 +77,12 @@
                     font-family: $rightous;
                     letter-spacing: 2px;
                     color: $highlight2;
+                    font-size: 1.5em;
                 }
                 p {
-                    margin-top: 10%;
+                    margin-top: 0.1em;
                     font-family: $nunito;
+                    font-size: 1.2em;
                 }
             }
         }
@@ -93,59 +95,15 @@
         }
 
         .hooper-pagination {
-            width: 50%;
+            width: 100%;
             transform: translateX(0px);
             justify-content: center;
             bottom: -25px;
+            position: inherit;
 
             @include breakpoint(mobile) {
                 width: 100%;
                 transform: translatex(50%);
-            }
-            .hooper-indicator {
-                height: 12px;
-                width: 12px;
-                border-radius: 10px;
-                background: $highlight1;
-
-                &:hover {
-                    background: $highlight2;
-                }
-            }
-            .is-active {
-                background: $highlight2;
-            }
-        }
-    }
-
-    .hooper2Container {
-        .hooper2 {
-            flex-flow: row-reverse;
-
-            @include breakpoint(mobile) {
-                flex-flow: column;
-            }
-
-            .detailImg {
-                align-items: flex-end;
-                margin-right: 15px;
-
-                @include breakpoint(mobile) {
-                    align-items: flex-start;
-                    margin-right: 0;
-                }
-            }
-        }
-        .hooper-pagination {
-            width: 50%;
-            transform: translateX(0px);
-            justify-content: center;
-            left: 50%;
-            bottom: -25px;
-            @include breakpoint(mobile) {
-                width: 100%;
-
-                left: 0;
             }
             .hooper-indicator {
                 height: 12px;

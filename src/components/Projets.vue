@@ -1,19 +1,12 @@
 <template>
   <article class="projets" :class="type">
-    <article
-      class="projetThumb"
-      @click="
-        scrollTop();
-        toggleDetails();
-      "
-      :style="{ backgroundImage: 'url(' + cover + ')' }"
-    ></article>
+    <article class="projetThumb" @click="
+      scrollTop();
+    toggleDetails();
+    " :style="{ backgroundImage: 'url(' + cover + ')' }"></article>
 
     <section id="details" v-if="detailsAreVisible" class="detailsProjets">
-      <section
-        class="headProjets"
-        :style="{ backgroundImage: 'url(' + cover + ')' }"
-      >
+      <section class="headProjets" :style="{ backgroundImage: 'url(' + cover + ')' }">
         <h3 v-if="lang === 'fr'" class="retour" @click="closeDetails">
           <i class="fas fa-arrow-circle-left"></i>
           Retour à la liste des projets
@@ -55,126 +48,149 @@
           <h4 v-if="lang === 'fr'">Le projet</h4>
           <h4 v-if="lang === 'en'">The project</h4>
 
-          <p v-for="(text, index) in txt" :key="index">{{ txt[index] }}</p>
+          <p v-html="descriptionProjet"></p>
         </div>
+      </section>
+
+      <div v-if="LienBuild" class="divider"></div>
+
+      <section v-if="LienBuild" class="build" data-aos="fade-up">
+
+        <section class="nomCat" data-aos="fade-right">
+          <h1 v-if="lang === 'fr'">Jouer au jeu !</h1>
+          <h1 v-if="lang === 'en'">Try the game !</h1>
+        </section>
+
+        <iframe id="player" type="text/html" :src="LienBuild" frameborder="0" showinfo="0"
+          allowfullscreen="allowfullscreen"></iframe>
       </section>
 
       <div class="divider"></div>
 
-      <section v-if="LienProjet" class="liensProjets">
-        <h2>
-          <a :href="LienProjet" target="_blank" v-if="lang === 'fr'"
-            >Voir le projet<i class="fas fa-external-link-square-alt"></i
-          ></a>
+      <section class="largeTxt" data-aos="fade-up">
 
-          <a :href="LienProjet" target="_blank" v-if="lang === 'en'"
-            >See the project<i class="fas fa-external-link-square-alt"></i
-          ></a>
-        </h2>
+        <section class="nomCat" data-aos="fade-right">
+          <h1>{{ txt2[0] }}</h1>
+        </section>
 
-        <h2 v-if="GH">
-          <a :href="GH" target="_blank" v-if="lang === 'fr'"
-            >Voir le GitHub<i class="fab fa-github-square"></i
-          ></a>
-
-          <a :href="GH" target="_blank" v-if="lang === 'en'"
-            >See the GitHub<i class="fab fa-github-square"></i
-          ></a>
-        </h2>
+        <p v-html="txt2[1]"></p>
       </section>
 
-      <div v-if="LienProjet" class="divider"></div>
-
-      <section v-if="LienBuild" class="build" data-aos="fade-up">
-        <iframe
-          id="player"
-          type="text/html"
-          :src="LienBuild"
-          frameborder="0"
-          showinfo="0"
-          allowfullscreen="allowfullscreen"
-        ></iframe>
-
-        <div class="divider" v-if="canva || images1"></div>
-      </section>
-
-      <section v-if="LienYT" class="youtube" data-aos="fade-up">
-        <iframe
-          id="player"
-          type="text/html"
-          :src="LienYT"
-          frameborder="0"
-          showinfo="0"
-          allowfullscreen="allowfullscreen"
-        ></iframe>
-
-        <div class="divider" v-if="canva || images1"></div>
-      </section>
+      <div v-if="images1" class="divider"></div>
 
       <section v-if="images1" class="sliders">
         <hooper class="hooper1Container" data-aos="fade-right">
-          <slide
-            :class="{ onlyOneSlider: !images2 }"
-            v-for="(image, index) in images1"
-            :key="index"
-          >
-            <img :src="images1[index]" v-if="lang === 'fr'" title="Cliquez pour agrandir l'image" alt="" @click="() => showImg(index)" />
-            <img :src="images1[index]" v-if="lang === 'en'" title="Click to enlarge image" alt="" @click="() => showImg(index)" />
+          <slide :class="{ onlyOneSlider: !images2 }" v-for="(image, index) in images1" :key="index">
+            <img :src="images1[index]" v-if="lang === 'fr'" title="Cliquez pour agrandir l'image" alt=""
+              @click="() => showImg(index)" />
+            <img :src="images1[index]" v-if="lang === 'en'" title="Click to enlarge image" alt=""
+              @click="() => showImg(index)" />
             <div class="detailImg">
               <h3 v-if="lang === 'fr'">Dans cette image :</h3>
               <h3 v-if="lang === 'en'">In this image :</h3>
-              <p>{{ txtPhotos1[index] }}</p>
+              <p v-html="txtPhotos1[index]"></p>
             </div>
           </slide>
 
-          <hooper-pagination
-            :class="{ oneSlider: !images2 }"
-            slot="hooper-addons"
-          ></hooper-pagination>
+          <hooper-pagination :class="{ oneSlider: !images2 }" slot="hooper-addons"></hooper-pagination>
         </hooper>
 
-        <hooper class="hooper2Container" v-if="images2" data-aos="fade-left">
-          <slide class="hooper2" v-for="(image, index) in images2" :key="index">
-            <img :src="images2[index]" v-if="lang === 'fr'" title="Cliquez pour agrandir l'image" alt="" @click="() => showImg2(index)" />
-            <img :src="images2[index]" v-if="lang === 'en'" title="Click to enlarge image" alt="" @click="() => showImg2(index)" />
+        <vue-easy-lightbox :visible="visible" :imgs="images1" :index="index" @hide="handleHide"></vue-easy-lightbox>
+
+      </section>
+
+      <div v-if="txt3" class="divider"></div>
+
+      <section v-if="txt3" class="largeTxt" data-aos="fade-up">
+
+        <section class="nomCat" data-aos="fade-right">
+          <h1>{{ txt3[0] }}</h1>
+        </section>
+
+        <p v-html="txt3[1]"></p>
+      </section>
+
+      <div v-if="images2" class="divider"></div>
+
+      <section v-if="images2" class="sliders">
+
+        <hooper class="hooper1Container" v-if="images2" data-aos="fade-left">
+          <slide v-for="(image, index) in images2" :key="index">
+            <img :src="images2[index]" v-if="lang === 'fr'" title="Cliquez pour agrandir l'image" alt=""
+              @click="() => showImg2(index)" />
+            <img :src="images2[index]" v-if="lang === 'en'" title="Click to enlarge image" alt=""
+              @click="() => showImg2(index)" />
             <div class="detailImg">
               <h3 v-if="lang === 'fr'">Dans cette image :</h3>
               <h3 v-if="lang === 'en'">In this image :</h3>
-              <p>{{ txtPhotos2[index] }}</p>
+              <p v-html="txtPhotos2[index]"></p>
             </div>
           </slide>
 
           <hooper-pagination slot="hooper-addons"></hooper-pagination>
         </hooper>
 
-        <vue-easy-lightbox
-          :visible="visible"
-          :imgs="images1"
-          :index="index"
-          @hide="handleHide"
-        ></vue-easy-lightbox>
+        <vue-easy-lightbox :visible="visible2" :imgs="images2" :index="index2" @hide="handleHide2"></vue-easy-lightbox>
 
-        <vue-easy-lightbox
-          :visible="visible2"
-          :imgs="images2"
-          :index="index2"
-          @hide="handleHide2"
-        ></vue-easy-lightbox>
-
-      <div class="divider" v-if="canva"></div>
       </section>
 
-            <section class="canvas" v-if="canva" >
-        <div v-for="(canvas, index) in canva" :key="index" data-aos="fade-up">
-          <iframe
-            loading="lazy"
-            :src="canva[index]"
-            allow="autoplay"
-            allowfullscreen="true"
-          >
-          </iframe>
-        </div> 
+      <div v-if="txt4" class="divider"></div>
 
+      <section v-if="txt4" class="largeTxt" data-aos="fade-up">
+
+        <section class="nomCat" data-aos="fade-right">
+          <h1>{{ txt4[0] }}</h1>
+        </section>
+
+        <p v-html="txt4[1]"></p>
+      </section>
+
+      <div v-if="LienYT" class="divider"></div>
+
+      <section v-if="LienYT" class="youtube" data-aos="fade-up">
+
+        <section class="nomCat" data-aos="fade-right">
+          <h1 v-if="lang === 'fr'">Vidéo</h1>
+          <h1 v-if="lang === 'en'">Video</h1>
+        </section>
+
+        <iframe id="player" type="text/html" :src="LienYT" frameborder="0" showinfo="0"
+          allowfullscreen="allowfullscreen"></iframe>
+
+      </section>
+
+      <div v-if="canva" class="divider"></div>
+
+      <section class="canvas" v-if="canva">
+
+        <section class="nomCat" data-aos="fade-right">
+          <h1 v-html="titreCanva"></h1>
+        </section>
+
+        <div v-for="(canvas, index) in canva" :key="index" data-aos="fade-up">
+
+          <iframe loading="lazy" :src="canva[index]" allow="autoplay" allowfullscreen="true">
+          </iframe>
+        </div>
+
+      </section>
+
+      <div v-if="LienProjet" class="divider"></div>
+
+      <section v-if="LienProjet" class="liensProjets">
+        <h2>
+          <a :href="LienProjet" target="_blank" v-if="lang === 'fr'">Voir le projet<i
+              class="fas fa-external-link-square-alt"></i></a>
+
+          <a :href="LienProjet" target="_blank" v-if="lang === 'en'">See the project<i
+              class="fas fa-external-link-square-alt"></i></a>
+        </h2>
+
+        <h2 v-if="GH">
+          <a :href="GH" target="_blank" v-if="lang === 'fr'">Voir le GitHub<i class="fab fa-github-square"></i></a>
+
+          <a :href="GH" target="_blank" v-if="lang === 'en'">See the GitHub<i class="fab fa-github-square"></i></a>
+        </h2>
       </section>
 
       <section class="retourProjets" @click="closeDetails">
@@ -197,7 +213,7 @@ import "hooper/dist/hooper.css";
 import VueEasyLightbox from "vue-easy-lightbox";
 // import pdf from 'vue-pdf';
 export default {
-  components: { Hooper, Slide, HooperPagination, VueEasyLightbox},
+  components: { Hooper, Slide, HooperPagination, VueEasyLightbox },
   props: {
     id: {
       type: String,
@@ -235,9 +251,21 @@ export default {
       type: String,
       required: true,
     },
-    txt: {
+    descriptionProjet: {
+      type: String,
+      required: true,
+    },
+    txt2: {
       type: Array,
       required: true,
+    },
+    txt3: {
+      type: Array,
+      required: false,
+    },
+    txt4: {
+      type: Array,
+      required: false,
     },
     roles: {
       type: Array,
@@ -256,6 +284,10 @@ export default {
       required: false,
     },
     LienBuild: {
+      type: String,
+      required: false,
+    },
+    titreCanva: {
       type: String,
       required: false,
     },
@@ -300,7 +332,7 @@ export default {
 
     closeDetails() {
 
-document.documentElement.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
 
       this.detailsAreVisible = false;
 

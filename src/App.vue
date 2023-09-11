@@ -174,7 +174,10 @@
             :images1="projet.images1"
             :images2="projet.images2"
             :date="projet.date"
-            :txt="projet.txt"
+            :descriptionProjet="projet.descriptionProjet"
+            :txt2="projet.txt2"
+            :txt3="projet.txt3"
+            :txt4="projet.txt4"
             :LienProjet="projet.LienProjet"
             :GH="projet.GH"
             :cover="projet.cover"
@@ -184,6 +187,7 @@
             :LienBuild="projet.LienBuild"
             :txtPhotos1="projet.txtPhotos1"
             :txtPhotos2="projet.txtPhotos2"
+            :titreCanva="projet.titreCanva"
             :canva="projet.canva"
             :lang="lang"
           ></projets>
@@ -205,6 +209,7 @@ import Tri from "./components/Tri.vue";
 import Projets from "./components/Projets.vue";
 import AnimFond from "./components/AnimFond.vue";
 import QuiSuisJe from "./components/QuiSuisJe.vue";
+
 
 export default {
   components: { BasDePage, Tri, Projets, AnimFond, QuiSuisJe },
