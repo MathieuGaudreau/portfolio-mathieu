@@ -119,18 +119,18 @@
         "name": "The Moving Slaugh",
         "type": "jeu",
         "date": "2023",
-        "descriptionProjet": "<b>The Moving Slough</b> est un projet en deux parties qui se distinguent par leur contenu, tout en étant étroitement liées. La première partie du projet consiste à créer un univers semi-réaliste situé en Louisiane au XIXe siècle. Dans ce monde, une obscurité profonde règne, peuplée de créatures morbides de toutes sortes. Personne ne sait exactement pourquoi, mais l'épicentre de cette obscurité semble émaner d'une région effacée des cartes : <b>le Moving Slough</b>, un territoire extrêmement dangereux que seuls les chasseurs les plus intrépides osent explorer. La deuxième partie du projet se concentre sur la création d'un niveau de jeu permettant aux joueurs d'explorer ce marais pour y dénicher des <b>indices</b> et des <b>traces</b> d'un événement sanglant.",
+        "descriptionProjet": "<b>The Moving Slough</b> est un projet en <b>deux parties</b> qui se distinguent par leur contenu, tout en étant étroitement liées. La première partie du projet consiste à créer un <b>univers semi-réaliste</b> situé en Louisiane au XIXe siècle. Dans ce monde, une obscurité profonde règne, <b>peuplée de créatures morbides</b> de toutes sortes. Personne ne sait exactement pourquoi, mais l'épicentre de cette obscurité semble émaner d'une région effacée des cartes : le <b>Moving Slough</b>, un territoire extrêmement dangereux que seuls les chasseurs les plus intrépides osent explorer. La <b>deuxième partie</b> du projet se concentre sur la <b>création d'un niveau de jeu</b> permettant aux joueurs d'explorer ce marais pour y dénicher des indices et des traces d'un <b>événement sanglant</b>.",
         "txt2": [
             "Production :",
-            "Le projet s'est étendu sur une période de 10 semaines, dont 4 ont été dédiées à la création de l'univers et 6 semaines à la conception du niveau en tant que tel. Pour la création de l'univers, j'ai délibérément choisi de me focaliser sur une petite partie d'un monde potentiellement bien plus vaste, regorgeant encore d'idées inexplorées. Ce choix découle de ma volonté de créer quelque chose de précis, en mettant en avant un lieu unique. Cette approche a facilité sa représentation sous forme de niveau exploratoire, où le joueur peut recueillir des indices concernant les événements mystérieux qui ont eu lieu dans cet univers. Pour la conception de mon niveau, j'ai amorcé le processus en dessinant une carte détaillée pour m'assurer que tous les chemins puissent être reliés et quasiment tous mènent au centre du marais. Dans l'éditeur, l'aspect le plus crucial de la production a été de garantir que le joueur soit habilement guidé vers le cœur du marais, où se concentrent la plupart des éléments clés."
+            "Le projet s'est étendu sur une période de <b>10 semaines</b>, dont 4 ont été dédiées à la création de l'univers et 6 semaines à la conception du niveau en tant que tel. Pour la création de l'univers, j'ai délibérément choisi de me <b>focaliser sur une petite partie d'un monde</b> potentiellement bien plus vaste, regorgeant encore d'idées inexplorées. Ce choix découle de ma volonté de <b>créer quelque chose de précis</b>, en mettant en avant un lieu unique. Cette approche a <b>facilité sa représentation sous forme de niveau exploratoire</b>, où le joueur peut recueillir des indices concernant les événements mystérieux qui ont eu lieu dans cet univers. Pour la conception de mon niveau, j'ai amorcé le processus en dessinant une carte détaillée pour m'assurer que <b>tous les chemins puissent être reliés</b> et quasiment tous <b>mènent au centre du marais</b>. Dans l'éditeur, l'aspect le plus crucial de la production a été de garantir que le joueur soit habilement guidé vers le cœur du marais, où se concentrent la plupart des éléments clés."
         ],
         "txt3": [
             "Défis rencontrés :",
-            "Ce projet a comporté plusieurs défis, tant dans la création de l'univers que dans la conception du niveau de jeu. Le principal défi lors de la création de l'univers était de rester concis et de respecter les limites que je m'étais imposées, en me concentrant principalement sur les détails de la région marécageuse. Les principaux défis liés à la conception du niveau étaient liés à l'utilisation de l'outil de terrain d'Unreal et à l'assurance que tous les chemins soient accessibles et praticables. Étant peu expérimenté avec cet outil, j'ai dû effectuer de nombreux essais et erreurs pour parvenir au résultat dont je suis aujourd'hui fier. J'ai également dû mener de nombreuses expérimentations et recherches pour créer un éclairage et une atmosphère sombres et oppressants, tout en assurant une navigation fluide."
+            "Ce projet a comporté plusieurs défis, tant dans la création de l'univers que dans la conception du niveau de jeu. Le principal défi lors de la création de l'univers était de <b>rester concis</b> et de respecter les limites que je m'étais imposées, en me concentrant principalement sur les détails de la région marécageuse. Les principaux défis liés à la conception du niveau étaient liés à <b>l'utilisation de l'outil de terrain</b> d'Unreal et à l'assurance que tous les chemins soient accessibles et praticables. Étant peu expérimenté avec cet outil, j'ai dû effectuer de nombreux essais et erreurs pour parvenir au résultat dont je suis aujourd'hui fier. J'ai également dû mener de nombreuses expérimentations et recherches pour <b>créer un éclairage et une atmosphère sombres et oppressants</b>, tout en assurant une navigation fluide."
         ],
         "txt4": [
             "Inspiration :",
-            "J'ai puisé mon inspiration dans des jeux de rôle tels que We Deal in Lead, Deadlands et Into the Wyrd and Wild pour la création de mon univers, en m'inspirant des types de créatures, des lieux et des thèmes. J'ai également tiré de nombreuses idées de livres tels que The Planet Construction Kit de Rosenfelder et Kobold Guide to Worldbuilding de Grubb. Quant à la conception de mon niveau, je me suis largement inspiré des niveaux de marais présents dans des jeux tels que The Witcher, Hunt: Showdown et Weird West. Ma passion pour la thématique western a toujours été une source d'inspiration pour moi, et je suis enchanté d'avoir eu l'opportunité d'explorer ce genre et de créer mon propre univers altéré."
+            "J'ai puisé mon inspiration dans des jeux de rôle tels que <b>We Deal in Lead</b>, <b>Deadlands</b> et <b>Into the Wyrd and Wild</b> pour la création de mon univers, en m'inspirant des types de créatures, des lieux et des thèmes. J'ai également tiré de nombreuses idées de livres tels que <b>The Planet Construction Kit</b> de Rosenfelder et <b>Kobold Guide to Worldbuilding</b> de Grubb. Quant à la conception de mon niveau, je me suis largement inspiré des niveaux de marais présents dans des jeux tels que <b>The Witcher, Hunt: Showdown et Weird West</b>. Ma passion pour la thématique western a toujours été une source d'inspiration pour moi, et je suis enchanté d'avoir eu l'opportunité d'explorer ce genre et de créer mon propre univers altéré."
         ],
         "images1": [
             "https://i.ibb.co/T8WGP2X/Swamp-2.png",
@@ -178,8 +178,7 @@
             "Designer narratif"
         ],
         "canva": [
-            "https://e.notionhero.io/e1/p/a5a9c27-e8bbe1a3cf425d926b280a8ffe4f721",
-            "https://app.milanote.com/1QECq11oZ5VD8T?p=hAZbdqB7yXr"
+            "https://e.notionhero.io/e1/p/a5a9c27-e8bbe1a3cf425d926b280a8ffe4f721"
         ],
         "technos": [
             "Unreal 5",
@@ -192,18 +191,18 @@
         "name": "Space Scoundrel",
         "type": "jeu",
         "date": "2022",
-        "descriptionProjet": "Space Scoundrel est un jeu de tir à la troisième personne au style Action Roguelike qui place les joueurs dans la peau d'un pirate de l'espace assoiffé de trésors. Le but principal du joueur est d'aborder des vaisseaux ennemis pour les dépouiller de leur précieux butin. Les joueurs vont explorer des vaisseaux générés de manière procédurale, où ils affronteront une variété d'ennemis et auront accès à diverses armes pour se défendre.",
+        "descriptionProjet": "<b>Space Scoundrel</b> est un jeu de <b>tir à la troisième personne</b> au style <b>Action Roguelike</b> qui place les joueurs dans la peau d'un pirate de l'espace assoiffé de trésors. Le but principal du joueur est <b>d'aborder des vaisseaux</b> ennemis pour les dépouiller de leur précieux butin. Les joueurs vont explorer des vaisseaux <b>générés de manière procédurale</b>, où ils affronteront une variété d'ennemis et auront accès à diverses armes pour se défendre.",
         "txt2": [
             "Déroulement du Jeu :",
-            "La mission du joueur consiste à ouvrir un chemin à travers le vaisseau, en luttant pour survivre jusqu'à ce qu'il atteigne la salle de contrôle. Une fois là-bas, il prend le contrôle du vaisseau, ce qui marque la fin du jeu. Si le joueur perd la vie en cours de route, il devra repartir de zéro dans un tout nouveau vaisseau généré de manière procédurale."
+            "La mission du joueur consiste à ouvrir un chemin à travers le vaisseau, en luttant pour survivre jusqu'à ce qu'il <b>atteigne la salle de contrôle</b>. Une fois là-bas, il prend le <b>contrôle du vaisseau</b>, ce qui marque la fin du jeu. Si le joueur perd la vie en cours de route, il devra repartir de zéro dans un tout nouveau vaisseau généré de manière procédurale."
         ],
         "txt3": [
             "Production et Implication :",
-            "Ce projet a été développé en équipe de 2 personnes et s'est étalé sur une période de 6 semaines. Mes principales responsabilités dans ce projet ont été de concevoir les systèmes de jeu et de programmer le système de génération de donjon, les armes, le personnage et les ennemis. J'ai ainsi mis en place un système de génération de donjon capable de prendre des préfabriqués de pièces et de créer un agencement dans une grille en fonction de la taille souhaitée. J'ai également élaboré un système d'armes comportant diverses statistiques, offrant ainsi au joueur une expérience de jeu variée en fonction de l'arme qu'il choisit d'utiliser."
+            "Ce projet a été développé en équipe de <b>2 personnes</b> et s'est étalé sur une période de <b>6 semaines</b>. Mes principales responsabilités dans ce projet ont été de <b>concevoir les systèmes de jeu</b> et de <b>programmer</b> le système de génération de donjon, les armes, le personnage et les ennemis. J'ai ainsi mis en place un <b>système de génération de donjon</b> capable de prendre des préfabriqués de pièces et de créer un agencement dans une grille en fonction de la taille souhaitée. J'ai également élaboré <b>un système d'armes</b> comportant diverses statistiques, offrant ainsi au joueur une expérience de jeu variée en fonction de l'arme qu'il choisit d'utiliser."
         ],
         "txt4": [
             "Défis :",
-            "Le défi majeur de ce projet a résidé dans la mise en place du système d'ennemis, car je n'avais que peu d'expérience avec les state machines. J'ai donc dû effectuer des recherches approfondies pour comprendre leur fonctionnement. Cette partie du projet a été la plus chronophage, mais je suis satisfait du résultat obtenu pour une première expérience. Je suis particulièrement fier du projet, qui représente ma réalisation la plus ambitieuse à ce jour."
+            "Le défi majeur de ce projet a résidé dans la mise en place du <b>système d'ennemis</b>, car je n'avais que peu d'expérience avec les state machines. J'ai donc dû effectuer des recherches approfondies pour comprendre leur fonctionnement. Cette partie du projet a été la plus difficile, mais je suis satisfait du résultat obtenu pour une première expérience. Je suis particulièrement fier du projet, qui représente ma réalisation la <b>plus ambitieuse</b> à ce jour."
         ],
         "LienBuild": "https://itch.io/embed-upload/7151988?color=7da2a9",
         "images1": [
@@ -265,18 +264,18 @@
         "name": "Petit Héros",
         "type": "jeu",
         "date": "2021",
-        "descriptionProjet": "Petit Héros est un jeu d'action-aventure fortement influencé par la série de jeux EarthBound, tant pour son style graphique que pour son style narratif. Dans ce jeu, les joueurs incarnent un jeune héros qui doit sauver le monde de la Dame en Noire, une entité démoniaque désireuse de s'emparer de la Terre. Cet enfant détient également le pouvoir de voyager vers un monde fantastique pour accomplir sa quête, ce qui entraîne une transformation de tous les éléments du monde réel.",
+        "descriptionProjet": "<b>Petit Héros</b> est un jeu <b>d'action-aventure</b> fortement influencé par la série de jeux <b>EarthBound</b>, tant pour son style graphique que pour son style narratif. Dans ce jeu, les joueurs incarnent un jeune héros qui doit <b>sauver le monde</b> de la Dame en Noire, une entité démoniaque désireuse de s'emparer de la Terre. Cet enfant détient également <b>le pouvoir de voyager vers un monde fantastique</b> pour accomplir sa quête, ce qui entraîne une transformation de tous les éléments du monde réel.",
         "txt2": [
             "Production et Implication :",
-            "Ce projet a été développé en collaboration avec une équipe de 6 personnes, s'étalant sur une période d'environ 6 semaines. Mes principales responsabilités comprenaient la création de toutes les tuiles utilisées pour construire les niveaux, la conception des ennemis ainsi que de leurs animations, ainsi que la réalisation de divers éléments de décor. J'ai également endossé le rôle de level designer, ce qui impliquait la création et l'intégration de niveaux captivants, tant dans le monde réel que dans le monde imaginaire."
+            "Ce projet a été développé en collaboration avec une équipe de <b>6 personnes</b>, s'étalant sur une période d'environ <b>6 semaines</b>. Mes principales responsabilités comprenaient la création de toutes <b>les tuiles utilisées pour construire les niveaux</b>, la <b>conception des ennemis</b> ainsi que de leurs animations, ainsi que la réalisation de <b>divers éléments de décor</b>. J'ai également endossé le rôle de <b>level designer</b>, ce qui impliquait la création et l'intégration de niveaux captivants, tant dans le monde réel que dans le monde imaginaire."
         ],
         "txt3": [
             "Défis et Difficultés :",
-            "Le défi majeur auquel j'ai été confronté lors de ce projet était la conception des niveaux. Le monde imaginaire était intrinsèquement plus attrayant et intrigant à explorer que le monde réel. Il était donc essentiel de rendre les deux mondes tout aussi passionnants en plaçant habilement différentes interactions, personnages non-joueurs (NPC) et objets dans les niveaux, de manière à inciter les joueurs à explorer aussi bien l'un que l'autre."
+            "Le défi majeur auquel j'ai été confronté lors de ce projet était <b>la conception des niveaux</b>. Le monde imaginaire était intrinsèquement plus attrayant et intrigant à explorer que le monde réel. Il était donc essentiel de <b>rendre les deux mondes tout aussi passionnants</b> en plaçant habilement différentes interactions, personnages non-joueurs (NPC) et objets dans les niveaux, de manière à inciter les joueurs à explorer aussi bien l'un que l'autre."
         ],
         "txt4": [
             "Inspiration :",
-            "Notre jeu a été créé en collaboration avec le comédien québécois Tommy Gaudet, un amoureux de l'absurde, du loufoque et du fantastique. Nous nous sommes largement inspirés de son univers farfelu et avons cherché à intégrer son amour pour le grandiose en créant une aventure imaginaire qui se déroule dans l'esprit du personnage principal. De plus, nous avons puisé notre inspiration dans ses jeux rétro préférés, que ce soit du point de vue esthétique ou au niveau du gameplay, en puisant notamment dans des titres tels que la série EarthBound et The Legend of Zelda."
+            "Notre jeu a été créé en collaboration avec le comédien québécois <b>Tommy Gaudet</b>, un amoureux de l'absurde, du loufoque et du fantastique. Nous nous sommes largement inspirés de son <b>univers farfelu</b> et avons cherché à intégrer son amour pour le grandiose en créant une aventure imaginaire qui se déroule dans l'esprit du personnage principal. De plus, nous avons puisé notre inspiration dans ses <b>jeux rétro</b> préférés, que ce soit du point de vue esthétique ou au niveau du gameplay, en puisant notamment dans des titres tels que la série <b>EarthBound</b> et <b>The Legend of Zelda</b>."
         ],
         "LienYT": "https://www.youtube.com/embed/4GJr4MK-xMg",
         "images1": [
@@ -350,18 +349,18 @@
         "name": "Last Spark",
         "type": "jeu",
         "date": "2020",
-        "descriptionProjet": "Last Spark est un jeu d'action, d'aventure et de survie immergé dans une atmosphère sinistre et oppressante. Le joueur incarne le dernier espoir du monde, chargé de survivre suffisamment longtemps pour triompher des seigneurs de l'obscurité et de leurs sinistres sbires qui rôdent librement dans l'environnement. Le voyageur solitaire doit explorer ce monde dévasté à la recherche d'armes et de sorts pour le soutenir dans sa quête désespérée.",
+        "descriptionProjet": "<b>Last Spark</b> est un jeu <b>d'action</b>, <b>d'aventure</b> et de <b>survie</b> immergé dans une <b>atmosphère sinistre et oppressante</b>. Le joueur incarne le dernier espoir du monde, chargé de <b>survivre</b> suffisamment longtemps pour <b>triompher des seigneurs de l'obscurité</b> et de leurs sinistres sbires qui rôdent librement dans l'environnement. Le voyageur solitaire doit explorer ce monde dévasté à la recherche d'armes et de sorts pour le soutenir dans sa quête désespérée.",
         "txt2": [
             "Production et Contribution :",
-            "Ce projet a été conçu et développé par une équipe de trois personnes au cours d'une période de quatre mois. Mes responsabilités principales comprenaient la conception de jeu, la mise en place de systèmes et la programmation, en particulier pour le cycle jour/nuit et le système d'inventaire et de crafting. Mes tâches englobaient la création des mécaniques de jeu et de l'univers, l'équilibrage et la gestion des vagues d'ennemis qui n'apparaissaient que la nuit, tout en veillant à ce que le joueur ne soit pas rapidement submergé, ainsi que l'intégration dans Unity. La majeure partie de mon travail consistait à programmer et à gérer l'intégralité du système d'inventaire et de crafting, y compris tous les objets que le joueur pouvait collecter et utiliser."
+            "Ce projet a été conçu et développé par une équipe de <b>trois personnes</b> au cours d'une période de <b>quatre mois</b>. Mes responsabilités principales comprenaient la <b>conception de jeu</b>, la mise en place de systèmes et la <b>programmation</b>, en particulier pour le <b>cycle jour/nuit</b> et le système <b>d'inventaire et de crafting</b>. Mes tâches englobaient la création des mécaniques de jeu et de l'univers, <b>l'équilibrage</b> et la gestion des vagues d'ennemis qui n'apparaissaient que la nuit, tout en veillant à ce que le joueur ne soit pas rapidement submergé, ainsi que l'intégration dans Unity. La majeure partie de mon travail consistait à programmer et à gérer l'intégralité du système d'inventaire et de crafting, y compris tous les objets que le joueur pouvait collecter et utiliser."
         ],
         "txt3": [
             "Défis et Difficultés :",
-            "Le défi le plus significatif de ce projet résidait dans l'équilibrage adéquat des dégâts de chaque arme, pour éviter qu'elles ne deviennent inutiles ou trop puissantes. Il fallait également trouver les bonnes combinaisons pour les recettes de crafting, afin qu'elles ne soient ni impossibles à réaliser ni trop faciles. La gestion du taux de drop et de la rareté des ingrédients était également un enjeu majeur."
+            "Le défi le plus significatif de ce projet résidait dans <b>l'équilibrage adéquat des dégâts</b> de chaque arme, pour éviter qu'elles ne deviennent inutiles ou trop puissantes. Il fallait également trouver les <b>bonnes combinaisons</b> pour les <b>recettes</b> de crafting, afin qu'elles ne soient ni impossibles à réaliser ni trop faciles. La gestion du taux de drop et de la rareté des ingrédients était également un enjeu majeur."
         ],
         "txt4": [
             "Conclusion :",
-            "Le projet final a été chaleureusement accueilli par nos professeurs ainsi que par nos pairs, et il est toujours cité en exemple dans le cadre du cours pour les étudiants actuels. Je ressens une immense fierté à l'égard de ce projet, car il s'agit de ma première réalisation d'envergure, et il incarne un concept que nous avions en tête depuis le début de nos études. Le voir enfin prendre forme a revêtu une importance toute particulière pour moi."
+            "Le projet final a été <b>chaleureusement accueilli</b> par nos professeurs ainsi que par nos pairs, et il est toujours cité en exemple dans le cadre du cours pour les étudiants actuels. Je ressens une <b>immense fierté</b> à l'égard de ce projet, car il s'agit de ma première réalisation d'envergure, et il incarne un concept que nous avions en tête depuis le début de nos études. Le voir enfin prendre forme a revêtu une importance toute particulière pour moi."
         ],
         "LienProjet": "https://lastspark.netlify.app/",
         "LienYT": "https://www.youtube.com/embed/5FMPfM0h2wI",
@@ -416,18 +415,18 @@
         "name": "Escape the Nightwell Keep",
         "type": "jeu",
         "date": "2021",
-        "descriptionProjet": "Escape the Nightwell Keep est un prototype de jeu d'aventure et de plateforme captivant, mettant en scène un prisonnier déterminé à s'échapper d'un château hanté par des squelettes et truffé de pièges mortels. Le joueur devra trouver son chemin à travers ce sombre château tout en récupérant des trésors précieux en route vers la sortie salvatrice.",
+        "descriptionProjet": "<b>Escape the Nightwell Keep</b> est un prototype de jeu <b>d'aventure</b> et de <b>plateforme</b> captivant, mettant en scène un prisonnier déterminé à <b>s'échapper</b> d'un château hanté par des <b>squelettes</b> et truffé de <b>pièges mortels</b>. Le joueur devra trouver son chemin à travers ce sombre château tout en récupérant des <b>trésors</b> précieux en route vers la sortie salvatrice.",
         "txt2": [
             "Production et Implication :",
-            "J'ai développé ce prototype en solo au cours d'une période de 3 semaines. Mes responsabilités englobaient la conception de la carte du niveau, la programmation des mécaniques de jeu et des ennemis, ainsi que leur intégration dans l'environnement de développement Unity."
+            "J'ai développé ce prototype en <b>solo</b> au cours d'une période de 3 semaines. Mes responsabilités englobaient la <b>conception de la carte</b> du niveau, la <b>programmation</b> des mécaniques de jeu et des ennemis, ainsi que leur <b>intégration</b> dans l'environnement de développement Unity."
         ],
         "txt3": [
             "Défis :",
-            "Le défi le plus ardu de cette production résidait dans la création du niveau et la programmation des ennemis. Ce projet a marqué ma première véritable expérience en matière de conception de niveaux, et j'ai souhaité créer une carte d'une ampleur similaire à celle que l'on trouve dans Dead Cells. J'ai pris beaucoup de responsabilités et ai dû recommencer à plusieurs reprises pour parvenir à un résultat qui me satisfaisait, tout en évitant que le niveau ne devienne trop long et répétitif."
+            "Le défi le plus ardu de cette production résidait dans la <b>création du niveau</b> et la <b>programmation</b> des ennemis. Ce projet a marqué ma première véritable expérience en matière de conception de niveaux, et j'ai souhaité créer une carte d'une <b>ampleur similaire</b> à celle que l'on trouve dans <b>Dead Cells</b>. J'ai pris beaucoup de responsabilités et ai dû recommencer à plusieurs reprises pour parvenir à un résultat qui me satisfaisait, tout en évitant que le niveau ne devienne trop long et répétitif."
         ],
         "txt4": [
             "Inspiration :",
-            "Mes principales sources d'inspiration étaient, avant tout, Dead Cells et Blasphemous, tant au niveau du design des niveaux que du gameplay et de l'esthétique. Ces jeux et leurs univers sont parmi mes préférés depuis longtemps, et j'ai toujours rêvé de créer ma propre interprétation, même si cela représentait un défi de taille pour moi !"
+            "Mes principales sources d'inspiration étaient, avant tout, <b>Dead Cells</b> et <b>Blasphemous</b>, tant au niveau du design des niveaux que du gameplay et de l'esthétique. Ces jeux et leurs univers sont parmi mes préférés depuis longtemps, et j'ai toujours rêvé de créer ma propre interprétation, même si cela représentait un défi de taille pour moi !"
         ],
         "LienProjet": "https://mathieugaudreau.itch.io/escape-the-nightwell-keep",
         "LienBuild": "https://itch.io/embed-upload/4703468?color=7da2a9",
@@ -479,18 +478,18 @@
         "name": "Règne de Malheurs",
         "type": "jeuTable",
         "date": "2021",
-        "descriptionProjet": "Règne de Malheurs est un jeu de contrôle de territoire unique en son genre, où les joueurs incarnent chacun une émotion primaire qui influence les actions d'un baron médiéval. L'objectif ultime des joueurs est de devenir l'émotion dominante, dictant ainsi le cours tumultueux de la vie extravagante du baron.",
+        "descriptionProjet": "<b>Règne de Malheurs</b> est un jeu de <b>contrôle de territoire</b> unique en son genre, où les joueurs incarnent chacun une <b>émotion primaire</b> qui influence les actions d'un baron médiéval. L'objectif ultime des joueurs est de devenir <b>l'émotion dominante</b>, dictant ainsi le cours tumultueux de la vie extravagante du baron.",
         "txt2": [
             "Déroulement d'une Partie et Caractéristiques Uniques :",
-            "Les émotions se livrent une lutte acharnée pour le contrôle des différentes régions cérébrales du baron en plaçant des pièces à chaque tour selon un ordre spécifique. Cette démarche a des répercussions variées sur les autres joueurs et sur le baron lui-même, en raison du pouvoir associé à chaque zone conquise. À la fin de chaque tour, une carte d'événement est révélée par le joueur désigné, et son impact sur la partie est déterminé par l'émotion en tête, ajoutant ainsi aux péripéties absurdes et comiques de la vie noble. La partie prend fin lorsque la vie du baron s'éteint et que le dernier tour se termine."
+            "Les émotions se livrent une lutte acharnée pour le contrôle des <b>différentes régions cérébrales</b> du baron en plaçant des pièces à chaque tour selon un ordre spécifique. Cette démarche a des <b>répercussions variées</b> sur les autres joueurs et sur le baron lui-même, en raison du pouvoir associé à chaque zone conquise. À la fin de chaque tour, une <b>carte d'événement</b> est révélée par le joueur désigné, et son impact sur la partie est déterminé par l'émotion en tête, ajoutant ainsi aux péripéties absurdes et comiques de la vie noble. La partie prend fin lorsque <b>la vie du baron s'éteint</b> et que le dernier tour se termine."
         ],
         "txt3": [
             "Production et Implication :",
-            "Mon rôle essentiel dans la création de ce jeu était de concevoir le système de règles et de travailler sur le design et les illustrations du plateau de jeu. Ce prototype a été développé en équipe de 4 personnes sur une période de 8 semaines. L'un de nos défis majeurs lors de la conception du plateau était de respecter l'anatomie réelle du cerveau, en plaçant correctement les zones tout en les reliant de manière adéquate. Il était également crucial de répartir judicieusement les points dans les différentes zones, en accordant plus de points aux zones difficiles à contrôler et moins aux zones moins stratégiques, comme celles situées aux coins du plateau. L'autre défi clé lors de la production était d'équilibrer les pouvoirs des différentes zones et des cartes d'événement. Les capacités des cartes d'événement étant liées à l'émotion du joueur qui les dévoile, nous avons dû nous assurer, après de nombreuses parties de test, qu'aucune émotion ne soit trop dominante par rapport aux autres."
+            "Mon rôle essentiel dans la création de ce jeu était de <b>concevoir le système de règles</b> et de travailler sur le <b>design</b> et les <b>illustrations</b> du plateau de jeu. Ce prototype a été développé en équipe de 4 personnes sur une période de 8 semaines. L'un de nos défis majeurs lors de la conception du plateau était de <b>respecter l'anatomie</b> réelle du cerveau, en plaçant correctement les zones tout en les reliant de manière adéquate. Il était également crucial de répartir judicieusement les points dans les différentes zones, en accordant <b>plus</b> de points aux zones difficiles à contrôler et <b>moins</b> aux zones moins stratégiques, comme celles situées aux coins du plateau. L'autre défi clé lors de la production était <b>d'équilibrer les pouvoirs</b> des différentes zones et des cartes d'événement. Les capacités des cartes d'événement étant liées à l'émotion du joueur qui les dévoile, nous avons dû nous assurer, après de nombreuses parties de test, qu'aucune émotion ne soit trop dominante par rapport aux autres."
         ],
         "txt4": [
             "Inspirations :",
-            "Nos principales sources d'inspiration pour ce jeu étaient les jeux Risk et El Grande pour leurs mécaniques de contrôle de territoire, ces deux titres étant des références dans ce domaine. En ce qui concerne l'aspect visuel, nous avons puisé notre inspiration dans le style déjanté, sombre et tordu de Tim Burton, ainsi que dans les jeux Sleep Tight et Gloom pour leur atmosphère unique."
+            "Nos principales sources d'inspiration pour ce jeu étaient les jeux <b>Risk</b> et <b>El Grande</b> pour leurs mécaniques de <b>contrôle de territoire</b>, ces deux titres étant des références dans ce domaine. En ce qui concerne l'aspect visuel, nous avons puisé notre inspiration dans le style déjanté, sombre et tordu de <b>Tim Burton</b>, ainsi que dans les jeux Sleep Tight et Gloom pour leur atmosphère unique."
         ],
         "images1": [
             "https://i.ibb.co/vvq3SCs/Presentation3-D.png",
@@ -557,18 +556,18 @@
         "name": "Repair 'n' Despair",
         "type": "jeuTable",
         "date": "2021",
-        "descriptionProjet": "Repair'N Despair est un jeu de table coopératif captivant où chaque joueur incarne un membre dévoué de l'équipage du STS Prometheus, un vaisseau spatial attaqué par une créature extraterrestre terrifiante. L'objectif est clair : les joueurs doivent travailler en équipe pour réparer le vaisseau et éliminer la menace extraterrestre avant qu'elle ne devienne inarrêtable.",
+        "descriptionProjet": "Repair'N Despair est un jeu de table <b>coopératif</b> captivant où chaque joueur incarne un membre dévoué de l'équipage du STS Prometheus, un vaisseau spatial <b>attaqué par une créature extraterrestre</b> terrifiante. L'objectif est clair : les joueurs doivent <b>travailler en équipe</b> pour <b>réparer</b> le vaisseau et éliminer la menace extraterrestre avant qu'elle ne devienne inarrêtable.",
         "txt2": [
             "Innovation majeure !",
-            "Ce jeu présente une caractéristique unique en son genre : l'utilisation d'une application mobile est indispensable pour y jouer. Cette application non seulement chronomètre le temps imparti aux membres de l'équipage pour accomplir leurs objectifs, mais ajoute également une dose de stress en permettant le déplacement aléatoire de la créature extraterrestre. À intervalles prédéfinis, une alarme retentit sur l'application, forçant les joueurs à interrompre leurs actions pour déplacer la créature en suivant les instructions fournies par l'application mobile."
+            "Ce jeu présente une <b>caractéristique unique</b> en son genre : l'utilisation d'une <b>application mobile</b> est indispensable pour y jouer. Cette application non seulement <b>chronomètre</b> le temps imparti aux membres de l'équipage pour accomplir leurs objectifs, mais ajoute également une <b>dose de stress</b> en permettant le <b>déplacement aléatoire</b> de la créature extraterrestre. À intervalles prédéfinis, une <b>alarme</b> retentit sur l'application, forçant les joueurs à interrompre leurs actions pour déplacer la créature en suivant les instructions fournies par l'application mobile."
         ],
         "txt3": [
             "Engagement, production et défis majeurs :",
-            "Mon rôle principal dans ce projet était la conception des règles du jeu en collaboration avec les autres membres de l'équipe. J'ai également programmé l'application mobile et contribué au design graphique ainsi qu'à la création du prototype physique. Ce prototype a été développé par une équipe de 4 personnes au cours d'une période de 8 semaines. Notre plus grand défi a été de trouver un moyen de rendre le jeu plus rapide et moins répétitif que nos idées initiales, qui s'avéraient trop longues et monotones pour les joueurs. C'est pourquoi nous avons décidé d'introduire la mécanique du hasard via l'application mobile, ce qui garantit des parties uniques à chaque fois. De plus, pour éliminer la monotonie, nous avons intégré une mécanique où un joueur devient le chef d'équipe à chaque tour et attribue des actions aux autres joueurs, ce qui maintient un rythme dynamique, surtout si un traître fait partie du jeu."
+            "Mon rôle principal dans ce projet était la <b>conception</b> des règles du jeu en collaboration avec les autres membres de l'équipe. J'ai également <b>programmé</b> l'application mobile et contribué au <b>design graphique</b> ainsi qu'à la création du prototype physique. Ce prototype a été développé par une équipe de 4 personnes au cours d'une période de 8 semaines. Notre plus grand défi a été de trouver un moyen de rendre le jeu <b>plus rapide et moins répétitif</b> que nos idées initiales, qui s'avéraient trop longues et monotones pour les joueurs. C'est pourquoi nous avons décidé d'introduire la mécanique du <b>hasard</b> via l'application mobile, ce qui garantit des parties <b>uniques</b> à chaque fois. De plus, pour éliminer la monotonie, nous avons intégré une mécanique où un joueur devient le <b>chef d'équipe</b> à chaque tour et attribue des actions aux autres joueurs, ce qui maintient un rythme dynamique, surtout si un traître fait partie du jeu."
         ],
         "txt4": [
             "Inspirations :",
-            "Nos principales sources d'inspiration pour ce jeu étaient les jeux d'identité secrète, où chaque joueur doit accomplir diverses tâches pour survivre, comme Among Us ou Unfortunate Spacemen, ainsi que des films tels qu'Alien pour la thématique. Sur le plan visuel, nous nous sommes inspirés des représentations de l'espace des années 40-50 et du style graphique de la science-fiction pulp fiction."
+            "Nos principales sources d'inspiration pour ce jeu étaient les jeux <b>d'identité secrète</b>, où chaque joueur doit accomplir diverses tâches pour survivre, comme Among Us ou Unfortunate Spacemen, ainsi que des films tels qu'Alien pour la thématique. Sur le plan visuel, nous nous sommes inspirés des représentations de l'espace des années 40-50 et du style graphique de la science-fiction pulp fiction."
         ],
         "images1": [
             "https://i.ibb.co/WK9tkzp/boite-Front.jpg",
@@ -583,7 +582,7 @@
             "https://i.ibb.co/tHtcR89/cover-back.png"
         ],
         "txtPhotos1": [
-            "Boitier de la boite du jeu, avec un design très inspiré du style pulp-fiction sci-fi.",
+            "Boitier du jeu, avec un design très inspiré du style pulp-fiction sci-fi.",
             "Derrière de la boite sur laquelle nous avons une courte description du jeu, toute les informations pertinentes comme le nombre de joueur, le temps d'une partie, etc et un code QR qui permet de télécharger l'application.",
             "Contenu complet de la boite, le jeu contient 16 tuiles de pièce, 40 ponts, 7 dés, 5 pions, 9 cartes et 50 jetons de bris",
             "Le jeu comprends 2 types de rôles, imposteur et équipage qui vont changer le but du joueur. Les cartes personnages vont indiquer quelle couleur de pion chaque joueur représente et servent en même temps de carte de rappel",
@@ -624,14 +623,14 @@
         "name": "John Kenn Mortensen",
         "type": "creation",
         "date": "2021",
-        "descriptionProjet": "Cette création représente mon deuxième projet de motion design. L'objectif de ce projet, au ton sombre et légèrement effrayant, était d'explorer l'utilisation de l'outil de marionnettes dans After Effects pour animer divers objets et personnages.",
+        "descriptionProjet": "Cette création représente mon deuxième projet de <b>motion design</b>. L'objectif de ce projet, au ton sombre et légèrement effrayant, était d'explorer l'utilisation de <b>l'outil de marionnettes</b> dans After Effects pour animer divers objets et personnages.",
         "txt2": [
-            "Production",
-            "Cette animation a été réalisée en solitaire sur une période d'un mois, principalement en utilisant l'outil de marionnettes pour animer tous les éléments du projet. Il s'agissait de ma première expérience avec cet outil, ce qui a nécessité un investissement conséquent en temps pour découper chaque élément des illustrations tout en préservant les moindres détails et en assurant un mouvement naturel des différentes parties. En outre, ce projet m'a offert l'opportunité d'approfondir mes connaissances en matière d'effets de particules, de bruit fractal et de création en 3D au sein d'After Effects."
+            "Production :",
+            "Cette animation a été réalisée en solitaire sur une période <b>d'un mois</b>, principalement en utilisant <b>l'outil de marionnettes</b> pour animer tous les éléments du projet. Il s'agissait de ma première expérience avec cet outil, ce qui a nécessité un investissement conséquent en temps pour découper chaque élément des illustrations tout en préservant les moindres détails et en assurant un mouvement naturel des différentes parties. En outre, ce projet m'a offert l'opportunité d'approfondir mes connaissances en matière <b>d'effets de particules</b>, de <b>bruit fractal</b> et de <b>création en 3D</b> au sein d'After Effects."
         ],
         "txt3": [
-            "Inspiration",
-            "Depuis longtemps, j'avais le désir de créer une œuvre dans cet univers spécifique, car j'ai toujours été fasciné par les illustrations légèrement horrifiques ainsi que les thèmes d'horreur et de surréalisme. C'est pourquoi j'ai choisi de puiser dans les illustrations de John Kenn Mortensen, l'un de mes artistes favoris, afin de les animer avec After Effects."
+            "Inspiration :",
+            "Depuis longtemps, j'avais le désir de créer une œuvre dans cet univers spécifique, car j'ai toujours été fasciné par les illustrations légèrement <b>horrifiques</b> ainsi que les thèmes <b>d'horreur</b> et de <b>surréalisme</b>. C'est pourquoi j'ai choisi de puiser dans les illustrations de <b>John Kenn Mortensen</b>, l'un de mes artistes favoris, afin de les animer avec After Effects."
         ],
         "LienYT": "https://www.youtube.com/embed/00sdrKHIxJ4",
         "cover": "https://i.ibb.co/w4J4tDQ/johnkenn-Cover.png",
@@ -648,14 +647,14 @@
         "name": "Tokyo",
         "type": "creation",
         "date": "2021",
-        "descriptionProjet": "Ce petit projet de motion design avait pour objectif d'explorer divers outils et plugins d'After Effects tout en intégrant des éléments lumineux et des formes dans le monde réel.",
+        "descriptionProjet": "Ce petit projet de <b>motion design</b> avait pour objectif d'explorer divers outils et plugins d'After Effects tout en intégrant des éléments lumineux et des formes dans le monde réel.",
         "txt2": [
-            "Production",
-            "Réalisé en seulement un mois, ce projet s'est principalement appuyé sur un plugin nommé Thicc Stroke pour créer des lignes lumineuses en blanc. Il m'a également permis d'approfondir ma compréhension de l'utilisation des masques dans le logiciel, afin d'intégrer harmonieusement les éléments dans le décor."
+            "Production :",
+            "Réalisé en seulement <b>un mois</b>, ce projet s'est principalement appuyé sur un plugin nommé <b>Thicc Stroke</b> pour créer des lignes lumineuses en blanc. Il m'a également permis d'approfondir ma compréhension de l'utilisation des <b>masques</b> dans le logiciel, afin d'intégrer harmonieusement les éléments dans le décor."
         ],
         "txt3": [
-            "Inspiration",
-            "L'inspiration pour ce projet m'est venue de la séquence d'ouverture de l'animation japonaise Sarazanmai. Cette séquence présente des personnages en deux dimensions évoluant au sein d'images réelles de Tokyo, avec des lignes lumineuses et des animations saisissantes en blanc. J'ai toujours été captivé par cette vidéo, car la musique s'harmonise parfaitement avec la lumière blanche et la synchronisation des animations, créant une atmosphère apaisante. Mon désir était donc de créer quelque chose de similaire."
+            "Inspiration :",
+            "L'inspiration pour ce projet m'est venue de la séquence d'ouverture de l'animation japonaise <b>Sarazanmai</b>. Cette séquence présente des personnages en deux dimensions évoluant au sein d'images réelles de Tokyo, avec des lignes lumineuses et des animations saisissantes en blanc. J'ai toujours été captivé par cette vidéo, car la musique s'harmonise parfaitement avec la lumière blanche et la synchronisation des animations, créant une <b>atmosphère apaisante</b>. Mon désir était donc de créer quelque chose de similaire."
         ],
         "LienYT": "https://www.youtube.com/embed/SMKQ7CC4Mh4",
         "cover": "https://i.ibb.co/0Mp4Q4j/tokyo-Cover.png",

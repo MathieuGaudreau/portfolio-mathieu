@@ -78,8 +78,8 @@
 
       <div v-if="images1" class="divider"></div>
 
-      <section v-if="images1" class="sliders">
-        <hooper class="hooper1Container" data-aos="fade-right">
+      <section v-if="images1" class="sliders" data-aos="fade-right">
+        <hooper class="hooper1Container" >
           <slide :class="{ onlyOneSlider: !images2 }" v-for="(image, index) in images1" :key="index">
             <img :src="images1[index]" v-if="lang === 'fr'" title="Cliquez pour agrandir l'image" alt=""
               @click="() => showImg(index)" />
@@ -112,9 +112,9 @@
 
       <div v-if="images2" class="divider"></div>
 
-      <section v-if="images2" class="sliders">
+      <section v-if="images2" class="sliders" data-aos="fade-left">
 
-        <hooper class="hooper1Container" v-if="images2" data-aos="fade-left">
+        <hooper class="hooper1Container" v-if="images2" >
           <slide v-for="(image, index) in images2" :key="index">
             <img :src="images2[index]" v-if="lang === 'fr'" title="Cliquez pour agrandir l'image" alt=""
               @click="() => showImg2(index)" />
@@ -211,6 +211,7 @@
 import { Hooper, Slide, Pagination as HooperPagination } from "hooper";
 import "hooper/dist/hooper.css";
 import VueEasyLightbox from "vue-easy-lightbox";
+import {AOSRefresh} from "../main";
 // import pdf from 'vue-pdf';
 export default {
   components: { Hooper, Slide, HooperPagination, VueEasyLightbox },
@@ -313,6 +314,7 @@ export default {
   },
   methods: {
     toggleDetails() {
+      AOSRefresh();
       this.detailsAreVisible = !this.detailsAreVisible;
 
       const projets = document.querySelectorAll(".projetThumb");

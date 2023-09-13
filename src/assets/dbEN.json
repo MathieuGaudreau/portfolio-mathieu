@@ -119,18 +119,18 @@
         "name": "The Moving Slaugh",
         "type": "jeu",
         "date": "2023",
-        "descriptionProjet": "The Moving Slough is a two-part project that distinguishes itself by its content while remaining closely interconnected. The first part of the project involves creating a semi-realistic universe set in 19th century Louisiana. In this world, a profound darkness reigns, populated by morbid creatures of all kinds. No one knows exactly why, but the epicenter of this darkness appears to emanate from a region erased from the maps: the Moving Slough, an extremely perilous territory that only the most daring hunters dare to explore. The second part of the project focuses on creating a game level that allows players to explore this swamp and uncover clues and traces of a bloody event.",
+        "descriptionProjet": "<b>The Moving Slough</b> is a two-part project that distinguishes itself by its content while remaining closely interconnected. The first part of the project involves <b>creating a semi-realistic universe</b> set in 19th century Louisiana. In this world, a <b>profound darkness reigns, populated by morbid creatures</b> of all kinds. No one knows exactly why, but the epicenter of this darkness appears to emanate from a region erased from the maps: <b>the Moving Slough</b>, an extremely perilous territory that only the most daring hunters dare to explore. The second part of the project focuses on <b>creating a game level</b> that allows players to explore this swamp and uncover clues and <b>traces of a bloody event</b>.",
         "txt2": [
             "Production :",
-            "The project spanned a period of 10 weeks, with 4 weeks dedicated to creating the universe and 6 weeks to designing the level itself. For the creation of the universe, I deliberately chose to focus on a small part of a potentially much larger world, teeming with unexplored ideas. This choice stems from my desire to create something specific, highlighting a unique location. This approach facilitated its representation as an exploratory level, where players can gather clues about the mysterious events that took place in this universe. For the level's design, I began the process by drawing a detailed map to ensure that all paths could be connected, with almost all leading to the center of the swamp. In the editor, the most crucial aspect of production was ensuring that the player was skillfully guided to the heart of the swamp, where most of the key elements are concentrated."
+            "The project spanned a period of <b>10 weeks</b>, with 4 weeks dedicated to creating the universe and 6 weeks to designing the level itself. For the creation of the universe, I deliberately chose to <b>focus on a small part</b> of a potentially much larger world, teeming with unexplored ideas. This choice stems from my desire to <b>create something specific, highlighting a unique location</b>. This approach facilitated its representation as an exploratory level, where players can gather clues about the mysterious events that took place in this universe. For the level's design, I began the process by drawing a detailed map to ensure that <b>all paths could be connected</b>, with almost all <b>leading to the center</b> of the swamp. In the editor, the most crucial aspect of production was ensuring that the player was skillfully guided to the heart of the swamp, where most of the key elements are concentrated."
         ],
         "txt3": [
             "Challenges Faced :",
-            "This project presented several challenges, both in creating the universe and in designing the game level. The main challenge in creating the universe was to remain concise and stay within the boundaries I had set for myself, focusing mainly on the details of the marshy region. The primary challenges related to level design were associated with the use of Unreal Engine's terrain tool and ensuring that all paths were accessible and navigable. With limited experience with this tool, I had to go through numerous trial-and-error attempts to achieve the result I am proud of today. I also had to conduct numerous tests and research to create a dark and oppressive atmosphere while ensuring smooth navigation."
+            "This project presented several challenges, both in creating the universe and in designing the game level. The main challenge in creating the universe was to <b>remain concise</b> and stay within the boundaries I had set for myself, focusing mainly on the details of the marshy region. The primary challenges related to level design were associated with the use of Unreal Engine's <b>terrain tool</b> and ensuring that <b>all paths were accessible and navigable</b>. With limited experience with this tool, I had to go through numerous trial-and-error attempts to achieve the result I am proud of today. I also had to conduct numerous tests and research to <b>create a dark and oppressive atmosphere</b> while ensuring smooth navigation."
         ],
         "txt4": [
             "Inspirations :",
-            "I drew a lot of inspiration from role-playing games such as We Deal in Lead, Deadlands, and Into the Wyrd and Wild for the creation of my universe, drawing from their types of creatures, locations, and themes. I also gathered many concepts and ideas from books like The Planet Construction Kit by Rosenfelder and Kobold Guide to Worldbuilding by Grubb. As for the level design, I drew extensive inspiration from swamp levels in games like The Witcher, Hunt: Showdown, and Weird West. My love for the western theme has always been a source of inspiration for me, and I am delighted to have had the opportunity to explore this genre and create my own altered universe."
+            "I drew a lot of inspiration from role-playing games such as <b>We Deal in Lead, Deadlands, and Into the Wyrd and Wild</b> for the creation of my universe, drawing from their types of creatures, locations, and themes. I also gathered many concepts and ideas from books like <b>The Planet Construction Kit</b> by Rosenfelder and <b>Kobold Guide to Worldbuilding</b> by Grubb. As for the level design, I drew extensive inspiration from swamp levels in games like <b>The Witcher, Hunt: Showdown, and Weird West</b>. My love for the western theme has always been a source of inspiration for me, and I am delighted to have had the opportunity to explore this genre and create my own altered universe."
         ],
         "images1": [
             "https://i.ibb.co/T8WGP2X/Swamp-2.png",
@@ -178,8 +178,7 @@
             "Narrative designer"
         ],
         "canva": [
-            "https://e.notionhero.io/e1/p/a5a9c27-e8bbe1a3cf425d926b280a8ffe4f721",
-            "https://app.milanote.com/1QECq11oZ5VD8T?p=hAZbdqB7yXr"
+            "https://e.notionhero.io/e1/p/a5a9c27-e8bbe1a3cf425d926b280a8ffe4f721"
         ],
         "technos": [
             "Unreal 5",
@@ -192,18 +191,18 @@
         "name": "Space Scoundrel",
         "type": "jeu",
         "date": "2022",
-        "descriptionProjet": "Space Scoundrel is a third-person shooter game with an Action Roguelike style that puts players in the shoes of a treasure-seeking space pirate. The main goal of the player is to board enemy ships and plunder them for their precious loot. Players will explore procedurally generated ships where they will face a variety of enemies and have access to various weapons for defense.",
+        "descriptionProjet": "<b>Space Scoundrel</b> is a <b>third-person shooter</b> game with an <b>Action Roguelike</b> style that puts players in the shoes of a <b>treasure-seeking space pirate</b>. The main goal of the player is to <b>board enemy ships</b> and plunder them for their precious loot. Players will explore <b>procedurally generated ships</b> where they will face a variety of enemies and have access to various weapons for defense.",
         "txt2": [
             "Gameplay:",
-            "The player's mission is to make their way through the ship, fighting to survive until they reach the control room. Once there, they take control of the ship, marking the end of the game. If the player loses their life along the way, they will have to start from scratch in a brand new procedurally generated ship."
+            "The player's mission is to make their way through the ship, <b>fighting to survive</b> until they reach the <b>control room</b>. Once there, they take control of the ship, marking the end of the game. If the player loses their life along the way, they will have to <b>start from scratch</b> in a brand new procedurally generated ship."
         ],
         "txt3": [
             "Production and Involvement:",
-            "This project was developed by a team of 2 people and spanned a period of 6 weeks. My main responsibilities in this project were designing the game systems and programming the dungeon generation system, weapons, character, and enemies. I implemented a dungeon generation system capable of taking prefab parts and creating a layout on a grid based on the desired size. I also developed a weapons system with various statistics, providing the player with a varied gaming experience depending on the weapon they choose to use."
+            "This project was developed by a team of <b>2 people</b> and spanned a period of <b>6 weeks.</b> My main responsibilities in this project were <b>designing the game systems</b> and <b>programming</b> the dungeon generation system, weapons, character, and enemies. I implemented a <b>dungeon generation system</b> capable of taking prefab parts and creating a layout on a grid based on the desired size. I also developed a <b>weapons system</b> with various statistics, providing the player with a varied gaming experience depending on the weapon they choose to use."
         ],
         "txt4": [
             "Challenges:",
-            "The major challenge of this project lay in setting up the enemy system, as I had little experience with state machines. So, I had to conduct in-depth research to understand how they work. This part of the project was the most time-consuming, but I am satisfied with the result achieved for a first experience. I am particularly proud of the project, which represents my most ambitious achievement to date."
+            "The major challenge of this project lay in <b>setting up the enemy system</b>, as I had little experience with state machines. So, I had to conduct in-depth research to understand how they work. This part of the project was the most time-consuming, but I am <b>satisfied with the result</b> achieved for a first experience. I am particularly proud of the project, which represents my most <b>ambitious achievement to date</b>."
         ],
         "LienBuild": "https://itch.io/embed-upload/7151988?color=7da2a9",
         "images1": [
@@ -265,18 +264,18 @@
         "name": "Petit Héros",
         "type": "jeu",
         "date": "2021",
-        "descriptionProjet": "Petit Héros is an action-adventure game heavily influenced by the EarthBound game series, both in its graphical style and narrative approach. In this game, players assume the role of a young hero who must save the world from the Dame en Noire, a demonic entity intent on taking over the Earth. This child also possesses the power to travel to a fantastical world to accomplish their quest, leading to a transformation of all elements in the real world.",
+        "descriptionProjet": "<b>Petit Héros</b> is an <b>action-adventure</b> game heavily influenced by the <b>EarthBound</b> game series, both in its graphical style and narrative approach. In this game, players assume the role of a young hero who must <b>save the world</b> from the Dame en Noire, a demonic entity intent on taking over the Earth. This child also possesses the <b>power to travel to a fantastical world</b> to accomplish their quest, leading to a transformation of all elements in the real world.",
         "txt2": [
             "Production and Involvement:",
-            "This project was developed in collaboration with a team of 6 people, spanning approximately 6 weeks. My primary responsibilities included creating all the tiles used to build the levels, designing enemies and their animations, as well as creating various decorative elements. I also took on the role of a level designer, which involved creating and integrating engaging levels in both the real and imaginary worlds."
+            "This project was developed in collaboration with a team of <b>6 people</b>, spanning approximately <b>6 weeks</b>. My primary responsibilities included <b>creating all the tiles</b> used to build the levels, <b>designing enemies</b> and their animations, as well as creating various <b>decorative elements</b>. I also took on the role of a <b>level designer</b>, which involved creating and integrating engaging levels in both the real and imaginary worlds."
         ],
         "txt3": [
             "Challenges and Difficulties:",
-            "The major challenge I faced in this project was level design. The imaginary world inherently appeared more attractive and intriguing to explore than the real world. Therefore, it was essential to make both worlds equally exciting by cleverly placing different interactions, non-player characters (NPCs), and objects in the levels to encourage players to explore both realms."
+            "The major challenge I faced in this project was <b>level design</b>. The imaginary world inherently appeared more attractive and intriguing to explore than the real world. Therefore, it was <b>essential to make both worlds equally exciting</b> by cleverly placing different interactions, non-player characters (NPCs), and objects in the levels to encourage players to explore both realms."
         ],
         "txt4": [
             "Inspiration:",
-            "Our game was created in collaboration with Quebecois comedian Tommy Gaudet, a lover of the absurd, whimsical, and fantastical. We drew extensive inspiration from his quirky universe and sought to integrate his love for grandeur by creating an imaginary adventure that unfolds in the mind of the main character. Additionally, we drew inspiration from his favorite retro games, both in terms of aesthetics and gameplay, drawing from titles such as the EarthBound series and The Legend of Zelda."
+            "Our game was created in collaboration with Quebecois comedian <b>Tommy Gaudet</b>, a lover of the absurd, whimsical, and fantastical. We drew extensive inspiration from his <b>quirky universe</b> and sought to integrate his love for larping by creating an imaginary adventure that unfolds in the mind of the main character. Additionally, we drew inspiration from his favorite <b>retro games</b>, both in terms of aesthetics and gameplay, drawing from titles such as the <b>EarthBound</b> series and <b>The Legend of Zelda</b>."
         ],
         "LienYT": "https://www.youtube.com/embed/4GJr4MK-xMg",
         "images1": [
@@ -350,18 +349,18 @@
         "name": "Last Spark",
         "type": "jeu",
         "date": "2020",
-        "descriptionProjet": "Last Spark is an action, adventure, and survival game set in a sinister and oppressive atmosphere. The player takes on the role of the world's last hope, tasked with surviving long enough to overcome the lords of darkness and their sinister minions who roam freely in the environment. The solitary traveler must explore this devastated world in search of weapons and spells to support them in their desperate quest.",
+        "descriptionProjet": "<b>Last Spark</b> is an <b>action, adventure, and survival</b> game set in a <b>sinister and oppressive atmosphere</b>. The player takes on the role of the world's last hope, tasked with <b>surviving long enough to overcome the lords of darkness</b> and their sinister minions who roam freely in the environment. The solitary traveler must explore this devastated world in search of weapons and spells to support them in their desperate quest.",
         "txt2": [
-            "Production and Contribution:",
-            "This project was conceived and developed by a team of three people over a period of four months. My main responsibilities included game design, setting up systems, and programming, especially for the day/night cycle and the inventory and crafting system. My tasks encompassed creating gameplay mechanics and the game world, balancing and managing enemy waves that only appeared at night to ensure the player wasn't quickly overwhelmed, as well as integration into Unity. The majority of my work involved programming and managing the entire inventory and crafting system, including all the items the player could collect and use."
+            "Production and Contribution :",
+            "This project was conceived and developed by a team of <b>three people</b> over a period of <b>four months</b>. My main responsibilities included <b>game design</b>, <b>setting up systems</b>, and <b>programming</b>, especially for the <b>day/night cycle</b> and the <b>inventory and crafting system</b>. My tasks encompassed <b>creating gameplay mechanics</b> and the game world, <b>balancing</b> and managing enemy waves that only appeared at night to ensure the player wasn't quickly overwhelmed, as well as integration into Unity. The majority of my work involved programming and managing the entire inventory and crafting system, including all the items the player could collect and use."
         ],
         "txt3": [
-            "Challenges and Difficulties:",
-            "The most significant challenge in this project was properly balancing the damage of each weapon to prevent them from becoming either useless or too powerful. It was also necessary to find the right combinations for crafting recipes so that they were neither impossible to achieve nor too easy. Managing the drop rate and rarity of ingredients was also a major concern."
+            "Challenges and Difficulties :",
+            "The most significant challenge in this project was properly <b>balancing the damage of each weapon</b> to prevent them from becoming either useless or too powerful. It was also necessary to <b>find the right combinations for crafting</b> recipes so that they were neither impossible to achieve nor too easy. Managing the drop rate and rarity of ingredients was also a major concern."
         ],
         "txt4": [
             "Conclusion:",
-            "The final project was warmly received by our professors and peers, and it continues to be cited as an example in the course for current students. I feel immense pride in this project because it represents my first significant achievement, and it embodies a concept we had in mind since the beginning of our studies. Seeing it finally come to life held a special significance for me."
+            "The final project was <b>warmly received</b> by our professors and peers, and it continues to be cited as an example in the course for current students. I feel <b>immense pride</b> in this project because it represents my first significant achievement, and it embodies a concept we had in mind since the beginning of our studies. Seeing it finally come to life held a special significance for me."
         ],
         "LienBuild": "https://itch.io/embed-upload/7163183?color=7da2a9",
         "LienProjet": "https://lastspark.netlify.app/",
@@ -419,18 +418,18 @@
         "name": "Escape the Nightwell Keep",
         "type": "jeu",
         "date": "2021",
-        "descriptionProjet": "Escape the Nightwell Keep is a captivating adventure and platform game prototype featuring a determined prisoner trying to escape from a haunted castle infested with skeletons and deadly traps. The player will need to find their way through this dark castle while collecting precious treasures on the way to the safe exit.",
+        "descriptionProjet": "<b>Escape the Nightwell Keep</b> is a captivating <b>adventure</b> and <b>platform</b> game prototype featuring a determined prisoner trying to <b>escape</b> from a haunted castle infested with <b>skeletons</b> and <b>deadly traps</b>. The player will need to find their way through this dark castle while collecting precious treasures on the way to the safe exit.",
         "txt2": [
             "Production and Involvement:",
-            "I developed this prototype solo over a period of 3 weeks. My responsibilities included level design, programming game mechanics and enemies, as well as integrating them into the Unity development environment."
+            "I developed this prototype <b>solo</b> over a period of 3 weeks. My responsibilities included <b>level design</b>, <b>programming</b> game mechanics and enemies, as well as <b>integrating</b> them into the Unity development environment."
         ],
         "txt3": [
             "Challenges:",
-            "The most challenging aspect of this production was creating the level and programming the enemies. This project marked my first real experience with level design, and I wanted to create a map of a scale similar to what you find in Dead Cells. I took on a lot of responsibilities and had to start over several times to achieve a result that satisfied me while avoiding the level becoming too long and repetitive"
+            "The most challenging aspect of this production was <b>creating the level</b> and <b>programming</b> the enemies. This project marked my first real experience with level design, and I wanted to create a map of a <b>scale similar</b> to what you find in <b>Dead Cells</b>. I took on a lot of responsibilities and had to start over several times to achieve a result that satisfied me while avoiding the level becoming too long and repetitive."
         ],
         "txt4": [
             "Inspiration:",
-            "My main sources of inspiration were primarily Dead Cells and Blasphemous, both in terms of level design, gameplay, and aesthetics. These games and their universes have been among my favorites for a long time, and I have always dreamed of creating my own interpretation, even though it presented a significant challenge for me!"
+            "My main sources of inspiration were primarily <b>Dead Cells</b> and <b>Blasphemous</b>, both in terms of level design, gameplay, and aesthetics. These games and their universes have been among my favorites for a long time, and I have always dreamed of creating my own interpretation, even though it presented a significant challenge for me!"
         ],
         "LienProjet": "https://mathieugaudreau.itch.io/escape-the-nightwell-keep",
         "images1": [
@@ -481,18 +480,18 @@
         "name": "Règne de Malheurs",
         "type": "jeuTable",
         "date": "2021",
-        "descriptionProjet": "Règne de Malheurs is a unique territory control game where players each embody a primary emotion that influences the actions of a medieval baron. The ultimate goal of the players is to become the dominant emotion, thereby dictating the tumultuous course of the baron's extravagant life.",
+        "descriptionProjet": "<b>Règne de Malheurs</b> is a unique <b>territory control</b> game where players each embody a <b>primary emotion</b> that influences the actions of a medieval baron. The ultimate goal of the players is to become <b>the dominant emotion</b>, thereby dictating the tumultuous course of the baron's extravagant life.",
         "txt2": [
-            "Progression of a Game and Unique Features:",
-            "Emotions engage in fierce competition for control of the various cerebral regions of the baron by placing pieces each turn according to a specific order. This approach has various repercussions on other players and on the baron himself, due to the power associated with each conquered area. At the end of each turn, an event card is revealed by the designated player, and its impact on the game is determined by the leading emotion, adding to the absurd and comical adventures of noble life. The game concludes when the baron's life expires, and the final turn ends."
+            "Progression of a Game and Unique Features :",
+            "Emotions engage in fierce competition for <b>control</b> of the various <b>cerebral regions</b> of the baron by placing pieces each turn according to a specific order. This approach has various <b>repercussions</b> on other players and on the baron himself, due to the <b>power</b> associated with each conquered area. At the end of each turn, an <b>event card</b> is revealed by the designated player, and its impact on the game is determined by the leading emotion, adding to the absurd and comical adventures of noble life. The game concludes when the <b>baron's life expires</b>, and the final turn ends."
         ],
         "txt3": [
-            "Production and Involvement:",
-            "My key role in creating this game was to design the rules system and work on the design and illustrations of the game board. This prototype was developed by a team of 4 people over a period of 8 weeks. One of our major challenges in designing the board was to accurately represent the real anatomy of the brain by placing the areas correctly and connecting them appropriately. It was also crucial to distribute points judiciously in different areas, awarding more points to challenging-to-control zones and fewer points to less strategic zones, such as those located in the corners of the board. Another key challenge during production was balancing the powers of different zones and event cards. Since the abilities of event cards are tied to the player's emotion revealing them, we had to ensure, after many playtesting sessions, that no emotion became too dominant compared to others."
+            "Production and Involvement :",
+            "My key role in creating this game was to <b>design the rules system</b> and work on the <b>design</b> and <b>illustrations</b> of the game board. This prototype was developed by a team of 4 people over a period of 8 weeks. One of our major challenges in designing the board was to <b>accurately represent the real anatomy</b> of the brain by placing the areas correctly and connecting them appropriately. It was also crucial to distribute points judiciously in different areas, awarding <b>more</b> points to challenging-to-control zones and <b>fewer</b> points to less strategic zones, such as those located in the corners of the board. Another key challenge during production was <b>balancing the powers</b> of different zones and event cards. Since the abilities of event cards are tied to the player's emotion revealing them, we had to ensure, after many playtesting sessions, that no emotion became too dominant compared to others."
         ],
         "txt4": [
-            "Inspirations:",
-            "Our main sources of inspiration for this game were the board games Risk and El Grande for their territory control mechanics, both of which are references in this field. Concerning the visual aspect, we drew inspiration from the quirky, dark, and twisted style of Tim Burton, as well as from the games Sleep Tight and Gloom for their unique atmosphere."
+            "Inspirations :",
+            "Our main sources of inspiration for this game were the board games <b>Risk</b> and <b>El Grande</b> for their <b>territory control</b> mechanics, both of which are references in this field. Concerning the visual aspect, we drew inspiration from the quirky, dark, and twisted style of <b>Tim Burton</b>, as well as from the games Sleep Tight and Gloom for their unique atmosphere."
         ],
         "images1": [
             "https://i.ibb.co/vvq3SCs/Presentation3-D.png",
@@ -559,18 +558,18 @@
         "name": "Repair 'n' Despair",
         "type": "jeuTable",
         "date": "2021",
-        "descriptionProjet": "Repair'N Despair is a captivating cooperative tabletop game where each player embodies a dedicated member of the crew of the STS Prometheus, a spaceship under attack by a terrifying extraterrestrial creature. The objective is clear: players must work as a team to repair the spacecraft and eliminate the extraterrestrial threat before it becomes unstoppable.",
+        "descriptionProjet": "Repair'N Despair is a captivating <b>cooperative</b> tabletop game where each player embodies a dedicated member of the crew of the STS Prometheus, a spaceship under attack by a terrifying extraterrestrial creature</b>. The objective is clear: players must <b>work as a team</b> to <b>repair</b> the spacecraft and eliminate the extraterrestrial threat before it becomes unstoppable.",
         "txt2": [
             "Major Innovation!",
-            "This game features a unique feature: the use of a mobile application is essential to play. This application not only times the allotted time for the crew members to complete their objectives but also adds a dose of stress by allowing the extraterrestrial creature to move randomly. At predefined intervals, an alarm sounds on the application, forcing players to interrupt their actions to move the creature following the instructions provided by the mobile app."
+            "This game features a <b>unique feature</b>: the use of a <b>mobile application</b> is essential to play. This application not only <b>times</b> the allotted time for the crew members to complete their objectives but also adds a <b>dose of stress</b> by allowing the extraterrestrial creature to <b>move randomly</b>. At predefined intervals, an <b>alarm</b> sounds on the application, forcing players to interrupt their actions to move the creature following the instructions provided by the mobile app."
         ],
         "txt3": [
             "Commitment, Production, and Major Challenges:",
-            "My primary role in this project was designing the game rules in collaboration with other team members. I also programmed the mobile application and contributed to graphic design and the creation of the physical prototype. This prototype was developed by a team of 4 people over a period of 8 weeks.Our biggest challenge was finding a way to make the game faster and less repetitive than our initial ideas, which turned out to be too long and monotonous for players. That's why we decided to introduce the randomness mechanic via the mobile application, ensuring unique gameplay every time. Additionally, to eliminate monotony, we incorporated a mechanic where a player becomes the team leader each turn and assigns actions to other players, maintaining a dynamic pace, especially if a traitor is part of the game."
+            "My primary role in this project was <b>designing</b> the game rules in collaboration with other team members. I also <b>programmed</b> the mobile application and contributed to <b>graphic design</b> and the creation of the physical prototype. This prototype was developed by a team of 4 people over a period of 8 weeks.Our biggest challenge was finding a way to make the <b>game faster and less repetitive</b> than our initial ideas, which turned out to be too long and monotonous for players. That's why we decided to introduce the <b>randomness</b> mechanic via the mobile application, ensuring unique gameplay every time. Additionally, to eliminate monotony, we incorporated a mechanic where a player becomes the <b>team leader</b> each turn and assigns actions to other players, maintaining a dynamic pace, especially if a traitor is part of the game."
         ],
         "txt4": [
             "Inspirations:",
-            "Our main sources of inspiration for this game were hidden identity games, where each player must complete various tasks to survive, such as Among Us or Unfortunate Spacemen, as well as movies like Alien for the theme. Visually, we drew inspiration from space depictions of the 1940s-50s and the graphic style of pulp science fiction."
+            "Our main sources of inspiration for this game were hidden <b>identity games</b>, where each player must complete various tasks to survive, such as Among Us or Unfortunate Spacemen, as well as movies like Alien for the theme. Visually, we drew inspiration from space depictions of the 1940s-50s and the graphic style of pulp science fiction."
         ],
         "images1": [
             "https://i.ibb.co/WK9tkzp/boite-Front.jpg",
@@ -628,19 +627,19 @@
         "name": "John Kenn Mortensen",
         "type": "creation",
         "date": "2021",
-        "descriptionProjet": "This creation represents my second motion design project. The goal of this project, with a dark and slightly frightening tone, was to explore the use of the puppet tool in After Effects to animate various objects and characters.",
+        "descriptionProjet": "This creation represents my second <b>motion design project</b>. The goal of this project, with a dark and slightly frightening tone, was to explore the use of the <b>puppet tool</b> in After Effects to animate various objects and characters.",
         "txt2": [
-            "Production",
-            "This animation was created solo over a period of one month, primarily using the puppet tool to animate all elements of the project. It was my first experience with this tool, which required a significant time investment to cut out each element of the illustrations while preserving the smallest details and ensuring natural movement of the different parts. Additionally, this project provided me with the opportunity to deepen my knowledge of particle effects, fractal noise, and 3D creation within After Effects."
+            "Production :",
+            "This animation was created solo over a period of <b>one month</b>, primarily using the <b>puppet tool</b> to animate all elements of the project. It was my first experience with this tool, which required a significant time investment to cut out each element of the illustrations while preserving the smallest details and ensuring natural movement of the different parts. Additionally, this project provided me with the opportunity to deepen my knowledge of <b>particle effects</b>, <b>fractal noise</b>, and <b>3D creation</b> within After Effects."
         ],
         "txt3": [
-            "Inspiration",
-            "For a long time, I had the desire to create a work in this specific universe because I have always been fascinated by slightly horrific illustrations as well as horror and surrealism themes. That's why I chose to draw inspiration from the illustrations of John Kenn Mortensen, one of my favorite artists, in order to animate them with After Effects."
+            "Inspiration :",
+            "For a long time, I had the desire to create a work in this specific universe because I have always been fascinated by slightly <b>horrific</b> illustrations as well as <b>horror</b> and <b>surrealism</b> themes. That's why I chose to draw inspiration from the illustrations of <b>John Kenn Mortensen</b>, one of my favorite artists, in order to animate them with After Effects."
         ],
         "LienYT": "https://www.youtube.com/embed/00sdrKHIxJ4",
         "cover": "https://i.ibb.co/w4J4tDQ/johnkenn-Cover.png",
         "roles": [
-            "Designer"
+            "Motion Designer"
         ],
         "technos": [
             "After Effects",
@@ -652,14 +651,14 @@
         "name": "Tokyo",
         "type": "creation",
         "date": "2021",
-        "descriptionProjet": "This small motion design project aimed to explore various tools and plugins in After Effects while incorporating luminous elements and shapes into the real world.",
+        "descriptionProjet": "This small <b>motion design project</b> aimed to explore various tools and plugins in After Effects while incorporating luminous elements and shapes into the real world.",
         "txt2": [
-            "Production",
-            "Completed in just one month, this project primarily relied on a plugin called Thicc Stroke to create bright white lines. It also allowed me to deepen my understanding of using masks in the software to seamlessly integrate elements into the scene."
+            "Production :",
+            "Completed in just <b>one month</b>, this project primarily relied on a plugin called <b>Thicc Stroke</b> to create bright white lines. It also allowed me to deepen my understanding of using <b>masks</b> in the software to seamlessly integrate elements into the scene."
         ],
         "txt3": [
-            "Inspiration",
-            "The inspiration for this project came to me from the opening sequence of the Japanese animation Sarazanmai. This sequence features two-dimensional characters moving within real images of Tokyo, with bright white lines and striking animations. I've always been captivated by this video because the music blends perfectly with the white light and the synchronization of animations, creating a soothing atmosphere. So, my desire was to create something similar."
+            "Inspiratio :",
+            "The inspiration for this project came to me from the opening sequence of the Japanese animation <b>Sarazanmai</b>. This sequence features two-dimensional characters moving within real images of Tokyo, with bright white lines and striking animations. I've always been captivated by this video because the music blends perfectly with the white light and the synchronization of animations, creating <b>a soothing atmosphere</b>. So, my desire was to create something similar."
         ],
         "LienYT": "https://www.youtube.com/embed/SMKQ7CC4Mh4",
         "cover": "https://i.ibb.co/0Mp4Q4j/tokyo-Cover.png",

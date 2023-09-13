@@ -8,6 +8,7 @@
     "lint": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service lint"
   },
   "dependencies": {
+    "@achrinza/node-ipc": "^10.1.9",
     "aos": "^2.3.4",
     "core-js": "^3.6.5",
     "hooper": "^0.3.4",
