@@ -184,6 +184,7 @@ export default {
       if (this.QuiSuisJeVisible) {
         this.QuiSuisJeVisible = false;
       }
+      location.reload()
     },
     scrollBottom() {
       window.scrollTo(0, document.body.scrollHeight);

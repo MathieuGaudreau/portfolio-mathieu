@@ -287,12 +287,12 @@
             "https://i.ibb.co/GJhpSTv/Blocking-Monde-3-2.png"
         ],
         "txtPhotos1": [
-            "Carte du niveau 1 (Monde Réel)",
-            "Carte du niveau 1 (Monde Imaginaire)",
-            "Carte du niveau 2 (Monde Réel)",
-            "Carte du niveau 2 (Monde Imaginaire)",
-            "Carte du niveau 3 (Monde Réel)",
-            "Carte du niveau 3 (Monde Imaginaire)"
+            "Dans le premier niveau, le petit héros commence son aventure devant la maison de sa mère, qui lui conseille d'être prudent lors de son périple. Il peut ensuite explorer la petite ville composée de cinq rues. L'objectif de ce niveau est de parler aux différents personnages pour trouver un moyen de déplacer la voiture qui bloque la sortie de la ville et ainsi poursuivre son aventure. Le joueur pourra donc interagir avec plusieurs personnes, telles qu'une <b>grand-mère</b>, un <b>conspirationniste</b>, un <b>itinérant</b> et des <b>habitants</b>.",
+            "Dans le monde imaginaire, tout change radicalement, mais la disposition reste la même. Par exemple, les maisons se transforment en <b>champignons</b>, la <b>mère</b> devient une <b>reine</b>, les animaux peuvent désormais parler, et certains personnages se transforment en <b>magiciens</b>. De plus, le monde est maintenant envahi de <b>slimes</b>, les ennemis principaux du jeu que le héros peut vaincre avec son <b>épée</b>. La palette de couleurs change drastiquement pour créer une réelle distinction entre les deux mondes.",
+            "La suite de l'aventure se déroule dans un parc. Dans ce niveau, le joueur devra trouver un moyen de faire bouger l'homme avec le <b>journal</b> qui bloque le pont. En explorant le niveau, il pourra découvrir une source d'eau et ainsi mouiller le <b>journal</b> de l'homme, ce qui le laissera passer par la suite.",
+            "Dans ce niveau, la majorité du puzzle se trouve dans le monde imaginaire. En effet, l'un des arbres devient vivant et donne au joueur une <b>liane</b> qui lui permettra d'aller chercher le seau au fond du puits, qui était auparavant une fontaine d'eau. L'homme avec le <b>journal</b> se transforme également en <b>chevalier noir</b> qui attaquera le joueur s'il s'approche trop.",
+            "Enfin, le dernier niveau du jeu se déroule sur un terrain de golf au milieu d'une partie pour les golfeurs présents. Dans ce niveau, le joueur devra trouver un moyen de débloquer la porte menant à la forêt tout en faisant attention aux <b>serpents</b> qui se promènent. De plus, le joueur devra retrouver les clés de la voiturette d'un des golfeurs en échange de sa <b>radio</b>, qui lui permettra d'affronter le <b>boss final</b>.",
+            "Dans le monde imaginaire, le héros pourra parler à une <b>bernache</b>, qui lui confiera comme mission de retrouver ses œufs en échange des clés du golfeur, devenu un <b>homme-pot</b>. Après avoir trouvé les œufs, qui se révèlent être les balles de golf, il pourra les donner au golfeur et récupérer la <b>radio</b>. Ensuite, en la plaçant près du trou, un énorme <b>serpent noir</b> surgira, et le petit héros pourra ainsi affronter le <b>boss final</b> du jeu !"
         ],
         "images2": [
             "https://i.ibb.co/kgrsFFY/Main-tuiles.png",
@@ -315,24 +315,24 @@
             "https://i.ibb.co/bQt6D7s/Vieil-Arbre.gif"
         ],
         "txtPhotos2": [
-            "Tuiles du niveau 1 & 2",
-            "Tuiles du niveau 3",
-            "Tuiles de clotures",
-            "Tuiles de pavé",
-            "Tuiles de pont",
-            "Maisons du monde réel",
-            "Élément de décor divers",
-            "Voiture et chariot du niveau 1",
-            "Éléments de décor du niveau 2",
-            "Puits et fontaine du niveau 2",
-            "Voiturette de golf et caravane du niveau 3",
-            "Arbres du monde réel",
-            "Arbres du monde imaginaire",
-            "Plantes décoratives",
-            "Ennemis du jeu",
-            "Animaux divers",
-            "NPC divers",
-            "Arbre Magique"
+            "Tuiles des Niveaux <b>1</b> et <b>2</b> : Ces deux niveaux sont principalement constitués de <b>gazon</b>, d'<b>eau</b> et de petites zones de <b>sable</b>. Toutes les tuiles sont conçues pour s'emboîter parfaitement et offrent toujours une transition fluide entre les différents matériaux.",
+            "Tuiles du Niveau <b>3</b> : Étant un terrain de <b>golf</b>, ce niveau utilise également des tuiles de <b>gazon</b> standard, mais nécessitait une couleur différente pour représenter le <b>green</b> du parcours.",
+            "Les tuiles de <b>clôture</b> sont utilisées dans tous les niveaux pour délimiter facilement les zones.",
+            "Les tuiles de <b>pavage</b> sont utilisées dans tous les niveaux, en particulier dans le premier pour les <b>trottoirs</b>.",
+            "Les tuiles de <b>pont</b> sont utilisées dans tous les niveaux et se transforment en <b>nénuphars</b> dans le monde imaginaire.",
+            "Trois variations de <b>maisons</b> pour le premier niveau, fortement inspirées des <b>maisons</b> du jeu Earthbound.",
+            "Divers éléments de <b>décor</b> et leurs équivalents dans le monde imaginaire. Lorsque le monde change, les objets restent à leur place mais deviennent plus fantastiques.",
+            "La <b>voiture</b> qui bloque le passage dans le niveau <b>1</b> se transforme en <b>chariot</b> dans le monde imaginaire.",
+            "Les <b>tables</b> et les <b>bancs</b> du parc du niveau <b>2</b> deviennent des <b>tables</b> et des <b>bancs</b> en pierre.",
+            "L'un des objets nécessaires pour accomplir la <b>quête</b> du niveau <b>2</b>, la <b>fontaine</b> d'<b>eau</b>, devient un <b>puits</b>. Celui-ci permet au joueur d'obtenir le <b>seau</b>.",
+            "La <b>voiturette</b> de golf du niveau <b>3</b> se transforme en <b>caravane</b> de marchand ambulant dans le monde imaginaire.",
+            "Les <b>arbres</b> du monde réel conservent leur <b>couleur</b> naturelle et ont tous un <b>contour</b> noir, contrairement à leur version imaginaire.",
+            "Les <b>arbres</b> du monde imaginaire changent complètement de <b>palette</b> de couleurs et adoptent des <b>formes</b> étranges.",
+            "Les petites <b>plantes</b> décoratives du monde réel se métamorphosent en <b>plantes</b> très <b>colorées</b>, telles que des <b>champignons</b> magiques, dans le monde imaginaire.",
+            "Les différents <b>ennemis</b> du jeu : les <b>slimes</b> se trouvent uniquement dans le monde imaginaire, tandis que les <b>couleuvres</b> peuvent être rencontrées dans le monde réel, avec une version imaginaire en plus.",
+            "Les <b>animaux</b> présents dans les différents niveaux ont également une version imaginaire et peuvent désormais <b>parler</b>.",
+            "Les deux <b>chats</b> trouvés dans les niveaux deviennent des <b>personnages</b> dans le monde imaginaire, avec lesquels le joueur peut avoir de courtes <b>discussions</b>.",
+            "L'énorme <b>arbre</b> du niveau <b>2</b> se transforme en un <b>arbre</b> magique dans le monde imaginaire et donne l'une de ses <b>lianes</b> au joueur, lui permettant de récupérer le <b>seau</b> au fond du puits."
         ],
         "cover": "https://i.ibb.co/GVrTR96/petit-Heros.png",
         "roles": [

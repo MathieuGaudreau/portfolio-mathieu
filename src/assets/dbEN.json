@@ -287,12 +287,12 @@
             "https://i.ibb.co/GJhpSTv/Blocking-Monde-3-2.png"
         ],
         "txtPhotos1": [
-            "Level 1 layout (Real World)",
-            "Level 1 layout (Imaginary World)",
-            "Level 2 layout (Real World)",
-            "Level 2 layout (Imaginary World)",
-            "Level 3 layout (Real World)",
-            "Level 3 layout (Imaginary World)"
+            "In the first level, the little hero begins his adventure in front of his mother's house, who advises him to be careful during his journey. He can then explore the small town composed of five streets. The objective of this level is to talk to various characters to find a way to move the car that is blocking the town's exit and thus continue his adventure. The player will be able to interact with several people, such as a <b>grandmother</b>, a <b>conspiracy theorist</b>, a <b>homeless person</b>, and <b>residents</b>.",
+            "In the imaginary world, everything changes radically, but the layout remains the same. For example, houses transform into <b>mushrooms</b>, the <b>mother</b> becomes a <b>queen</b>, animals can now talk, and some characters transform into <b>magicians</b>. Moreover, the world is now invaded by <b>slimes</b>, the game's main enemies that the hero can defeat with his <b>sword</b>. The color palette changes dramatically to create a real distinction between the two worlds.",
+            "The continuation of the adventure takes place in a park. In this level, the player must find a way to move the man with the <b>newspaper</b> blocking the bridge. By exploring the level, he can discover a water source and thus wet the man's <b>newspaper</b>, allowing him to pass later.",
+            "In this level, the majority of the puzzle is in the imaginary world. Indeed, one of the trees comes to life and gives the player a <b>vine</b> that will allow him to retrieve the bucket from the bottom of the well, which was previously a water fountain. The man with the <b>newspaper</b> also transforms into a <b>black knight</b> who will attack the player if he gets too close.",
+            "Finally, the last level of the game takes place on a golf course in the middle of a game for the present golfers. In this level, the player must find a way to unlock the door leading to the forest while watching out for the <b>snakes</b> that are roaming. Additionally, the player must find the keys to one of the golfer's carts in exchange for his <b>radio</b>, which will allow him to face the <b>final boss</b>.",
+            "In the imaginary world, the hero can talk to a <b>goose</b>, who entrusts him with the mission of finding her eggs in exchange for the golfer's keys, who has become a <b>pot-man</b>. After finding the eggs, which turn out to be golf balls, he can give them to the golfer and retrieve the <b>radio</b>. Then, by placing it near the hole, a huge <b>black snake</b> will emerge, and the little hero can thus face the <b>final boss</b> of the game!"
         ],
         "images2": [
             "https://i.ibb.co/kgrsFFY/Main-tuiles.png",
@@ -315,24 +315,24 @@
             "https://i.ibb.co/bQt6D7s/Vieil-Arbre.gif"
         ],
         "txtPhotos2": [
-            "Level 1 & 2 tileset",
-            "Level 3 tileset",
-            "Fences tileset",
-            "Concrete tileset",
-            "Bridge tileset",
-            "Real world houses",
-            "Decor elements",
-            "Level 1 car and cart",
-            "Level 2 decor elements",
-            "Level 2 well and drinking fountain",
-            "Level 3 golf cart and caravan",
-            "Real world trees",
-            "Imaginary world trees",
-            "Decorative plants",
-            "Enemies",
-            "Animals",
-            "NPC",
-            "Talking Tree"
+            "Tiles for Levels <b>1</b> and <b>2</b>: These two levels are primarily composed of <b>grass</b>, <b>water</b>, and small <b>sand</b> areas. All the tiles are designed to fit together seamlessly and always provide a smooth transition between different materials.",
+            "Tiles for Level <b>3</b>: As it is a golf course, this level also uses standard <b>grass</b> tiles but needed a different color to represent the <b>green</b> of the course.",
+            "<b>Fence</b> tiles are used in all levels to easily delineate areas.",
+            "<b>Paving</b> tiles are used in all levels, especially in the first one for <b>sidewalks</b>.",
+            "<b>Bridge</b> tiles are used in all levels and transform into <b>water lilies</b> in the imaginary world.",
+            "Three variations of <b>houses</b> for the first level, heavily inspired by the houses in the game Earthbound.",
+            "Various <b>decorative elements</b> and their counterparts in the imaginary world. When the world changes, objects remain in place but become more fantastic.",
+            "The <b>car</b> blocking the passage in Level <b>1</b> transforms into a <b>cart</b> in the imaginary world.",
+            "The <b>tables</b> and <b>park benches</b> in Level <b>2</b> become <b>stone tables</b> and <b>stone benches</b>.",
+            "One of the items necessary to complete the <b>quest</b> in Level <b>2</b>, the <b>water fountain</b>, becomes a <b>well</b>. This allows the player to obtain the <b>bucket</b>.",
+            "The <b>golf cart</b> in Level <b>3</b> transforms into a <b>traveling merchant's caravan</b> in the imaginary world.",
+            "The <b>trees</b> in the real world retain their <b>natural color</b> and all have a <b>black outline</b>, unlike their imaginary counterparts.",
+            "The <b>imaginary world's trees</b> completely change their <b>color palette</b> and also have <b>strange shapes</b>.",
+            "The small <b>decorative plants</b> in the real world transform into highly <b>colorful plants</b> resembling <b>magic mushrooms</b> in the imaginary world.",
+            "The different <b>enemies</b> in the game: <b>slimes</b> are only found in the imaginary world, while <b>snakes</b> can be encountered in the real world and also have an imaginary version.",
+            "The <b>animals</b> present in the various levels also have an imaginary version and can now <b>speak</b>.",
+            "The two <b>cats</b> found in the levels become <b>characters</b> in the imaginary world, with whom the player can have brief <b>conversations</b>.",
+            "The huge <b>tree</b> in Level <b>2</b> transforms into a <b>magic tree</b> in the imaginary world and gives one of its <b>vines</b> to the player, allowing them to retrieve the <b>bucket</b> from the bottom of the well."
         ],
         "cover": "https://i.ibb.co/GVrTR96/petit-Heros.png",
         "roles": [
