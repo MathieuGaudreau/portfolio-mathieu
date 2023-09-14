@@ -371,30 +371,32 @@
         ],
         "GH": "https://github.com/MathieuGaudreau/LastSpark",
         "images1": [
-            "https://i.ibb.co/VSc3k7Z/accueil.webp",
-            "https://i.ibb.co/FsMPfVT/menu.webp",
-            "https://i.ibb.co/6txcX3p/pause.webp",
-            "https://i.ibb.co/353y9MF/inventaire.webp",
-            "https://i.ibb.co/K7BZ9Ff/aide.webp"
-        ],
-        "txtPhotos1": [
-            "Affiche du jeu",
-            "Écran principal du jeu, ici le joueur peut commencer à jouer, voir les instructions et quitter le jeu.",
-            "Le menu permet de quitter vers le menu principal ou de quitter le jeu.",
-            "Le sytème d'inventaire permet d'équipper les armes et pouvoirs et d'organiser les objets obtenus durant le jeu.",
-            "Des écrans d'aides vont apparaitre lors du jeu pour expliquer au joueur les différentes méchaniques."
-        ],
-        "txtPhotos2": [
-            "Exemple de disposition de la carte",
-            "Le feu de camp sert de safezone pour le joueur et il peut interagir avec le feu pour se soigner et crafter.",
-            "Le joueur peut retrouver des ruines dans le jeu qui donne accès à des améliorations, des armes et un sort.",
-            "Exemple de combat contre un boss. Les boss et les ennemies ont plus en plus de vies au fil que le jeu avance."
-        ],
-        "images2": [
-            "https://i.ibb.co/D1HMDV5/Exemple-Map-Last-Spark.png",
             "https://i.ibb.co/yPykPpD/debut.webp",
             "https://i.ibb.co/qntnzG9/ruine.webp",
-            "https://i.ibb.co/7nZ1vS5/boss.webp"
+            "https://i.ibb.co/7nZ1vS5/boss.webp",
+            "https://i.ibb.co/D1HMDV5/Exemple-Map-Last-Spark.png",
+            "https://i.ibb.co/353y9MF/inventaire.webp"
+        ],
+        "txtPhotos1": [
+            "Le joueur commence son aventure près de son <strong>feu de camp</strong>, la seule source de lumière de ce monde où il trouvera son <strong>arme de départ</strong>. Cette arme lui permet de brûler les âmes des <strong>seigneurs</strong> après les avoir battus. Le feu lui permet également de <strong>fabriquer de nouvelles armes</strong> et de se protéger des monstres lors des sombres nuits.",
+            "Pendant son exploration, le joueur peut tomber sur de petits <strong>sanctuaires</strong> dans lesquels il peut trouver de <strong>nouvelles armes</strong> ou <strong>des sorts.</strong>",
+            "Les <strong>seigneurs des ténèbres</strong> sont de grandes créatures faites d'ombre qui se battent à coup d'énormes épées. Ils peuvent être repérés grâce au <strong>cercle de crânes</strong> qui les entoure. Une fois battus, le joueur peut récupérer <strong>leur âme</strong> et, s'il a de la chance, leur épée.",
+            "Exemple de l'étendue de la carte du jeu. Étant <strong>générée aléatoirement</strong>, les <strong>seigneurs</strong> et les <strong>sanctuaires</strong> peuvent se trouver n'importe où. De plus, à chaque fois que le joueur brûle une âme, <strong>la carte se régénère.</strong>",
+            "Menu d'inventaire qui permet également de <strong>fabriquer de nouvelles armes</strong>. Chaque objet s'insère dans une case, et le joueur peut placer sa souris au-dessus pour obtenir plus de détails."
+        ],
+        "images2": [
+            "https://i.ibb.co/SxDkn31/LS-Enemy.png",
+            "https://i.ibb.co/Y3ts91v/LS-Mini-Boss.png",
+            "https://i.ibb.co/k1W0t3Q/LS-Fleur.png",
+            "https://i.ibb.co/Wvzrq9q/LS-Boss.png",
+            "https://i.ibb.co/rk2zrp3/LS-Boss-Attack.png"
+        ],
+        "txtPhotos2": [
+            "Les <strong>ennemis génériques</strong> du jeu sont des formes rondes et munies d'une énorme bouche. Ils sont toujours présents dans le jeu, en particulier en plus grande quantité la nuit, mais ne peuvent pas s'approcher du feu de camp ni des combats contre les <strong>seigneurs</strong>. Ils vont attaquer au corps à corps et se tenir en groupe pour poursuivre le joueur.",
+            "Les <strong>seigneurs des ténèbres</strong> sont les premiers boss que le joueur doit vaincre pour avancer dans le jeu. Une fois battus, ils donnent leur <strong>âme</strong> qui permet de régénérer la carte et de trouver le prochain. Après 3 <strong>âmes</strong>, le grand boss arrivera.",
+            "Lorsque le joueur a brûlé la 3e <strong>âme</strong>, le prochain boss sera le dernier. En se promenant, l'<strong>aventurier</strong> tombera sur une petite fleur munie de <strong>dents pointues</strong>. Lorsqu'il s'en approchera un peu, le <strong>boss final</strong> sortira du sol pour son combat.",
+            "Le <strong>boss</strong> ressemble beaucoup aux <strong>ennemis génériques</strong> pour indiquer que c'est cette chose qui est à la source de la corruption. Avec sa grande bouche, il <strong>mord</strong> le joueur et il se promène en flottant.",
+            "En plus de <strong>mordre</strong>, il peut sortir <strong>ses bras</strong> et les frapper sur le sol, invoquant des <strong>tentacules</strong> à la position du joueur pour lui faire du dégât."
         ],
         "cover": "https://i.ibb.co/yP4mz3P/lastspark-Cover.png",
         "roles": [
@@ -440,25 +442,13 @@
             "https://i.ibb.co/5rZbnBq/Secret-Area.png"
         ],
         "txtPhotos1": [
-            "Carte du donjon",
-            "Emplacement de départ du joueur",
-            "Espace du niveau 1",
-            "Espace du niveau 2",
-            "Espace du niveau 3",
-            "Espace du niveau 4",
-            "Exemple d'espace secret"
-        ],
-        "images2": [
-            "https://i.ibb.co/cyxCzCy/Menu.png",
-            "https://i.ibb.co/Ky6gN09/Instructions.png",
-            "https://i.ibb.co/cw2f2wk/Death-Screen.png",
-            "https://i.ibb.co/PmZM0Tw/End-Screen.png"
-        ],
-        "txtPhotos2": [
-            "Menu principal du jeu.",
-            "Écran d'instruction du jeu.",
-            "Écran de mort, le joueur peut quitter ou recommencer le jeu du dernier checkpoint.",
-            "Écran de fin du jeu, elle indique le nombre de point ramassé par le joueur et lui permet de rejouer ou quitter le jeu."
+            "<strong>Carte du niveau</strong> dans l'éditeur de Unity. Elle s'inspire largement du donjon potentiel de Dead Cells et comporte plusieurs sections explorables, mais <strong>une seule issue.</strong>",
+            "Emplacement de départ du joueur, il commence à côté d'une des statues qui servent de <strong>point de sauvegarde</strong> lorsque le joueur interagit avec elles.",
+            "Lors de son exploration, le joueur sera confronté à différents types d'ennemis, tels que les <strong>squelettes</strong>. Ils se déplacent de droite à gauche et peuvent frapper le joueur avec leur épée.",
+            "Le jeu est également un jeu de plateforme et incitera le joueur à sauter de <strong>plateforme</strong> en <strong>plateforme</strong> pour atteindre certains endroits.",
+            "Plusieurs pièges sont dispersés dans l'environnement et infligeront des dégâts au personnage s'il les touche. De plus, un autre type d'ennemi est représenté par les <strong>archers</strong> qui tirent des flèches en direction du joueur.",
+            "Le joueur pourra également trouver des <strong>coffres au trésor</strong> un peu partout dans le niveau. Ils contiendront des pierres précieuses et seront visibles grâce à leur lueur.",
+            "Certains chemins mènent à des <strong>impasses</strong> dans le donjon, poussant ainsi le joueur à essayer une autre voie. Cela a pour but de créer un effet de <strong>labyrinthe</strong> dans le jeu."
         ],
         "cover": "https://i.ibb.co/ypck3S5/nightwell.png",
         "roles": [
@@ -505,17 +495,17 @@
             "https://i.ibb.co/ZLC3Bqp/Crest-Curse.png"
         ],
         "txtPhotos1": [
-            "Contenu du jeu",
-            "Dessus de la boite",
-            "Dessous de la boite",
-            "Plateau de jeu",
-            "Planchettes de jeu (3 , 4 , 5 joueurs)",
-            "Cartes personnage",
-            "Exemples de cartes événements",
-            "Aide de jeu",
-            "Pions personnages",
-            "Pions de jeu",
-            "Pion malédiction et pion compteur de tours"
+            "Contenu complet de la boîte : le jeu contient <strong>1 plateau</strong>, <strong>5 cartes personnages</strong>, <strong>30 cartes événements</strong>, <strong>5 aides de jeu</strong>, <strong>127 jetons</strong> et <strong>3 plateaux d'ordre</strong>.",
+            "Illustration sur le dessus de la boîte représentant les <strong>5 émotions</strong> du baron.",
+            "Dessous de la boîte résumant les <strong>bases du jeu</strong> et le contenu du jeu.",
+            "Le plateau de jeu est séparé en <strong>10 zones cérébrales</strong>, chacune ayant un pouvoir et une valeur en points différents. En haut du plateau, les joueurs peuvent retrouver le <strong>compteur de tours</strong>.",
+            "Différentes planchettes de jeu (3, 4, 5 joueurs) permettent de déterminer <strong>l'ordre du jeu</strong>.",
+            "Les différentes <strong>cartes personnage</strong> sont distribuées au début de la partie à chaque joueur.",
+            "Les <strong>cartes événements</strong> ont une description en haut de la carte et un effet pour chaque émotion.",
+            "Les <strong>aides de jeu</strong> expliquent les différents symboles retrouvés dans le jeu.",
+            "Les <strong>pions</strong> représentent chaque émotion pour l'ordre des tours et le pointage.",
+            "<strong>Pions de jeu</strong> plus petits représentent les émotions sur les zones du plateau.",
+            "<strong>Pion malédiction</strong> et <strong>pion compteur de tours</strong>."
         ],
         "images2": [
             "https://i.ibb.co/hVrwgY0/Contenu-Boite1.png",
@@ -529,15 +519,15 @@
             "https://i.ibb.co/3ftS137/Pions.png"
         ],
         "txtPhotos2": [
-            "Contenu complet de la boite",
-            "Accessoires du jeu",
-            "Boite du jeu",
-            "Plateau de jeu",
-            "Cartes des personnages",
-            "Cartes événements du jeu",
-            "Carte Aide de jeu",
-            "Planchettes de jeu",
-            "Pions de jeu"
+            "Version finale du prototype physique du jeu. Le plateau est pliable et imprimé sur une planche <strong>carrée</strong>, et la boîte est une boîte de jeu <strong>recyclée</strong>.",
+            "Version finale des accessoires du jeu. Les cartes sont imprimées au format des cartes de <strong>tarot</strong>, les pions sont fixés sur du <strong>carton</strong>, et nous avons utilisé des pièces du jeu <strong>Rysk</strong> pour les pions de jeu.",
+            "Version physique de la boîte de jeu. Nous l'avons peinte en <strong>noir</strong> et imprimé les images des <strong>émotions</strong>.",
+            "Version physique du <strong>plateau de jeu</strong>.",
+            "Version physique des <strong>cartes des personnages</strong>.",
+            "Version physique des <strong>cartes événements</strong>. Malgré leur taille assez grande, nous avons remarqué que le <strong>texte</strong> pourrait être plus lisible.",
+            "Version physique des <strong>cartes Aide de jeu</strong>.",
+            "Version physique des <strong>planchettes de jeu</strong> collées sur des morceaux de <strong>carton</strong>.",
+            "Version physique des différents <strong>pions de jeu</strong>."
         ],
         "cover": "https://i.ibb.co/0ZRcFzT/RM.png",
         "roles": [
@@ -582,16 +572,16 @@
             "https://i.ibb.co/tHtcR89/cover-back.png"
         ],
         "txtPhotos1": [
-            "Boitier du jeu, avec un design très inspiré du style pulp-fiction sci-fi.",
-            "Derrière de la boite sur laquelle nous avons une courte description du jeu, toute les informations pertinentes comme le nombre de joueur, le temps d'une partie, etc et un code QR qui permet de télécharger l'application.",
-            "Contenu complet de la boite, le jeu contient 16 tuiles de pièce, 40 ponts, 7 dés, 5 pions, 9 cartes et 50 jetons de bris",
-            "Le jeu comprends 2 types de rôles, imposteur et équipage qui vont changer le but du joueur. Les cartes personnages vont indiquer quelle couleur de pion chaque joueur représente et servent en même temps de carte de rappel",
-            "Chaque joueur représente un pion selon la couleur de sa carte équipage et les jetons rouges représentent les dégâts causés par le monstre.",
-            "Les 3 types de dés on chacun une utilité différente. Le dé 16 représente les zones, le dé 8 la couleur des ponts et les dés 6 les différentes action que les joueurs peuvent faire lors de leur tour.",
-            "Le jeu propose différente disposition de tuile pour créer de la rejouabilité.",
-            "Les cartes personnages seervent aussi d'aide de jeu et explique les différentes actions possible.",
-            "Les cartes de rôles sont distribuées au début de la partie, mais personne ne sais d'avance si un traitre fait partie de l'équipage.",
-            "Dessus et dessous de la boite de jeu."
+            "<strong>Boîtier du jeu</strong>, avec un design fortement inspiré du style de la science-fiction pulp.",
+            "À l'arrière de la boîte, vous trouverez une brève description du jeu, toutes les informations pertinentes telles que le nombre de joueurs, la durée d'une partie, etc., ainsi qu'un code QR permettant de télécharger l'application.",
+            "Contenu complet de la boîte : le jeu comprend <strong>16 tuiles de pièce</strong>, <strong>40 ponts</strong>, <strong>7 dés</strong>, <strong>5 pions</strong>, <strong>9 cartes</strong> et <strong>50 jetons de bris</strong>.",
+            "Le jeu comprend deux types de rôles : <strong>imposteur</strong> et <strong>équipage</strong>, qui modifient l'objectif des joueurs. Les <strong>cartes personnages</strong> indiquent la couleur du pion que chaque joueur représente et servent également de carte de rappel.",
+            "Chaque joueur est représenté par <strong>un pion</strong> de la couleur de sa carte équipage, tandis que les <strong>jetons rouges</strong> représentent les dégâts causés par le monstre.",
+            "Les trois types de dés ont chacun une utilité différente. Le dé à <strong>16 faces</strong> représente les zones, le dé à <strong>8 faces</strong> la couleur des ponts, et les dés à <strong>6 faces</strong> déterminent les différentes actions que les joueurs peuvent effectuer lors de leur tour.",
+            "Le jeu propose différentes dispositions de tuiles pour offrir une grande <strong>rejouabilité</strong>.",
+            "Les <strong>cartes personnages</strong> servent également d'aide de jeu et expliquent les différentes actions possibles.",
+            "Les <strong>cartes de rôles</strong> sont distribuées au début de la partie, mais personne ne sait à l'avance si un traître fait partie de l'équipage.",
+            "Le <strong>dessus</strong> et le <strong>dessous</strong> de la boîte de jeu."
         ],
         "images2": [
             "https://i.ibb.co/YjxBQVB/exemple-Game2.jpg",
@@ -600,10 +590,10 @@
             "https://i.ibb.co/DWgtmJF/app-Screen2.png"
         ],
         "txtPhotos2": [
-            "Exemple de partie typique avec la disposition de base du jeu.",
-            "Application qui permet de jouer au jeu lors d'une partie typique.",
-            "L'écran principal de l'application permet de commencer une partie et donne les informations sur celle-ci avant de commancer.",
-            "Lorsqu'une partie se termine, les joueurs ont l'option de recommancer la partie et ont un message de fin différent dépendant de leur réussite."
+            "Exemple d'une partie typique avec la <strong>disposition de jeu de base</strong>.",
+            "L'<strong>application</strong> qui permet de jouer au jeu pendant une partie typique.",
+            "L'<strong>écran principal de l'application</strong> permet de démarrer une partie et fournit des informations sur celle-ci avant de commencer.",
+            "À la fin d'une partie, les joueurs ont l'option de la <strong>recommencer</strong> et reçoivent un message de fin différent en fonction de leur succès."
         ],
         "cover": "https://i.ibb.co/Tc0rzdd/repair-Ndespair.png",
         "roles": [

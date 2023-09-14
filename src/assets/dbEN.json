@@ -371,30 +371,32 @@
         ],
         "GH": "https://github.com/MathieuGaudreau/LastSpark",
         "images1": [
-            "https://i.ibb.co/VSc3k7Z/accueil.webp",
-            "https://i.ibb.co/FsMPfVT/menu.webp",
-            "https://i.ibb.co/6txcX3p/pause.webp",
-            "https://i.ibb.co/353y9MF/inventaire.webp",
-            "https://i.ibb.co/K7BZ9Ff/aide.webp"
-        ],
-        "txtPhotos1": [
-            "Game poster",
-            "Main screen of the game, here the player can start playing, see the instructions and exit the game.",
-            "The menu allows you to exit to the main menu or to quit the game.",
-            "The inventory system allows you to equip weapons and powers and organize the items obtained during the game.",
-            "Help screens will appear during the game to explain the different mechanics to the player."
-        ],
-        "txtPhotos2": [
-            "Example of a map layout",
-            "The campfire acts as a player's safezone and can interact with the fire to heal and craft.",
-            "The player can find ruins in the game which gives access to upgrades, weapons and a spell.",
-            "Example of a boss fight. Bosses and enemies have more and more lives as the game progresses."
-        ],
-        "images2": [
-            "https://i.ibb.co/D1HMDV5/Exemple-Map-Last-Spark.png",
             "https://i.ibb.co/yPykPpD/debut.webp",
             "https://i.ibb.co/qntnzG9/ruine.webp",
-            "https://i.ibb.co/7nZ1vS5/boss.webp"
+            "https://i.ibb.co/7nZ1vS5/boss.webp",
+            "https://i.ibb.co/D1HMDV5/Exemple-Map-Last-Spark.png",
+            "https://i.ibb.co/353y9MF/inventaire.webp"
+        ],
+        "txtPhotos1": [
+            "The player begins their adventure near their <strong>campfire</strong>, the only source of light in this world where they will find their <strong>starting weapon</strong>. This weapon allows them to burn the souls of the <strong>lords</strong> after defeating them. The fire also enables them to <strong>craft new weapons</strong> and protect themselves from monsters during the dark nights.",
+            "During their exploration, the player may come across small <strong>sanctuaries</strong> where they can find <strong>new weapons</strong> or <strong>spells</strong>.",
+            "The <strong>lords of darkness</strong> are large creatures made of shadow who battle with enormous swords. They can be identified by the <strong>circle of skulls</strong> that surrounds them. Once defeated, the player can collect <strong>their soul</strong>, and if lucky, their sword.",
+            "An example of the extent of the game's map. Being <strong>randomly generated</strong>, the <strong>lords</strong> and <strong>sanctuaries</strong> can be found anywhere. Additionally, each time the player burns a soul, <strong>the map regenerates</strong>.",
+            "Inventory menu that also allows you to <strong>craft new weapons</strong>. Each item fits into a slot, and the player can hover their mouse over it to get more details."
+        ],
+        "images2": [
+            "https://i.ibb.co/SxDkn31/LS-Enemy.png",
+            "https://i.ibb.co/Y3ts91v/LS-Mini-Boss.png",
+            "https://i.ibb.co/k1W0t3Q/LS-Fleur.png",
+            "https://i.ibb.co/Wvzrq9q/LS-Boss.png",
+            "https://i.ibb.co/rk2zrp3/LS-Boss-Attack.png"
+        ],
+        "txtPhotos2": [
+            "The <strong>generic enemies</strong> in the game are round shapes with enormous mouths. They are always present in the game, especially in larger numbers at night, but they cannot approach the campfire or engage in battles against the <strong>lords</strong>. They attack in close combat and gather in groups to pursue the player.",
+            "The <strong>lords of darkness</strong> are the first bosses that the player must defeat to progress in the game. Once defeated, they give their <strong>soul</strong>, which allows the map to regenerate and find the next one. After collecting 3 <strong>souls</strong>, the grand boss arrives.",
+            "When the player has burned the 3rd <strong>soul</strong>, the next boss will be the last one. While exploring, the <strong>adventurer</strong> will come across a small flower with <strong>sharp teeth</strong>. When they approach it a bit, the <strong>final boss</strong> emerges from the ground for the battle.",
+            "The <strong>boss</strong> closely resembles the <strong>generic enemies</strong> to indicate that this entity is the source of corruption. With its large mouth, it <strong>bites</strong> the player and moves around floating.",
+            "In addition to <strong>biting</strong>, it can extend <strong>its arms</strong> and strike the ground, summoning <strong>tentacles</strong> at the player's position to deal damage."
         ],
         "cover": "https://i.ibb.co/yP4mz3P/lastspark-Cover.png",
         "roles": [
@@ -442,25 +444,13 @@
             "https://i.ibb.co/5rZbnBq/Secret-Area.png"
         ],
         "txtPhotos1": [
-            "Dunjon layout",
-            "Player's starting location.",
-            "Game area 1",
-            "Game area 2",
-            "Game area 3",
-            "Game area 4",
-            "Exemple of a secret area."
-        ],
-        "images2": [
-            "https://i.ibb.co/cyxCzCy/Menu.png",
-            "https://i.ibb.co/Ky6gN09/Instructions.png",
-            "https://i.ibb.co/cw2f2wk/Death-Screen.png",
-            "https://i.ibb.co/PmZM0Tw/End-Screen.png"
-        ],
-        "txtPhotos2": [
-            "Title screen.",
-            "How to play screen",
-            "Death screen, the player can quit the game or restart from the last checkpoint.",
-            "End game screen, gives the player the total of points he got and gives him the choice to quit the game or to replay it."
+            "<strong>Level map</strong> in Unity's editor. It is greatly inspired by the potential dungeon of Dead Cells and features multiple explorable sections, but <strong>only one exit.</strong>",
+            "Starting location for the player, they begin next to one of the statues that serve as a <strong>checkpoint</strong> when the player interacts with them.",
+            "During their exploration, the player will encounter different types of enemies, such as <strong>skeletons</strong>. They move from right to left and can strike the player with their sword.",
+            "The game is also a platformer and will encourage the player to jump from <strong>platform</strong> to <strong>platform</strong> to reach certain places.",
+            "Several traps are scattered in the environment and will inflict damage on the character if touched. Additionally, another type of enemy is represented by the <strong>archers</strong> who shoot arrows towards the player.",
+            "The player can also find <strong>treasure chests</strong> throughout the level. They contain gemstones and are visible thanks to their glow.",
+            "Some paths lead to <strong>dead ends</strong> in the dungeon, prompting the player to try another route. This is intended to create a <strong>maze-like effect</strong> in the game."
         ],
         "cover": "https://i.ibb.co/ypck3S5/nightwell.png",
         "roles": [
@@ -507,17 +497,17 @@
             "https://i.ibb.co/ZLC3Bqp/Crest-Curse.png"
         ],
         "txtPhotos1": [
-            "Box content",
-            "Top of the box",
-            "Sell sheet",
-            "Board",
-            "Turn order board (3 , 4 , 5 players)",
-            "Character cards",
-            "Event card examples",
-            "Game help",
-            "Character pawns",
-            "Game pawns",
-            "Curse and turn counter pawns"
+            "Complete content of the box: the game contains <strong>1 board</strong>, <strong>5 character cards</strong>, <strong>30 event cards</strong>, <strong>5 reference cards</strong>, <strong>127 tokens</strong>, and <strong>3 order boards</strong>.",
+            "Illustration on the top of the box representing the <strong>5 emotions</strong> of the baron.",
+            "Bottom of the box summarizing the <strong>basics of the game</strong> and the game's contents.",
+            "The game board is divided into <strong>10 brain zones</strong>, each having a different power and point value. At the top of the board, players can find the <strong>turn counter</strong>.",
+            "Different game boards (3, 4, 5 players) determine the <strong>turn order</strong>.",
+            "The different <strong>character cards</strong> are distributed at the beginning of the game to each player.",
+            "The <strong>event cards</strong> have a description at the top of the card and an effect for each emotion.",
+            "The <strong>reference cards</strong> explain the various symbols found in the game.",
+            "The <strong>tokens</strong> represent each emotion for turn order and scoring.",
+            "<strong>Smaller game tokens</strong> represent emotions on the board's zones.",
+            "<strong>Curse token</strong> and <strong>turn counter token</strong>."
         ],
         "images2": [
             "https://i.ibb.co/hVrwgY0/Contenu-Boite1.png",
@@ -531,15 +521,15 @@
             "https://i.ibb.co/3ftS137/Pions.png"
         ],
         "txtPhotos2": [
-            "Full content of the box",
-            "Game accessories",
-            "Game's box",
-            "Board",
-            "Character cards",
-            "Event cards",
-            "Game help card",
-            "Turn order board",
-            "Game pawns"
+            "Final version of the physical prototype of the game. The board is foldable and printed on a <strong>square</strong> panel, and the box is a <strong>recycled</strong> game box.",
+            "Final version of the game accessories. The cards are printed in the size of <strong>tarot cards</strong>, the tokens are glued to <strong>cardboard</strong>, and we used pieces from the <strong>Rysk</strong> game for the game tokens.",
+            "Physical version of the game box. We painted it in <strong>black</strong> and printed the images of the <strong>emotions</strong>.",
+            "Physical version of the <strong>game board</strong>.",
+            "Physical version of the <strong>character cards</strong>.",
+            "Physical version of the <strong>event cards</strong>. Despite their fairly large size, we noticed that the <strong>text</strong> could be more readable.",
+            "Physical version of the <strong>reference cards</strong>.",
+            "Physical version of the <strong>game boards</strong> attached to pieces of <strong>cardboard</strong>.",
+            "Physical version of the various <strong>game tokens</strong>."
         ],
         "cover": "https://i.ibb.co/0ZRcFzT/RM.png",
         "roles": [
@@ -584,30 +574,28 @@
             "https://i.ibb.co/tHtcR89/cover-back.png"
         ],
         "txtPhotos1": [
-            "Top of the box",
-            "Sell Sheet",
-            "Box content",
-            "Game cards and tiles",
-            "Pawns",
-            "Dices",
-            "Tile placement",
-            "Character cards",
-            "Crew cards",
-            "Top and bottom of the box"
+            "<strong>Game case</strong>, with a design heavily inspired by pulp science fiction style.",
+            "On the back of the box, you will find a brief description of the game, all relevant information such as the number of players, the duration of a game, etc., as well as a QR code for downloading the application.",
+            "Complete content of the box: the game includes <strong>16 room tiles</strong>, <strong>40 bridges</strong>, <strong>7 dice</strong>, <strong>5 pawns</strong>, <strong>9 cards</strong>, and <strong>50 break tokens</strong>.",
+            "The game includes two types of roles: <strong>impostor</strong> and <strong>crew</strong>, which change the players' objectives. The <strong>character cards</strong> indicate the color of the pawn that each player represents and also serve as a reminder card.",
+            "Each player is represented by <strong>a pawn</strong> of the color of their crew card, while the <strong>red tokens</strong> represent damage caused by the monster.",
+            "The three types of dice each have a different purpose. The <strong>16-sided die</strong> represents areas, the <strong>8-sided die</strong> represents bridge colors, and the <strong>6-sided dice</strong> determine the various actions that players can take on their turn.",
+            "The game offers different tile arrangements to provide a high level of <strong>replayability</strong>.",
+            "<strong>Character cards</strong> also serve as a game guide and explain the various possible actions.",
+            "<strong>Role cards</strong> are distributed at the beginning of the game, but no one knows in advance if a traitor is part of the crew.",
+            "The <strong>top</strong> and <strong>bottom</strong> of the game box."
         ],
         "images2": [
             "https://i.ibb.co/YjxBQVB/exemple-Game2.jpg",
-            "https://i.ibb.co/GH3tsqZ/exemple-Game.jpg",
             "https://i.ibb.co/6tjFWTk/app.jpg",
             "https://i.ibb.co/8cfCVNK/app-Screen1.png",
             "https://i.ibb.co/DWgtmJF/app-Screen2.png"
         ],
         "txtPhotos2": [
-            "Game example",
-            "Game example",
-            "Game App",
-            "App home page , instructions & starting zone",
-            "App endscreen"
+            "Example of a typical game with the <strong>basic game layout</strong>.",
+            "The <strong>application</strong> that allows you to play the game during a typical game.",
+            "The <strong>main screen of the application</strong> allows you to start a game and provides information about it before starting.",
+            "At the end of a game, players have the option to <strong>restart</strong> the game and receive a different end message depending on their success."
         ],
         "cover": "https://i.ibb.co/Tc0rzdd/repair-Ndespair.png",
         "roles": [

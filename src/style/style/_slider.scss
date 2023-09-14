@@ -95,12 +95,6 @@
         }
 
         .hooper-pagination {
-            width: 100%;
-            transform: translateX(0px);
-            justify-content: center;
-            bottom: -25px;
-            position: inherit;
-
             @include breakpoint(mobile) {
                 width: 100%;
                 transform: translatex(50%);
