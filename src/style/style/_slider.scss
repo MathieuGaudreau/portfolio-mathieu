@@ -1,28 +1,22 @@
 .sliders {
-    width: 65%;
+    width: 100%;
+    display: contents;
 
-    @include breakpoint(tablet) {
-        width: 100%;
-    }
-    @include breakpoint(mobile) {
-        width: 100%;
-    }
+    .onlyOneSlider {
+        flex-flow: column !important;
 
-    .onlyOneSlider{
-        flex-flow: column !important; 
-
-        img{
+        img {
             max-width: 100% !important;
             max-height: 100% !important;
         }
 
-        .detailImg{
+        .detailImg {
             width: 100% !important;
             margin-left: 0 !important;
             margin-top: 10px;
 
-            p{
-            margin-top: 5px !important;    
+            p {
+                margin-top: 5px !important;
             }
         }
     }
@@ -30,6 +24,16 @@
     .hooper {
         height: 100%;
         display: flex;
+        width: 65%;
+
+        @include breakpoint(tablet) {
+            width: 100%;
+        }
+
+        @include breakpoint(mobile) {
+            width: 100%;
+            flex-flow: column;
+        }
 
         .hooper-slide {
             display: flex;
@@ -38,6 +42,7 @@
             @include breakpoint(tablet) {
                 width: 100%;
             }
+
             @include breakpoint(mobile) {
                 width: 100%;
                 flex-flow: column;
@@ -51,6 +56,7 @@
                 @include breakpoint(tablet) {
                     max-height: max-content;
                 }
+
                 @include breakpoint(mobile) {
                     max-width: 100%;
                     max-height: max-content;
@@ -72,6 +78,7 @@
                     width: 100%;
                     margin-left: 0;
                 }
+
                 h3 {
                     margin: 0;
                     font-family: $rightous;
@@ -83,24 +90,27 @@
                         font-size: 1.2em;
                     }
                 }
+
                 p {
                     margin-top: 0.1em;
                     font-family: $nunito;
                     font-size: 1.2em;
+
                     @include breakpoint(mobile) {
                         font-size: 1em;
                     }
                 }
             }
         }
-        .hooper-list{
+
+        .hooper-list {
             margin-bottom: 1em;
         }
     }
 
     .hooper1Container {
 
-        .oneSlider{
+        .oneSlider {
             transform: translateX(50%) !important;
         }
 
@@ -110,6 +120,7 @@
                 width: 100%;
                 overflow: auto;
             }
+
             .hooper-indicator {
                 height: 12px;
                 width: 12px;
@@ -120,13 +131,14 @@
                     background: $highlight2;
                 }
             }
+
             .is-active {
                 background: $highlight2;
             }
         }
     }
 }
-
-.btn__prev{
-    color: red;
+.vel-icon{
+    color: $highlight2;
+    font-size: 1.5em;
 }

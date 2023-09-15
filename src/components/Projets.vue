@@ -95,7 +95,7 @@
           <hooper-pagination :class="{ oneSlider: !images2 }" slot="hooper-addons"></hooper-pagination>
         </hooper>
 
-        <vue-easy-lightbox :visible="visible" :imgs="images1" :index="index" @hide="handleHide"></vue-easy-lightbox>
+        <vue-easy-lightbox class="lightBox" rotatedisabled=true loop=true :visible="visible" :imgs="images1" :index="index" @hide="handleHide"></vue-easy-lightbox>
 
       </section>
 
