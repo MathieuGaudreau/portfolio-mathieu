@@ -214,23 +214,7 @@
             "https://i.ibb.co/nmmwXjh/SS-Meeting-Room.png",
             "https://i.ibb.co/ZcN74tr/SS-Lab.png",
             "https://i.ibb.co/wds3jKN/SS-Generator.png",
-            "https://i.ibb.co/P6FjRv0/SS-Fire-Fight2.png"
-        ],
-        "txtPhotos1": [
-            "Starting room where the player begins their boarding of the ship",
-            "Cafeteria found on the ship",
-            "Storage room found on the ship",
-            "Greenhouse found on the ship",
-            "Administrative offices of the ship",
-            "Meeting room of the ship",
-            "Laboratory of the ship",
-            "Generator of the ship",
-            "Example of enemies found on the ship"
-        ],
-        "images2": [
-            "https://i.ibb.co/HVL09wr/Vaisseau-1.png",
-            "https://i.ibb.co/5hPcZd0/Vaisseau-2.png",
-            "https://i.ibb.co/WV0XJ3c/Vaisseau-3.png",
+            "https://i.ibb.co/4ST29JG/SS-Ennemy.png",
             "https://i.ibb.co/HxKFV5h/SS-Menu.png",
             "https://i.ibb.co/jbKQMBH/SS-Controls.png",
             "https://i.ibb.co/T2P9RJb/SS-Gun-Desc.png",
@@ -238,22 +222,58 @@
             "https://i.ibb.co/pZnZ7Yy/SS-Floating-UI.png",
             "https://i.ibb.co/J7HzNkZ/SS-Final-Room.png"
         ],
+        "txtPhotos1": [
+            "<b>Game start room</b>: The player always begins their journey in the <b>ship's engine room</b>. Here, they can see the <b>help panels</b> that indicate the <b>game controls</b>. Additionally, they can obtain their <b>starting weapon</b>, visible thanks to its <b>luminous outline</b>.",
+            "One of the rooms that can be found in the <b>spaceship</b> is the <b>cafeteria</b>. Although it is quite spacious, it provides little <b>cover</b> for the player. However, they can discover <b>new weapons</b> here.",
+            "Another possible room is the <b>storage room</b>. It is rather narrow, but the <b>shelves</b> make it easier to protect oneself from <b>enemy fire</b>. In this room, the player can find a <b>new weapon</b> and <b>healing items</b>.",
+            "The <b>greenhouse</b> can also be a part of the <b>spaceship</b>. Inside, the player has several <b>cover options</b> and can even <b>move to an upper level</b>.",
+            "The <b>office rooms</b> are another possibility. They are rather narrow due to the multiple <b>workstations</b>, but the player can easily <b>take cover</b> and find <b>new weapons</b>.",
+            "The <b>meeting rooms</b> are dangerous spaces that offer little <b>cover</b> and even <b>give enemies the advantage of height</b> due to <b>two elevated platforms</b>.",
+            "The <b>laboratory</b> is a rather dark room, making it difficult to see the positions of enemies. In this room, the player can <b>heal themselves with a health pack</b>.",
+            "When the player is in the <b>generator room</b>, they must be careful not to <b>fall into the void</b>. This makes combat a bit more dangerous because they need to watch where they step while fighting enemies.",
+            "Different types of <b>enemies</b> are found in the <b>spaceships</b>. The player can battle <b>humans, robots, or lizard-like aliens</b>!",
+            "<b>Main menu of the game</b>: The player sees their <b>character on the ship</b>, ready to <b>board another vessel</b>. Menu elements <b>float</b> in the <b>environment</b>.",
+            "The main menu also includes a section to learn the <b>controls</b> and adjust various options such as <b>sound and mouse sensitivity</b>.",
+            "In the game, when the player presses the <b>inspection key</b>, they can view information about the <b>weapon they are holding</b>, such as <b>rate of fire, damage, and available ammunition</b>. The <b>camera changes to over-the-shoulder view</b>, and the <b>menu appears in front of the character</b>. We drew a lot of inspiration from the <b>UI of Dead Space</b> for our game.",
+            "When the player comes across a <b>new weapon</b>, a <b>menu appears above the weapon</b> to show the <b>differences between the two</b>.",
+            "As the player approaches a <b>new weapon</b>, the <b>statistics of the weapon</b> appear above it to help the player decide what to use.",
+            "When the player reaches the <b>final room</b> and is ready to finish their adventure, a <b>floating menu appears in front of them</b>."
+        ],
+        "images2": [
+            "https://i.ibb.co/HVL09wr/Vaisseau-1.png",
+            "https://i.ibb.co/5hPcZd0/Vaisseau-2.png",
+            "https://i.ibb.co/WV0XJ3c/Vaisseau-3.png",
+            "https://i.ibb.co/G0dvVgP/SS-Spawn-Layout.png",
+            "https://i.ibb.co/wNJhj7C/SS-Caf-Layout.png",
+            "https://i.ibb.co/Gv00MFc/SS-Gen-Layout.png",
+            "https://i.ibb.co/wd8zLVz/SS-Lab-Layout.png",
+            "https://i.ibb.co/Yj1PcJ9/SS-Meeting-Layout.png",
+            "https://i.ibb.co/nMd8Rxx/SS-Office-Layout.png",
+            "https://i.ibb.co/mRNdNKX/SS-Stock-Room-Layout.png",
+            "https://i.ibb.co/WtpB4Yv/SS-Serre-Layout.png",
+            "https://i.ibb.co/Bsyhm7S/SS-Command-Layout.png"
+        ],
         "txtPhotos2": [
-            "Example of a ship layout",
-            "Example of a ship layout",
-            "Example of a ship layout",
-            "Main menu of the game.",
-            "Game controls screen",
-            "UI description of weapons",
-            "UI comparison of equipped weapon and one found",
-            "Floating UI for description of a found weapon",
-            "End game UI"
+            "<b>Possible example of spaceship generation</b>: The generator is based on a 5 x 5 grid and can generate dungeons that are both very long and very short. Additionally, I have created several options and parameters, such as a minimum and maximum number of rooms, to avoid making the game too long.",
+            "The player always starts in the same place, the room located in the lower-left corner. The system then creates a path and generates the different rooms.",
+            "The player also always ends up in the same room, the <b>ship's control room</b>. In the various generation parameters, I added an option to make certain rooms mandatory or not, as well as the maximum number of times they can appear in the ship.",
+            "All rooms have <b>4 possible doors</b> and must be square to work in the system. This means that paths can go in any direction.",
+            "<b>Cafeteria layout</b>.",
+            "<b>Generator room layout</b>.",
+            "<b>Laboratory layout</b>.",
+            "<b>Meeting room layout</b>.",
+            "<b>Office room layout</b>.",
+            "<b>Storage room layout</b>.",
+            "<b>Greenhouse layout</b>.",
+            "<b>Control room layout</b>."
         ],
         "cover": "https://i.ibb.co/9sFqxLr/space-Scoundrel-Cover.png",
         "roles": [
-            "Designer de systèmes",
-            "Programmeur"
+            "Designer",
+            "System designer",
+            "Programmer"
         ],
+        "LienProjet": "https://mathieugaudreau.itch.io/space-scoundrel",
         "technos": [
             "Unity",
             "C#"
@@ -342,7 +362,8 @@
         "technos": [
             "Aseprite",
             "Unity"
-        ]
+        ],
+        "LienProjet": "https://axistedaxe.itch.io/petit-heros"
     },
     {
         "id": "LASTSPARK",

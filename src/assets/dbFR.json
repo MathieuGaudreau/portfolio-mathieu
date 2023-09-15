@@ -106,7 +106,7 @@
         ],
         "cover": "https://i.ibb.co/dfn9CQm/Raiders-Cover.png",
         "roles": [
-            "Designer de niveau"
+            "Designer de niveaux"
         ],
         "technos": [
             "Unreal 5",
@@ -214,23 +214,7 @@
             "https://i.ibb.co/nmmwXjh/SS-Meeting-Room.png",
             "https://i.ibb.co/ZcN74tr/SS-Lab.png",
             "https://i.ibb.co/wds3jKN/SS-Generator.png",
-            "https://i.ibb.co/P6FjRv0/SS-Fire-Fight2.png"
-        ],
-        "txtPhotos1": [
-            "Salle de départ ou le joueur commence son abordage du vaisseau",
-            "Cafétéria retrouvée dans le vaisseau",
-            "Salle de rangement retrouvée dans le vaisseau",
-            "Serre retrouvée dans le vaisseau",
-            "Bureaux administratifs du vaisseau",
-            "Salle de réunion du vaisseau",
-            "Laboratoire du vaisseau",
-            "Génératrice du vaisseau",
-            "Exemple d'ennemis retrouvé dans le vaisseau"
-        ],
-        "images2": [
-            "https://i.ibb.co/HVL09wr/Vaisseau-1.png",
-            "https://i.ibb.co/5hPcZd0/Vaisseau-2.png",
-            "https://i.ibb.co/WV0XJ3c/Vaisseau-3.png",
+            "https://i.ibb.co/4ST29JG/SS-Ennemy.png",
             "https://i.ibb.co/HxKFV5h/SS-Menu.png",
             "https://i.ibb.co/jbKQMBH/SS-Controls.png",
             "https://i.ibb.co/T2P9RJb/SS-Gun-Desc.png",
@@ -238,26 +222,62 @@
             "https://i.ibb.co/pZnZ7Yy/SS-Floating-UI.png",
             "https://i.ibb.co/J7HzNkZ/SS-Final-Room.png"
         ],
+        "txtPhotos1": [
+            "<b>Salle de départ du jeu</b> : Le joueur commence toujours son aventure dans la <b>salle des machines du vaisseau</b>. À cet endroit, il peut apercevoir les <b>panneaux d'aide</b> qui indiquent les <b>contrôles du jeu</b>. De plus, il peut obtenir son <b>arme de départ</b>, visible grâce à son <b>contour lumineux</b>.",
+            "Une des salles que l'on peut trouver dans le <b>vaisseau</b> est la <b>cafétéria</b>. Bien qu'elle soit assez spacieuse, elle offre peu de <b>couvert</b> pour le joueur. Cependant, il peut y découvrir de <b>nouvelles armes</b>.",
+            "Une autre salle possible est la <b>salle de rangement</b>. Plutôt étroite, les <b>étagères</b> permettent de se protéger plus facilement des <b>tirs ennemis</b>. Dans cette salle, le joueur peut trouver une <b>nouvelle arme</b> et des <b>soins</b>.",
+            "La <b>serre</b> peut également faire partie du <b>vaisseau</b>. À l'intérieur, le joueur dispose de plusieurs options de <b>couverture</b> et même la possibilité de <b>monter à l'étage supérieur</b>.",
+            "Les <b>salles de bureaux</b> sont une autre option. Elles sont plutôt étroites en raison des multiples <b>postes de travail</b>, mais le joueur peut s'y cacher facilement et y trouver de <b>nouvelles armes</b>.",
+            "Les <b>salles de réunion</b> sont des espaces dangereux qui offrent peu de <b>couverture</b> et donnent même l'avantage de la <b>hauteur</b> aux ennemis grâce à <b>deux plateformes élevées</b>.",
+            "Le <b>laboratoire</b> est une salle assez sombre, ce qui rend la position des ennemis plus difficile à repérer. Dans cette salle, le joueur peut <b>se soigner</b> grâce à un <b>pack de soins</b>.",
+            "Lorsque le joueur se trouve dans la <b>salle de la génératrice</b>, il doit faire attention à ne pas <b>tomber dans le vide</b>. Cela rend le combat plus dangereux car il faut <b>surveiller où l'on met les pieds</b> tout en combattant les ennemis.",
+            "Différents types d'<b>ennemis</b> sont présents dans les <b>vaisseaux</b>. Le joueur peut affronter des <b>humains</b>, des <b>robots</b> ou même des <b>aliens lézards</b> !",
+            "<b>Menu principal du jeu</b> : Le joueur voit son <b>personnage à bord de son vaisseau</b>, prêt à <b>aborder un autre vaisseau</b>. Les éléments du menu flottent dans l'<b>environnement</b>.",
+            "Le <b>menu principal</b> comprend également une section pour apprendre les <b>contrôles</b> et ajuster différentes options telles que le <b>son</b> et la <b>sensibilité de la souris</b>.",
+            "Dans le jeu, lorsque le joueur appuie sur la <b>touche d'inspection</b>, il peut consulter des informations sur l'<b>arme qu'il détient</b>, telles que la <b>vitesse de tir</b>, les <b>dégâts</b> et le <b>nombre de balles disponibles</b>. La <b>caméra change en vue par-dessus l'épaule</b> et le <b>menu apparaît devant le personnage</b>. Nous nous sommes fortement inspirés de l'<b>interface utilisateur de Dead Space</b> pour celle de notre jeu.",
+            "Lorsque le joueur trouve une <b>nouvelle arme</b>, un <b>menu apparaît au-dessus de l'arme</b> pour montrer les <b>différences par rapport à celle actuelle</b>.",
+            "En s'approchant d'une <b>nouvelle arme</b>, les <b>statistiques de celle-ci apparaissent au-dessus</b> pour aider le joueur à décider quoi utiliser.",
+            "Lorsque le joueur atteint la <b>salle finale</b> et est prêt à conclure son aventure, un <b>menu flottant s'affiche devant lui</b>."
+        ],
+        "images2": [
+            "https://i.ibb.co/HVL09wr/Vaisseau-1.png",
+            "https://i.ibb.co/5hPcZd0/Vaisseau-2.png",
+            "https://i.ibb.co/WV0XJ3c/Vaisseau-3.png",
+            "https://i.ibb.co/G0dvVgP/SS-Spawn-Layout.png",
+            "https://i.ibb.co/wNJhj7C/SS-Caf-Layout.png",
+            "https://i.ibb.co/Gv00MFc/SS-Gen-Layout.png",
+            "https://i.ibb.co/wd8zLVz/SS-Lab-Layout.png",
+            "https://i.ibb.co/Yj1PcJ9/SS-Meeting-Layout.png",
+            "https://i.ibb.co/nMd8Rxx/SS-Office-Layout.png",
+            "https://i.ibb.co/mRNdNKX/SS-Stock-Room-Layout.png",
+            "https://i.ibb.co/WtpB4Yv/SS-Serre-Layout.png",
+            "https://i.ibb.co/Bsyhm7S/SS-Command-Layout.png"
+        ],
         "txtPhotos2": [
-            "Exemple de carte de vaisseau",
-            "Exemple de carte de vaisseau",
-            "Exemple de carte de vaisseau",
-            "Menu principal du jeu.",
-            "Écran des contrôles du jeu",
-            "UI description des armes",
-            "UI comparaison de l'arme équipée et celle trouvée",
-            "UI flottant de description d'une arme trouvée",
-            "UI de fin du jeu"
+            "<b>Exemple possible de génération d'un vaisseau</b> : Le générateur se base sur une grille de 5 x 5 et peut donc générer des donjons aussi bien très longs que très courts. De plus, j'ai créé plusieurs options et paramètres, tels qu'un nombre minimal et maximal de pièces, pour éviter de rendre le jeu trop long.",
+            "Le joueur commence toujours au même endroit, la salle située dans le coin bas gauche. Le système crée ensuite un chemin et génère les différentes salles.",
+            "Le joueur finit également toujours dans la même salle, celle des <b>commandes du vaisseau</b>. Dans les différents paramètres de génération, j'ai ajouté une option pour rendre certaines salles obligatoires ou non, ainsi que le nombre maximal de fois qu'elles peuvent apparaître dans le vaisseau.",
+            "Toutes les salles ont <b>4 portes possibles</b> et doivent être carrées pour fonctionner dans le système. Cela signifie que les chemins peuvent aller dans n'importe quelle direction.",
+            "<b>Disposition de la cafétéria</b>.",
+            "<b>Disposition de la salle du générateur</b>.",
+            "<b>Disposition du laboratoire</b>.",
+            "<b>Disposition de la salle de réunion</b>.",
+            "<b>Disposition de la salle de bureaux</b>.",
+            "<b>Disposition de la salle de rangement</b>.",
+            "<b>Disposition de la serre</b>.",
+            "<b>Disposition de la salle de contrôle</b>."
         ],
         "cover": "https://i.ibb.co/9sFqxLr/space-Scoundrel-Cover.png",
         "roles": [
+            "Designer",
             "Designer de systèmes",
             "Programmeur"
         ],
         "technos": [
             "Unity",
             "C#"
-        ]
+        ],
+        "LienProjet": "https://mathieugaudreau.itch.io/space-scoundrel"
     },
     {
         "id": "PH",
@@ -342,7 +362,8 @@
         "technos": [
             "Aseprite",
             "Unity"
-        ]
+        ],
+        "LienProjet": "https://axistedaxe.itch.io/petit-heros"
     },
     {
         "id": "LASTSPARK",
