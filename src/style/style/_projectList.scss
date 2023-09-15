@@ -165,7 +165,7 @@ main {
                 }
 
                 @include breakpoint(mobile) {
-                    font-size: 2em;
+                    font-size: 1.5em;
                 }
             }
 
@@ -187,6 +187,7 @@ main {
             }
 
             @include breakpoint(mobile) {
+                margin-top: 1em;
                 width: 100%;
                 flex-flow: column;
                 align-items: center;
@@ -200,6 +201,7 @@ main {
 
                 @include breakpoint(mobile) {
                     width: 100%;
+                    font-size: 1em;
                 }
             }
 
@@ -462,10 +464,6 @@ main {
                 @include breakpoint(tablet) {
                     font-size: 2em;
                 }
-
-                @include breakpoint(mobile) {
-                    font-size: 2em;
-                }
             }
 
             h4 {
@@ -482,6 +480,14 @@ main {
                 width: 100%;
                 font-size: 1.2em;
                 margin: 1rem 0 1rem 0;
+
+                @include breakpoint(mobile) {
+                    font-size: 1em;
+                }
+            }
+
+            @include breakpoint(mobile) {
+                width: 100%;
             }
         }
     }
