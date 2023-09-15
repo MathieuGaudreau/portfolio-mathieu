@@ -79,7 +79,7 @@
       <div v-if="images1" class="divider"></div>
 
       <section v-if="images1" class="sliders" data-aos="fade-right">
-        <hooper class="hooper1Container" >
+        <hooper class="hooper1Container">
           <slide :class="{ onlyOneSlider: !images2 }" v-for="(image, index) in images1" :key="index">
             <img :src="images1[index]" v-if="lang === 'fr'" title="Cliquez pour agrandir l'image" alt=""
               @click="() => showImg(index)" />
@@ -95,7 +95,8 @@
           <hooper-pagination :class="{ oneSlider: !images2 }" slot="hooper-addons"></hooper-pagination>
         </hooper>
 
-        <vue-easy-lightbox class="lightBox" rotatedisabled=true loop=true :visible="visible" :imgs="images1" :index="index" @hide="handleHide"></vue-easy-lightbox>
+        <vue-easy-lightbox class="lightBox" rotatedisabled=true loop=true :visible="visible" :imgs="images1"
+          :index="index" @hide="handleHide"></vue-easy-lightbox>
 
       </section>
 
@@ -114,7 +115,7 @@
 
       <section v-if="images2" class="sliders" data-aos="fade-left">
 
-        <hooper class="hooper1Container" v-if="images2" >
+        <hooper class="hooper1Container" v-if="images2">
           <slide v-for="(image, index) in images2" :key="index">
             <img :src="images2[index]" v-if="lang === 'fr'" title="Cliquez pour agrandir l'image" alt=""
               @click="() => showImg2(index)" />
@@ -211,7 +212,7 @@
 import { Hooper, Slide, Pagination as HooperPagination } from "hooper";
 import "hooper/dist/hooper.css";
 import VueEasyLightbox from "vue-easy-lightbox";
-import {AOSRefresh} from "../main";
+import { AOSRefresh } from "../main";
 // import pdf from 'vue-pdf';
 export default {
   components: { Hooper, Slide, HooperPagination, VueEasyLightbox },

@@ -423,6 +423,14 @@ main {
             align-items: center;
             flex-flow: column;
 
+            @include breakpoint(tablet) {
+                display: none;
+            }
+
+            @include breakpoint(mobile) {
+                display: none;
+            }
+
             iframe {
                 border-radius: 10px;
                 width: 65%;
@@ -487,6 +495,9 @@ main {
             }
 
             @include breakpoint(mobile) {
+                width: 100%;
+            }
+            @include breakpoint(tablet) {
                 width: 100%;
             }
         }
