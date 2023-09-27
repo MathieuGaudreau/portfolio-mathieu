@@ -14,7 +14,7 @@
               <a v-if="this.lang === 'en'" :class="!QuiSuisJeVisible ? 'active' : 'notActive'" @click="retourProjets"
                 title="Voir la page projet !">Projects</a>
             </li>
-            <!-- <li>
+            <li>
               <a
                 v-if="this.lang === 'fr'"
                 :class="QuiSuisJeVisible ? 'active' : 'notActive'"
@@ -30,10 +30,10 @@
                 title="Voir la page Qui Suis-Je !"
                 >Who am I</a
               >
-            </li> -->
-            <li>
-              <a @click="scrollBottom" title="Voir la section contact !">Contact</a>
             </li>
+            <!-- <li>
+              <a @click="scrollBottom" title="Voir la section contact !">Contact</a>
+            </li> -->
 
             <!-- Bouton Lang Switch -->
             <li class="lang">

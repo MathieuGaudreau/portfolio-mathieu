@@ -251,6 +251,7 @@ main {
                             }
                         }
                     }
+
                 }
             }
         }
@@ -319,10 +320,9 @@ main {
                 }
 
                 i {
-                    margin-left: 10px;
                     position: relative;
                     display: inline-block;
-                    font-size: 1em;
+                    font-size: 1.5em;
                     font-weight: 800;
                     color: $colorTxt;
                     overflow: hidden;
@@ -497,6 +497,7 @@ main {
             @include breakpoint(mobile) {
                 width: 100%;
             }
+
             @include breakpoint(tablet) {
                 width: 100%;
             }

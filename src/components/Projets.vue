@@ -43,6 +43,20 @@
               </li>
             </ul>
           </div>
+          <div class="rolesLogi liensProjets" data-aos="fade-right">
+
+            <h4 v-if="lang === 'fr'">Voir le projet :</h4>
+            <h4 v-if="lang === 'en'">Project link :</h4>
+            <ul>
+              <li>
+                <a :href="LienProjet" target="_blank" v-if="lang === 'fr'"><i
+                    class="fas fa-external-link-square-alt"></i></a>
+
+                <a :href="LienProjet" target="_blank" v-if="lang === 'en'"><i
+                    class="fas fa-external-link-square-alt"></i></a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="txtDescription" data-aos="fade-left">
           <h4 v-if="lang === 'fr'">Le projet</h4>
@@ -95,8 +109,8 @@
           <hooper-pagination :class="{ oneSlider: !images2 }" slot="hooper-addons"></hooper-pagination>
         </hooper>
 
-        <vue-easy-lightbox class="lightBox" rotatedisabled=true loop=true :visible="visible" :imgs="images1"
-          :index="index" @hide="handleHide"></vue-easy-lightbox>
+        <vue-easy-lightbox class="lightBox" rotatedisabled=true :visible="visible" :imgs="images1" :index="index"
+          @hide="handleHide"></vue-easy-lightbox>
 
       </section>
 
@@ -174,24 +188,6 @@
           </iframe>
         </div>
 
-      </section>
-
-      <div v-if="LienProjet" class="divider"></div>
-
-      <section v-if="LienProjet" class="liensProjets">
-        <h2>
-          <a :href="LienProjet" target="_blank" v-if="lang === 'fr'">Voir le projet<i
-              class="fas fa-external-link-square-alt"></i></a>
-
-          <a :href="LienProjet" target="_blank" v-if="lang === 'en'">See the project<i
-              class="fas fa-external-link-square-alt"></i></a>
-        </h2>
-
-        <h2 v-if="GH">
-          <a :href="GH" target="_blank" v-if="lang === 'fr'">Voir le GitHub<i class="fab fa-github-square"></i></a>
-
-          <a :href="GH" target="_blank" v-if="lang === 'en'">See the GitHub<i class="fab fa-github-square"></i></a>
-        </h2>
       </section>
 
       <section class="retourProjets" @click="closeDetails">
