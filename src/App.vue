@@ -73,7 +73,7 @@
               " title="Voir la page projet !">
                 Projects</a>
             </li>
-            <!-- <li>
+            <li>
               <a
                 v-if="this.lang === 'fr'"
                 :class="QuiSuisJeVisible ? 'active' : 'notActive'"
@@ -95,7 +95,7 @@
                 title="Voir la page Qui Suis-Je !"
                 >Who am I</a
               >
-            </li> -->
+            </li>
 
             <li class="lang">
               <a class="active" v-if="lang === 'fr'" @click="switchLang">En</a>
