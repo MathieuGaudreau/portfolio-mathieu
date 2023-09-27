@@ -43,7 +43,7 @@
               </li>
             </ul>
           </div>
-          <div class="rolesLogi liensProjets" data-aos="fade-right">
+          <div v-if="LienProjet" class="rolesLogi liensProjets" data-aos="fade-right">
 
             <h4 v-if="lang === 'fr'">Voir le projet :</h4>
             <h4 v-if="lang === 'en'">Project link :</h4>
