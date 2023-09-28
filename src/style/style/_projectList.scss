@@ -502,5 +502,78 @@ main {
                 width: 100%;
             }
         }
+
+        .collab {
+            width: 65%;
+            margin-top: 1em;
+            ul {
+                margin: 0;
+                list-style-type: none;
+                font-family: $nunito;
+                font-size: 1.2em;
+                padding: 0;
+                width: 100%;
+
+                @include breakpoint(tablet) {
+                    width: 50%;
+                }
+
+                li {
+                    margin-top: 0.5em;
+                    @include breakpoint(mobile) {
+                        text-align: right;
+                        width: 100%;
+                    }
+                }
+            }
+
+            a {
+                position: relative;
+                display: flex;
+                align-items: center;
+                font-size: 1em;
+                font-weight: 800;
+                color: $colorTxt;
+                overflow: hidden;
+                background: linear-gradient(to right, $highlight2, $highlight2 50%, $highlight1 50%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-size: 200% 100%;
+                background-position: 100%;
+                transition: background-position 275ms ease;
+                text-decoration: none; // text decorations are clipped in WebKit browsers
+
+                &:hover {
+                    color: $highlight1;
+                    background-position: 0 100%;
+                    cursor: pointer;
+
+                    i {
+                        color: $highlight1;
+                        animation: animLiens 0.5s ease infinite alternate-reverse;
+                        background-position: 0 100%;
+                    }
+                }
+
+                i {
+                    margin-left: 0.5em;
+                    position: relative;
+                    display: inline-block;
+                    font-size: 1.5em;
+                    font-weight: 800;
+                    color: $colorTxt;
+                    overflow: hidden;
+                    background: linear-gradient(to right, $highlight2, $highlight2 50%, $highlight1 50%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-size: 200% 100%;
+                    background-position: 100%;
+                    transition: background-position 275ms ease;
+                    text-decoration: none; // text decorations are clipped in WebKit browsers
+                }
+            }
+        }
     }
 }

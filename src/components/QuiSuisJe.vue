@@ -78,8 +78,7 @@
                 class="fas fa-envelope-square"></i></a>
           </li>
           <li>
-            <a href="callto:4383969659" target="_blank" title="Telephone">438-396-9659<i
-                class="fa-duotone fa-square-phone"></i></a>
+            <a href="tel:4383969659" target="_blank" title="Telephone">438-396-9659<i class="ph-fill ph-phone"></i></a>
           </li>
         </ul>
 

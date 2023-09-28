@@ -190,6 +190,28 @@
 
       </section>
 
+      <div v-if="collab" class="divider"></div>
+
+      <section class="collab" v-if="collab">
+
+        <section class="nomCat" data-aos="fade-right">
+          <h1 v-if="lang === 'fr'">En collaboration avec :</h1>
+          <h1 v-if="lang === 'en'">In collaboration with :</h1>
+
+          <ul>
+            <li v-for="(collabs, index) in collab" :key="index">
+              <a :href="collabLiens[index]" target="_blank">
+                {{ collab[index] }}
+                <i class="fas fa-external-link-square-alt"></i>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+      </section>
+
+
+
       <section class="retourProjets" @click="closeDetails">
         <h1 v-if="lang === 'fr'">
           <i class="fas fa-arrow-circle-left"></i>Retour à la liste des projets
@@ -295,6 +317,16 @@ export default {
     },
     GH: {
       type: String,
+      required: false,
+    },
+
+    collab: {
+      type: Array,
+      required: false,
+    },
+
+    collabLiens: {
+      type: Array,
       required: false,
     },
 

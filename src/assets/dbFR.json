@@ -112,7 +112,13 @@
             "Unreal 5",
             "Miro"
         ],
-        "LienProjet": "https://mathieugaudreau.itch.io/raiders"
+        "LienProjet": "https://mathieugaudreau.itch.io/raiders",
+        "collab": [
+            "Justin Marques"
+        ],
+        "collabLiens": [
+            "https://justinmarques.myportfolio.com/"
+        ]
     },
     {
         "id": "SLAUGH",
@@ -277,7 +283,13 @@
             "Unity",
             "C#"
         ],
-        "LienProjet": "https://mathieugaudreau.itch.io/space-scoundrel"
+        "LienProjet": "https://mathieugaudreau.itch.io/space-scoundrel",
+        "collab": [
+            "Justin Marques"
+        ],
+        "collabLiens": [
+            "https://justinmarques.myportfolio.com/"
+        ]
     },
     {
         "id": "PH",
@@ -363,7 +375,17 @@
             "Aseprite",
             "Unity"
         ],
-        "LienProjet": "https://axistedaxe.itch.io/petit-heros"
+        "LienProjet": "https://axistedaxe.itch.io/petit-heros",
+        "collab": [
+            "Jérémy Bolduc",
+            "Christian Forget",
+            "Justin Marques"
+        ],
+        "collabLiens": [
+            "https://boldje1work.wixsite.com/portfolio",
+            "https://christianforgetmultimedia.com/",
+            "https://justinmarques.myportfolio.com/"
+        ]
     },
     {
         "id": "LASTSPARK",
@@ -431,6 +453,14 @@
             "Unity",
             "C#",
             "Photoshop"
+        ],
+        "collab": [
+            "Justin Marques",
+            "Jean-Philippe Filiatrault"
+        ],
+        "collabLiens": [
+            "https://justinmarques.myportfolio.com/",
+            "https://www.behance.net/jean-phfiliatr"
         ]
     },
     {
@@ -560,6 +590,16 @@
         ],
         "canva": [
             "https://drive.google.com/file/d/1LOndUHi0UJ2lmWc_KCTaCrrw-GTVFoWw/preview"
+        ],
+        "collab": [
+            "Roman Cros",
+            "Justin Marques",
+            "Julien Plamondon"
+        ],
+        "collabLiens": [
+            "https://romancros.wixsite.com/portfolio-uqat",
+            "https://justinmarques.myportfolio.com/",
+            "https://jplam117.artstation.com/projects"
         ]
     },
     {
@@ -627,6 +667,16 @@
         ],
         "canva": [
             "https://drive.google.com/file/d/1srl9wsagx6Sn8OWyMaRtMf1Io8M4ul2L/preview"
+        ],
+        "collab": [
+            "Roman Cros",
+            "Justin Marques",
+            "Julien Plamondon"
+        ],
+        "collabLiens": [
+            "https://romancros.wixsite.com/portfolio-uqat",
+            "https://justinmarques.myportfolio.com/",
+            "https://jplam117.artstation.com/projects"
         ]
     },
     {
