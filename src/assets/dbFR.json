@@ -1,5 +1,129 @@
 [
     {
+        "id": "FIO",
+        "name": "Fioritura",
+        "type": "jeu",
+        "date": "2023",
+        "descriptionProjet": "Basé sur l'univers imaginé par Daniel Friedman et CROM, Raiders vous propose d'incarner Marken, un vétéran du raid, sillonnant villes et donjons à la recherche de trésors et d'aventures dangereuses ! Raiders est un <b>prototype de jeu RPG d'action-aventure</b> qui marie habilement les éléments du <b>dungeon crawling et du Hack 'n' Slash</b>. Dans ce jeu, le joueur explore un monde médiéval fantastique, peuplé de donjons, de créatures monstrueuses et de richesses à déterrer. Ce projet se divise en <b>deux niveaux distincts</b> : le marché, une attraction touristique, et les catacombes, un repaire de monstres et de trésors. En tant que membre d'une équipe de deux, <b>ma mission était de concevoir le niveau des catacombes.</b>",
+        "txt2": [
+            "Le marché :",
+            "Situé au sommet d'une région de hautes terres en bord de mer, cette zone est devenue rapidement une <b>attraction prisée des Raiders</b> depuis la découverte des catacombes. Un marché prospère s'est donc installé ici pour attirer les aventuriers en quête de fortune. Cependant, <b>l'accès au donjon est désormais contrôlé par les gardes royaux</b>, obligeant les téméraires à obtenir <b>un permis</b> avant d'y pénétrer. Le défi du niveau est d'obtenir ce permis de l'une des trois manières possibles. En explorant le marché, les joueurs peuvent également profiter des différentes <b>attractions</b>, participer à des <b>combats dans l'arène</b>, consulter les <b>avis de recherche</b> des criminels, ou simplement écouter les <b>conversations</b> des marchands. Ce niveau regorge d'interactions avec des PNJ pouvant aider le joueur dans sa quête et lui offrir de nouvelles opportunités pour une récompense bien méritée !"
+        ],
+        "txt3": [
+            "Les catacombes :",
+            "Après avoir exploré le marché, le joueur peut pénétrer dans les catacombes en empruntant la porte dissimulée dans l'énorme épée de pierre, à l'extrémité de la péninsule. Nomées les Cryptes de l'Amant, ces catacombes représentent les souterrains d'un royaume déchu, regorgeant de <b>trésors</b>, de <b>pièges</b> et désormais habités par <b>d'effrayantes créatures</b>. L'intérieur est gigantesque, vaste et profond. Taillées dans une immense caverne sous-marine, <b>la lumière y est rare</b>, obligeant les aventuriers à s'équiper de sources de lumière pour éviter les mauvaises surprises. Le joueur doit alors naviguer à travers les différents étages et les passages secrets pour découvrir les richesses enfouies. Les Raiders traverseront de nombreuses pièces et défis, notamment une <b>salle de banquet</b>, une <b>prison</b>, une <b>bibliothèque</b>, une <b>crypte</b>, et bien d'autres encore ! Le donjon grouille également de <b>soldats squelettiques</b>, autrefois des aventuriers avides réanimés par une force mystérieuse et contraints de protéger les richesses qu'ils convoitaient autrefois."
+        ],
+        "txt4": [
+            "Inspirations et conclusion :",
+            "Notre principale source d'inspiration pour ce jeu était, bien sûr, la bande dessinée <b>Raiders</b> de Daniel Friedman et CROM. Nous avons également tiré des éléments de jeux tels que <b>Skyrim</b>, <b>Dark Souls</b> et même<b> Adventure Time</b> pour créer nos mécaniques de jeu et nos environnements. Mon inspiration première pour le niveau des catacombes venait des <b>Mines de la Moria</b> du Seigneur des Anneaux, car j'ai toujours été fasciné par leur grandeur et leur atmosphère oppressante. De plus, je me suis inspiré de la disposition des <b>Chalice Donjons</b> de Bloodborne pour créer un <b>niveau linéaire et interconnecté</b>. Raiders reste l'un de mes projets préférés à ce jour. J'ai pris un immense plaisir à concevoir le niveau des catacombes et à créer un environnement détaillé qui reflète l'univers de notre jeu ! Malgré les dizaines d'heures investies dans ce prototype, j'ai éprouvé une satisfaction totale, confirmant ainsi mon amour pour la conception de niveaux."
+        ],
+        "images1": [
+            "https://i.ibb.co/k22BsYL/Market-2.png",
+            "https://i.ibb.co/tmbjKRN/Market-1.png",
+            "https://i.ibb.co/DPXQbrk/Market-3.png",
+            "https://i.ibb.co/q9Jpc9b/Market-4.png",
+            "https://i.ibb.co/KL7TRnj/Market-5.png",
+            "https://i.ibb.co/kqxKPQP/Market-6.png",
+            "https://i.ibb.co/bFPV2Qz/Market-7.png",
+            "https://i.ibb.co/xSZRD31/Market-8.png",
+            "https://i.ibb.co/Lv13fhg/Market-9.png",
+            "https://i.ibb.co/Rc8r6fB/Market-11.png",
+            "https://i.ibb.co/L9qDv4g/Market-10.png"
+        ],
+        "txtPhotos1": [
+            "<strong>Position initiale du joueur</strong> et entrée vers le marché. On peut y apercevoir 2 <strong>gardes royaux</strong> pour symboliser leur proximité des donjons et un panneau avec des <strong>avis de recherche</strong>.",
+            "Pont et chemin principal pour accéder au marché, avec une vue sur la mer pour montrer la localisation sur les <strong>Highlands</strong>.",
+            "Près de l'entrée principale, le joueur peut déjà commencer à interagir avec divers <strong>marchands</strong> et peut aussi apercevoir l'énorme épée qui cache la porte du donjon.",
+            "<strong>Place centrale du marché</strong> où tous les marchands se réunissent, avec l'annulaire de la main géante servant de pont vers le donjon. Celle-ci symbolise le donjon qui porte le nom de <strong>Crypte de l'Amant</strong>.",
+            "Sur le côté droit du marché, le joueur peut y retrouver l'<strong>arène de combat</strong> dans laquelle il peut démontrer sa force contre les combattants des <strong>Highlands</strong>.",
+            "Juste à côté de l'arène, une ruine en ruine permet d'accéder à un <strong>petit sanctuaire</strong>.",
+            "Le <strong>sanctuaire</strong> représente l'un des membres de la <strong>royauté</strong> du royaume déchu qui utilisait autrefois cet endroit ainsi que le donjon.",
+            "Sur la côte gauche du marché, le joueur peut entrer dans un <strong>bâtiment</strong> et trouver une petite descente de bateau clandestine. Sur celle-ci, un étrange <strong>personnage</strong> dont le visage se retrouve sur les <strong>avis de recherche</strong> peut aider le joueur à obtenir un <strong>permis</strong>...",
+            "En suivant le chemin principal, le joueur arrive à l'entrée du <strong>donjon</strong>, protégée par des <strong>gardes royaux</strong>.",
+            "Sur la côte droite, on peut y retrouver une descente de bateau qui sert aux <strong>voyageurs marins</strong> d'accéder au marché.",
+            "<strong>Vue d'ensemble aérienne</strong> du niveau."
+        ],
+        "images2": [
+            "https://i.ibb.co/5KXZGMd/Highres-Screenshot00011.png",
+            "https://i.ibb.co/0JgzWjL/Highres-Screenshot00012.png",
+            "https://i.ibb.co/MpCBCQN/Highres-Screenshot00013.png",
+            "https://i.ibb.co/RBMWjMw/Highres-Screenshot00016.png",
+            "https://i.ibb.co/dQ1PmY4/Highres-Screenshot00014.png",
+            "https://i.ibb.co/X79yfx7/Highres-Screenshot00015.png",
+            "https://i.ibb.co/wKN3RLK/Highres-Screenshot00018.png",
+            "https://i.ibb.co/QNfjXJF/Highres-Screenshot00019.png",
+            "https://i.ibb.co/JsmTP4p/Highres-Screenshot00020.png",
+            "https://i.ibb.co/JdTkQ9Q/Highres-Screenshot00021.png",
+            "https://i.ibb.co/ng2BgCj/Highres-Screenshot00023.png",
+            "https://i.ibb.co/cwz7mfk/Highres-Screenshot00024.png",
+            "https://i.ibb.co/MSxGq2R/Highres-Screenshot00025.png",
+            "https://i.ibb.co/MSv2X9F/Highres-Screenshot00026.png",
+            "https://i.ibb.co/j3rykWQ/Highres-Screenshot00027.png",
+            "https://i.ibb.co/VpMQq5h/Highres-Screenshot00028.png",
+            "https://i.ibb.co/S0kbLr4/Highres-Screenshot00029.png",
+            "https://i.ibb.co/cCGmkjN/Highres-Screenshot00030.png",
+            "https://i.ibb.co/3z9LBhw/Highres-Screenshot00031.png",
+            "https://i.ibb.co/fkKgBQW/Highres-Screenshot00033.png",
+            "https://i.ibb.co/LkN8gBp/Highres-Screenshot00034.png",
+            "https://i.ibb.co/WBvKKBy/Highres-Screenshot00035.png",
+            "https://i.ibb.co/GT6t3Cc/Highres-Screenshot00036.png",
+            "https://i.ibb.co/55MCLHH/Highres-Screenshot00037.png",
+            "https://i.ibb.co/vL1TFZ0/Highres-Screenshot00039.png",
+            "https://i.ibb.co/C8d7Q4D/Catacomb-Map-Engine.png"
+        ],
+        "txtPhotos2": [
+            "<strong>Entrée principale du donjon</strong> par la porte du marché. Le joueur peut déjà apercevoir qu'il n'est pas le premier à cause des portes entrouvertes.",
+            "En descendant les marches, on peut commencer à <strong>apercevoir plusieurs silhouettes inertes</strong> dans la pièce.",
+            "Plusieurs <strong>restes squelettiques</strong> peuvent être retrouvés un peu partout dans la salle de banquet, démontrant un sinistre passé.",
+            "En plus des squelettes, la pièce tombe de plus en plus en ruine, mais une <strong>silhouette</strong> peut être aperçue à l'étage supérieur.",
+            "Juste au-dessus de la table de banquet, le joueur peut y retrouver un <strong>festoyeur solitaire</strong> qui détient la clé permettant d'ouvrir la porte donnant au reste du donjon.",
+            "En sortant de la pièce, le joueur aura une vue d'ensemble sur les multiples chemins et escaliers du donjon, ainsi que la grandeur et la profondeur de l'endroit.",
+            "Empruntant le premier chemin, le joueur peut <strong>apercevoir un autre pont</strong> et 3 pièces accessibles d'un peu plus bas.",
+            "Arrivé à la première pièce, le joueur peut y voir un <strong>garde squelette rôder</strong> à l'intérieur et une façade complètement brisée.",
+            "La présence de <strong>gardes, de cellules et d'outils de torture</strong> indique que cette pièce servait de prison. Un bon endroit pour y trouver des objets confisqués.",
+            "À l'intérieur des cellules, le joueur peut y <strong>apercevoir les restes d'aventuriers moins fortunés</strong> que lui...",
+            "En sortant de la prison, le joueur sera confronté à <strong>d'autres gardes</strong> et remarquera 2 escaliers sur le chemin, l'un qui monte et l'autre qui descend.",
+            "En empruntant l'escalier descendant, le joueur devra être habile et sauter par-dessus le trou qui sépare le pont et la pièce.",
+            "Une fois la petite épreuve d'agilité réussie, l'aventurier se retrouvera à l'intérieur d'une <strong>petite bibliothèque</strong>.",
+            "Couché en partie sur la table, les restes d'un scribe protègent un document qui indique la présence d'un <strong>prétendu trésor caché</strong> dans la pièce.",
+            "Le chemin de l'aventurier continue par l'escalier qui mène vers <strong>l'un des piliers</strong> et sur lequel on peut apercevoir 3 autres chemins.",
+            "Le premier chemin mène vers une toute <strong>petite pièce</strong> qui ne doit pas être jugée par sa taille.",
+            "Dès que le joueur franchit la porte, il se rend compte qu'il vient de trouver l'une des <strong>salles de trésors remplies d'or et de bijoux à prendre</strong> !",
+            "De retour au pilier, <strong>2 derniers chemins s'offrent au joueur</strong>.",
+            "En empruntant celui de gauche, le joueur tombe sur <strong>une salle de réception inondée d'eau empoisonnée</strong>, mais peut y apercevoir un chemin fait de bouts de bois pour se rendre sur les balcons.",
+            "Sur le balcon de gauche, on peut y retrouver <strong>une petite armurerie gardée par un soldat squelettique</strong>, mais aussi remplie de nouvel équipement !",
+            "Sur le balcon de droite, <strong>un tunnel s'ouvre devant l'aventurier</strong>, peut-être la solution au poison se trouve au bout.",
+            "À la sortie du tunnel, le joueur débouche dans <strong>une nouvelle pièce qui semble être une sorte de crypte pour les membres de la famille royale</strong>.",
+            "La salle est bel et bien remplie de sarcophages à piller, mais aussi de <strong>gardes et d'un étrange objet au bout de la pièce</strong>.",
+            "Les tombes pouvant être ouvertes, le joueur peut y trouver de l'or et des bijoux et aussi y apercevoir <strong>certain symbole</strong> qui pourrait être relié à l'étrange objet.",
+            "Finalement, une fois que le joueur réussit à faire baisser l'eau en ayant résolu le puzzle, il pourra entrer dans la dernière salle du donjon et y affronter le boss, <strong>Patches<strong>, un visage familier qui se retrouvait partout sur les <strong>avis de recherche au marché</strong> !",
+            "Vue d'ensemble aérienne du niveau du donjon."
+        ],
+        "titreCanva": "L0 & Cartes des niveaux :",
+        "canva": [
+            "https://drive.google.com/file/d/1mYj5p3M63gl1pRZ1WVIdxdlxh4DXSU8v/preview",
+            "https://miro.com/app/live-embed/uXjVPkU8D0c=/?moveToViewport=-1769,-1197,14703,4259&embedId=262128617332"
+        ],
+        "cover": "https://i.ibb.co/jRyH7QL/Fioritura-Cover-Ext.png",
+        "roles": [
+            "Lead Design de niveaux",
+            "Designer de systèmes",
+            "Designer Sonore"
+        ],
+        "technos": [
+            "Unreal 5",
+            "Dungeon Scrawl",
+            "Wwise"
+        ],
+        "LienProjet": "https://mathieugaudreau.itch.io/raiders",
+        "collab": [
+            "Justin Marques"
+        ],
+        "collabLiens": [
+            "https://justinmarques.myportfolio.com/"
+        ]
+    },
+    {
         "id": "RAID",
         "name": "RAIDERS",
         "type": "jeu",
