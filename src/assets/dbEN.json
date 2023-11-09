@@ -1,5 +1,89 @@
 [
     {
+        "id": "FIO",
+        "name": "Fioritura",
+        "type": "jeu",
+        "date": "2023",
+        "descriptionProjet": "In Fioritura, an isometric puzzle game, embody a small botanist capable of <b>modifying</b> their <b>perception</b> of the environment by transplanting magical flowers into their head. You must traverse their once <b>harmonious</b> garden to contain the source of the <b>chaos</b> tormenting it. Throughout your <b>adventure</b>, discover how to <b>progress</b> through the garden without destroying it, using two magical flowers, the <b>Lumiflore</b> and the <b>Éthéralys</b>. By combining the <b>first</b>, which softens the surrounding <b>plants</b>, and the <b>second</b>, which allows you to <b>change</b> <b>worlds</b>, along with the <b>hydraulic</b> elements of the greenhouse, the player navigates through a lively and dynamic <b>environment</b> in constant evolution.",
+        "txt2": [
+            "Project Context and Development :",
+            "uring my final year of <b>Bachelor's degree in Video Game Design</b>, we were grouped into small teams of <b>four people</b> from the beginning of the semester to conceive a game concept. The idea of <b>Fioritura</b> took shape in the first week and successfully passed three evaluations despite <b>cuts</b> in projects. It even rose to be among the <b>four finalists</b> chosen to represent the university. Unfortunately, after the technical test, the project was <b>abandoned</b>. However, <b>Fioritura</b> remains a project that underwent in-depth development, going through various stages from the <b>brainstorming</b> phase, <b>pitch</b>, and <b>high-level concept</b> within the first month, to its implementation in <b>Unreal Engine</b> over a month to achieve the level of <b>technical proof</b>."
+        ],
+        "txt3": [
+            "Implication :",
+            "Since the first <b>week</b> of this project, I have been involved in a variety of <b>tasks</b>. At the <b>beginning</b>, in collaboration with the other three members of my <b>team</b>, we primarily worked on the overall <b>concept</b> of the game, focusing on the primary <b>generators</b> that interested us the most. Afterward, I dedicated a lot of <b>time</b> to the game <b>design</b> and <b>mechanics</b> to create elements that align with our primary factor, <b>psychedelia</b>, and the <b>unique</b> experience we aimed to deliver.<br><br> During the <b>high</b>-level concept <b>phase</b>, my focus shifted mainly to level <b>design</b>. I developed several paper level and <b>puzzle</b> concepts that could be integrated into the game.<br><br> At the end of the <b>ideation</b> <b>period</b>, our <b>team</b> expanded to 13 <b>members</b>, necessitating a division into <b>departments</b>. I was then appointed as the <b>lead</b> level <b>design</b> and worked intensively on blocking and improving our <b>puzzle</b> for the technical proof. In addition to level <b>design</b>, I also took charge of the majority of sound <b>design</b> with <b>Wwise</b> and half of the level <b>art</b>, while participating in the <b>programming</b> of certain <b>systems</b>."
+        ],
+        "images1": [
+            "https://i.ibb.co/25Kzx19/start-Normal.png",
+            "https://i.ibb.co/kQyN5sz/start-Lumi.png",
+            "https://i.ibb.co/ZxTHfMt/start-Ethe.png",
+            "https://i.ibb.co/swzmCrJ/center-Normal.png",
+            "https://i.ibb.co/D5tSzYk/center-Lumi.png",
+            "https://i.ibb.co/9rTY8XQ/center-Ethe.png",
+            "https://i.ibb.co/h7kkJtN/end-Normal.png",
+            "https://i.ibb.co/H7z3XTb/endLumi.png",
+            "https://i.ibb.co/M8pNKB8/endEthe.png",
+            "https://i.ibb.co/2YPVJyy/island1-Normal.png",
+            "https://i.ibb.co/C8MLkTK/island1-Lumi.png",
+            "https://i.ibb.co/cxdyFdW/island1-Ethe.png",
+            "https://i.ibb.co/3kJvfYJ/island2-Normal.png",
+            "https://i.ibb.co/X7H470c/island2-Ethe.png"
+        ],
+        "txtPhotos1": [
+            "The player begins their adventure in a remote corner of the greenhouse with no flowers in mind. Thus, the environment becomes more <b>green and natural</b>, resembling a true garden more closely.",
+            "When the player dons the <b>Lumiflor</b> in their head, the environment changes in a radius around them. The garden becomes more vibrant, with eyes on the <b>plants</b> and warmer, yellowish colors.",
+            "With the <b>Etheralys</b> flower, the garden becomes quieter and seems to doze off a bit. The environment darkens, tinted with shades of blue.",
+            "In the center of the greenhouse, the player can find an <b>empty pot</b> that they can push and transplant one of the <b>flowers</b> into.",
+            "In the radius of <b>Lumiflor</b>, more <b>grass</b> and <b>plants</b> are visible, symbolizing the euphoric feeling that Lumiflor's aura brings to the garden.",
+            "With the <b>Etheralys</b> flower, not only do the <b>plants</b> change, but also the light and particles.",
+            "On the right side of the greenhouse, the player can perceive the <b>hydraulic system</b> of the garden supplying water, but blocked by <b>thorns</b>.",
+            "Thanks to the aura of <b>Lumiflor</b>, the <b>thorns</b> calm down and retract, allowing the player to pass through and unlock certain mechanisms.",
+            "When the player moves with the <b>Etheralys</b> flower, the <b>thorns</b> remain the same, but they can be traversed thanks to their ghostly body.",
+            "A small section of the garden containing the <b>Etheralys</b> flower doesn't change the environment as long as the player doesn't take it.",
+            "The aura of <b>Lumiflor</b> gradually changes the entire environment according to its aura.",
+            "When the player transplants the <b>Etheralys</b> flower, they exit their physical body and become a <b>small ghost</b> that can pass through certain walls and access paths previously invisible.",
+            "A small section of the garden containing the <b>Lumiflor</b> flower. Its aura affects the environment even if it's in a <b>pot on the ground</b>.",
+            "With <b>Etheralys</b>, the player can see new paths unfolding in front of them, allowing access to new places. Also, the aura of <b>Lumiflor</b> is always visible, regardless of the flower the character has."
+        ],
+        "images2": [
+            "https://i.ibb.co/fFNd6TV/Block-Pushing-Small.gif",
+            "https://i.ibb.co/VBsyyNh/Etheralys-Small.gif",
+            "https://i.ibb.co/KW9wJT9/Switch-Small.gif",
+            "https://i.ibb.co/K5RJknd/Lumiflor-Small.gif",
+            "https://i.ibb.co/0c835bJ/Vines-Small.gif",
+            "https://i.ibb.co/3p00xmk/Water-Wheel-Small.gif",
+            "https://i.ibb.co/ZNcsj46/Map-1.png",
+            "https://i.ibb.co/rb9tLkG/Map-2.png",
+            "https://i.ibb.co/t4wTqZh/Map-3.png",
+            "https://i.ibb.co/MsH1m6C/map-Ingame.png"
+        ],
+        "txtPhotos2": [
+            "One of the main mechanics in Fioritura is <b>block pushing</b>. The player can push flower pots on a roulette platform from top to bottom and from right to left. The player can also plant a flower in them and push it at the same time.",
+            "The <b>transplantation</b> mechanic is the most important in our game. The player can take a flower from a pot and put it in their head. Here, they transplant the <b>Etheralys</b> and become a spectral form of themselves. This allows them to see new paths and pass through certain obstacles.",
+            "In spectral form, the player can transplant the <b>Etheralys</b> with another flower and bring it back to their physical body, leaving the <b>Etheralys</b> in the pot of the other flower.",
+            "With the <b>Lumiflor</b> in their head, the environment changes according to the aura around the player.",
+            "The pot can be pushed with a flower inside. With the <b>Lumiflor</b>, its aura affects the environment around the pot, softening the thorns.",
+            "The aura of <b>Lumiflor</b> will also soften the thorns on objects, freeing them and restarting the mechanisms.",
+            "Initial and final plan for a tutorial puzzle for the <b>Lumiflor</b> flower, involving activating a lever by clearing a path previously blocked by thorns.",
+            "Idea for a puzzle with a third flower not integrated into the game, providing elevation to the player, and a plan for a puzzle mixing <b>block pushing</b> with <b>Lumiflor</b>.",
+            "Several iterations of the puzzle found in the current game. This includes <b>block pushing</b>, the <b>Etheralys</b> flower, and the <b>Lumiflor</b> flower.",
+            "Map of the puzzle in the engine and a plan used for the technical proof."
+        ],
+        "cover": "https://i.ibb.co/CBc3vFc/Fioritura-Cover.png",
+        "roles": [
+            "Lead Level Design",
+            "System designer",
+            "Sound Designer"
+        ],
+        "technos": [
+            "Unreal 5",
+            "Dungeon Scrawl",
+            "Wwise"
+        ],
+        "LienProjet": "https://team-fioritura.itch.io/fioritura",
+        "LienYT": "https://www.youtube.com/embed/ZDTr5O1Idq8?si=eD_Plo_T3ys4VgOa"
+    },
+    {
         "id": "RAID",
         "name": "RAIDERS",
         "type": "jeu",
@@ -112,6 +196,7 @@
             "Unreal 5",
             "Miro"
         ],
+        "LienYT" : "https://www.youtube.com/embed/rgxy_hOkzjg?si=N9QFrtKTcgJCSxIe",
         "collab": [
             "Justin Marques"
         ],
@@ -190,6 +275,7 @@
             "Unreal 5",
             "Notion"
         ],
+        "LienYT": "https://www.youtube.com/embed/Nf75COoVJaQ?si=ALDsi5Mg3Ztku7oW",
         "LienProjet": "https://mathieugaudreau.itch.io/the-moving-slough"
     },
     {
