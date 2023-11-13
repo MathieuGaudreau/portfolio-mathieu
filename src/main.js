@@ -28,12 +28,16 @@ const router = new VueRouter({
   routes,
 });
 
+export const EventBus = new Vue();
+
+
 new Vue({
   created() {
   },
   router,
   render: h => h(App)
 }).$mount('#app')
+
 
 document.addEventListener("DOMContentLoaded", function () {
   setTimeout(function () { AOS.init(); }, 500);
@@ -43,9 +47,4 @@ export function AOSRefresh() {
   setTimeout(function () { AOS.refresh(); }, 500);
 }
 
-window.addEventListener('popstate', function (event) {
-  if (event.state != null) {
-    this.location.reload();
-  }
-});
 

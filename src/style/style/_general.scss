@@ -26,7 +26,12 @@ body{
         }
     }
     @if $taille == laptop {
-        @media (min-width: 1024px) {
+        @media (min-width: 1024px) and (max-width:1350px) {
+            @content;
+        }
+    }
+    @if $taille == desktop {
+        @media (min-width: 1350px) {
             @content;
         }
     }

@@ -1,10 +1,10 @@
 <template>
   <article class="projets" :class="type">
-    <a target="_self" href="#details"  @click="scrollTop();toggleDetails();">
-    <article class="projetThumb" :style="{ backgroundImage: 'url(' + cover + ')' }"></article>
-  </a>
+    <a target="_self" :href="'#' + id" @click="scrollTop(); toggleDetails();">
+      <article class="projetThumb" :style="{ backgroundImage: 'url(' + cover + ')' }"></article>
+    </a>
 
-    <section  id="details" v-if="detailsAreVisible" class="detailsProjets">
+    <section :id="id" v-if="detailsAreVisible" class="detailsProjets">
       <section class="headProjets" :style="{ backgroundImage: 'url(' + cover + ')' }">
         <h3 v-if="lang === 'fr'" class="retour" @click="closeDetails">
           <i class="fas fa-arrow-circle-left"></i>
@@ -44,8 +44,8 @@
           </div>
           <div v-if="LienProjet" class="rolesLogi liensProjets" data-aos="fade-right">
 
-            <h4 v-if="lang === 'fr'">Voir le projet :</h4>
-            <h4 v-if="lang === 'en'">Project link :</h4>
+            <h4 v-if="lang === 'fr'">Le jeu :</h4>
+            <h4 v-if="lang === 'en'">Game link :</h4>
             <ul>
               <li>
                 <a :href="LienProjet" target="_blank" v-if="lang === 'fr'"><i
@@ -78,8 +78,6 @@
           allowfullscreen="allowfullscreen"></iframe>
       </section>
 
-      <div v-if="!LienYT" class="divider"></div>
-
       <div v-if="LienYT" class="divider"></div>
 
       <section v-if="LienYT" class="youtube" data-aos="fade-up">
@@ -100,11 +98,13 @@
         <section class="nomCat" data-aos="fade-right">
           <h1>{{ txt2[0] }}</h1>
         </section>
-        
+
         <p v-html="txt2[2]"></p>
 
-        <read-more v-if="lang === 'fr'" more-str="En savoir plus ?" :text="txt2[1]" link="#" less-str="En savoir moins ?" :max-chars="150" ></read-more>
-        <read-more v-if="lang === 'en'" more-str="Read more ?" :text="txt2[1]" link="#" less-str="Read less ?" :max-chars="150" ></read-more>
+        <read-more v-if="lang === 'fr'" more-str="En savoir plus ?" :text="txt2[1]" link="#" less-str="En savoir moins ?"
+          :max-chars="150"></read-more>
+        <read-more v-if="lang === 'en'" more-str="Read more ?" :text="txt2[1]" link="#" less-str="Read less ?"
+          :max-chars="150"></read-more>
 
       </section>
 
@@ -142,8 +142,10 @@
 
         <p v-html="txt3[2]"></p>
 
-        <read-more v-if="lang === 'fr'" more-str="En savoir plus ?" :text="txt3[1]" link="#" less-str="En savoir moins ?" :max-chars="150" ></read-more>
-        <read-more v-if="lang === 'en'" more-str="Read more ?" :text="txt3[1]" link="#" less-str="Read less ?" :max-chars="150" ></read-more>
+        <read-more v-if="lang === 'fr'" more-str="En savoir plus ?" :text="txt3[1]" link="#" less-str="En savoir moins ?"
+          :max-chars="150"></read-more>
+        <read-more v-if="lang === 'en'" more-str="Read more ?" :text="txt3[1]" link="#" less-str="Read less ?"
+          :max-chars="150"></read-more>
 
       </section>
 
@@ -181,8 +183,10 @@
 
         <p v-html="txt2[3]"></p>
 
-        <read-more v-if="lang === 'fr'" more-str="En savoir plus ?" :text="txt4[1]" link="#" less-str="En savoir moins ?" :max-chars="150" ></read-more>
-        <read-more v-if="lang === 'en'" more-str="Read more ?" :text="txt4[1]" link="#" less-str="Read less ?" :max-chars="150" ></read-more>
+        <read-more v-if="lang === 'fr'" more-str="En savoir plus ?" :text="txt4[1]" link="#" less-str="En savoir moins ?"
+          :max-chars="150"></read-more>
+        <read-more v-if="lang === 'en'" more-str="Read more ?" :text="txt4[1]" link="#" less-str="Read less ?"
+          :max-chars="150"></read-more>
 
       </section>
 
@@ -243,8 +247,13 @@ import { Hooper, Slide, Pagination as HooperPagination } from "hooper";
 import "hooper/dist/hooper.css";
 import VueEasyLightbox from "vue-easy-lightbox";
 import { AOSRefresh } from "../main";
+import { EventBus } from '@/main.js';
+
 // import pdf from 'vue-pdf';
 export default {
+  created() {
+    EventBus.$on('closeDetails', this.closeDetails);
+  },
   components: { Hooper, Slide, HooperPagination, VueEasyLightbox },
   props: {
     id: {
@@ -378,6 +387,8 @@ export default {
     },
     closeDetails() {
 
+      this.$router.push("/");
+
       document.documentElement.scrollTop = 0;
 
       this.detailsAreVisible = false;
@@ -429,6 +440,7 @@ export default {
     handleHide2() {
       this.visible2 = false;
     },
-  }
+  },
+
 };
 </script>

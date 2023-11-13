@@ -12,14 +12,14 @@
                 title="Voir la page projet !">Projets</a>
 
               <a v-if="this.lang === 'en'" :class="!QuiSuisJeVisible ? 'active' : 'notActive'" @click="retourProjets"
-                title="Voir la page projet !">Projects</a>
+                title="See the project page !">Projects</a>
             </li>
             <li>
-              <a v-if="this.lang === 'fr'" :class="QuiSuisJeVisible ? 'active' : 'notActive'" @click="toggleQuiSuisJe"
+              <a v-if="this.lang === 'fr'" href="#QuiSuisJe" :class="QuiSuisJeVisible ? 'active' : 'notActive'" @click="toggleQuiSuisJe"
                 title="Voir la page Qui Suis-Je !">Qui suis-je</a>
 
-              <a v-if="this.lang === 'en'" :class="QuiSuisJeVisible ? 'active' : 'notActive'" @click="toggleQuiSuisJe"
-                title="Voir la page Qui Suis-Je !">Who am I</a>
+              <a v-if="this.lang === 'en'" href="#WhoAmI" :class="QuiSuisJeVisible ? 'active' : 'notActive'" @click="toggleQuiSuisJe"
+                title="Get to know me !">Who am I</a>
             </li>
             <!-- <li>
               <a @click="scrollBottom" title="Voir la section contact !">Contact</a>
@@ -60,19 +60,19 @@
               <a v-if="this.lang === 'en'" :class="!QuiSuisJeVisible ? 'active' : 'notActive'" @click="
                 retourProjets();
               closeNav();
-              " title="Voir la page projet !">
+              " title="See the projet page !">
                 Projects</a>
             </li>
             <li>
-              <a v-if="this.lang === 'fr'" :class="QuiSuisJeVisible ? 'active' : 'notActive'" @click="
+              <a v-if="this.lang === 'fr'" href="#QuiSuisJe" :class="QuiSuisJeVisible ? 'active' : 'notActive'" @click="
                 toggleQuiSuisJe();
               closeNav();
               " title="Voir la page Qui Suis-Je !">Qui suis-je</a>
 
-              <a v-if="this.lang === 'en'" :class="QuiSuisJeVisible ? 'active' : 'notActive'" @click="
+              <a v-if="this.lang === 'en'" href="#WhoAmI" :class="QuiSuisJeVisible ? 'active' : 'notActive'" @click="
                 toggleQuiSuisJe();
               closeNav();
-              " title="Voir la page Qui Suis-Je !">Who am I</a>
+              " title="Get to know me !">Who am I</a>
             </li>
 
             <li class="lang">
@@ -130,10 +130,40 @@ import Tri from "./components/Tri.vue";
 import Projets from "./components/Projets.vue";
 import AnimFond from "./components/AnimFond.vue";
 import QuiSuisJe from "./components/QuiSuisJe.vue";
+import { EventBus } from '@/main.js';
+
+
+// window.addEventListener('popstate', function (event) {
+//   if (event.state != null) {
+
+//   }
+// });
+
+window.addEventListener('popstate', function (event) {
+  if (event.state != null) {
+    EventBus.$emit('callRetourProjets');
+  }
+});
+
 
 export default {
   components: { BasDePage, Tri, Projets, AnimFond, QuiSuisJe },
   name: "App",
+  mounted() {
+    // Add an event listener for the popstate event
+    window.addEventListener('popstate', this.handlePopstate);
+    
+    // Register the EventBus event listener
+    EventBus.$on('callRetourProjets', this.retourProjets);
+  },
+
+  beforeDestroy() {
+    // Remove the event listener when the component is destroyed
+    window.removeEventListener('popstate', this.handlePopstate);
+
+    // Unregister the EventBus event listener
+    EventBus.$off('callRetourProjets', this.retourProjets);
+  },
   data() {
     return {
       lang: "en",
@@ -163,7 +193,9 @@ export default {
       if (this.QuiSuisJeVisible) {
         this.QuiSuisJeVisible = false;
       }
-      location.reload()
+      this.$router.push("/");
+      EventBus.$emit('closeDetails');
+
     },
     scrollBottom() {
       window.scrollTo(0, document.body.scrollHeight);
@@ -183,6 +215,12 @@ export default {
       this.theme = this.theme == "darkMode" ? "" : "darkMode"; //toggles theme value
       document.documentElement.setAttribute("data-theme", this.theme); // sets the data-theme attribute
       localStorage.setItem("theme", this.theme); // stores theme value on local storage
+    },
+    handlePopstate(event) {
+      // Your logic when the popstate event occurs
+      if (event.state != null) {
+        // Additional logic if needed
+      }
     },
   },
 };
