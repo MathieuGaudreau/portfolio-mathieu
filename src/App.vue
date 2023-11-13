@@ -104,31 +104,13 @@
       <main v-if="!QuiSuisJeVisible">
         <tri :lang="lang"></tri>
         <section id="listeProjets">
-          <projets v-for="projet in projets" :key="projet.id" 
-          :id="projet.id" 
-          :name="projet.name" 
-          :type="projet.type"
-          :images1="projet.images1" 
-          :images2="projet.images2" 
-          :date="projet.date"
-          :descriptionProjet="projet.descriptionProjet" 
-          :txt2="projet.txt2" 
-          :txt3="projet.txt3" 
-          :txt4="projet.txt4"
-          :LienProjet="projet.LienProjet" 
-          :GH="projet.GH" :cover="projet.cover" 
-          :roles="projet.roles"
-          :technos="projet.technos" 
-          :LienYT="projet.LienYT" 
-          :LienBuild="projet.LienBuild"
-          :txtPhotos1="projet.txtPhotos1" 
-          :txtPhotos2="projet.txtPhotos2" 
-          :titreCanva="projet.titreCanva"
-          :canva="projet.canva" 
-          :collab="projet.collab" 
-          :collabLiens="projet.collabLiens"
-          :lang="lang" 
-          >
+          <projets v-for="projet in projets" :key="projet.id" :id="projet.id" :name="projet.name" :type="projet.type"
+            :images1="projet.images1" :images2="projet.images2" :date="projet.date"
+            :descriptionProjet="projet.descriptionProjet" :txt2="projet.txt2" :txt3="projet.txt3" :txt4="projet.txt4"
+            :LienProjet="projet.LienProjet" :GH="projet.GH" :cover="projet.cover" :roles="projet.roles"
+            :technos="projet.technos" :titreYT="projet.titreYT" :LienYT="projet.LienYT" :LienBuild="projet.LienBuild"
+            :txtPhotos1="projet.txtPhotos1" :txtPhotos2="projet.txtPhotos2" :titreCanva="projet.titreCanva"
+            :canva="projet.canva" :collab="projet.collab" :collabLiens="projet.collabLiens" :lang="lang">
           </projets>
         </section>
       </main>
@@ -154,8 +136,8 @@ export default {
   name: "App",
   data() {
     return {
-      lang: "fr",
-      projets: dbFR,
+      lang: "en",
+      projets: dbEN,
       projetsFR: dbFR,
       projetsEN: dbEN,
       QuiSuisJeVisible: false,

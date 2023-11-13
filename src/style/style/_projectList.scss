@@ -256,6 +256,14 @@ main {
             }
         }
 
+        #readmore{
+            color: $highlight1;
+            font-family: $rightous;
+            font-size: 1.2em;
+            width: 100% !important;
+            text-decoration: none;
+        }
+
         .divider {
             width: 40%;
             margin: 1rem auto 1rem auto;

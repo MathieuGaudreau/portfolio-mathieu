@@ -12,10 +12,13 @@
     "aos": "^2.3.4",
     "core-js": "^3.6.5",
     "hooper": "^0.3.4",
+    "onsenui": "^2.12.8",
     "pdfvuer": "^1.9.2",
     "vue": "^2.6.11",
     "vue-easy-lightbox": "^0.16.0",
-    "vue-pdf": "^4.3.0"
+    "vue-pdf": "^4.3.0",
+    "vue-read-more": "^1.1.1",
+    "vue-router": "^2.8.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

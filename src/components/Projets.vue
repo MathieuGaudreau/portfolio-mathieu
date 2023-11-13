@@ -1,11 +1,10 @@
 <template>
   <article class="projets" :class="type">
-    <article class="projetThumb" @click="
-      scrollTop();
-    toggleDetails();
-    " :style="{ backgroundImage: 'url(' + cover + ')' }"></article>
+    <a target="_self" href="#details"  @click="scrollTop();toggleDetails();">
+    <article class="projetThumb" :style="{ backgroundImage: 'url(' + cover + ')' }"></article>
+  </a>
 
-    <section id="details" v-if="detailsAreVisible" class="detailsProjets">
+    <section  id="details" v-if="detailsAreVisible" class="detailsProjets">
       <section class="headProjets" :style="{ backgroundImage: 'url(' + cover + ')' }">
         <h3 v-if="lang === 'fr'" class="retour" @click="closeDetails">
           <i class="fas fa-arrow-circle-left"></i>
@@ -79,6 +78,21 @@
           allowfullscreen="allowfullscreen"></iframe>
       </section>
 
+      <div v-if="!LienYT" class="divider"></div>
+
+      <div v-if="LienYT" class="divider"></div>
+
+      <section v-if="LienYT" class="youtube" data-aos="fade-up">
+
+        <section class="nomCat" data-aos="fade-right">
+          <h1>{{ titreYT }}</h1>
+        </section>
+
+        <iframe id="player" type="text/html" :src="LienYT" frameborder="0" showinfo="0"
+          allowfullscreen="allowfullscreen"></iframe>
+
+      </section>
+
       <div class="divider"></div>
 
       <section class="largeTxt" data-aos="fade-up">
@@ -86,8 +100,12 @@
         <section class="nomCat" data-aos="fade-right">
           <h1>{{ txt2[0] }}</h1>
         </section>
+        
+        <p v-html="txt2[2]"></p>
 
-        <p v-html="txt2[1]"></p>
+        <read-more v-if="lang === 'fr'" more-str="En savoir plus ?" :text="txt2[1]" link="#" less-str="En savoir moins ?" :max-chars="150" ></read-more>
+        <read-more v-if="lang === 'en'" more-str="Read more ?" :text="txt2[1]" link="#" less-str="Read less ?" :max-chars="150" ></read-more>
+
       </section>
 
       <div v-if="images1" class="divider"></div>
@@ -122,7 +140,11 @@
           <h1>{{ txt3[0] }}</h1>
         </section>
 
-        <p v-html="txt3[1]"></p>
+        <p v-html="txt3[2]"></p>
+
+        <read-more v-if="lang === 'fr'" more-str="En savoir plus ?" :text="txt3[1]" link="#" less-str="En savoir moins ?" :max-chars="150" ></read-more>
+        <read-more v-if="lang === 'en'" more-str="Read more ?" :text="txt3[1]" link="#" less-str="Read less ?" :max-chars="150" ></read-more>
+
       </section>
 
       <div v-if="images2" class="divider"></div>
@@ -157,20 +179,10 @@
           <h1>{{ txt4[0] }}</h1>
         </section>
 
-        <p v-html="txt4[1]"></p>
-      </section>
+        <p v-html="txt2[3]"></p>
 
-      <div v-if="LienYT" class="divider"></div>
-
-      <section v-if="LienYT" class="youtube" data-aos="fade-up">
-
-        <section class="nomCat" data-aos="fade-right">
-          <h1 v-if="lang === 'fr'">Vidéo</h1>
-          <h1 v-if="lang === 'en'">Video</h1>
-        </section>
-
-        <iframe id="player" type="text/html" :src="LienYT" frameborder="0" showinfo="0"
-          allowfullscreen="allowfullscreen"></iframe>
+        <read-more v-if="lang === 'fr'" more-str="En savoir plus ?" :text="txt4[1]" link="#" less-str="En savoir moins ?" :max-chars="150" ></read-more>
+        <read-more v-if="lang === 'en'" more-str="Read more ?" :text="txt4[1]" link="#" less-str="Read less ?" :max-chars="150" ></read-more>
 
       </section>
 
@@ -299,6 +311,10 @@ export default {
       type: String,
       required: false,
     },
+    titreYT: {
+      type: String,
+      required: false,
+    },
     LienYT: {
       type: String,
       required: false,
@@ -360,7 +376,6 @@ export default {
 
       document.getElementById("tri").style.display = "none";
     },
-
     closeDetails() {
 
       document.documentElement.scrollTop = 0;
@@ -414,6 +429,6 @@ export default {
     handleHide2() {
       this.visible2 = false;
     },
-  },
+  }
 };
 </script>
