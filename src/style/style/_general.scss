@@ -9,28 +9,31 @@ $rightous: "Righteous", cursive;
 $nunito: "Nunito", sans-serif;
 
 [data-theme="darkMode"] {
-body{
-    background: black;
-}
+    body {
+        background: black;
+    }
 }
 
 @mixin breakpoint($taille) {
-    @if $taille == mobile {
+    @if $taille ==mobile {
         @media (max-width: 767px) {
             @content;
         }
     }
-    @if $taille == tablet {
+
+    @if $taille ==tablet {
         @media (min-width: 768px) and (max-width: 1023px) {
             @content;
         }
     }
-    @if $taille == laptop {
+
+    @if $taille ==laptop {
         @media (min-width: 1024px) and (max-width:1350px) {
             @content;
         }
     }
-    @if $taille == desktop {
+
+    @if $taille ==desktop {
         @media (min-width: 1350px) {
             @content;
         }
@@ -39,6 +42,7 @@ body{
 
 html {
     scroll-behavior: smooth;
+
     @include breakpoint(mobile) {
         overflow-x: hidden;
     }
@@ -52,14 +56,17 @@ body {
         width: 10px;
         height: 10px;
     }
+
     &::-webkit-scrollbar {
         width: 10px;
         height: 10px;
     }
+
     &::-webkit-scrollbar-thumb {
         background: $highlight1;
         border-radius: 10px;
     }
+
     &::-webkit-scrollbar-track {
         background: transparent;
     }

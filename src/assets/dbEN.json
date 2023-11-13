@@ -1,8 +1,8 @@
 [
     {
-        "id": "FIO",
+        "id": "Fioritura",
         "name": "Fioritura",
-        "type": "jeu",
+        "type": "designLevel",
         "date": "2023",
         "descriptionProjet": "In Fioritura, an isometric puzzle game, embody a small botanist capable of <b>modifying</b> their <b>perception</b> of the environment by transplanting magical flowers into their head. You must traverse their once <b>harmonious</b> garden to contain the source of the <b>chaos</b> tormenting it. Throughout your <b>adventure</b>, discover how to <b>progress</b> through the garden without destroying it, using two magical flowers, the <b>Lumiflore</b> and the <b>Éthéralys</b>. By combining the <b>first</b>, which softens the surrounding <b>plants</b>, and the <b>second</b>, which allows you to <b>change</b> <b>worlds</b>, along with the <b>hydraulic</b> elements of the greenhouse, the player navigates through a lively and dynamic <b>environment</b> in constant evolution.",
         "txt2": [
@@ -84,9 +84,9 @@
         "LienYT": "https://www.youtube.com/embed/ZDTr5O1Idq8?si=eD_Plo_T3ys4VgOa"
     },
     {
-        "id": "RAID",
+        "id": "Raiders",
         "name": "RAIDERS",
-        "type": "jeu",
+        "type": "designLevel",
         "date": "2023",
         "descriptionProjet": "Based on the universe created by Daniel Friedman and CROM, Raiders allows you to embody <b>Marken</b>, a seasoned raider, traveling from town to town and dungeon to dungeon in search of treasures and perilous adventures! Raiders is a <b>prototype of an action-adventure RPG</b> game that skillfully blends elements of <b>dungeon crawling</b> and <b>Hack 'n' Slash</b>. In this game, players explore a medieval fantasy world filled with dungeons, monstrous creatures, and riches waiting to be unearthed. This project is divided into <b>two distinct levels</b>: the market, a tourist attraction, and the catacombs, a den of monsters and treasures. As a member of a two-person team, <b>my mission was to design the catacombs level</b>.",
         "txt2": [
@@ -196,7 +196,7 @@
             "Unreal 5",
             "Miro"
         ],
-        "LienYT" : "https://www.youtube.com/embed/rgxy_hOkzjg?si=N9QFrtKTcgJCSxIe",
+        "LienYT": "https://www.youtube.com/embed/rgxy_hOkzjg?si=N9QFrtKTcgJCSxIe",
         "collab": [
             "Justin Marques"
         ],
@@ -206,9 +206,9 @@
         "LienProjet": "https://mathieugaudreau.itch.io/raiders"
     },
     {
-        "id": "SLAUGH",
+        "id": "MovingSlaugh",
         "name": "The Moving Slaugh",
-        "type": "jeu",
+        "type": "designLevel",
         "date": "2023",
         "descriptionProjet": "<b>The Moving Slough</b> is a two-part project that distinguishes itself by its content while remaining closely interconnected. The first part of the project involves <b>creating a semi-realistic universe</b> set in 19th century Louisiana. In this world, a <b>profound darkness reigns, populated by morbid creatures</b> of all kinds. No one knows exactly why, but the epicenter of this darkness appears to emanate from a region erased from the maps: <b>the Moving Slough</b>, an extremely perilous territory that only the most daring hunters dare to explore. The second part of the project focuses on <b>creating a game level</b> that allows players to explore this swamp and uncover clues and <b>traces of a bloody event</b>.",
         "txt2": [
@@ -279,9 +279,9 @@
         "LienProjet": "https://mathieugaudreau.itch.io/the-moving-slough"
     },
     {
-        "id": "SS",
+        "id": "SpaceScoundrel",
         "name": "Space Scoundrel",
-        "type": "jeu",
+        "type": "designJeu",
         "date": "2022",
         "descriptionProjet": "<b>Space Scoundrel</b> is a <b>third-person shooter</b> game with an <b>Action Roguelike</b> style that puts players in the shoes of a <b>treasure-seeking space pirate</b>. The main goal of the player is to <b>board enemy ships</b> and plunder them for their precious loot. Players will explore <b>procedurally generated ships</b> where they will face a variety of enemies and have access to various weapons for defense.",
         "txt2": [
@@ -378,9 +378,9 @@
         ]
     },
     {
-        "id": "PH",
+        "id": "PetitHeros",
         "name": "Petit Héros",
-        "type": "jeu",
+        "type": "designLevel",
         "date": "2021",
         "descriptionProjet": "<b>Petit Héros</b> is an <b>action-adventure</b> game heavily influenced by the <b>EarthBound</b> game series, both in its graphical style and narrative approach. In this game, players assume the role of a young hero who must <b>save the world</b> from the Dame en Noire, a demonic entity intent on taking over the Earth. This child also possesses the <b>power to travel to a fantastical world</b> to accomplish their quest, leading to a transformation of all elements in the real world.",
         "txt2": [
@@ -474,9 +474,9 @@
         ]
     },
     {
-        "id": "LASTSPARK",
+        "id": "LastSpark",
         "name": "Last Spark",
-        "type": "jeu",
+        "type": "designJeu",
         "date": "2020",
         "descriptionProjet": "<b>Last Spark</b> is an <b>action, adventure, and survival</b> game set in a <b>sinister and oppressive atmosphere</b>. The player takes on the role of the world's last hope, tasked with <b>surviving long enough to overcome the lords of darkness</b> and their sinister minions who roam freely in the environment. The solitary traveler must explore this devastated world in search of weapons and spells to support them in their desperate quest.",
         "txt2": [
@@ -553,9 +553,9 @@
         ]
     },
     {
-        "id": "nightwell",
+        "id": "NightwellKeep",
         "name": "Escape the Nightwell Keep",
-        "type": "jeu",
+        "type": "designLevel",
         "date": "2021",
         "descriptionProjet": "<b>Escape the Nightwell Keep</b> is a captivating <b>adventure</b> and <b>platform</b> game prototype featuring a determined prisoner trying to <b>escape</b> from a haunted castle infested with <b>skeletons</b> and <b>deadly traps</b>. The player will need to find their way through this dark castle while collecting precious treasures on the way to the safe exit.",
         "txt2": [
@@ -603,9 +603,9 @@
         ]
     },
     {
-        "id": "RM",
+        "id": "RegneMalheurs",
         "name": "Règne de Malheurs",
-        "type": "jeuTable",
+        "type": "designJeu",
         "date": "2021",
         "descriptionProjet": "<b>Règne de Malheurs</b> is a unique <b>territory control</b> game where players each embody a <b>primary emotion</b> that influences the actions of a medieval baron. The ultimate goal of the players is to become <b>the dominant emotion</b>, thereby dictating the tumultuous course of the baron's extravagant life.",
         "txt2": [
@@ -691,9 +691,9 @@
         ]
     },
     {
-        "id": "repairndespair",
+        "id": "RepairNDespair",
         "name": "Repair 'n' Despair",
-        "type": "jeuTable",
+        "type": "designJeu",
         "date": "2021",
         "descriptionProjet": "Repair'N Despair is a captivating <b>cooperative</b> tabletop game where each player embodies a dedicated member of the crew of the STS Prometheus, a spaceship under attack by a terrifying extraterrestrial creature</b>. The objective is clear: players must <b>work as a team</b> to <b>repair</b> the spacecraft and eliminate the extraterrestrial threat before it becomes unstoppable.",
         "txt2": [
@@ -770,7 +770,7 @@
     {
         "id": "JKM",
         "name": "John Kenn Mortensen",
-        "type": "creation",
+        "type": "autre",
         "date": "2021",
         "descriptionProjet": "This creation represents my second <b>motion design project</b>. The goal of this project, with a dark and slightly frightening tone, was to explore the use of the <b>puppet tool</b> in After Effects to animate various objects and characters.",
         "txt2": [
@@ -792,9 +792,9 @@
         ]
     },
     {
-        "id": "TOKYO",
+        "id": "Tokyo",
         "name": "Tokyo",
-        "type": "creation",
+        "type": "autre",
         "date": "2021",
         "descriptionProjet": "This small <b>motion design project</b> aimed to explore various tools and plugins in After Effects while incorporating luminous elements and shapes into the real world.",
         "txt2": [

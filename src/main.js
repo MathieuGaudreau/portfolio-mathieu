@@ -21,7 +21,7 @@ Vue.use(vueReadMore);
 Vue.use(VueRouter);
 
 const routes = [
-  { path: '/', component: Projets, name:"Projets" },
+  { path: '/projet', component: Projets, name: "Projets" },
 ];
 
 const router = new VueRouter({

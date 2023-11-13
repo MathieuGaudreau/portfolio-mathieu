@@ -4,6 +4,7 @@ header {
     margin: 40px auto;
     justify-content: space-between;
     z-index: 1000;
+
     .logoHead {
         margin-top: 0;
         width: 50px;
@@ -12,6 +13,7 @@ header {
         background-size: contain;
         background-repeat: no-repeat;
         transition: background-image 0.5s ease;
+
         &:hover {
             cursor: pointer;
             background-image: url(../assets/logoRose.png);
@@ -24,6 +26,7 @@ header {
         display: flex;
         flex-flow: column;
         align-items: center;
+
         @include breakpoint(tablet) {
             display: none;
         }
@@ -45,6 +48,7 @@ header {
             li {
                 margin: 0 20px;
             }
+
             a {
                 position: relative;
                 display: inline-block;
@@ -59,6 +63,7 @@ header {
                 background-position: 100%;
                 transition: background-position 275ms ease;
                 text-decoration: none; // text decorations are clipped in WebKit browsers
+
                 &:hover {
                     background-position: 0 100%;
                     cursor: pointer;
@@ -85,6 +90,7 @@ header {
                 background-position: -100%;
                 transition: background-position 275ms ease;
                 text-decoration: none; // text decorations are clipped in WebKit browsers
+
                 &:hover {
                     background-position: 0 100%;
                     cursor: pointer;

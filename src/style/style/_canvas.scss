@@ -4,6 +4,7 @@
     align-items: center;
     flex-flow: column;
     height: fit-content;
+
     div {
         position: relative;
         width: 65%;
@@ -16,12 +17,12 @@
         border-radius: 8px;
         will-change: transform;
 
-        @include breakpoint(tablet){
+        @include breakpoint(tablet) {
             width: 100%;
             padding-top: 100%;
         }
 
-        @include breakpoint(mobile){
+        @include breakpoint(mobile) {
             width: 100%;
             padding-top: 100%;
         }

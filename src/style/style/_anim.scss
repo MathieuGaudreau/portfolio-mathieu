@@ -19,15 +19,18 @@
 }
 
 $total: 10;
+
 @for $i from 1 through $total {
     $scale: random(2) - 0.4;
+
     .svg:nth-child(#{$i}) {
         left: random(120) * 1% - 20;
-        animation: raise#{$i} 6 + random(15) + s linear infinite;
-        animation-delay: random(5) - 5 + s;
+        animation: raise#{$i} #{6 + random(15)}s linear infinite;
+        animation-delay: #{random(5) - 5}s;
         transform: scale(0.3 * $i - 0.6) rotate(random(360) + deg);
         z-index: 0;
         filter: blur($i - 6 + px);
+
         @keyframes raise#{$i} {
             to {
                 bottom: 150vh;
@@ -37,54 +40,20 @@ $total: 10;
     }
 }
 
-@keyframes animFleche {
-    0% {
-        transform: translateX(-10px);
-    }
+@mixin keyframesAnimation($name, $property, $from, $to) {
+    @keyframes #{$name} {
+        0% {
+            #{$property}: $from;
+        }
 
-    100% {
-        transform: translateX(0px);
+        100% {
+            #{$property}: $to;
+        }
     }
 }
 
-@keyframes animLiens{
-    0% {
-        transform: rotate(15deg);
-    }
-
-    100% {
-        transform: rotate(0deg);
-    }
-}
-
-@keyframes animSection {
-    0% {
-        transform: translateY(700px);
-    }
-
-    100% {
-        transform: translateY(0px);
-    }
-}
-
-@keyframes animDetails {
-    0% {
-        transform: translateY(-700px);
-    }
-
-    100% {
-        transform: translateY(0px);
-    }
-}
-
-@keyframes animHeadProjet {
-    0% {
-        transform: translateY(-700px);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateY(0px);
-        opacity: 1;
-    }
-}
+@include keyframesAnimation(animFleche, transform, translateX(-10px), translateX(0px));
+@include keyframesAnimation(animLiens, transform, rotate(15deg), rotate(0deg));
+@include keyframesAnimation(animSection, transform, translateY(700px), translateY(0px));
+@include keyframesAnimation(animDetails, transform, translateY(-700px), translateY(0px));
+@include keyframesAnimation(animHeadProjet, transform, translateY(-700px) opacity 0, translateY(0px) opacity 1);

@@ -8,39 +8,22 @@
         <section id="menuHead">
           <ul>
             <li>
-              <a v-if="this.lang === 'fr'" :class="!QuiSuisJeVisible ? 'active' : 'notActive'" @click="retourProjets"
-                title="Voir la page projet !">Projets</a>
-
-              <a v-if="this.lang === 'en'" :class="!QuiSuisJeVisible ? 'active' : 'notActive'" @click="retourProjets"
-                title="See the project page !">Projects</a>
+              <a :class="{ 'active': !QuiSuisJeVisible, 'notActive': QuiSuisJeVisible }" @click="retourProjets"
+                :title="lang === 'fr' ? 'Voir la page projet !' : 'See the project page !'">
+                {{ lang === 'fr' ? 'Projets' : 'Projects' }}
+              </a>
             </li>
             <li>
-              <a v-if="this.lang === 'fr'" href="#QuiSuisJe" :class="QuiSuisJeVisible ? 'active' : 'notActive'" @click="toggleQuiSuisJe"
-                title="Voir la page Qui Suis-Je !">Qui suis-je</a>
-
-              <a v-if="this.lang === 'en'" href="#WhoAmI" :class="QuiSuisJeVisible ? 'active' : 'notActive'" @click="toggleQuiSuisJe"
-                title="Get to know me !">Who am I</a>
+              <a :href="lang === 'fr' ? '#QuiSuisJe' : '#WhoAmI'"
+                :class="{ 'active': QuiSuisJeVisible, 'notActive': !QuiSuisJeVisible }" @click="toggleQuiSuisJe"
+                :title="lang === 'fr' ? 'Voir la page Qui Suis-Je !' : 'Get to know me !'">
+                {{ lang === 'fr' ? 'Qui suis-je' : 'Who am I' }}
+              </a>
             </li>
-            <!-- <li>
-              <a @click="scrollBottom" title="Voir la section contact !">Contact</a>
-            </li> -->
 
-            <!-- Bouton Lang Switch -->
             <li class="lang">
-              <a class="active" v-if="lang === 'fr'" @click="switchLang">En</a>
-
-              <a class="active" v-if="lang === 'en'" @click="switchLang">Fr</a>
+              <a class="active" @click="switchLang">{{ lang === 'fr' ? 'En' : 'Fr' }}</a>
             </li>
-
-            <!-- Bouton Dark Theme -->
-            <!-- <li>
-              <h1 @click="toggleTheme" aria-label="Toggle themes">
-                <span v-if="this.theme == 'darkMode'"
-                  ><i class="far fa-sun"></i
-                ></span>
-                <span v-else><i class="far fa-moon"></i></span>
-              </h1>
-            </li> -->
           </ul>
           <div class="border"></div>
         </section>
@@ -51,34 +34,23 @@
           <i @click="closeNav" class="fas fa-arrow-circle-left"></i>
           <ul>
             <li>
-              <a v-if="this.lang === 'fr'" :class="!QuiSuisJeVisible ? 'active' : 'notActive'" @click="
-                retourProjets();
-              closeNav();
-              " title="Voir la page projet !">
-                Projets</a>
-
-              <a v-if="this.lang === 'en'" :class="!QuiSuisJeVisible ? 'active' : 'notActive'" @click="
-                retourProjets();
-              closeNav();
-              " title="See the projet page !">
-                Projects</a>
+              <a :class="{ 'active': !QuiSuisJeVisible, 'notActive': QuiSuisJeVisible }"
+                @click="retourProjets(); closeNav()"
+                :title="lang === 'fr' ? 'Voir la page projet !' : 'See the project page !'">
+                {{ lang === 'fr' ? 'Projets' : 'Projects' }}
+              </a>
             </li>
             <li>
-              <a v-if="this.lang === 'fr'" href="#QuiSuisJe" :class="QuiSuisJeVisible ? 'active' : 'notActive'" @click="
-                toggleQuiSuisJe();
-              closeNav();
-              " title="Voir la page Qui Suis-Je !">Qui suis-je</a>
-
-              <a v-if="this.lang === 'en'" href="#WhoAmI" :class="QuiSuisJeVisible ? 'active' : 'notActive'" @click="
-                toggleQuiSuisJe();
-              closeNav();
-              " title="Get to know me !">Who am I</a>
+              <a :href="lang === 'fr' ? '#QuiSuisJe' : '#WhoAmI'"
+                :class="{ 'active': QuiSuisJeVisible, 'notActive': !QuiSuisJeVisible }"
+                @click="toggleQuiSuisJe(); closeNav()"
+                :title="lang === 'fr' ? 'Voir la page Qui Suis-Je !' : 'Get to know me !'">
+                {{ lang === 'fr' ? 'Qui suis-je' : 'Who am I' }}
+              </a>
             </li>
 
             <li class="lang">
-              <a class="active" v-if="lang === 'fr'" @click="switchLang">En</a>
-
-              <a class="active" v-if="lang === 'en'" @click="switchLang">Fr</a>
+              <a class="active" @click="switchLang">{{ lang === 'fr' ? 'En' : 'Fr' }}</a>
             </li>
           </ul>
 
@@ -132,36 +104,21 @@ import AnimFond from "./components/AnimFond.vue";
 import QuiSuisJe from "./components/QuiSuisJe.vue";
 import { EventBus } from '@/main.js';
 
-
-// window.addEventListener('popstate', function (event) {
-//   if (event.state != null) {
-
-//   }
-// });
-
 window.addEventListener('popstate', function (event) {
   if (event.state != null) {
     EventBus.$emit('callRetourProjets');
   }
 });
 
-
 export default {
   components: { BasDePage, Tri, Projets, AnimFond, QuiSuisJe },
   name: "App",
   mounted() {
-    // Add an event listener for the popstate event
     window.addEventListener('popstate', this.handlePopstate);
-    
-    // Register the EventBus event listener
     EventBus.$on('callRetourProjets', this.retourProjets);
   },
-
   beforeDestroy() {
-    // Remove the event listener when the component is destroyed
     window.removeEventListener('popstate', this.handlePopstate);
-
-    // Unregister the EventBus event listener
     EventBus.$off('callRetourProjets', this.retourProjets);
   },
   data() {
@@ -178,13 +135,8 @@ export default {
   },
   methods: {
     switchLang() {
-      if (this.lang == "fr") {
-        this.lang = "en";
-        this.projets = this.projetsEN;
-      } else {
-        this.lang = "fr";
-        this.projets = this.projetsFR;
-      }
+      this.lang = this.lang === 'fr' ? 'en' : 'fr';
+      this.projets = this.lang === 'fr' ? this.projetsFR : this.projetsEN;
     },
     toggleQuiSuisJe() {
       this.QuiSuisJeVisible = true;
@@ -195,29 +147,24 @@ export default {
       }
       this.$router.push("/");
       EventBus.$emit('closeDetails');
-
     },
     scrollBottom() {
       window.scrollTo(0, document.body.scrollHeight);
     },
     openNav() {
       document.getElementById("navigationMobile").style.width = "100%";
-      document.getElementById("boutonMobile").style.transform =
-        "rotate(-90deg)";
+      document.getElementById("boutonMobile").style.transform = "rotate(-90deg)";
     },
-
-    /* Close/hide the sidenav */
     closeNav() {
       document.getElementById("navigationMobile").style.width = "0";
       document.getElementById("boutonMobile").style.transform = "rotate(0deg)";
     },
     toggleTheme() {
-      this.theme = this.theme == "darkMode" ? "" : "darkMode"; //toggles theme value
-      document.documentElement.setAttribute("data-theme", this.theme); // sets the data-theme attribute
-      localStorage.setItem("theme", this.theme); // stores theme value on local storage
+      this.theme = this.theme === "darkMode" ? "" : "darkMode";
+      document.documentElement.setAttribute("data-theme", this.theme);
+      localStorage.setItem("theme", this.theme);
     },
     handlePopstate(event) {
-      // Your logic when the popstate event occurs
       if (event.state != null) {
         // Additional logic if needed
       }
@@ -226,7 +173,4 @@ export default {
 };
 </script>
 
-<style>
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Righteous&display=swap");
-</style>
-
+<style>@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Righteous&display=swap");</style>

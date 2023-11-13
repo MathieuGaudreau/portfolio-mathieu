@@ -1,8 +1,8 @@
 [
     {
-        "id": "FIO",
+        "id": "Fioritura",
         "name": "Fioritura",
-        "type": "jeu",
+        "type": "designLevel",
         "date": "2023",
         "descriptionProjet": "Dans Fioritura, un jeu de puzzle isométrique, incarnez un petit botaniste capable de <b>modifier</b> sa <b>perception</b> de l'environnement en transplantant des fleurs magiques dans sa tête. Vous devez traverser son jardin autrefois <b>harmonieux</b> pour contenir la source du <b>chaos</b> qui le tourmente. Au cours de votre <b>aventure</b>, découvrez comment <b>progresser</b> dans le jardin sans le détruire en utilisant deux fleurs magiques, la <b>Lumiflore</b> et l'<b>Éthéralys</b>. En combinant la <b>première</b>, qui adoucit les <b>plantes</b> environnantes, et la <b>deuxième</b>, qui permet de <b>changer</b> de <b>monde</b>, ainsi que les éléments <b>hydrauliques</b> de la serre, le joueur évolue dans un <b>environnement</b> vivant et dynamique en constante évolution.",
         "txt2": [
@@ -86,9 +86,9 @@
         "LienYT": "https://www.youtube.com/embed/ZDTr5O1Idq8?si=eD_Plo_T3ys4VgOa"
     },
     {
-        "id": "RAID",
+        "id": "Raiders",
         "name": "RAIDERS",
-        "type": "jeu",
+        "type": "designLevel",
         "date": "2023",
         "descriptionProjet": "Basé sur l'univers imaginé par Daniel Friedman et CROM, Raiders vous propose d'incarner Marken, un vétéran du raid, sillonnant villes et donjons à la recherche de trésors et d'aventures dangereuses ! Raiders est un <b>prototype de jeu RPG d'action-aventure</b> qui marie habilement les éléments du <b>dungeon crawling et du Hack 'n' Slash</b>. Dans ce jeu, le joueur explore un monde médiéval fantastique, peuplé de donjons, de créatures monstrueuses et de richesses à déterrer. Ce projet se divise en <b>deux niveaux distincts</b> : le marché, une attraction touristique, et les catacombes, un repaire de monstres et de trésors. En tant que membre d'une équipe de deux, <b>ma mission était de concevoir le niveau des catacombes.</b>",
         "txt2": [
@@ -208,9 +208,9 @@
         ]
     },
     {
-        "id": "SLAUGH",
+        "id": "MovingSlaugh",
         "name": "The Moving Slaugh",
-        "type": "jeu",
+        "type": "designLevel",
         "date": "2023",
         "descriptionProjet": "<b>The Moving Slough</b> est un projet en <b>deux parties</b> qui se distinguent par leur contenu, tout en étant étroitement liées. La première partie du projet consiste à créer un <b>univers semi-réaliste</b> situé en Louisiane au XIXe siècle. Dans ce monde, une obscurité profonde règne, <b>peuplée de créatures morbides</b> de toutes sortes. Personne ne sait exactement pourquoi, mais l'épicentre de cette obscurité semble émaner d'une région effacée des cartes : le <b>Moving Slough</b>, un territoire extrêmement dangereux que seuls les chasseurs les plus intrépides osent explorer. La <b>deuxième partie</b> du projet se concentre sur la <b>création d'un niveau de jeu</b> permettant aux joueurs d'explorer ce marais pour y dénicher des indices et des traces d'un <b>événement sanglant</b>.",
         "txt2": [
@@ -281,9 +281,9 @@
         "LienProjet": "https://mathieugaudreau.itch.io/the-moving-slough"
     },
     {
-        "id": "SS",
+        "id": "SpaceScoundrel",
         "name": "Space Scoundrel",
-        "type": "jeu",
+        "type": "designJeu",
         "date": "2022",
         "descriptionProjet": "<b>Space Scoundrel</b> est un jeu de <b>tir à la troisième personne</b> au style <b>Action Roguelike</b> qui place les joueurs dans la peau d'un pirate de l'espace assoiffé de trésors. Le but principal du joueur est <b>d'aborder des vaisseaux</b> ennemis pour les dépouiller de leur précieux butin. Les joueurs vont explorer des vaisseaux <b>générés de manière procédurale</b>, où ils affronteront une variété d'ennemis et auront accès à diverses armes pour se défendre.",
         "txt2": [
@@ -380,9 +380,9 @@
         ]
     },
     {
-        "id": "PH",
+        "id": "PetitHeros",
         "name": "Petit Héros",
-        "type": "jeu",
+        "type": "designLevel",
         "date": "2021",
         "descriptionProjet": "<b>Petit Héros</b> est un jeu <b>d'action-aventure</b> fortement influencé par la série de jeux <b>EarthBound</b>, tant pour son style graphique que pour son style narratif. Dans ce jeu, les joueurs incarnent un jeune héros qui doit <b>sauver le monde</b> de la Dame en Noire, une entité démoniaque désireuse de s'emparer de la Terre. Cet enfant détient également <b>le pouvoir de voyager vers un monde fantastique</b> pour accomplir sa quête, ce qui entraîne une transformation de tous les éléments du monde réel.",
         "txt2": [
@@ -476,9 +476,9 @@
         ]
     },
     {
-        "id": "LASTSPARK",
+        "id": "LastSpark",
         "name": "Last Spark",
-        "type": "jeu",
+        "type": "designJeu",
         "date": "2020",
         "descriptionProjet": "<b>Last Spark</b> est un jeu <b>d'action</b>, <b>d'aventure</b> et de <b>survie</b> immergé dans une <b>atmosphère sinistre et oppressante</b>. Le joueur incarne le dernier espoir du monde, chargé de <b>survivre</b> suffisamment longtemps pour <b>triompher des seigneurs de l'obscurité</b> et de leurs sinistres sbires qui rôdent librement dans l'environnement. Le voyageur solitaire doit explorer ce monde dévasté à la recherche d'armes et de sorts pour le soutenir dans sa quête désespérée.",
         "txt2": [
@@ -554,9 +554,9 @@
         ]
     },
     {
-        "id": "nightwell",
+        "id": "NightwellKeep",
         "name": "Escape the Nightwell Keep",
-        "type": "jeu",
+        "type": "designLevel",
         "date": "2021",
         "descriptionProjet": "<b>Escape the Nightwell Keep</b> est un prototype de jeu <b>d'aventure</b> et de <b>plateforme</b> captivant, mettant en scène un prisonnier déterminé à <b>s'échapper</b> d'un château hanté par des <b>squelettes</b> et truffé de <b>pièges mortels</b>. Le joueur devra trouver son chemin à travers ce sombre château tout en récupérant des <b>trésors</b> précieux en route vers la sortie salvatrice.",
         "txt2": [
@@ -605,9 +605,9 @@
         ]
     },
     {
-        "id": "RM",
+        "id": "RegneMalheurs",
         "name": "Règne de Malheurs",
-        "type": "jeuTable",
+        "type": "designJeu",
         "date": "2021",
         "descriptionProjet": "<b>Règne de Malheurs</b> est un jeu de <b>contrôle de territoire</b> unique en son genre, où les joueurs incarnent chacun une <b>émotion primaire</b> qui influence les actions d'un baron médiéval. L'objectif ultime des joueurs est de devenir <b>l'émotion dominante</b>, dictant ainsi le cours tumultueux de la vie extravagante du baron.",
         "txt2": [
@@ -695,9 +695,9 @@
         ]
     },
     {
-        "id": "repairndespair",
+        "id": "RepairNDespair",
         "name": "Repair 'n' Despair",
-        "type": "jeuTable",
+        "type": "designJeu",
         "date": "2021",
         "descriptionProjet": "Repair'N Despair est un jeu de table <b>coopératif</b> captivant où chaque joueur incarne un membre dévoué de l'équipage du STS Prometheus, un vaisseau spatial <b>attaqué par une créature extraterrestre</b> terrifiante. L'objectif est clair : les joueurs doivent <b>travailler en équipe</b> pour <b>réparer</b> le vaisseau et éliminer la menace extraterrestre avant qu'elle ne devienne inarrêtable.",
         "txt2": [
@@ -776,7 +776,7 @@
     {
         "id": "JKM",
         "name": "John Kenn Mortensen",
-        "type": "creation",
+        "type": "autre",
         "date": "2021",
         "descriptionProjet": "Cette création représente mon deuxième projet de <b>motion design</b>. L'objectif de ce projet, au ton sombre et légèrement effrayant, était d'explorer l'utilisation de <b>l'outil de marionnettes</b> dans After Effects pour animer divers objets et personnages.",
         "txt2": [
@@ -798,9 +798,9 @@
         ]
     },
     {
-        "id": "TOKYO",
+        "id": "Tokyo",
         "name": "Tokyo",
-        "type": "creation",
+        "type": "autre",
         "date": "2021",
         "descriptionProjet": "Ce petit projet de <b>motion design</b> avait pour objectif d'explorer divers outils et plugins d'After Effects tout en intégrant des éléments lumineux et des formes dans le monde réel.",
         "txt2": [

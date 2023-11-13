@@ -4,9 +4,11 @@
     color: $highlight1;
     transition: transform 0.5s ease;
     font-size: 3em;
+
     @include breakpoint(tablet) {
         display: flex;
     }
+
     @include breakpoint(mobile) {
         display: flex;
     }
@@ -26,11 +28,13 @@
     flex-flow: column;
     align-items: flex-start;
     justify-content: space-evenly;
+
     i {
         font-size: 3em;
         color: $highlight1;
         margin-left: 10%;
     }
+
     ul {
         margin: 0;
         padding: 0;
@@ -43,11 +47,13 @@
         font-family: $rightous;
         z-index: 1000;
         flex-flow: column;
+
         a {
             font-size: 3em;
             font-weight: 800;
             color: $highlight1;
             text-decoration: none;
+
             &:hover {
                 cursor: pointer;
             }
@@ -76,6 +82,7 @@
         flex-flow: row;
         height: fit-content;
         justify-content: center;
+
         i {
             font-size: 1em;
             margin: 10px;

@@ -63,10 +63,8 @@
         li {
             font-size: 1em;
             font-weight: 800;
-
             position: relative;
             display: inline-block;
-
             color: $colorTxt;
             overflow: hidden;
             background: linear-gradient(to right, $highlight2, $highlight2 50%, $highlight1 50%);
@@ -76,14 +74,13 @@
             background-size: 200% 100%;
             background-position: 100%;
             transition: background-position 275ms ease;
-            text-decoration: none; // text decorations are clipped in WebKit browsers
+            text-decoration: none;
 
             &:hover {
                 color: $highlight1;
                 background-position: 0 100%;
                 cursor: pointer;
             }
-
 
             @include breakpoint(mobile) {
                 padding-bottom: 5%;
@@ -96,11 +93,9 @@
             font-size: 1em;
             font-weight: 800;
 
-
             @include breakpoint(desktop) {
                 position: relative;
                 display: inline-block;
-
                 color: $highlight1;
                 overflow: hidden;
                 background: linear-gradient(to right, $highlight1, $highlight1 50%, $highlight2 50%);
@@ -110,7 +105,7 @@
                 background-size: 200% 100%;
                 background-position: -100%;
                 transition: background-position 275ms ease;
-                text-decoration: none; // text decorations are clipped in WebKit browsers
+                text-decoration: none;
 
                 &:hover {
                     background-position: 0 100%;
@@ -121,7 +116,6 @@
             @include breakpoint(laptop) {
                 position: relative;
                 display: inline-block;
-
                 color: $highlight1;
                 overflow: hidden;
                 background: linear-gradient(to right, $highlight1, $highlight1 50%, $highlight2 50%);
@@ -131,7 +125,7 @@
                 background-size: 200% 100%;
                 background-position: -100%;
                 transition: background-position 275ms ease;
-                text-decoration: none; // text decorations are clipped in WebKit browsers
+                text-decoration: none;
 
                 &:hover {
                     background-position: 0 100%;

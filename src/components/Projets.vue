@@ -246,7 +246,7 @@
 import { Hooper, Slide, Pagination as HooperPagination } from "hooper";
 import "hooper/dist/hooper.css";
 import VueEasyLightbox from "vue-easy-lightbox";
-import { AOSRefresh } from "../main";
+import { AOSRefresh } from "@/main";
 import { EventBus } from '@/main.js';
 
 // import pdf from 'vue-pdf';

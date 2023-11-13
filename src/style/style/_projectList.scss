@@ -133,7 +133,7 @@ main {
                     }
                 }
 
-                @include breakpoint(mobile){
+                @include breakpoint(mobile) {
                     font-size: 1.3em;
                     top: -5px;
                 }
@@ -155,7 +155,7 @@ main {
                     transition: background-position 275ms ease;
                     text-decoration: none; // text decorations are clipped in WebKit browsers
 
-                    @include breakpoint(mobile){
+                    @include breakpoint(mobile) {
                         margin-left: 0;
                     }
                 }
@@ -439,7 +439,7 @@ main {
                     }
                 }
 
-                @include breakpoint(mobile){
+                @include breakpoint(mobile) {
                     font-size: 1.3em;
                 }
             }
