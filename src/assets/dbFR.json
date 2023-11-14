@@ -387,15 +387,18 @@
         "descriptionProjet": "<b>Petit Héros</b> est un jeu <b>d'action-aventure</b> fortement influencé par la série de jeux <b>EarthBound</b>, tant pour son style graphique que pour son style narratif. Dans ce jeu, les joueurs incarnent un jeune héros qui doit <b>sauver le monde</b> de la Dame en Noire, une entité démoniaque désireuse de s'emparer de la Terre. Cet enfant détient également <b>le pouvoir de voyager vers un monde fantastique</b> pour accomplir sa quête, ce qui entraîne une transformation de tous les éléments du monde réel.",
         "txt2": [
             "Production et Implication :",
-            "Ce projet a été développé en collaboration avec une équipe de <b>6 personnes</b>, s'étalant sur une période d'environ <b>6 semaines</b>. Mes principales responsabilités comprenaient la création de toutes <b>les tuiles utilisées pour construire les niveaux</b>, la <b>conception des ennemis</b> ainsi que de leurs animations, ainsi que la réalisation de <b>divers éléments de décor</b>. J'ai également endossé le rôle de <b>level designer</b>, ce qui impliquait la création et l'intégration de niveaux captivants, tant dans le monde réel que dans le monde imaginaire."
+            "Ce projet a été développé en collaboration avec une équipe de <b>6 personnes</b>, s'étalant sur une période d'environ <b>6 semaines</b>. Mes principales responsabilités comprenaient la création de toutes <b>les tuiles utilisées pour construire les niveaux</b>, la <b>conception des ennemis</b> ainsi que de leurs animations, ainsi que la réalisation de <b>divers éléments de décor</b>. J'ai également endossé le rôle de <b>level designer</b>, ce qui impliquait la création et l'intégration de niveaux captivants, tant dans le monde réel que dans le monde imaginaire.",
+            "En équipe de <strong>6 personnes</strong> pendant <strong>6 semaines</strong>, j'ai créé des <strong>tuiles</strong>, conçu des <strong>ennemis</strong> avec animations, et façonné des <strong>niveaux captivants</strong> en tant que <strong>level designer</strong> pour ce projet ambitieux."
         ],
         "txt3": [
             "Défis et Difficultés :",
-            "Le défi majeur auquel j'ai été confronté lors de ce projet était <b>la conception des niveaux</b>. Le monde imaginaire était intrinsèquement plus attrayant et intrigant à explorer que le monde réel. Il était donc essentiel de <b>rendre les deux mondes tout aussi passionnants</b> en plaçant habilement différentes interactions, personnages non-joueurs (NPC) et objets dans les niveaux, de manière à inciter les joueurs à explorer aussi bien l'un que l'autre."
+            "Le défi majeur auquel j'ai été confronté lors de ce projet était <b>la conception des niveaux</b>. Le monde imaginaire était intrinsèquement plus attrayant et intrigant à explorer que le monde réel. Il était donc essentiel de <b>rendre les deux mondes tout aussi passionnants</b> en plaçant habilement différentes interactions, personnages non-joueurs (NPC) et objets dans les niveaux, de manière à inciter les joueurs à explorer aussi bien l'un que l'autre.",
+            "Concevoir des niveaux fut le défi majeur. Équilibrer le <strong>monde réel et imaginaire</strong> en plaçant astucieusement <strong>interactions, NPC et objets</strong>, pour inciter les joueurs à explorer chaque dimension."
         ],
         "txt4": [
             "Inspiration :",
-            "Notre jeu a été créé en collaboration avec le comédien québécois <b>Tommy Gaudet</b>, un amoureux de l'absurde, du loufoque et du fantastique. Nous nous sommes largement inspirés de son <b>univers farfelu</b> et avons cherché à intégrer son amour pour le grandiose en créant une aventure imaginaire qui se déroule dans l'esprit du personnage principal. De plus, nous avons puisé notre inspiration dans ses <b>jeux rétro</b> préférés, que ce soit du point de vue esthétique ou au niveau du gameplay, en puisant notamment dans des titres tels que la série <b>EarthBound</b> et <b>The Legend of Zelda</b>."
+            "Notre jeu a été créé en collaboration avec le comédien québécois <b>Tommy Gaudet</b>, un amoureux de l'absurde, du loufoque et du fantastique. Nous nous sommes largement inspirés de son <b>univers farfelu</b> et avons cherché à intégrer son amour pour le grandiose en créant une aventure imaginaire qui se déroule dans l'esprit du personnage principal. De plus, nous avons puisé notre inspiration dans ses <b>jeux rétro</b> préférés, que ce soit du point de vue esthétique ou au niveau du gameplay, en puisant notamment dans des titres tels que la série <b>EarthBound</b> et <b>The Legend of Zelda</b>.",
+            "Une aventure imaginaire inspirée par l'absurde de <strong>Tommy Gaudet</strong>, mêlant <strong>loufoque, fantastique</strong> et l'amour du rétro à la <strong>EarthBound</strong> et <strong>Zelda</strong>."
         ],
         "LienYT": "https://www.youtube.com/embed/4GJr4MK-xMg",
         "images1": [
@@ -493,7 +496,8 @@
         ],
         "txt4": [
             "Conclusion :",
-            "Le projet final a été <b>chaleureusement accueilli</b> par nos professeurs ainsi que par nos pairs, et il est toujours cité en exemple dans le cadre du cours pour les étudiants actuels. Je ressens une <b>immense fierté</b> à l'égard de ce projet, car il s'agit de ma première réalisation d'envergure, et il incarne un concept que nous avions en tête depuis le début de nos études. Le voir enfin prendre forme a revêtu une importance toute particulière pour moi."
+            "Le projet final a été <b>chaleureusement accueilli</b> par nos professeurs ainsi que par nos pairs, et il est toujours cité en exemple dans le cadre du cours pour les étudiants actuels. Je ressens une <b>immense fierté</b> à l'égard de ce projet, car il s'agit de ma première réalisation d'envergure, et il incarne un concept que nous avions en tête depuis le début de nos études. Le voir enfin prendre forme a revêtu une importance toute particulière pour moi.",
+            "Un projet <strong>apprécié par tous</strong>, souvent mentionné en exemple. Je suis très <strong>fier</strong>, car c'est ma <strong>première grande réalisation</strong>, concrétisant une idée qui nous suivait depuis le début de nos études. Le voir prendre vie a été particulièrement <strong>important</strong> pour moi."
         ],
         "LienProjet": "https://lastspark.netlify.app/",
         "LienYT": "https://www.youtube.com/embed/5FMPfM0h2wI",
@@ -561,15 +565,18 @@
         "descriptionProjet": "<b>Escape the Nightwell Keep</b> est un prototype de jeu <b>d'aventure</b> et de <b>plateforme</b> captivant, mettant en scène un prisonnier déterminé à <b>s'échapper</b> d'un château hanté par des <b>squelettes</b> et truffé de <b>pièges mortels</b>. Le joueur devra trouver son chemin à travers ce sombre château tout en récupérant des <b>trésors</b> précieux en route vers la sortie salvatrice.",
         "txt2": [
             "Production et Implication :",
-            "J'ai développé ce prototype en <b>solo</b> au cours d'une période de 3 semaines. Mes responsabilités englobaient la <b>conception de la carte</b> du niveau, la <b>programmation</b> des mécaniques de jeu et des ennemis, ainsi que leur <b>intégration</b> dans l'environnement de développement Unity."
+            "J'ai développé ce prototype en <b>solo</b> au cours d'une période de 3 semaines. Mes responsabilités englobaient la <b>conception de la carte</b> du niveau, la <b>programmation</b> des mécaniques de jeu et des ennemis, ainsi que leur <b>intégration</b> dans l'environnement de développement Unity.",
+            "Un jeu, une vision, trois semaines : mon prototype solo allie <strong>conception de carte</strong>, <strong>programmation de mécaniques et ennemis</strong>, ainsi que leur intégration dans l'environnement de développement <strong>Unity</strong> pour une expérience unique."
         ],
         "txt3": [
             "Défis :",
-            "Le défi le plus ardu de cette production résidait dans la <b>création du niveau</b> et la <b>programmation</b> des ennemis. Ce projet a marqué ma première véritable expérience en matière de conception de niveaux, et j'ai souhaité créer une carte d'une <b>ampleur similaire</b> à celle que l'on trouve dans <b>Dead Cells</b>. J'ai pris beaucoup de responsabilités et ai dû recommencer à plusieurs reprises pour parvenir à un résultat qui me satisfaisait, tout en évitant que le niveau ne devienne trop long et répétitif."
+            "Le défi le plus ardu de cette production résidait dans la <b>création du niveau</b> et la <b>programmation</b> des ennemis. Ce projet a marqué ma première véritable expérience en matière de conception de niveaux, et j'ai souhaité créer une carte d'une <b>ampleur similaire</b> à celle que l'on trouve dans <b>Dead Cells</b>. J'ai pris beaucoup de responsabilités et ai dû recommencer à plusieurs reprises pour parvenir à un résultat qui me satisfaisait, tout en évitant que le niveau ne devienne trop long et répétitif.",
+            "Mon défi majeur : créer un niveau épique et programmer des ennemis. Inspiré par <strong>Dead Cells</strong>, ma première expérience en <strong>conception de niveaux</strong> m'a poussé à relever le défi avec détermination et créativité."
         ],
         "txt4": [
             "Inspiration :",
-            "Mes principales sources d'inspiration étaient, avant tout, <b>Dead Cells</b> et <b>Blasphemous</b>, tant au niveau du design des niveaux que du gameplay et de l'esthétique. Ces jeux et leurs univers sont parmi mes préférés depuis longtemps, et j'ai toujours rêvé de créer ma propre interprétation, même si cela représentait un défi de taille pour moi !"
+            "Mes principales sources d'inspiration étaient, avant tout, <b>Dead Cells</b> et <b>Blasphemous</b>, tant au niveau du design des niveaux que du gameplay et de l'esthétique. Ces jeux et leurs univers sont parmi mes préférés depuis longtemps, et j'ai toujours rêvé de créer ma propre interprétation, même si cela représentait un défi de taille pour moi !",
+            "<strong>Dead Cells</strong> et <strong>Blasphemous</strong> m'ont inspiré, guidant mon design de niveau et mon gameplay. Réaliser ma vision était un défi, mais j'ai relevé le défi avec passion !"
         ],
         "LienProjet": "https://mathieugaudreau.itch.io/escape-the-nightwell-keep",
         "LienBuild": "https://itch.io/embed-upload/4703468?color=7da2a9",
@@ -622,7 +629,8 @@
         ],
         "txt4": [
             "Inspirations :",
-            "Nos principales sources d'inspiration pour ce jeu étaient les jeux <b>Risk</b> et <b>El Grande</b> pour leurs mécaniques de <b>contrôle de territoire</b>, ces deux titres étant des références dans ce domaine. En ce qui concerne l'aspect visuel, nous avons puisé notre inspiration dans le style déjanté, sombre et tordu de <b>Tim Burton</b>, ainsi que dans les jeux Sleep Tight et Gloom pour leur atmosphère unique."
+            "Nos principales sources d'inspiration pour ce jeu étaient les jeux <b>Risk</b> et <b>El Grande</b> pour leurs mécaniques de <b>contrôle de territoire</b>, ces deux titres étant des références dans ce domaine. En ce qui concerne l'aspect visuel, nous avons puisé notre inspiration dans le style déjanté, sombre et tordu de <b>Tim Burton</b>, ainsi que dans les jeux Sleep Tight et Gloom pour leur atmosphère unique.",
+            "Dominez le territoire avec des mécaniques inspirées de <strong>Risk</strong> et <strong>El Grande</strong>, plongez dans un monde déjanté à la <strong>Tim Burton</strong> avec l'atmosphère captivante de <strong>Sleep Tight</strong> et <strong>Gloom</strong>."
         ],
         "images1": [
             "https://i.ibb.co/vvq3SCs/Presentation3-D.png",
@@ -712,7 +720,8 @@
         ],
         "txt4": [
             "Inspirations :",
-            "Nos principales sources d'inspiration pour ce jeu étaient les jeux <b>d'identité secrète</b>, où chaque joueur doit accomplir diverses tâches pour survivre, comme Among Us ou Unfortunate Spacemen, ainsi que des films tels qu'Alien pour la thématique. Sur le plan visuel, nous nous sommes inspirés des représentations de l'espace des années 40-50 et du style graphique de la science-fiction pulp fiction."
+            "Nos principales sources d'inspiration pour ce jeu étaient les jeux <b>d'identité secrète</b>, où chaque joueur doit accomplir diverses tâches pour survivre, comme Among Us ou Unfortunate Spacemen, ainsi que des films tels qu'Alien pour la thématique. Sur le plan visuel, nous nous sommes inspirés des représentations de l'espace des années 40-50 et du style graphique de la science-fiction pulp fiction.",
+            "Plongez dans un monde de mystère et de survie, inspiré par les jeux d'identité secrète et l'esthétique rétro de la <strong>science-fiction pulp fiction</strong>."
         ],
         "images1": [
             "https://i.ibb.co/WK9tkzp/boite-Front.jpg",
@@ -781,11 +790,13 @@
         "descriptionProjet": "Cette création représente mon deuxième projet de <b>motion design</b>. L'objectif de ce projet, au ton sombre et légèrement effrayant, était d'explorer l'utilisation de <b>l'outil de marionnettes</b> dans After Effects pour animer divers objets et personnages.",
         "txt2": [
             "Production :",
-            "Cette animation a été réalisée en solitaire sur une période <b>d'un mois</b>, principalement en utilisant <b>l'outil de marionnettes</b> pour animer tous les éléments du projet. Il s'agissait de ma première expérience avec cet outil, ce qui a nécessité un investissement conséquent en temps pour découper chaque élément des illustrations tout en préservant les moindres détails et en assurant un mouvement naturel des différentes parties. En outre, ce projet m'a offert l'opportunité d'approfondir mes connaissances en matière <b>d'effets de particules</b>, de <b>bruit fractal</b> et de <b>création en 3D</b> au sein d'After Effects."
+            "Cette animation a été réalisée en solitaire sur une période <b>d'un mois</b>, principalement en utilisant <b>l'outil de marionnettes</b> pour animer tous les éléments du projet. Il s'agissait de ma première expérience avec cet outil, ce qui a nécessité un investissement conséquent en temps pour découper chaque élément des illustrations tout en préservant les moindres détails et en assurant un mouvement naturel des différentes parties. En outre, ce projet m'a offert l'opportunité d'approfondir mes connaissances en matière <b>d'effets de particules</b>, de <b>bruit fractal</b> et de <b>création en 3D</b> au sein d'After Effects.",
+            "<strong>Un mois</strong>, <strong>une aventure en solitaire</strong>. Donnez vie à vos illustrations avec <strong>maîtrise</strong>, <strong>découpage minutieux</strong> et <strong>créativité animée</strong>, le tout fusionné dans une <strong>expérience unique"
         ],
         "txt3": [
             "Inspiration :",
-            "Depuis longtemps, j'avais le désir de créer une œuvre dans cet univers spécifique, car j'ai toujours été fasciné par les illustrations légèrement <b>horrifiques</b> ainsi que les thèmes <b>d'horreur</b> et de <b>surréalisme</b>. C'est pourquoi j'ai choisi de puiser dans les illustrations de <b>John Kenn Mortensen</b>, l'un de mes artistes favoris, afin de les animer avec After Effects."
+            "Depuis longtemps, j'avais le désir de créer une œuvre dans cet univers spécifique, car j'ai toujours été fasciné par les illustrations légèrement <b>horrifiques</b> ainsi que les thèmes <b>d'horreur</b> et de <b>surréalisme</b>. C'est pourquoi j'ai choisi de puiser dans les illustrations de <b>John Kenn Mortensen</b>, l'un de mes artistes favoris, afin de les animer avec After Effects.",
+            "Transformez l'art en mouvement : mes animations captivent l'univers fantastique des illustrations de <strong>John Kenn Mortensen</strong> avec <strong>After Effects</strong>."
         ],
         "LienYT": "https://www.youtube.com/embed/00sdrKHIxJ4",
         "cover": "https://i.ibb.co/w4J4tDQ/johnkenn-Cover.png",
@@ -805,11 +816,13 @@
         "descriptionProjet": "Ce petit projet de <b>motion design</b> avait pour objectif d'explorer divers outils et plugins d'After Effects tout en intégrant des éléments lumineux et des formes dans le monde réel.",
         "txt2": [
             "Production :",
-            "Réalisé en seulement <b>un mois</b>, ce projet s'est principalement appuyé sur un plugin nommé <b>Thicc Stroke</b> pour créer des lignes lumineuses en blanc. Il m'a également permis d'approfondir ma compréhension de l'utilisation des <b>masques</b> dans le logiciel, afin d'intégrer harmonieusement les éléments dans le décor."
+            "Réalisé en seulement <b>un mois</b>, ce projet s'est principalement appuyé sur un plugin nommé <b>Thicc Stroke</b> pour créer des lignes lumineuses en blanc. Il m'a également permis d'approfondir ma compréhension de l'utilisation des <b>masques</b> dans le logiciel, afin d'intégrer harmonieusement les éléments dans le décor.",
+            "<strong>Un mois</strong>, <strong>une idée</strong>, <strong>une réalisation</strong>. Plongez dans l'art de l'éclairage et de l'intégration harmonieuse, façonnés avec <strong>passion</strong> et <strong>précision</strong>."
         ],
         "txt3": [
             "Inspiration :",
-            "L'inspiration pour ce projet m'est venue de la séquence d'ouverture de l'animation japonaise <b>Sarazanmai</b>. Cette séquence présente des personnages en deux dimensions évoluant au sein d'images réelles de Tokyo, avec des lignes lumineuses et des animations saisissantes en blanc. J'ai toujours été captivé par cette vidéo, car la musique s'harmonise parfaitement avec la lumière blanche et la synchronisation des animations, créant une <b>atmosphère apaisante</b>. Mon désir était donc de créer quelque chose de similaire."
+            "L'inspiration pour ce projet m'est venue de la séquence d'ouverture de l'animation japonaise <b>Sarazanmai</b>. Cette séquence présente des personnages en deux dimensions évoluant au sein d'images réelles de Tokyo, avec des lignes lumineuses et des animations saisissantes en blanc. J'ai toujours été captivé par cette vidéo, car la musique s'harmonise parfaitement avec la lumière blanche et la synchronisation des animations, créant une <b>atmosphère apaisante</b>. Mon désir était donc de créer quelque chose de similaire.",
+            "Illuminez l'inspiration : une fusion envoûtante de <strong>Tokyo réel</strong> et d'<strong>animations féeriques</strong>, inspirée par <strong>Sarazanmai</strong>."
         ],
         "LienYT": "https://www.youtube.com/embed/SMKQ7CC4Mh4",
         "cover": "https://i.ibb.co/0Mp4Q4j/tokyo-Cover.png",

@@ -293,11 +293,36 @@ main {
         }
 
         #readmore {
-            color: $highlight1;
             font-family: $rightous;
             font-size: 1.2em;
-            width: 100% !important;
+            width: fit-content;
             text-decoration: none;
+            position: relative;
+            display: flex;
+            align-items: center;
+            font-weight: 800;
+            color: $colorTxt;
+            overflow: hidden;
+            background: linear-gradient(to right, $highlight2, $highlight2 50%, $highlight1 50%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 200% 100%;
+            background-position: 100%;
+            transition: background-position 275ms ease;
+            text-decoration: none; // text decorations are clipped in WebKit browsers
+
+            &:hover {
+                color: $highlight1;
+                background-position: 0 100%;
+                cursor: pointer;
+
+                i {
+                    color: $highlight1;
+                    animation: animLiens 0.5s ease infinite alternate-reverse;
+                    background-position: 0 100%;
+                }
+            }
         }
 
         .divider {

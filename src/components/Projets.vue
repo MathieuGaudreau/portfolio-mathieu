@@ -102,9 +102,9 @@
         <p v-html="txt2[2]"></p>
 
         <read-more v-if="lang === 'fr'" more-str="En savoir plus ?" :text="txt2[1]" link="#" less-str="En savoir moins ?"
-          :max-chars="150"></read-more>
+          :max-chars="100"></read-more>
         <read-more v-if="lang === 'en'" more-str="Read more ?" :text="txt2[1]" link="#" less-str="Read less ?"
-          :max-chars="150"></read-more>
+          :max-chars="100"></read-more>
 
       </section>
 
@@ -143,9 +143,9 @@
         <p v-html="txt3[2]"></p>
 
         <read-more v-if="lang === 'fr'" more-str="En savoir plus ?" :text="txt3[1]" link="#" less-str="En savoir moins ?"
-          :max-chars="150"></read-more>
+          :max-chars="100"></read-more>
         <read-more v-if="lang === 'en'" more-str="Read more ?" :text="txt3[1]" link="#" less-str="Read less ?"
-          :max-chars="150"></read-more>
+          :max-chars="100"></read-more>
 
       </section>
 
@@ -181,12 +181,12 @@
           <h1>{{ txt4[0] }}</h1>
         </section>
 
-        <p v-html="txt2[3]"></p>
+        <p v-html="txt4[2]"></p>
 
         <read-more v-if="lang === 'fr'" more-str="En savoir plus ?" :text="txt4[1]" link="#" less-str="En savoir moins ?"
-          :max-chars="150"></read-more>
+          :max-chars="100"></read-more>
         <read-more v-if="lang === 'en'" more-str="Read more ?" :text="txt4[1]" link="#" less-str="Read less ?"
-          :max-chars="150"></read-more>
+          :max-chars="100"></read-more>
 
       </section>
 
