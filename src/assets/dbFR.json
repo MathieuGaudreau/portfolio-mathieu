@@ -12,7 +12,8 @@
         ],
         "txt3": [
             "Implication :",
-            "Depuis la première <b>semaine</b> de ce projet, j'ai été impliqué dans une variété de <b>tâches</b>. Au <b>début</b>, en collaboration avec les trois autres membres de mon <b>équipe</b>, nous avons principalement travaillé sur le <b>concept</b> général du jeu, en nous basant sur les <b>générateurs</b> <b>primaires</b> qui nous intéressaient le plus. Ensuite, j'ai consacré beaucoup de <b>temps</b> au <b>design</b> et aux <b>mécaniques</b> de jeu afin de créer des éléments qui correspondent à notre <b>facteur</b> <b>primaire</b>, le <b>psychédélisme</b>, et à l'expérience <b>unique</b> que nous souhaitions offrir.<br><br> Pendant la <b>phase</b> du concept de <b>haut</b> niveau, ma concentration s'est principalement portée sur le <b>design</b> de niveau. J'ai élaboré plusieurs concepts <b>papier</b> de niveaux et de <b>puzzles</b> qui pourraient être intégrés au jeu.<br><br> À la fin de la <b>période</b> d'<b>idéation</b>, notre <b>équipe</b> s'est élargie pour atteindre 13 <b>membres</b>, nécessitant une division en <b>départements</b>. J'ai été alors désigné comme <b>lead</b> <b>level</b> <b>design</b> et j'ai travaillé intensément sur le <b>blocking</b> et l'amélioration de notre <b>puzzle</b> pour la preuve technique. En plus du <b>level</b> <b>design</b>, j'ai également pris en charge la majeure partie du <b>design</b> <b>sonore</b> avec <b>Wwise</b> et la <b>moitié</b> du <b>level</b> <b>art</b>, tout en participant à la <b>programmation</b> de certains <b>systèmes</b>."
+            "Depuis la première <b>semaine</b> de ce projet, j'ai été impliqué dans une variété de <b>tâches</b>. Au <b>début</b>, en collaboration avec les trois autres membres de mon <b>équipe</b>, nous avons principalement travaillé sur le <b>concept</b> général du jeu, en nous basant sur les <b>générateurs</b> <b>primaires</b> qui nous intéressaient le plus. Ensuite, j'ai consacré beaucoup de <b>temps</b> au <b>design</b> et aux <b>mécaniques</b> de jeu afin de créer des éléments qui correspondent à notre <b>facteur</b> <b>primaire</b>, le <b>psychédélisme</b>, et à l'expérience <b>unique</b> que nous souhaitions offrir.<br><br> Pendant la <b>phase</b> du concept de <b>haut</b> niveau, ma concentration s'est principalement portée sur le <b>design</b> de niveau. J'ai élaboré plusieurs concepts <b>papier</b> de niveaux et de <b>puzzles</b> qui pourraient être intégrés au jeu.<br><br> À la fin de la <b>période</b> d'<b>idéation</b>, notre <b>équipe</b> s'est élargie pour atteindre 13 <b>membres</b>, nécessitant une division en <b>départements</b>. J'ai été alors désigné comme <b>lead</b> <b>level</b> <b>design</b> et j'ai travaillé intensément sur le <b>blocking</b> et l'amélioration de notre <b>puzzle</b> pour la preuve technique. En plus du <b>level</b> <b>design</b>, j'ai également pris en charge la majeure partie du <b>design</b> <b>sonore</b> avec <b>Wwise</b> et la <b>moitié</b> du <b>level</b> <b>art</b>, tout en participant à la <b>programmation</b> de certains <b>systèmes</b>.",
+            "<strong>Impliqué</strong> dès le <strong>début</strong>, j'ai dirigé le <strong>design</strong> et les <strong>mécaniques</strong> pour créer une expérience <strong>psychédélique</strong> unique. En tant que <strong>lead level design</strong>, j'ai conçu des <strong>niveaux</strong>, résolu des <strong>puzzles</strong>, et contribué au <strong>design sonore</strong> et à la <strong>programmation</strong>, démontrant ma <strong>polyvalence</strong> et mon <strong>impact</strong> sur le <strong>projet</strong>."
         ],
         "images1": [
             "https://i.ibb.co/25Kzx19/start-Normal.png",
@@ -92,44 +93,21 @@
         "date": "2023",
         "descriptionProjet": "Basé sur l'univers imaginé par Daniel Friedman et CROM, Raiders vous propose d'incarner Marken, un vétéran du raid, sillonnant villes et donjons à la recherche de trésors et d'aventures dangereuses ! Raiders est un <b>prototype de jeu RPG d'action-aventure</b> qui marie habilement les éléments du <b>dungeon crawling et du Hack 'n' Slash</b>. Dans ce jeu, le joueur explore un monde médiéval fantastique, peuplé de donjons, de créatures monstrueuses et de richesses à déterrer. Ce projet se divise en <b>deux niveaux distincts</b> : le marché, une attraction touristique, et les catacombes, un repaire de monstres et de trésors. En tant que membre d'une équipe de deux, <b>ma mission était de concevoir le niveau des catacombes.</b>",
         "txt2": [
-            "Le marché :",
-            "Situé au sommet d'une région de hautes terres en bord de mer, cette zone est devenue rapidement une <b>attraction prisée des Raiders</b> depuis la découverte des catacombes. Un marché prospère s'est donc installé ici pour attirer les aventuriers en quête de fortune. Cependant, <b>l'accès au donjon est désormais contrôlé par les gardes royaux</b>, obligeant les téméraires à obtenir <b>un permis</b> avant d'y pénétrer. Le défi du niveau est d'obtenir ce permis de l'une des trois manières possibles. En explorant le marché, les joueurs peuvent également profiter des différentes <b>attractions</b>, participer à des <b>combats dans l'arène</b>, consulter les <b>avis de recherche</b> des criminels, ou simplement écouter les <b>conversations</b> des marchands. Ce niveau regorge d'interactions avec des PNJ pouvant aider le joueur dans sa quête et lui offrir de nouvelles opportunités pour une récompense bien méritée !"
+            "Les catacombes :",
+            "Après avoir exploré le marché, le joueur peut pénétrer dans les catacombes en empruntant la porte dissimulée dans l'énorme épée de pierre, à l'extrémité de la péninsule. Nomées les Cryptes de l'Amant, ces catacombes représentent les souterrains d'un royaume déchu, regorgeant de <b>trésors</b>, de <b>pièges</b> et désormais habités par <b>d'effrayantes créatures</b>. L'intérieur est gigantesque, vaste et profond. Taillées dans une immense caverne sous-marine, <b>la lumière y est rare</b>, obligeant les aventuriers à s'équiper de sources de lumière pour éviter les mauvaises surprises. Le joueur doit alors naviguer à travers les différents étages et les passages secrets pour découvrir les richesses enfouies. Les Raiders traverseront de nombreuses pièces et défis, notamment une <b>salle de banquet</b>, une <b>prison</b>, une <b>bibliothèque</b>, une <b>crypte</b>, et bien d'autres encore ! Le donjon grouille également de <b>soldats squelettiques</b>, autrefois des aventuriers avides réanimés par une force mystérieuse et contraints de protéger les richesses qu'ils convoitaient autrefois.",
+            "Explorez le <strong>marché</strong>, trouvez l'<strong>épée de pierre</strong> menant aux <strong>Cryptes de l'Amant</strong>, anciens souterrains d'un <strong>royaume déchu</strong>. Riches en <strong>trésors</strong>, <strong>pièges</strong> et créatures effrayantes, ces <strong>catacombes</strong> exigent une <strong>lumière</strong> pour éviter les surprises. Naviguez à travers différents <strong>étages</strong>, <strong>passages secrets</strong>, affrontez des pièces variées, dont une <strong>salle de banquet</strong>, une <strong>prison</strong>, une <strong>bibliothèque</strong>, une <strong>crypte</strong>, tout en faisant face à des <strong>soldats squelettiques</strong> réanimés pour protéger les <strong>richesses</strong> convoitées."
         ],
         "txt3": [
-            "Les catacombes :",
-            "Après avoir exploré le marché, le joueur peut pénétrer dans les catacombes en empruntant la porte dissimulée dans l'énorme épée de pierre, à l'extrémité de la péninsule. Nomées les Cryptes de l'Amant, ces catacombes représentent les souterrains d'un royaume déchu, regorgeant de <b>trésors</b>, de <b>pièges</b> et désormais habités par <b>d'effrayantes créatures</b>. L'intérieur est gigantesque, vaste et profond. Taillées dans une immense caverne sous-marine, <b>la lumière y est rare</b>, obligeant les aventuriers à s'équiper de sources de lumière pour éviter les mauvaises surprises. Le joueur doit alors naviguer à travers les différents étages et les passages secrets pour découvrir les richesses enfouies. Les Raiders traverseront de nombreuses pièces et défis, notamment une <b>salle de banquet</b>, une <b>prison</b>, une <b>bibliothèque</b>, une <b>crypte</b>, et bien d'autres encore ! Le donjon grouille également de <b>soldats squelettiques</b>, autrefois des aventuriers avides réanimés par une force mystérieuse et contraints de protéger les richesses qu'ils convoitaient autrefois."
+            "Le marché :",
+            "Situé au sommet d'une région de hautes terres en bord de mer, cette zone est devenue rapidement une <b>attraction prisée des Raiders</b> depuis la découverte des catacombes. Un marché prospère s'est donc installé ici pour attirer les aventuriers en quête de fortune. Cependant, <b>l'accès au donjon est désormais contrôlé par les gardes royaux</b>, obligeant les téméraires à obtenir <b>un permis</b> avant d'y pénétrer. Le défi du niveau est d'obtenir ce permis de l'une des trois manières possibles. En explorant le marché, les joueurs peuvent également profiter des différentes <b>attractions</b>, participer à des <b>combats dans l'arène</b>, consulter les <b>avis de recherche</b> des criminels, ou simplement écouter les <b>conversations</b> des marchands. Ce niveau regorge d'interactions avec des PNJ pouvant aider le joueur dans sa quête et lui offrir de nouvelles opportunités pour une récompense bien méritée !",
+            "Un <strong>marché</strong> animé en bord de mer attire les <strong>aventuriers</strong> en quête de <strong>fortune</strong> vers des <strong>catacombes</strong> contrôlées par les <strong>gardes royaux</strong>. Pour accéder au <strong>donjon</strong>, les <strong>joueurs</strong> doivent obtenir un <strong>permis</strong> via trois voies possibles. Le <strong>marché</strong> offre diverses <strong>attractions</strong>, <strong>combats d'arène</strong>, <strong>avis de recherche</strong>, et <strong>interactions</strong> riches avec des <strong>PNJ</strong>, ouvrant la voie à des <strong>récompenses méritées</strong> !"
         ],
         "txt4": [
             "Inspirations et conclusion :",
-            "Notre principale source d'inspiration pour ce jeu était, bien sûr, la bande dessinée <b>Raiders</b> de Daniel Friedman et CROM. Nous avons également tiré des éléments de jeux tels que <b>Skyrim</b>, <b>Dark Souls</b> et même<b> Adventure Time</b> pour créer nos mécaniques de jeu et nos environnements. Mon inspiration première pour le niveau des catacombes venait des <b>Mines de la Moria</b> du Seigneur des Anneaux, car j'ai toujours été fasciné par leur grandeur et leur atmosphère oppressante. De plus, je me suis inspiré de la disposition des <b>Chalice Donjons</b> de Bloodborne pour créer un <b>niveau linéaire et interconnecté</b>. Raiders reste l'un de mes projets préférés à ce jour. J'ai pris un immense plaisir à concevoir le niveau des catacombes et à créer un environnement détaillé qui reflète l'univers de notre jeu ! Malgré les dizaines d'heures investies dans ce prototype, j'ai éprouvé une satisfaction totale, confirmant ainsi mon amour pour la conception de niveaux."
+            "Notre principale source d'inspiration pour ce jeu était, bien sûr, la bande dessinée <b>Raiders</b> de Daniel Friedman et CROM. Nous avons également tiré des éléments de jeux tels que <b>Skyrim</b>, <b>Dark Souls</b> et même<b> Adventure Time</b> pour créer nos mécaniques de jeu et nos environnements. Mon inspiration première pour le niveau des catacombes venait des <b>Mines de la Moria</b> du Seigneur des Anneaux, car j'ai toujours été fasciné par leur grandeur et leur atmosphère oppressante. De plus, je me suis inspiré de la disposition des <b>Chalice Donjons</b> de Bloodborne pour créer un <b>niveau linéaire et interconnecté</b>. Raiders reste l'un de mes projets préférés à ce jour. J'ai pris un immense plaisir à concevoir le niveau des catacombes et à créer un environnement détaillé qui reflète l'univers de notre jeu ! Malgré les dizaines d'heures investies dans ce prototype, j'ai éprouvé une satisfaction totale, confirmant ainsi mon amour pour la conception de niveaux.",
+            "De la bande dessinée <strong>Raiders</strong> à <strong>Skyrim</strong> et <strong>Dark Souls</strong>, notre <strong>jeu</strong> puise dans diverses <strong>inspirations</strong>, avec un clin d'œil à <strong>Adventure Time</strong>. Les <strong>catacombes</strong> s'inspirent de la grandeur oppressante des <strong>Mines de la Moria</strong> du <strong>Seigneur des Anneaux</strong> et de la structure linéaire des <strong>Chalice Donjons</strong> de <strong>Bloodborne</strong>. <strong>Raiders</strong> reste l'un de mes <strong>projets préférés</strong>, offrant une <strong>satisfaction totale</strong> dans la <strong>conception du niveau</strong> et la création d'un <strong>environnement détaillé</strong> qui reflète notre <strong>univers de jeu</strong> !"
         ],
         "images1": [
-            "https://i.ibb.co/k22BsYL/Market-2.png",
-            "https://i.ibb.co/tmbjKRN/Market-1.png",
-            "https://i.ibb.co/DPXQbrk/Market-3.png",
-            "https://i.ibb.co/q9Jpc9b/Market-4.png",
-            "https://i.ibb.co/KL7TRnj/Market-5.png",
-            "https://i.ibb.co/kqxKPQP/Market-6.png",
-            "https://i.ibb.co/bFPV2Qz/Market-7.png",
-            "https://i.ibb.co/xSZRD31/Market-8.png",
-            "https://i.ibb.co/Lv13fhg/Market-9.png",
-            "https://i.ibb.co/Rc8r6fB/Market-11.png",
-            "https://i.ibb.co/L9qDv4g/Market-10.png"
-        ],
-        "txtPhotos1": [
-            "<strong>Position initiale du joueur</strong> et entrée vers le marché. On peut y apercevoir 2 <strong>gardes royaux</strong> pour symboliser leur proximité des donjons et un panneau avec des <strong>avis de recherche</strong>.",
-            "Pont et chemin principal pour accéder au marché, avec une vue sur la mer pour montrer la localisation sur les <strong>Highlands</strong>.",
-            "Près de l'entrée principale, le joueur peut déjà commencer à interagir avec divers <strong>marchands</strong> et peut aussi apercevoir l'énorme épée qui cache la porte du donjon.",
-            "<strong>Place centrale du marché</strong> où tous les marchands se réunissent, avec l'annulaire de la main géante servant de pont vers le donjon. Celle-ci symbolise le donjon qui porte le nom de <strong>Crypte de l'Amant</strong>.",
-            "Sur le côté droit du marché, le joueur peut y retrouver l'<strong>arène de combat</strong> dans laquelle il peut démontrer sa force contre les combattants des <strong>Highlands</strong>.",
-            "Juste à côté de l'arène, une ruine en ruine permet d'accéder à un <strong>petit sanctuaire</strong>.",
-            "Le <strong>sanctuaire</strong> représente l'un des membres de la <strong>royauté</strong> du royaume déchu qui utilisait autrefois cet endroit ainsi que le donjon.",
-            "Sur la côte gauche du marché, le joueur peut entrer dans un <strong>bâtiment</strong> et trouver une petite descente de bateau clandestine. Sur celle-ci, un étrange <strong>personnage</strong> dont le visage se retrouve sur les <strong>avis de recherche</strong> peut aider le joueur à obtenir un <strong>permis</strong>...",
-            "En suivant le chemin principal, le joueur arrive à l'entrée du <strong>donjon</strong>, protégée par des <strong>gardes royaux</strong>.",
-            "Sur la côte droite, on peut y retrouver une descente de bateau qui sert aux <strong>voyageurs marins</strong> d'accéder au marché.",
-            "<strong>Vue d'ensemble aérienne</strong> du niveau."
-        ],
-        "images2": [
             "https://i.ibb.co/5KXZGMd/Highres-Screenshot00011.png",
             "https://i.ibb.co/0JgzWjL/Highres-Screenshot00012.png",
             "https://i.ibb.co/MpCBCQN/Highres-Screenshot00013.png",
@@ -157,7 +135,7 @@
             "https://i.ibb.co/vL1TFZ0/Highres-Screenshot00039.png",
             "https://i.ibb.co/C8d7Q4D/Catacomb-Map-Engine.png"
         ],
-        "txtPhotos2": [
+        "txtPhotos1": [
             "<strong>Entrée principale du donjon</strong> par la porte du marché. Le joueur peut déjà apercevoir qu'il n'est pas le premier à cause des portes entrouvertes.",
             "En descendant les marches, on peut commencer à <strong>apercevoir plusieurs silhouettes inertes</strong> dans la pièce.",
             "Plusieurs <strong>restes squelettiques</strong> peuvent être retrouvés un peu partout dans la salle de banquet, démontrant un sinistre passé.",
@@ -184,6 +162,32 @@
             "Les tombes pouvant être ouvertes, le joueur peut y trouver de l'or et des bijoux et aussi y apercevoir <strong>certain symbole</strong> qui pourrait être relié à l'étrange objet.",
             "Finalement, une fois que le joueur réussit à faire baisser l'eau en ayant résolu le puzzle, il pourra entrer dans la dernière salle du donjon et y affronter le boss, <strong>Patches<strong>, un visage familier qui se retrouvait partout sur les <strong>avis de recherche au marché</strong> !",
             "Vue d'ensemble aérienne du niveau du donjon."
+        ],
+        "images2": [
+            "https://i.ibb.co/k22BsYL/Market-2.png",
+            "https://i.ibb.co/tmbjKRN/Market-1.png",
+            "https://i.ibb.co/DPXQbrk/Market-3.png",
+            "https://i.ibb.co/q9Jpc9b/Market-4.png",
+            "https://i.ibb.co/KL7TRnj/Market-5.png",
+            "https://i.ibb.co/kqxKPQP/Market-6.png",
+            "https://i.ibb.co/bFPV2Qz/Market-7.png",
+            "https://i.ibb.co/xSZRD31/Market-8.png",
+            "https://i.ibb.co/Lv13fhg/Market-9.png",
+            "https://i.ibb.co/Rc8r6fB/Market-11.png",
+            "https://i.ibb.co/L9qDv4g/Market-10.png"
+        ],
+        "txtPhotos2": [
+            "<strong>Position initiale du joueur</strong> et entrée vers le marché. On peut y apercevoir 2 <strong>gardes royaux</strong> pour symboliser leur proximité des donjons et un panneau avec des <strong>avis de recherche</strong>.",
+            "Pont et chemin principal pour accéder au marché, avec une vue sur la mer pour montrer la localisation sur les <strong>Highlands</strong>.",
+            "Près de l'entrée principale, le joueur peut déjà commencer à interagir avec divers <strong>marchands</strong> et peut aussi apercevoir l'énorme épée qui cache la porte du donjon.",
+            "<strong>Place centrale du marché</strong> où tous les marchands se réunissent, avec l'annulaire de la main géante servant de pont vers le donjon. Celle-ci symbolise le donjon qui porte le nom de <strong>Crypte de l'Amant</strong>.",
+            "Sur le côté droit du marché, le joueur peut y retrouver l'<strong>arène de combat</strong> dans laquelle il peut démontrer sa force contre les combattants des <strong>Highlands</strong>.",
+            "Juste à côté de l'arène, une ruine en ruine permet d'accéder à un <strong>petit sanctuaire</strong>.",
+            "Le <strong>sanctuaire</strong> représente l'un des membres de la <strong>royauté</strong> du royaume déchu qui utilisait autrefois cet endroit ainsi que le donjon.",
+            "Sur la côte gauche du marché, le joueur peut entrer dans un <strong>bâtiment</strong> et trouver une petite descente de bateau clandestine. Sur celle-ci, un étrange <strong>personnage</strong> dont le visage se retrouve sur les <strong>avis de recherche</strong> peut aider le joueur à obtenir un <strong>permis</strong>...",
+            "En suivant le chemin principal, le joueur arrive à l'entrée du <strong>donjon</strong>, protégée par des <strong>gardes royaux</strong>.",
+            "Sur la côte droite, on peut y retrouver une descente de bateau qui sert aux <strong>voyageurs marins</strong> d'accéder au marché.",
+            "<strong>Vue d'ensemble aérienne</strong> du niveau."
         ],
         "titreCanva": "L0 & Cartes des niveaux :",
         "canva": [
@@ -493,7 +497,7 @@
         "txt2": [
             "Production et Contribution :",
             "Ce projet a été conçu et développé par une équipe de <b>trois personnes</b> au cours d'une période de <b>quatre mois</b>. Mes responsabilités principales comprenaient la <b>conception de jeu</b>, la mise en place de systèmes et la <b>programmation</b>, en particulier pour le <b>cycle jour/nuit</b> et le système <b>d'inventaire et de crafting</b>. Mes tâches englobaient la création des mécaniques de jeu et de l'univers, <b>l'équilibrage</b> et la gestion des vagues d'ennemis qui n'apparaissaient que la nuit, tout en veillant à ce que le joueur ne soit pas rapidement submergé, ainsi que l'intégration dans Unity. La majeure partie de mon travail consistait à programmer et à gérer l'intégralité du système d'inventaire et de crafting, y compris tous les objets que le joueur pouvait collecter et utiliser.",
-            "Conception immersive, programmation experte : Une équipe de trois personnes a donné vie à ce projet en quatre mois. Mon rôle central : concevoir le jeu, mettre en place des systèmes complexes, et programmer le cycle <b>jour/nuit</b> ainsi que le système d'<b>inventaire</b> et de <b>crafting</b> dans l'univers captivant que j'ai créé."
+            "Conception immersive : Une équipe de trois personnes a donné vie à ce projet en quatre mois. Mon rôle central : concevoir le jeu, mettre en place des systèmes complexes, et programmer le cycle <b>jour/nuit</b> ainsi que le système d'<b>inventaire</b> et de <b>crafting</b> dans l'univers captivant que j'ai créé."
         ],
         "txt3": [
             "Défis et Difficultés :",
