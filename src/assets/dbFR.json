@@ -5,11 +5,17 @@
         "type": "designLevel",
         "date": "2023 / 2024",
         "descriptionProjet": "Incarne un goéland parfaitement stupide, trouve de la nourriture et complète des quêtes pour sauver les Grands Maîtres et obtenir leurs pouvoirs. Harcèle les humains et libère les Îles Pohemeda de la malveillante Food Inc. avec ton caca puant et tes cris puissants!",
-        "txt2": ["En construction !"],
-        "txt3": ["En construction !"],
+        "txt2": [
+            "En construction !"
+        ],
+        "txt3": [
+            "En construction !"
+        ],
         "images1": [
             "https://i.ibb.co/SwkmRXj/Ville-It-ration-1.png",
+            "https://i.ibb.co/NFTnbbX/Guano-OG.png",
             "https://i.ibb.co/dtTxdp1/Ville-It-ration-2.png",
+            "https://i.ibb.co/kKt1btz/Guano-PPJ.png",
             "https://i.ibb.co/nMpxmS1/Ville-it-ration-3.png",
             "https://i.ibb.co/nPQ4xNL/Ville-It-ration-4.png",
             "https://i.ibb.co/s5ydB1d/Ville-Full.png",
@@ -19,11 +25,14 @@
             "https://i.ibb.co/pwsKy3J/Ville-Side-3.png",
             "https://i.ibb.co/PcmLkVj/Ville-side-4.png",
             "https://i.ibb.co/HHyNhB9/Ville-Center.png",
-            "https://i.ibb.co/HzC9ckR/Ville-Tunnels.png"
+            "https://i.ibb.co/HzC9ckR/Ville-Tunnels.png",
+            "https://i.ibb.co/LYZqWNk/Big-Cheese.png"
         ],
         "txtPhotos1": [
             "Première itération de la zone de la ville. Mon idée principale était d'avoir un gigantesque <strong>resort</strong> servant de point central sur l'île, entourée de plusieurs <strong>gratte-ciels</strong> assez hauts et de zones <strong>commerciales</strong>. L'objectif était d'ajouter beaucoup de <strong>verticalité</strong> et différentes zones d'<strong>intérêt</strong> à des hauteurs variées pour encourager le joueur à explorer l'ensemble.",
+            "Blocking de la première itération de la ville. Elle comportait plusieurs <strong>gratte-ciels</strong> et des <strong>zones commerciales</strong>, tout en étant surplombée par le <strong>resort</strong>.",
             "Étant trop exigeants pour le moment en termes d'<strong>art</strong>, dans la deuxième itération de la ville, les <strong>bâtiments</strong> sont moins nombreux et beaucoup plus bas, avec quelques <strong>immeubles</strong> plus imposants proches de la plage. Inspiré de vrais plans de <strong>resorts</strong> tropicaux, cet agencement se veut plus réaliste. En réduisant la <strong>verticalité</strong> et rapprochant les <strong>bâtiments</strong>, l'intention était d'inciter le joueur à utiliser les <strong>chemins</strong> à pleine vitesse et à jouer avec les <strong>virages</strong>.",
+            "Deuxième version de la ville maintenant avec les vrais <strong>assets</strong> de <strong>bâtiments</strong>. Les couleurs vives, les <strong>boardwalks</strong> et la verdure donnaient plutôt un style de village que celui d'une ville. Les <strong>bâtiments</strong> étant plus petits, le joueur était plus porté à suivre les routes et les corridors pour y trouver de la nourriture.",
             "Pour la troisième itération de la ville, j'ai choisi de mettre en valeur les nouveaux <strong>bâtiments</strong> à ma disposition et de passer d'un style <strong>resort</strong> à un style plus <strong>centre-ville</strong>, avec de nombreux <strong>gratte-ciels</strong>. Les plus petits <strong>bâtiments</strong>, utilisés dans d'autres sections de la carte du jeu, amorcent une transition à l'entrée de la ville, commençant par les plus petits pour ensuite progresser vers les <strong>gratte-ciels</strong>. En privilégiant les <strong>immeubles</strong> les plus hauts, j'ai davantage focalisé le joueur sur l'utilisation de la <strong>verticalité</strong>.",
             "Pour la dernière itération de la ville, j'ai réfléchi au <strong>layout</strong> en fonction de la quête de <strong>course</strong> que le joueur peut trouver en premier. Les <strong>chemins</strong> sont désormais des <strong>rues</strong> droites, permettant au joueur de filer à pleine vitesse et de négocier de grands <strong>virages</strong>. Les <strong>bâtiments</strong>, assez hauts et espacés, offrent au joueur la possibilité de circuler entre eux tout en maintenant une bonne <strong>vitesse</strong>. Certains <strong>immeubles</strong> sont en construction, permettant au joueur de passer au milieu et à travers les <strong>étages</strong>.",
             "<strong>Blocking</strong> final de la ville. Cette <strong>zone</strong>, l'une des plus vastes du jeu, propose au joueur une <strong>quête</strong>, des <strong>collectibles</strong> et de nombreux <strong>humains</strong> à déranger !",
@@ -33,7 +42,8 @@
             "La ville est également entourée de <strong>plages</strong> de <strong>sable doré</strong> sur lesquelles plusieurs <strong>humains</strong> peuvent se retrouver.",
             "Le joueur peut également trouver quelques <strong>chemins d'arche</strong> pour le guider vers la ville, où il peut découvrir de la <strong>nourriture</strong>.",
             "Le point central de la ville est le <strong>bâtiment Food INC</strong>. Étant plus élevé que tous les autres, je l'ai placé en plein centre pour qu'il domine toute la ville. Le joueur a ainsi toujours un <strong>point de repère</strong>, et l'immeuble cache également de la <strong>nourriture</strong> sur son <strong>toit</strong>.",
-            "Les plus <strong>petits</strong> <strong>gratte-ciels</strong> ne sont pas en <strong>construction</strong>, mais possèdent des petites <strong>arches</strong> à leur pied, où le joueur peut se promener et trouver des <strong>collectibles</strong>. Ils sont également disposés de manière à guider le joueur vers une nouvelle <strong>section</strong> de la ville ou une autre <strong>zone</strong>."
+            "Les plus <strong>petits</strong> <strong>gratte-ciels</strong> ne sont pas en <strong>construction</strong>, mais possèdent des petites <strong>arches</strong> à leur pied, où le joueur peut se promener et trouver des <strong>collectibles</strong>. Ils sont également disposés de manière à guider le joueur vers une nouvelle <strong>section</strong> de la ville ou une autre <strong>zone</strong>.",
+            "Petite section adjacente à la ville où se retrouve une énorme statue de <strong>fromage</strong>. Le joueur peut y retrouver un parcours de <strong>bouées</strong> et y ramasser de la <strong>nourriture</strong> en plus de pouvoir déranger les humains qui s'y promènent et trouver un <strong>collectible</strong>."
         ],
         "images2": [
             "https://i.ibb.co/svZKnvc/Guano-LD-Volcano-Interior.png",
@@ -45,7 +55,16 @@
             "https://i.ibb.co/xgqNBZ7/Volcan-Layer-3.png",
             "https://i.ibb.co/sQ0CM0X/Volcan-Crystaux.png"
         ],
-        "txtPhotos2": [],
+        "txtPhotos2": [
+            "<strong>Plan des différents étages du volcan:</strong> Le joueur peut accéder par le sommet et découvrir deux étages de ponts suspendus où il rencontrera des employés de <strong>Food INC</strong>, certains hostiles, d'autres proposant de la <strong>nourriture</strong>. Tout au fond du <strong>volcan</strong>, des plateformes au-dessus de la lave, des cavernes, et l'entrée vers la base souterraine de <strong>Food INC</strong> pour poursuivre la <strong>quête principale</strong>.",
+            "<strong>Plan de l'île abritant le volcan:</strong> L'idée était d'avoir une petite zone sur le côté du <strong>volcan</strong> pour ajouter une exploration supplémentaire autour, plutôt que de se limiter uniquement au <strong>volcan</strong>.",
+            "<strong>Layout final de l'île du volcan:</strong> J'ai réduit la taille de l'île et retiré le lagon du plan initial, car il était trop grand pour permettre une exploration satisfaisante. À la place, des arches et de petits îlots ont été ajoutés, où le joueur peut utiliser le pouvoir d'acide ou le ground pound pour récolter de la <strong>nourriture</strong> ou des objets à collectionner à l'intérieur.",
+            "<strong>L'arrière du volcan:</strong> Offre également des opportunités de jeu et d'exploration. Je ne voulais pas que le joueur y aille et ne trouve rien, alors il peut y découvrir d'autres sources de <strong>nourriture</strong> et même un chemin alternatif pour entrer dans le <strong>volcan</strong>.",
+            "<strong>Le premier étage du volcan:</strong> Suit largement les parois pour laisser une vue dégagée vers le bas, offrant au joueur une visibilité sur les plateformes de roche cachant de la <strong>nourriture</strong>.",
+            "<strong>Le deuxième étage du volcan:</strong> Donne l'impression de couper la navigation en traversant le centre, mais c'est une illusion. En étant légèrement décalé, le joueur peut facilement descendre directement par le centre, créant une illusion de défi de navigation.",
+            "<strong>Le fond du volcan:</strong> Permet au joueur de poursuivre la <strong>quête principale</strong> du jeu en entrant par la porte centrale après avoir <strong>collecté</strong> suffisamment de <strong>nourriture</strong>. Des cavernes, des tunnels et des plateformes rocheuses sont également accessibles si le joueur décide d'<strong>explorer</strong> davantage.",
+            "Deux <strong>tunnels</strong> de <strong>cristaux</strong> dissimulés dans les parois du <strong>volcan</strong> offrent au joueur une <strong>alternative d'entrée</strong> et révèlent des <strong>secrets</strong> s'il a débloqué la <strong>compétence du super cri</strong>."
+        ],
         "cover": "https://i.ibb.co/Fm0Dyxm/Guano-Cover.png",
         "roles": [
             "Designer de niveaux"

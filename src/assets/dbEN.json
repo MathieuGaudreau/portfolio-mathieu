@@ -5,11 +5,17 @@
         "type": "designLevel",
         "date": "2023 / 2024",
         "descriptionProjet": "Play as a delightfully dumb seagull, find food and complete quests to help free the Grand Masters and gain their powers. Harrass humans and free the Pohemeda Islands from the evil Food Inc. with your powerful poop and loud screams!",
-        "txt2": ["Under construction"],
-        "txt3": ["Under construction"],
+        "txt2": [
+            "Under construction"
+        ],
+        "txt3": [
+            "Under construction"
+        ],
         "images1": [
             "https://i.ibb.co/SwkmRXj/Ville-It-ration-1.png",
+            "https://i.ibb.co/NFTnbbX/Guano-OG.png",
             "https://i.ibb.co/dtTxdp1/Ville-It-ration-2.png",
+            "https://i.ibb.co/kKt1btz/Guano-PPJ.png",
             "https://i.ibb.co/nMpxmS1/Ville-it-ration-3.png",
             "https://i.ibb.co/nPQ4xNL/Ville-It-ration-4.png",
             "https://i.ibb.co/s5ydB1d/Ville-Full.png",
@@ -23,7 +29,9 @@
         ],
         "txtPhotos1": [
             "First iteration of the city area. My main idea was to have a gigantic <strong>resort</strong> serving as the central point on the island, surrounded by several tall <strong>skyscrapers</strong> and commercial areas. The goal was to add a lot of <strong>verticality</strong> and different areas of <strong>interest</strong> at varying heights to encourage the player to explore the entire setting.",
+            "Blocking of the first iteration of the city. It featured several <strong>skyscrapers</strong> and <strong>commercial zones</strong>, all while being overlooked by the <strong>resort</strong>.",
             "Being too demanding for the moment in terms of <strong>art</strong>, in the second iteration of the city, the <strong>buildings</strong> are fewer and much lower, with a few larger <strong>buildings</strong> near the beach. Inspired by real plans of tropical <strong>resorts</strong>, this arrangement aims to be more realistic. By reducing <strong>verticality</strong> and bringing the <strong>buildings</strong> closer together, the intention was to encourage the player to use the <strong>paths</strong> at full speed and play with the <strong>turns</strong>.",
+            "Second version of the city now with real <strong>building assets</strong>. The bright colors, <strong>boardwalks</strong>, and greenery gave it more of a village style than that of a city. With the buildings being smaller, the player was more inclined to follow the roads and corridors to find food.",
             "For the third iteration of the city, I decided to highlight the new <strong>buildings</strong> at my disposal and transition from a <strong>resort</strong> style to a more downtown style, with many <strong>skyscrapers</strong>. The smaller <strong>buildings</strong>, used in other sections of the game map, initiate a transition at the city entrance, starting with the smaller ones and gradually progressing towards the <strong>skyscrapers</strong>. By emphasizing the tallest <strong>buildings</strong>, I focused the player more on using <strong>verticality</strong>.",
             "For the last iteration of the city, I wanted to design the layout based on the race quest that the player can find there first. The paths are now straight <strong>streets</strong>, allowing the player to go at full speed and make large <strong>turns</strong>. The <strong>buildings</strong>, tall and spaced apart, offer the player the opportunity to navigate between them while maintaining a good <strong>speed</strong>. Some <strong>buildings</strong> are under construction, allowing the player to pass through the middle and across the <strong>floors</strong>.",
             "Final <strong>blocking</strong> of the city. This area, one of the largest in the game, offers the player a quest, collectibles, and many <strong>humans</strong> to bother!",
@@ -33,7 +41,8 @@
             "The city is also surrounded by <strong>golden sand</strong> beaches where several <strong>humans</strong> can gather.",
             "The player can also find some <strong>arch paths</strong> to guide them to the city, where they can discover <strong>food</strong>.",
             "The central point of the city is the <strong>Food INC building</strong>. Being taller than all the others, I decided to place it in the center so that it overlooks the entire city. The player always has a <strong>reference point</strong>, and the building also hides <strong>food</strong> on its <strong>roof</strong>.",
-            "The smallest <strong>skyscrapers</strong> are not under <strong>construction</strong>, but have small <strong>arches</strong> at their base where the player can walk and find <strong>collectibles</strong>. They are also arranged to guide the player to a new <strong>section</strong> of the city or another <strong>area</strong>."
+            "The smallest <strong>skyscrapers</strong> are not under <strong>construction</strong>, but have small <strong>arches</strong> at their base where the player can walk and find <strong>collectibles</strong>. They are also arranged to guide the player to a new <strong>section</strong> of the city or another <strong>area</strong>.",
+            "Small section adjacent to the city where you can find a huge statue of <strong>cheese</strong>. The player can discover a course of <strong>buoys</strong> there and collect <strong>food</strong> as well as disturb the humans strolling around, and find a <strong>collectible</strong>."
         ],
         "images2": [
             "https://i.ibb.co/svZKnvc/Guano-LD-Volcano-Interior.png",
@@ -45,7 +54,16 @@
             "https://i.ibb.co/xgqNBZ7/Volcan-Layer-3.png",
             "https://i.ibb.co/sQ0CM0X/Volcan-Crystaux.png"
         ],
-        "txtPhotos2": [],
+        "txtPhotos2": [
+            "<strong>Plan of the different levels of the volcano:</strong> The player can enter from the top and discover two levels of suspended bridges where they will encounter employees of <strong>Food INC</strong>, some hostile, others offering <strong>food</strong>. At the very bottom of the <strong>volcano</strong>, platforms above the lava, caves, and the entrance to the underground base of <strong>Food INC</strong> to continue the <strong>main quest</strong>.",
+            "<strong>Map of the island housing the volcano:</strong> The idea was to have a small area on the side of the <strong>volcano</strong> to add extra exploration around, rather than limiting it solely to the <strong>volcano</strong>.",
+            "<strong>Final layout of the volcano island:</strong> I reduced the size of the island and removed the lagoon from the original plan because it was too large for satisfactory exploration. Instead, arches and small islets were added, where the player can use the acid power or ground pound to collect <strong>food</strong> or collectibles inside.",
+            "<strong>The back of the volcano:</strong> Also offers gaming and exploration opportunities. I didn't want the player to go there and find nothing, so they can discover other sources of <strong>food</strong> and even an alternative path to enter the <strong>volcano</strong>.",
+            "<strong>The first floor of the volcano:</strong> Mostly follows the walls to leave a clear view downwards, offering the player visibility on rock platforms hiding <strong>food</strong>.",
+            "<strong>The second floor of the volcano:</strong> Gives the impression of cutting navigation by crossing the center, but it's an illusion. Being slightly offset, the player can easily descend directly through the center, creating an illusion of navigation challenge.",
+            "<strong>The bottom of the volcano:</strong> Allows the player to continue the <strong>main quest</strong> of the game by entering through the central door after having <strong>collected</strong> enough <strong>food</strong>. Caves, tunnels, and rock platforms are also accessible if the player decides to <strong>explore</strong> further.",
+            "Two <strong>tunnels</strong> of <strong>crystals</strong> hidden in the walls of the <strong>volcano</strong> offer the player an <strong>alternative entrance</strong> and reveal <strong>secrets</strong> if they have unlocked the <strong>super scream ability</strong>."
+        ],
         "cover": "https://i.ibb.co/Fm0Dyxm/Guano-Cover.png",
         "roles": [
             "Level designer"
