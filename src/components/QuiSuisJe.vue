@@ -89,10 +89,10 @@
         <ul>
           <li>
             <a v-if="lang === 'fr'"
-              href="https://drive.google.com/file/d/1Sz5HiDNDykAiLBB__wQxOYw7xlbWqlwk/view?usp=sharing" target="_blank"
+              href="https://drive.google.com/file/d/1SDnS_xnnWlpRwBA3r0Nn9mPPKrPuDxie/view?usp=sharing" target="_blank"
               title="Voir mon CV"><i class="fas fa-external-link-square-alt"></i></a>
             <a v-if="lang === 'en'"
-              href="https://drive.google.com/file/d/1a3enWUqnm9C_GQfwHo3bTKodK0WuAuV_/view?usp=sharing" target="_blank"
+              href="https://drive.google.com/file/d/1GvE4TQOT42QwXUeV2ecDyizoGRIQ6-kR/view?usp=sharing" target="_blank"
               title="Check out my CV"><i class="fas fa-external-link-square-alt"></i></a>
           </li>
         </ul>
