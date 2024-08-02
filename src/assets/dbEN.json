@@ -22,14 +22,15 @@
             "https://i.ibb.co/kKt1btz/Guano-PPJ.png",
             "https://i.ibb.co/nMpxmS1/Ville-it-ration-3.png",
             "https://i.ibb.co/nPQ4xNL/Ville-It-ration-4.png",
-            "https://i.ibb.co/s5ydB1d/Ville-Full.png",
-            "https://i.ibb.co/W5vX4Qk/Ville-Top-Down.png",
-            "https://i.ibb.co/Qbxwf7P/Ville-Side-1.png",
-            "https://i.ibb.co/NmGx2y0/Ville-Side-2.png",
-            "https://i.ibb.co/pwsKy3J/Ville-Side-3.png",
-            "https://i.ibb.co/PcmLkVj/Ville-side-4.png",
-            "https://i.ibb.co/HHyNhB9/Ville-Center.png",
-            "https://i.ibb.co/HzC9ckR/Ville-Tunnels.png"
+            "https://i.postimg.cc/B6sR2LW9/Ville-Full.png",
+            "https://i.postimg.cc/7PKjTZmd/Ville-Top-Down.png",
+            "https://i.postimg.cc/4xDDN2B3/Ville-Side-1.png",
+            "https://i.postimg.cc/qRLSwJ0t/Ville-Side-2.png",
+            "https://i.postimg.cc/0jX3gVzP/Ville-Side-3.png",
+            "https://i.postimg.cc/FzHqnMsT/Ville-side-4.png",
+            "https://i.postimg.cc/qv6frHcY/Ville-Center.png",
+            "https://i.postimg.cc/sD1qPCLX/Ville-Tunnels.png",
+            "https://i.postimg.cc/1zDLg0jr/Big-Cheese.png"
         ],
         "txtPhotos1": [
             "First iteration of the city area. My main idea was to have a gigantic <strong>resort</strong> serving as the central point on the island, surrounded by several tall <strong>skyscrapers</strong> and commercial areas. The goal was to add a lot of <strong>verticality</strong> and different areas of <strong>interest</strong> at varying heights to encourage the player to explore the entire setting.",
@@ -51,12 +52,12 @@
         "images2": [
             "https://i.ibb.co/svZKnvc/Guano-LD-Volcano-Interior.png",
             "https://i.ibb.co/5L8Zg9n/Guano-LD-Volcano-Island.png",
-            "https://i.ibb.co/ZBRkSrV/Volcan-Front.png",
-            "https://i.ibb.co/10q9BhY/Volcan-Back.png",
-            "https://i.ibb.co/Wg4nqWK/Volcan-Layer-1.png",
-            "https://i.ibb.co/GPb1k2h/Volcan-Layer-2.png",
-            "https://i.ibb.co/xgqNBZ7/Volcan-Layer-3.png",
-            "https://i.ibb.co/sQ0CM0X/Volcan-Crystaux.png"
+            "https://i.postimg.cc/0N14qMyM/Volcan-Front.png",
+            "https://i.postimg.cc/6pvPSLtx/Volcan-Back.png",
+            "https://i.postimg.cc/d0RxQshW/Volcan-Layer-1.png",
+            "https://i.postimg.cc/vBQScJ9G/Volcan-Layer-2.png",
+            "https://i.postimg.cc/Y9bDgdfY/Volcan-Layer-3.png",
+            "https://i.postimg.cc/wTPP0bKk/Volcan-Crystaux.png"
         ],
         "txtPhotos2": [
             "<strong>Plan of the different levels of the volcano:</strong> The player can enter from the top and discover two levels of suspended bridges where they will encounter employees of <strong>Food INC</strong>, some hostile, others offering <strong>food</strong>. At the very bottom of the <strong>volcano</strong>, platforms above the lava, caves, and the entrance to the underground base of <strong>Food INC</strong> to continue the <strong>main quest</strong>.",
@@ -68,7 +69,7 @@
             "<strong>The bottom of the volcano:</strong> Allows the player to continue the <strong>main quest</strong> of the game by entering through the central door after having <strong>collected</strong> enough <strong>food</strong>. Caves, tunnels, and rock platforms are also accessible if the player decides to <strong>explore</strong> further.",
             "Two <strong>tunnels</strong> of <strong>crystals</strong> hidden in the walls of the <strong>volcano</strong> offer the player an <strong>alternative entrance</strong> and reveal <strong>secrets</strong> if they have unlocked the <strong>super scream ability</strong>."
         ],
-        "cover": "https://i.ibb.co/Fm0Dyxm/Guano-Cover.png",
+        "cover": "https://i.postimg.cc/vTdf4P7t/Guano-Cover.png",
         "roles": [
             "Level designer"
         ],
@@ -96,20 +97,20 @@
             "<strong>Involved</strong> from the <strong>beginning</strong>, I led the <strong>design</strong> and mechanics to create a unique <strong>psychedelic</strong> experience. As a <strong>lead level design</strong>, I designed <strong>levels</strong>, solved <strong>puzzles</strong>, and contributed to <strong>sound design</strong> and <strong>programming</strong>, showcasing my <strong>versatility</strong> and <strong>impact</strong> on the <strong>project</strong>."
         ],
         "images1": [
-            "https://i.ibb.co/25Kzx19/start-Normal.png",
-            "https://i.ibb.co/kQyN5sz/start-Lumi.png",
-            "https://i.ibb.co/ZxTHfMt/start-Ethe.png",
-            "https://i.ibb.co/swzmCrJ/center-Normal.png",
-            "https://i.ibb.co/D5tSzYk/center-Lumi.png",
-            "https://i.ibb.co/9rTY8XQ/center-Ethe.png",
-            "https://i.ibb.co/h7kkJtN/end-Normal.png",
-            "https://i.ibb.co/H7z3XTb/endLumi.png",
+            "https://i.postimg.cc/W4KwPxn9/start-Normal.png",
+            "https://i.postimg.cc/0Nr0F9pM/start-Lumi.png",
+            "https://i.postimg.cc/rwf9fDt2/start-Ethe.png",
+            "https://i.postimg.cc/fydHFMQj/center-Normal.png",
+            "https://i.postimg.cc/ryRYzNR0/center-Lumi.png",
+            "https://i.postimg.cc/26Mc2VMS/center-Ethe.png",
+            "https://i.postimg.cc/Qxp4JNbj/end-Normal.png",
+            "https://i.postimg.cc/NjBNJhJm/endLumi.png",
             "https://i.ibb.co/M8pNKB8/endEthe.png",
-            "https://i.ibb.co/2YPVJyy/island1-Normal.png",
-            "https://i.ibb.co/C8MLkTK/island1-Lumi.png",
-            "https://i.ibb.co/cxdyFdW/island1-Ethe.png",
-            "https://i.ibb.co/3kJvfYJ/island2-Normal.png",
-            "https://i.ibb.co/X7H470c/island2-Ethe.png"
+            "https://i.postimg.cc/ZqDV5WTx/island1-Normal.png",
+            "https://i.postimg.cc/mrrm4YGr/island1-Lumi.png",
+            "https://i.postimg.cc/cLhFPD2j/island1-Ethe.png",
+            "https://i.postimg.cc/NGXpQGZR/island2-Normal.png",
+            "https://i.postimg.cc/tTZDZ9JQ/island2-Ethe.png"
         ],
         "txtPhotos1": [
             "The player begins their adventure in a remote corner of the greenhouse with no flowers in mind. Thus, the environment becomes more <b>green and natural</b>, resembling a true garden more closely.",
@@ -134,10 +135,10 @@
             "https://i.ibb.co/K5RJknd/Lumiflor-Small.gif",
             "https://i.ibb.co/0c835bJ/Vines-Small.gif",
             "https://i.ibb.co/3p00xmk/Water-Wheel-Small.gif",
-            "https://i.ibb.co/ZNcsj46/Map-1.png",
-            "https://i.ibb.co/rb9tLkG/Map-2.png",
-            "https://i.ibb.co/t4wTqZh/Map-3.png",
-            "https://i.ibb.co/MsH1m6C/map-Ingame.png"
+            "https://i.postimg.cc/hjksVNQJ/Map-1.png",
+            "https://i.postimg.cc/9Fj105jK/Map-2.png",
+            "https://i.postimg.cc/qMXwCbJR/Map-3.png",
+            "https://i.postimg.cc/rwVJG1s9/map-Ingame.png"
         ],
         "txtPhotos2": [
             "One of the main mechanics in Fioritura is <b>block pushing</b>. The player can push flower pots on a roulette platform from top to bottom and from right to left. The player can also plant a flower in them and push it at the same time.",
